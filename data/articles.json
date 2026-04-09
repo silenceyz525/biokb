@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "id": 850,
+      "title": "Liquid or solid? Oobleck droplets are both",
+      "summary": "Nature, Published online: 09 April 2026; doi:10.1038/d41586-026-01109-3High-speed cameras can observe the strange behaviour of a cornstarch–water mixture.",
+      "chinese_summary": "该研究通过高速摄像机观察玉米淀粉-水混合物的奇异行为，发现这种欧不裂液滴同时表现出液态和固态特性。虽然揭示了非牛顿流体的独特物理性质，但与创新药、生物制造及大健康领域的直接关联性较弱，主要属于基础物理学研究范畴。",
+      "url": "https://www.nature.com/articles/d41586-026-01109-3",
+      "source": "Nature头条",
+      "category": "scholar",
+      "journal": "Nature头条",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "non-newtonian fluid",
+        "material science",
+        "physics"
+      ],
+      "ai_score": 2,
+      "content_hash": "fd7087d7842de479b18ef9244bb56898",
+      "created_at": "2026-04-09 02:56:24",
+      "updated_at": "2026-04-09 02:56:24",
+      "date": "2026-04-09"
+    },
+    {
       "id": 825,
       "title": "Single-Cell Atlas of Maternal–Fetal Interface Sheds Light on Pregnancy Complications",
       "summary": "Scientists mapped the human maternal–fetal interface in unprecedented detail, identifying new cell types and mechanisms underlying pregnancy complications like preeclampsia, miscarriage, and preterm birth, improving understanding of healthy and disrupted development.\nThe post Single-Cell Atlas of Maternal–Fetal Interface Sheds Light on Pregnancy Complications appeared first on GEN - Genetic Engineering and Biotechnology News.",
@@ -9767,6 +9791,94 @@
       "created_at": "2026-03-31 02:30:53",
       "updated_at": "2026-03-31 02:57:50",
       "date": "2026-03-20"
+    },
+    {
+      "id": 852,
+      "title": "Genomic and biological characterization of lytic phages infecting Pseudomonas syringae associated with almond bacterial blast.",
+      "summary": "",
+      "chinese_summary": "本研究报道了感染与杏仁细菌性疫病相关的Pseudomonas syringae的裂解噬菌体的基因组和生物学特性。该研究聚焦植物病原体控制，虽涉及微生物治疗，但与人类创新药、生物制造及大健康领域直接关联有限，主要属于农业生物技术基础研究范畴。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41946891/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Scientific reports",
+      "authors": [
+        "[\"Hoang CV\"",
+        "\"Fan J\"",
+        "\"Lee H\"",
+        "\"Bhasin L\"",
+        "\"Nguyen D\"",
+        "\"Duran A\"",
+        "\"Quaal R\"",
+        "\"Ganiger S\"",
+        "\"Santiago L\"",
+        "\"Adaskaveg JE\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "bacteriophage",
+        "Pseudomonas syringae",
+        "plant_pathology"
+      ],
+      "ai_score": 3,
+      "content_hash": "7d47e9e7feb1ce17c48d115fc7c57a0d",
+      "created_at": "2026-04-09 02:56:34",
+      "updated_at": "2026-04-09 02:56:34",
+      "date": "2026"
+    },
+    {
+      "id": 851,
+      "title": "Phage Cocktail Designed for Wastewater Bioremediation Has Limited Effect on Crustacean Filtrator Microbiome Diversity and Health.",
+      "summary": "",
+      "chinese_summary": "本研究评估噬菌体鸡尾酒在废水生物修复中对甲壳类滤食动物微生物组及健康的影响。结果显示其对微生物多样性影响有限，主要涉及环境微生物生态，与创新药、生物制造及大健康领域关联较弱。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41949018/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Environmental microbiology reports",
+      "authors": [
+        "[\"Grabska M\"",
+        "\"Gorecki A\"",
+        "\"Pye HV\"",
+        "\"Adriaenssens EM\"",
+        "\"Grzesiuk M\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "microbiome",
+        "wastewater_bioremediation",
+        "phage_therapy"
+      ],
+      "ai_score": 3,
+      "content_hash": "a3b02ad6dc7b96084cdec6b251541d33",
+      "created_at": "2026-04-09 02:56:29",
+      "updated_at": "2026-04-09 02:56:29",
+      "date": "2026"
+    },
+    {
+      "id": 853,
+      "title": "Assessing the impact of phage therapy on growth performance, microbiome and phage specific immune response in chickens.",
+      "summary": "",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41946778/",
+      "source": "PubMed",
+      "category": "phage",
+      "journal": "Scientific reports",
+      "authors": [
+        "[\"Nazir I\"",
+        "\"Perez D\"",
+        "\"Vargas SJR\"",
+        "\"Ur Rehman S\"",
+        "\"Arora D\"",
+        "\"Chandra M\"",
+        "\"Thimmapuram J\"",
+        "\"Ebner P\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "eec48b795474f8f76d0295e4019df8f6",
+      "created_at": "2026-04-09 02:57:05",
+      "updated_at": "2026-04-09 02:57:05",
+      "date": "2026"
     },
     {
       "id": 824,
@@ -22329,5 +22441,5 @@
       "date": ""
     }
   ],
-  "updated_at": "2026-04-09T09:02:05.621929"
+  "updated_at": "2026-04-09T10:58:39.684623"
 }
