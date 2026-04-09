@@ -132,6 +132,16 @@ def init_db():
         content TEXT,
         created_at TEXT DEFAULT CURRENT_TIMESTAMP
     )''')
+    c.execute('''CREATE TABLE IF NOT EXISTS phage_trials_history (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nct_id TEXT NOT NULL,
+        title TEXT,
+        status TEXT,
+        phases TEXT,
+        last_status TEXT,
+        last_update TEXT,
+        recorded_at TEXT DEFAULT CURRENT_TIMESTAMP
+    )''')
     conn.commit()
     conn.close()
     print(f"[DB] 数据库已初始化: {DB_PATH}")
@@ -398,6 +408,32 @@ def run_full_collection(auto_score=True):
 
 
 # ==================== 导出 JSON ====================
+def export_scholars_json():
+    """导出学者数据为 JSON（供前端静态加载）"""
+    conn = get_connection()
+    conn.row_factory = sqlite3.Row
+    c = conn.cursor()
+    c.execute('SELECT * FROM scholars ORDER BY name')
+    scholars = [dict(s) for s in c.fetchall()]
+    
+    # Get latest papers for each scholar
+    for s in scholars:
+        c.execute('''SELECT title, publish_date, url FROM articles 
+                    WHERE tags LIKE ? AND category = 'scholar' 
+                    ORDER BY publish_date DESC LIMIT 3''', 
+                  (f'%{s["name"]}%',))
+        s['recent_papers'] = [dict(r) for r in c.fetchall()]
+    
+    conn.close()
+    
+    output = DATA_DIR / 'scholars.json'
+    with open(output, 'w', encoding='utf-8') as f:
+        json.dump({'scholars': scholars, 'updated_at': datetime.now().isoformat()}, f, ensure_ascii=False, indent=2)
+    
+    print(f"[导出] {len(scholars)} 位学者已导出至 {output}")
+    return output
+
+
 def export_to_json():
     """导出文章为 JSON（供前端使用）"""
     conn = get_connection()
@@ -428,6 +464,10 @@ def export_to_json():
 
     conn.close()
     print(f"[导出] {len(articles)} 篇文章已导出至 {output}")
+    
+    # 同时导出学者数据（供静态托管使用）
+    export_scholars_json()
+    
     return output
 
 
@@ -561,13 +601,25 @@ def start_api_server(host='0.0.0.0', port=8765):
                 scholars = [dict(s) for s in c.fetchall()]
                 # Get latest paper for each scholar
                 for s in scholars:
-                    c.execute('''SELECT title, publish_date, url FROM articles 
-                                WHERE tags LIKE ? AND category = 'scholar' 
-                                ORDER BY publish_date DESC LIMIT 3''', 
+                    c.execute('''SELECT title, publish_date, url FROM articles
+                                WHERE tags LIKE ? AND category = 'scholar'
+                                ORDER BY publish_date DESC LIMIT 3''',
                               (f'%{s["name"]}%',))
                     s['recent_papers'] = [dict(r) for r in c.fetchall()]
                 conn.close()
                 self._json_response({'scholars': scholars})
+            elif self.path == '/api/phage-trials':
+                # 加载噬菌体临床试验数据
+                phage_file = DATA_DIR / 'phage_trials.json'
+                if phage_file.exists():
+                    try:
+                        with open(phage_file, 'r', encoding='utf-8') as f:
+                            data = json_mod.loads(f.read())
+                        self._json_response(data)
+                    except Exception as e:
+                        self._json_response({'error': str(e)}, status=500)
+                else:
+                    self._json_response({'error': '噬菌体试验数据尚未采集', 'trials': [], 'changes': []})
             else:
                 super().do_GET()
 
@@ -678,7 +730,7 @@ def main():
         export_to_json()
     elif cmd == 'collect-fast':
         init_db()
-        run_full_collection(auto_score=False)
+        run_full_collection(auto_score=True)  # 启用AI评分，生成中文摘要
         export_to_json()
     elif cmd == 'export':
         export_to_json()
@@ -716,6 +768,23 @@ def main():
             sys.path.insert(0, scripts_dir)
         from scholar_resume import batch_generate_resumes
         batch_generate_resumes()
+    elif cmd == 'phage-trials':
+        # 采集噬菌体临床试验数据
+        scripts_dir = str(BASE_DIR / 'scripts')
+        if scripts_dir not in sys.path:
+            sys.path.insert(0, scripts_dir)
+        from phage_trials import run_collection
+        run_collection()
+    elif cmd == 'all':
+        init_db()
+        migrate_db()
+        run_full_collection(auto_score=True)
+        export_to_json()
+        generate_report('weekly')
+        # 同时采集噬菌体临床试验
+        from phage_trials import run_collection as run_phage
+        run_phage()
+        start_api_server()
     else:
         print(f"未知命令: {cmd}")
 

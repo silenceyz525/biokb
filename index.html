@@ -631,6 +631,392 @@
 
         @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
         .pulse { animation: pulse 1.5s infinite; }
+
+        /* ==================== Phage Trials Page ==================== */
+        .phage-page { display: none; }
+        .phage-page.active { display: block; }
+        .phage-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .phage-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .phage-title h2 { font-size: 24px; color: var(--purple); }
+        .phage-title .badge {
+            background: rgba(155,89,182,.15);
+            color: var(--purple);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .phage-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: var(--text2);
+            font-size: 13px;
+        }
+        .phage-meta .update-time { color: var(--accent); }
+        .phage-refresh {
+            background: var(--purple);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .phage-refresh:hover { opacity: .9; }
+        .phage-refresh.loading { opacity: .6; pointer-events: none; }
+        .phage-refresh.loading::after { content: '...'; }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 1100px) { .stats-grid { grid-template-columns: repeat(2, 1fr); } }
+        .stats-grid .stat-card { margin: 0; }
+
+        /* Charts Row */
+        .charts-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 1100px) { .charts-row { grid-template-columns: 1fr; } }
+        .chart-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+        }
+        .chart-card h3 {
+            font-size: 14px;
+            color: var(--text2);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .chart-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .chart-bar .label {
+            width: 80px;
+            font-size: 12px;
+            color: var(--text2);
+            flex-shrink: 0;
+            text-align: right;
+        }
+        .chart-bar .bar-bg {
+            flex: 1;
+            height: 18px;
+            background: var(--bg);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .chart-bar .bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width .3s ease;
+        }
+        .chart-bar .bar-fill.phase { background: linear-gradient(90deg, #3498db, #9b59b6); }
+        .chart-bar .bar-fill.status { background: linear-gradient(90deg, #2ecc71, #00d4aa); }
+        .chart-bar .bar-fill.country { background: linear-gradient(90deg, #e74c3c, #f39c12); }
+        .chart-bar .count {
+            width: 35px;
+            font-size: 12px;
+            color: var(--text);
+            font-weight: 600;
+            text-align: right;
+        }
+
+        /* Pathogens Grid */
+        .pathogens-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .pathogen-tag {
+            background: rgba(155,89,182,.12);
+            border: 1px solid rgba(155,89,182,.3);
+            border-radius: 6px;
+            padding: 6px 14px;
+            font-size: 12px;
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .pathogen-tag .count {
+            background: var(--purple);
+            color: #fff;
+            border-radius: 10px;
+            padding: 1px 7px;
+            font-size: 11px;
+        }
+
+        /* Changes Section */
+        .changes-section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .changes-section h3 {
+            font-size: 14px;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .changes-section h3 .badge {
+            background: rgba(0,212,170,.2);
+            color: var(--accent);
+            padding: 2px 10px;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+        .changes-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .change-item {
+            background: var(--bg);
+            border-radius: 8px;
+            padding: 14px 16px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            border-left: 3px solid var(--accent);
+        }
+        .change-item.type-new { border-left-color: #2ecc71; }
+        .change-item.type-status_change { border-left-color: #f39c12; }
+        .change-item.type-phase_change { border-left-color: #3498db; }
+        .change-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+        .change-item.type-new .change-icon { background: rgba(46,204,113,.15); }
+        .change-item.type-status_change .change-icon { background: rgba(243,156,18,.15); }
+        .change-item.type-phase_change .change-icon { background: rgba(52,152,219,.15); }
+        .change-content { flex: 1; }
+        .change-title {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--text);
+        }
+        .change-desc {
+            font-size: 12px;
+            color: var(--text2);
+        }
+        .change-nct {
+            font-size: 11px;
+            color: var(--purple);
+            font-family: monospace;
+        }
+        .no-changes {
+            text-align: center;
+            padding: 30px;
+            color: var(--text2);
+            font-size: 13px;
+        }
+
+        /* Trials Table */
+        .trials-section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+        .trials-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .trials-header h3 {
+            font-size: 14px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .trials-filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .trials-filters select {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 6px 12px;
+            color: var(--text);
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .trials-filters select:focus { border-color: var(--purple); outline: none; }
+        .trials-table-wrap { overflow-x: auto; }
+        .trials-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .trials-table th,
+        .trials-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+            font-size: 13px;
+        }
+        .trials-table th {
+            background: var(--bg);
+            font-weight: 600;
+            color: var(--text2);
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            white-space: nowrap;
+        }
+        .trials-table tr:hover { background: rgba(155,89,182,.05); }
+        .trials-table td { color: var(--text); }
+        .nct-link {
+            color: var(--purple);
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .nct-link:hover { text-decoration: underline; }
+        .status-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .status-badge.RECRUITING { background: rgba(46,204,113,.15); color: #2ecc71; }
+        .status-badge.NOT_YET_RECRUITING { background: rgba(52,152,219,.15); color: #3498db; }
+        .status-badge.ACTIVE_NOT_RECRUITING { background: rgba(243,156,18,.15); color: #f39c12; }
+        .status-badge.COMPLETED { background: rgba(139,143,163,.15); color: var(--text2); }
+        .status-badge.TERMINATED, .status-badge.WITHDRAWN { background: rgba(231,76,60,.15); color: #e74c3c; }
+        .phase-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            background: rgba(52,152,219,.12);
+            color: #3498db;
+            margin: 2px;
+        }
+        .pathogen-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .pathogen-item {
+            background: rgba(155,89,182,.1);
+            color: var(--purple);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        .route-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .route-item {
+            background: rgba(0,212,170,.1);
+            color: var(--accent);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        .country-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .country-item {
+            background: rgba(243,156,18,.1);
+            color: #f39c12;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        .trial-title-cell {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .trial-title-cell:hover { white-space: normal; word-break: break-word; }
+
+        /* Pagination for trials */
+        .trials-pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 16px;
+            border-top: 1px solid var(--border);
+        }
+        .trials-pagination button {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .trials-pagination button:hover { border-color: var(--purple); }
+        .trials-pagination button.active { background: var(--purple); color: #fff; border-color: var(--purple); }
+        .trials-pagination button:disabled { opacity: .4; cursor: not-allowed; }
+
+        /* Loading skeleton */
+        .skeleton {
+            background: linear-gradient(90deg, var(--card) 25%, var(--bg2) 50%, var(--card) 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+            border-radius: 4px;
+        }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
     </style>
 </head>
 <body>
@@ -645,7 +1031,7 @@
                 <button class="tab" data-tab="innovation">创新药<span class="count" id="count-innovation">0</span></button>
                 <button class="tab" data-tab="biomanufacturing">生物制造<span class="count" id="count-biomanufacturing">0</span></button>
                 <button class="tab" data-tab="health">大健康<span class="count" id="count-health">0</span></button>
-                <button class="tab" data-tab="phage">噬菌体<span class="count" id="count-phage">0</span></button>
+                <button class="tab" data-tab="phage-trials">噬菌体临床<span class="count" id="count-phage-trials">-</span></button>
                 <button class="tab" data-tab="scholar">学者<span class="count" id="count-scholar">0</span></button>
             </div>
         </div>
@@ -714,6 +1100,115 @@
                 <div class="loading pulse">正在加载学者数据...</div>
             </div>
         </div>
+
+        <!-- Phage Trials View -->
+        <div id="phageTrialsView" class="phage-page">
+            <div class="phage-header">
+                <div class="phage-title">
+                    <h2>&#x1F9A0; 噬菌体临床试验</h2>
+                    <span class="badge" id="phageTotalBadge">0 项试验</span>
+                </div>
+                <div class="phage-meta">
+                    <span>数据来源: <a href="https://clinicaltrials.gov" target="_blank" style="color:var(--accent)">ClinicalTrials.gov</a></span>
+                    <span>最后更新: <span class="update-time" id="phageUpdateTime">--</span></span>
+                    <button class="phage-refresh" id="phageRefreshBtn" onclick="refreshPhageTrials()">&#x1F504; 刷新数据</button>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon phage">&#x1F3AF;</div>
+                    <div class="stat-info"><div class="num" id="stat-phage-phase1">0</div><div class="label">Phase 1</div></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon phage">&#x1F3AF;</div>
+                    <div class="stat-info"><div class="num" id="stat-phage-phase2">0</div><div class="label">Phase 2</div></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon phage">&#x1F3AF;</div>
+                    <div class="stat-info"><div class="num" id="stat-phage-recruiting">0</div><div class="label">正在招募</div></div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon phage">&#x1F4CC;</div>
+                    <div class="stat-info"><div class="num" id="stat-phage-changes">0</div><div class="label">本次更新变化</div></div>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="charts-row">
+                <div class="chart-card">
+                    <h3>&#x1F4C8; 临床阶段分布</h3>
+                    <div id="phaseChart"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>&#x1F4CA; 研究状态分布</h3>
+                    <div id="statusChart"></div>
+                </div>
+                <div class="chart-card">
+                    <h3>&#x1F30D; 主要研究国家</h3>
+                    <div id="countryChart"></div>
+                </div>
+            </div>
+
+            <!-- Pathogens -->
+            <div class="chart-card" style="margin-bottom: 24px;">
+                <h3>&#x1F9A0; 靶向病原体</h3>
+                <div class="pathogens-grid" id="pathogensGrid"></div>
+            </div>
+
+            <!-- Changes Section -->
+            <div class="changes-section" id="changesSection">
+                <h3>&#x1F4E8; 最新动态 <span class="badge" id="changesCount">0</span></h3>
+                <div class="changes-list" id="changesList">
+                    <div class="no-changes">暂无最新动态</div>
+                </div>
+            </div>
+
+            <!-- Trials Table -->
+            <div class="trials-section">
+                <div class="trials-header">
+                    <h3>&#x1F4CB; 试验列表</h3>
+                    <div class="trials-filters">
+                        <select id="filterStatus" onchange="applyTrialFilters()">
+                            <option value="">全部状态</option>
+                            <option value="RECRUITING">正在招募</option>
+                            <option value="NOT_YET_RECRUITING">尚未开始</option>
+                            <option value="ACTIVE_NOT_RECRUITING">进行中</option>
+                            <option value="COMPLETED">已完成</option>
+                        </select>
+                        <select id="filterPhase" onchange="applyTrialFilters()">
+                            <option value="">全部阶段</option>
+                            <option value="PHASE1">Phase 1</option>
+                            <option value="PHASE2">Phase 2</option>
+                            <option value="PHASE3">Phase 3</option>
+                        </select>
+                        <select id="filterPathogen" onchange="applyTrialFilters()">
+                            <option value="">全部病原体</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="trials-table-wrap">
+                    <table class="trials-table">
+                        <thead>
+                            <tr>
+                                <th>NCT编号</th>
+                                <th>试验标题</th>
+                                <th>阶段</th>
+                                <th>状态</th>
+                                <th>靶向病原</th>
+                                <th>给药途径</th>
+                                <th>国家</th>
+                            </tr>
+                        </thead>
+                        <tbody id="trialsTableBody">
+                            <tr><td colspan="7" style="text-align:center;padding:40px;color:var(--text2)">正在加载试验数据...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="trials-pagination" id="trialsPagination"></div>
+            </div>
+        </div>
     </div>
 
     <!-- Detail Modal -->
@@ -748,6 +1243,11 @@
         let selectedTags = new Set();
         let searchQuery = '';
         let scholarsData = [];
+        let phageTrialsData = { trials: [], stats: {}, changes: [] };
+        let filteredTrials = [];
+        let currentTrialPage = 1;
+        const TRIALS_PAGE_SIZE = 15;
+        let trialFilters = { status: '', phase: '', pathogen: '' };
 
         // Load articles from API
         async function loadArticles() {
@@ -960,17 +1460,31 @@
 
         // ==================== Scholars ====================
         async function loadScholars() {
+            // 优先尝试 API，失败则降级到静态 JSON
             try {
                 const resp = await fetch(API_BASE + '/api/scholars');
                 if (resp.ok) {
                     const data = await resp.json();
                     scholarsData = data.scholars || [];
                     renderScholars();
-                } else {
-                    document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请确认后端服务已启动</p></div>';
+                    return;
                 }
             } catch(e) {
-                document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请确认后端服务已启动</p></div>';
+                // API 不可用，降级到静态 JSON
+            }
+            
+            // 降级：尝试加载静态 scholars.json
+            try {
+                const resp = await fetch('./data/scholars.json');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    scholarsData = data.scholars || [];
+                    renderScholars();
+                } else {
+                    document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请运行 python server.py scholars 生成学者数据</p></div>';
+                }
+            } catch(e) {
+                document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请运行 python server.py scholars 生成学者数据</p></div>';
             }
         }
 
@@ -1039,17 +1553,319 @@
             }
         }
 
+        // ==================== Phage Trials ====================
+        async function loadPhageTrials() {
+            try {
+                // 优先尝试 API
+                const resp = await fetch(API_BASE + '/api/phage-trials');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    phageTrialsData = {
+                        trials: data.trials || [],
+                        stats: data.stats || {},
+                        changes: data.changes || []
+                    };
+                } else {
+                    throw new Error('API not available');
+                }
+            } catch(e) {
+                // 降级到静态 JSON
+                try {
+                    const resp = await fetch('./data/phage_trials.json');
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        phageTrialsData = {
+                            trials: data.trials || [],
+                            stats: data.stats || {},
+                            changes: data.changes || []
+                        };
+                    }
+                } catch(e2) {
+                    console.log('[Phage] 静态数据也不可用');
+                }
+            }
+            renderPhageTrials();
+        }
+
+        async function refreshPhageTrials() {
+            const btn = document.getElementById('phageRefreshBtn');
+            btn.classList.add('loading');
+            btn.textContent = '刷新中...';
+
+            try {
+                // 调用 API 触发采集
+                await fetch(API_BASE + '/api/collect', { method: 'POST' });
+                // 等待一下然后重新加载
+                setTimeout(async () => {
+                    await loadPhageTrials();
+                    btn.classList.remove('loading');
+                    btn.textContent = '刷新数据';
+                }, 3000);
+            } catch(e) {
+                btn.classList.remove('loading');
+                btn.textContent = '刷新数据';
+                alert('刷新失败，请稍后重试');
+            }
+        }
+
+        function renderPhageTrials() {
+            const { trials, stats, changes } = phageTrialsData;
+
+            // 更新统计
+            document.getElementById('count-phage-trials').textContent = trials.length || '-';
+            document.getElementById('phageTotalBadge').textContent = `${trials.length} 项试验`;
+
+            // 更新时间
+            const updateTime = phageTrialsData.updated_at;
+            if (updateTime) {
+                const d = new Date(updateTime);
+                const today = new Date();
+                const diff = Math.floor((today - d) / 86400000);
+                document.getElementById('phageUpdateTime').textContent = diff === 0 ? '今天' : `${diff}天前`;
+            }
+
+            // 阶段统计
+            const phase1 = (stats.by_phase?.['PHASE1'] || 0) + (stats.by_phase?.['PHASE1_PHASE2'] || 0);
+            const phase2 = (stats.by_phase?.['PHASE2'] || 0) + (stats.by_phase?.['PHASE1_PHASE2'] || 0) + (stats.by_phase?.['PHASE2_PHASE3'] || 0);
+            document.getElementById('stat-phage-phase1').textContent = phase1;
+            document.getElementById('stat-phage-phase2').textContent = phase2;
+            document.getElementById('stat-phage-recruiting').textContent = stats.by_status?.['RECRUITING'] || 0;
+            document.getElementById('stat-phage-changes').textContent = changes.length;
+
+            // 渲染图表
+            renderPhaseChart(stats.by_phase || {});
+            renderStatusChart(stats.by_status || {});
+            renderCountryChart(stats.by_country || {});
+            renderPathogensGrid(stats.by_pathogen || {});
+            renderChanges(changes);
+            renderPathogenFilter(stats.by_pathogen || {});
+
+            // 应用筛选并渲染表格
+            applyTrialFilters();
+        }
+
+        function renderPhaseChart(data) {
+            const container = document.getElementById('phaseChart');
+            const total = Object.values(data).reduce((a, b) => a + b, 0) || 1;
+            const labels = {
+                'PHASE1': 'Phase 1',
+                'PHASE2': 'Phase 2',
+                'PHASE3': 'Phase 3',
+                'PHASE4': 'Phase 4',
+                'EARLY_PHASE1': 'Early Phase 1',
+                'PHASE1_PHASE2': 'Phase 1/2',
+                'PHASE2_PHASE3': 'Phase 2/3',
+                'NA': '不适用'
+            };
+            container.innerHTML = Object.entries(data).slice(0, 6).map(([key, count]) => {
+                const pct = (count / total * 100).toFixed(0);
+                return `<div class="chart-bar">
+                    <span class="label">${labels[key] || key}</span>
+                    <div class="bar-bg"><div class="bar-fill phase" style="width:${pct}%"></div></div>
+                    <span class="count">${count}</span>
+                </div>`;
+            }).join('');
+        }
+
+        function renderStatusChart(data) {
+            const container = document.getElementById('statusChart');
+            const total = Object.values(data).reduce((a, b) => a + b, 0) || 1;
+            const labels = {
+                'RECRUITING': '正在招募',
+                'NOT_YET_RECRUITING': '尚未开始',
+                'ACTIVE_NOT_RECRUITING': '进行中',
+                'COMPLETED': '已完成',
+                'TERMINATED': '已终止',
+                'WITHDRAWN': '已撤回',
+                'UNKNOWN': '未知'
+            };
+            const colors = {
+                'RECRUITING': '#2ecc71',
+                'NOT_YET_RECRUITING': '#3498db',
+                'ACTIVE_NOT_RECRUITING': '#f39c12',
+                'COMPLETED': '#8b8fa3',
+                'TERMINATED': '#e74c3c',
+                'WITHDRAWN': '#e74c3c',
+                'UNKNOWN': '#95a5a6'
+            };
+            container.innerHTML = Object.entries(data).slice(0, 6).map(([key, count]) => {
+                const pct = (count / total * 100).toFixed(0);
+                return `<div class="chart-bar">
+                    <span class="label">${labels[key] || key}</span>
+                    <div class="bar-bg"><div class="bar-fill status" style="width:${pct}%;background:${colors[key] || '#00d4aa'}"></div></div>
+                    <span class="count">${count}</span>
+                </div>`;
+            }).join('');
+        }
+
+        function renderCountryChart(data) {
+            const container = document.getElementById('countryChart');
+            const total = Object.values(data).reduce((a, b) => a + b, 0) || 1;
+            container.innerHTML = Object.entries(data).slice(0, 8).map(([country, count]) => {
+                const pct = (count / total * 100).toFixed(0);
+                return `<div class="chart-bar">
+                    <span class="label">${country.length > 8 ? country.slice(0, 8) + '...' : country}</span>
+                    <div class="bar-bg"><div class="bar-fill country" style="width:${pct}%"></div></div>
+                    <span class="count">${count}</span>
+                </div>`;
+            }).join('');
+        }
+
+        function renderPathogensGrid(data) {
+            const container = document.getElementById('pathogensGrid');
+            container.innerHTML = Object.entries(data).map(([pathogen, count]) => {
+                return `<div class="pathogen-tag">${escHtml(pathogen)} <span class="count">${count}</span></div>`;
+            }).join('');
+        }
+
+        function renderChanges(changes) {
+            const container = document.getElementById('changesList');
+            const countBadge = document.getElementById('changesCount');
+            countBadge.textContent = changes.length;
+
+            if (!changes || changes.length === 0) {
+                container.innerHTML = '<div class="no-changes">暂无最新动态 - 数据暂无变化</div>';
+                return;
+            }
+
+            const typeIcons = {
+                'new': '&#x2795;',
+                'status_change': '&#x1F504;',
+                'phase_change': '&#x1F4C8;'
+            };
+            const typeLabels = {
+                'new': '新增',
+                'status_change': '状态变更',
+                'phase_change': '阶段变更'
+            };
+
+            container.innerHTML = changes.slice(0, 10).map(change => {
+                return `<div class="change-item type-${change.type}">
+                    <div class="change-icon">${typeIcons[change.type] || '&#x2022;'}</div>
+                    <div class="change-content">
+                        <div class="change-title">${typeLabels[change.type] || change.type}: ${escHtml(change.title?.slice(0, 60) || '')}</div>
+                        <div class="change-desc">${escHtml(change.description || '')}</div>
+                        <div class="change-nct">${change.nct_id}</div>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        function renderPathogenFilter(data) {
+            const select = document.getElementById('filterPathogen');
+            const pathogens = Object.keys(data).sort((a, b) => data[b] - data[a]);
+            select.innerHTML = '<option value="">全部病原体</option>' +
+                pathogens.map(p => `<option value="${escAttr(p)}">${escHtml(p)} (${data[p]})</option>`).join('');
+        }
+
+        function applyTrialFilters() {
+            trialFilters.status = document.getElementById('filterStatus').value;
+            trialFilters.phase = document.getElementById('filterPhase').value;
+            trialFilters.pathogen = document.getElementById('filterPathogen').value;
+
+            filteredTrials = phageTrialsData.trials.filter(trial => {
+                if (trialFilters.status && trial.status !== trialFilters.status) return false;
+                if (trialFilters.phase && !trial.phases.includes(trialFilters.phase)) return false;
+                if (trialFilters.pathogen && !trial.pathogens.includes(trialFilters.pathogen)) return false;
+                return true;
+            });
+
+            currentTrialPage = 1;
+            renderTrialsTable();
+        }
+
+        function renderTrialsTable() {
+            const tbody = document.getElementById('trialsTableBody');
+            const total = filteredTrials.length;
+
+            if (total === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:40px;color:var(--text2)">暂无匹配的试验数据</td></tr>';
+                document.getElementById('trialsPagination').innerHTML = '';
+                return;
+            }
+
+            const start = (currentTrialPage - 1) * TRIALS_PAGE_SIZE;
+            const page = filteredTrials.slice(start, start + TRIALS_PAGE_SIZE);
+
+            const statusLabels = {
+                'RECRUITING': '正在招募',
+                'NOT_YET_RECRUITING': '尚未开始',
+                'ACTIVE_NOT_RECRUITING': '进行中',
+                'COMPLETED': '已完成',
+                'TERMINATED': '已终止',
+                'WITHDRAWN': '已撤回',
+                'UNKNOWN': '未知'
+            };
+
+            tbody.innerHTML = page.map(trial => {
+                const phasesHtml = trial.phases.map(p => `<span class="phase-badge">${p.replace('PHASE', 'P')}</span>`).join('');
+                const statusLabel = statusLabels[trial.status] || trial.status;
+                const pathogensHtml = trial.pathogens.slice(0, 3).map(p => `<span class="pathogen-item">${escHtml(p)}</span>`).join('');
+                const routesHtml = trial.route.slice(0, 2).map(r => `<span class="route-item">${escHtml(r)}</span>`).join('');
+                const countriesHtml = trial.countries.slice(0, 2).map(c => `<span class="country-item">${escHtml(c)}</span>`).join('');
+
+                return `<tr>
+                    <td><a href="https://clinicaltrials.gov/study/${trial.nct_id}" target="_blank" class="nct-link">${trial.nct_id}</a></td>
+                    <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
+                    <td>${phasesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    <td><span class="status-badge ${trial.status}">${statusLabel}</span></td>
+                    <td>${pathogensHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    <td>${routesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    <td>${countriesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                </tr>`;
+            }).join('');
+
+            renderTrialsPagination(total);
+        }
+
+        function renderTrialsPagination(total) {
+            const container = document.getElementById('trialsPagination');
+            const totalPages = Math.ceil(total / TRIALS_PAGE_SIZE);
+
+            if (totalPages <= 1) {
+                container.innerHTML = '';
+                return;
+            }
+
+            let btns = `<button ${currentTrialPage===1?'disabled':''} onclick="goTrialPage(${currentTrialPage-1})">上一页</button>`;
+            for (let i = 1; i <= totalPages; i++) {
+                if (totalPages > 10 && i > 2 && i < totalPages - 1 && Math.abs(i - currentTrialPage) > 1) {
+                    if (i === 3 || i === totalPages - 2) btns += '<button disabled>...</button>';
+                    continue;
+                }
+                btns += `<button class="${i===currentTrialPage?'active':''}" onclick="goTrialPage(${i})">${i}</button>`;
+            }
+            btns += `<button ${currentTrialPage===totalPages?'disabled':''} onclick="goTrialPage(${currentTrialPage+1})">下一页</button>`;
+            container.innerHTML = btns;
+        }
+
+        function goTrialPage(p) {
+            const totalPages = Math.ceil(filteredTrials.length / TRIALS_PAGE_SIZE);
+            if (p < 1 || p > totalPages) return;
+            currentTrialPage = p;
+            renderTrialsTable();
+            document.querySelector('.main').scrollTop = 0;
+        }
+
         // ==================== View Switching ====================
         function switchView(tab) {
             const articlesView = document.getElementById('articlesView');
             const scholarsView = document.getElementById('scholarsView');
+            const phageTrialsView = document.getElementById('phageTrialsView');
             if (tab === 'scholar') {
                 articlesView.style.display = 'none';
+                phageTrialsView.classList.remove('active');
                 scholarsView.classList.add('active');
                 if (scholarsData.length === 0) loadScholars();
+            } else if (tab === 'phage-trials') {
+                articlesView.style.display = 'none';
+                scholarsView.classList.remove('active');
+                phageTrialsView.classList.add('active');
+                if (phageTrialsData.trials.length === 0) loadPhageTrials();
             } else {
                 articlesView.style.display = 'block';
                 scholarsView.classList.remove('active');
+                phageTrialsView.classList.remove('active');
             }
         }
 
@@ -1119,7 +1935,7 @@
                 currentTab = tab.dataset.tab;
                 currentPage = 1;
                 switchView(currentTab);
-                if (currentTab !== 'scholar') applyFilters();
+                if (currentTab !== 'scholar' && currentTab !== 'phage-trials') applyFilters();
             });
         });
 
@@ -1141,6 +1957,8 @@
 
         // Init
         loadArticles();
+        // 预加载噬菌体试验数据
+        loadPhageTrials();
     </script>
 </body>
 </html>

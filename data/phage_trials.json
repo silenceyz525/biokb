@@ -1,0 +1,4007 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04287478",
+      "title": "Bacteriophage Therapy in Patients With Urinary Tract Infections",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "TERMINATED",
+      "conditions": [
+        "Urinary Tract Infection Bacterial"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage Therapy",
+          "description": "Bacteriophage therapy will be personalized for each patient dependent on phage susceptibility testing"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Doral",
+          "facility": "Universal Axon Clinical Research"
+        },
+        {
+          "country": "United States",
+          "city": "Miami",
+          "facility": "AdMed Research"
+        },
+        {
+          "country": "United States",
+          "city": "Miami Gardens",
+          "facility": "AMPM Research Clinic"
+        },
+        {
+          "country": "United States",
+          "city": "Palmetto Bay",
+          "facility": "Innovation Medical Research Center, Inc"
+        },
+        {
+          "country": "United States",
+          "city": "Detroit",
+          "facility": "Henry Ford Hospital"
+        }
+      ],
+      "description": "This is a phase I/II trial designed to evaluate bacteriophage therapy in patients with urinary tract infections.",
+      "enrollment": 1,
+      "last_update": "2023-03-03",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05883995",
+      "title": "Avis-PHAGEinLYON Clinic",
+      "phases": [],
+      "status": "RECRUITING",
+      "conditions": [
+        "Bone Infection"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Phage therapy requests",
+          "description": "Quantification of phage therapy requests received at the Hospices Civils de Lyon from 2015 to 2028"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Lyon",
+          "facility": "Centre de Référence des Infections Ostéo-Articulaires complexes (CRIOAc) - Hôpital de la Croix-Rousse"
+        }
+      ],
+      "description": "Avis-PHAGEinLYON Clinic study is a single site non-interventional retrospective and prospective study, initiated by the Hospices Civils de Lyon. Population targeted are patients referred to the Hospices Civils de Lyon for a medical advice for a phage therapy from 2015 to 2028. The primary objective is to quantify the phage therapy requests received at the Hospices Civils de Lyon. 1500 patients will be included in the study.",
+      "enrollment": 1500,
+      "last_update": "2023-06-01",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05488340",
+      "title": "A Study of LBP-EC01 in the Treatment of Acute Uncomplicated UTI Caused by Drug Resistant E. Coli (ELIMINATE Trial)",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Urinary Tract Infections"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LBP-EC01 0.1 x IV dose",
+          "description": "Intraurethral (IU) dose of two (2) x 6mL vials of LBP-EC01 (approximately 2x10\\^12 PFU) diluted in 188 mL of Lactated Ringer's solution on Day 1 and Day 2. Intravenous (IV) dose of 0.6mL of LBP-EC01 (approximately 1x10\\^11 PFU) diluted in 0.4mL of Lactated Ringer's solution given on Days 1 through Day 3."
+        },
+        {
+          "type": "DRUG",
+          "name": "LBP-EC01 0.01x IV Dose",
+          "description": "Intraurethral (IU) dose of two (2) x 6mL vials of LBP-EC01 (approximately 2x10\\^12 PFU) diluted in 188 mL of Lactated Ringer's solution on Day 1 and Day 2. Intravenous (IV) dose of 0.06 mL of LBP-EC01 (approximately 1x10\\^10 PFU) diluted in 0.94 mL of Lactated Ringer's solution given on Days 1 through Day 3."
+        },
+        {
+          "type": "DRUG",
+          "name": "LBP-EC01 IV Infusion Dose",
+          "description": "Intraurethral (IU) dose of two (2) x 6mL vials of LBP-EC01 (approximately 2x10\\^12 PFU) diluted in 188 mL of Lactated Ringer's solution on Day 1 and Day 2. Intravenous infusion dose of 6mL of LBP-EC01 (approximately 1x10\\^12 PFU) diluted in 94 mL of Lactated Ringer's solution given over 2 hours on Days 1 through Day 3."
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Dose regimen selected from Part 1 of placebo (Tris buffer)."
+        },
+        {
+          "type": "DRUG",
+          "name": "LBP-EC01",
+          "description": "Dose regimen selected from Part 1 of LBP-EC01 (1x10\\^10 - 1x10\\^13 PFU) per dose."
+        },
+        {
+          "type": "DRUG",
+          "name": "TMP/SMX",
+          "description": "TMP/SMX (160 mg trimethoprim and 800 mg sulfamethoxazole) given orally BID on Days 1 through 3."
+        }
+      ],
+      "route": [
+        "静脉注射",
+        "口服"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Fresno",
+          "facility": "Research Site 138"
+        },
+        {
+          "country": "United States",
+          "city": "Lancaster",
+          "facility": "Research Site 131"
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "Research Site 123"
+        },
+        {
+          "country": "United States",
+          "city": "Montebello",
+          "facility": "Research Site 125"
+        },
+        {
+          "country": "United States",
+          "city": "Murrieta",
+          "facility": "Research Site 152"
+        }
+      ],
+      "description": "This is a Phase 2 superiority study of LBP-EC01, a recombinant bacteriophage cocktail, with an initial open-label 3-arm pharmacokinetic (PK) lead-in portion of 30 patients to evaluate the optimal dosing regimen to be used in the subsequent 288 patient blinded portion of the study which will be randomized 1:1 comparing LBP-EC01 + antibiotic versus placebo + antibiotic in patients with a history of prior urinary tract infection (UTI) cased by E. coli. All patients will be required to have an activ",
+      "enrollment": 318,
+      "last_update": "2026-03-20",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06456424",
+      "title": "Bacteriophage Therapy for Methicillin-Sensitive Staphylococcus Aureus Prosthetic Joint Infection",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Prosthetic Joint Infections of Hip",
+        "Staphylococcus Aureus Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage therapy",
+          "description": "Bacteriophage cocktail consisting of phages BP13 and J1P3"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Calgary",
+          "facility": "South Health Campus"
+        }
+      ],
+      "description": "This is a single-patient, phase I/II clinical trial that aims to evaluate the potential of a bacteriophage cocktail to treat and prevent the recurrence of a methicillin-susceptible Staphylococcus aureus prosthetic joint infection of the hip. The patient has exhausted all conventional therapies, both surgical and medical, at considerable detriment to his quality of life. The treatment involves a one time, intra-operative injection of bacteriophages into the joint and 14 days of intravenous phage ",
+      "enrollment": 1,
+      "last_update": "2025-06-11",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04636554",
+      "title": "Personalized Phage Treatment in Covid-19 Patients With Bacterial Co-Infections Microbials for Pneumonia or Bacteremia/Septicemia",
+      "phases": [],
+      "status": "NO_LONGER_AVAILABLE",
+      "conditions": [
+        "Covid19",
+        "Bacteremia",
+        "Septicemia",
+        "Acinetobacter Baumannii Infection",
+        "Pseudomonas Aeruginosa Infection",
+        "Staph Aureus Infection"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Phage Therapy",
+          "description": "Personalized intravenous phage therapy in Covid-19 patients along with anti-microbial treatment for pneumonia, bacteremia or septicemia due to A. baumannii, P. aeruginosa or S. aureus."
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "鲍曼不动杆菌",
+        "金黄色葡萄球菌"
+      ],
+      "countries": [],
+      "locations": [],
+      "description": "Phage Treatment in Covid-19 Patients with Bacterial Co-Infections",
+      "enrollment": "",
+      "last_update": "2021-12-21",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT02828774",
+      "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
+      "phases": [],
+      "status": "UNKNOWN",
+      "conditions": [
+        "CLL"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "there will be no intervention.",
+          "description": "this study is observational, procedure are done in vitro and on animal models."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "Using phage libraries extensively pre-absorbed on a series of normal cell types, we will isolate phage specifically internalized by B-CLL cells from newly diagnosed and untreated CLL patients. Peptide sequences are then derived by Next Generation Sequencing (NGS). NGS-based studies are contributing to an improved understanding of cancer heterogeneity in order to tailor treatment to patients based on the individual makeup of their tumor. However the use of NGS to derive phage displayed peptide se",
+      "enrollment": 30,
+      "last_update": "2016-07-12",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04684641",
+      "title": "CYstic Fibrosis bacterioPHage Study at Yale (CYPHY)",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Cystic Fibrosis"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Standard Dose YPT-01",
+          "description": "Participants will be randomized to receive the standard dose of phage therapy YPT-01."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Participants will be randomized to receive the placebo."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "New Haven",
+          "facility": "Yale New Haven Hospital"
+        }
+      ],
+      "description": "This is a Phase 2 study with primary objective of looking whether YPT-01 phage therapy reduces sputum bacterial load in cystic fibrosis subjects with Pseudomonas aeruginosa.\n\nIn addition, study evaluates the safety profile of phage therapy in this patient population.",
+      "enrollment": 8,
+      "last_update": "2023-11-18",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07461337",
+      "title": "Bacteriophage Therapy for Staphylococcus Lugdunensis Prosthetic Joint Infection",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Prosthetic Joint Infections of Hip",
+        "Bacteriophage Therapy"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Five phage anti-Staphylococcus aureus bacteriophage cocktail",
+          "description": "Five phage anti-Staphylococcus aureus bacteriophage cocktail for targeted treatment of a Staphylococcus lugdunensis infection."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Calgary",
+          "facility": "Foothills Medical Centre, University of Calgary"
+        }
+      ],
+      "description": "This is a single-patient, phase I/II clinical trial that aims to evaluate the potential of a bacteriophage drug product to treat and prevent the recurrence of a Staphylococcus lugdunensis prosthetic joint infection of the hip. The patient has exhausted all conventional therapies, both surgical and medical, at considerable detriment to their quality of life. The treatment involves 2 intra-articular injections of bacteriophages into the joint and surrounding area and 14 days of intravenous phage t",
+      "enrollment": 1,
+      "last_update": "2026-03-10",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05010577",
+      "title": "Nebulized Bacteriophage Therapy in Cystic Fibrosis Patients With Chronic Pseudomonas Aeruginosa Pulmonary Infection",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Chronic Pseudomonas Aeruginosa Infection",
+        "Cystic Fibrosis"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BX004-A",
+          "description": "Combination of nebulized bacteriophages targeting Pseudomonas aeruginosa"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Nebulized placebo"
+        }
+      ],
+      "route": [
+        "雾化吸入"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [
+        "United States",
+        "Israel",
+        "Czechia",
+        "Spain",
+        "Netherlands"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Birmingham",
+          "facility": "The University of Alabama at Birmingham"
+        },
+        {
+          "country": "United States",
+          "city": "Anchorage",
+          "facility": "Providence Alaska Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "Little Rock",
+          "facility": "University of Arkansas for Medical Sciences"
+        },
+        {
+          "country": "United States",
+          "city": "New Haven",
+          "facility": "Yale University"
+        },
+        {
+          "country": "United States",
+          "city": "Washington D.C.",
+          "facility": "Children's National Medical Center"
+        }
+      ],
+      "description": "This is a Phase 1b/2a study with the primary objective to determine if BX004-A is safe and tolerable. Exploratory objectives include whether BX004-A reduces sputum Pseudomonas aeruginosa (PsA) bacterial load in CF subjects with chronic PsA pulmonary infection.",
+      "enrollment": 43,
+      "last_update": "2025-07-18",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06605651",
+      "title": "Proof of Concept Study to Assess Safety and Efficacy of Phage Therapy in Hip or Knee Prosthetic Joint Infections Due to Staphylococcus Aureus Treated by DAIR.",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Hip Prosthesis Infection",
+        "Knee Prosthesis Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Anti-Staphylococcus aureus Bacteriophages (PP1493 and PP1815) intra-articular injection with 0.9% NaCl solution",
+          "description": "Three intra-articular injections during and/or following DAIR procedure"
+        },
+        {
+          "type": "DRUG",
+          "name": "0.9% NaCl solution",
+          "description": "Three intra-articular injections during and/or following DAIR procedure"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "Total joint replacements are effective for chronic pain but can lead to Prosthetic Joint Infections (PJI), primarily caused by Staphylococcus aureus and resistant to antibiotics. Standard treatment involves DAIR surgery and antibiotics, but there's a need for better solutions due to rising infections and antibiotic resistance. Bacteriophage therapy, which targets specific bacteria, shows promise. Phaxiam Therapeutics is studying the safety and efficacy of phage therapy in treating Staphylococcus",
+      "enrollment": 100,
+      "last_update": "2026-04-06",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07338123",
+      "title": "A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Pneumonia"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "YHDF Drug",
+          "description": "7-day treatment with YHDF Drug"
+        },
+        {
+          "type": "DRUG",
+          "name": "YHDF Placebo",
+          "description": "7-day treatment with YHDF placebo"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage",
+          "description": "7-14-day treatment with phage"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage Placebo",
+          "description": "7-14-day treatment with phage placebo"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "Through a prospective randomized controlled trial, we systematically evaluate the effects of Yiqi Huoxue Jiedu Formula combined with bacteriophage therapy on the bacterial clearance rate, disease improvement rate and mortality rate in patients with severe pneumonia caused by drug-resistant bacteria, so as to clarify its clinical transformation value.",
+      "enrollment": 240,
+      "last_update": "2026-01-13",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06409819",
+      "title": "Phage Therapy for Recurrent UTIs in Kidney Transplant Recipients",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Urinary Tract Infection, Recurrent"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "phage therapy",
+          "description": "phage therapy will consist of a combination of three lytic phages that are active against the participant's E. coli isolates and will be administered intravenously twice daily for 7 days."
+        },
+        {
+          "type": "DRUG",
+          "name": "control",
+          "description": "Participants assigned to the control arm will start a 7-day course of intravenous sterile normal saline (placebo) administered twice daily."
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "大肠杆菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "La Jolla",
+          "facility": "University of California, San Diego"
+        }
+      ],
+      "description": "This proposal will take an important first step in the study of phage therapy for treatment of recurrent urinary tract infection (rUTI) in female kidney transplant recipients (KTR); a common condition that is associated with increasing multidrug resistance, sickness, loss of kidney function and death. The investigators will conduct a randomized phase I/II pilot clinical trial of targeted phage therapy versus placebo in asymptomatic female KTR with a history of rUTI due to Escherichia coli to ass",
+      "enrollment": 32,
+      "last_update": "2025-08-14",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04191148",
+      "title": "Safety, Tolerability, and PK of LBP-EC01 in Patients With Lower Urinary Tract Colonization Caused by E. Coli",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Urinary Tract Infections"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "LBP-EC01",
+          "description": "crPhage cocktail: at approximately 1.5 x 10\\^10 to 3.0 x 10\\^10 PFU/vial dosed BID by intraurethral administration"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Lactated Ringers Solution for Injection dosed BID by intraurethral administration"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Anniston",
+          "facility": "Pinnacle Research Group"
+        },
+        {
+          "country": "United States",
+          "city": "Irvine",
+          "facility": "Tilda Research"
+        },
+        {
+          "country": "United States",
+          "city": "Doral",
+          "facility": "Universal Axon Clinical Research"
+        },
+        {
+          "country": "United States",
+          "city": "Homestead",
+          "facility": "Universal Axon - Homestead, LL"
+        },
+        {
+          "country": "United States",
+          "city": "Miami Gardens",
+          "facility": "AMPM Research Clinic"
+        }
+      ],
+      "description": "Study LBx-1001 is a multi-center randomized, double-blind study to assess the safety, tolerability, pharmacokinetics (PK) and pharmacodynamics (PD) of LBP-EC01 in patients with indwelling urinary catheters, or requiring intermittent catheterization, and/or patients with asymptomatic bacteriuria caused by Escherichia coli (E. coli). This study population has been selected because LBP-EC01 is a phage cocktail where active bacterial host engagement is required to allow for amplification of the phag",
+      "enrollment": 36,
+      "last_update": "2022-03-16",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00001540",
+      "title": "The Use of Bacteriophage Phi X174 to Assess the Immune Competence of HIV-Infected Patients In Vivo",
+      "phases": [],
+      "status": "COMPLETED",
+      "conditions": [
+        "HIV Infections"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Bethesda",
+          "facility": "National Institute of Allergy and Infectious Diseases (NIAID)"
+        }
+      ],
+      "description": "The objective of this study is to evaluate the safety and utility of bacteriophage phi X174 immunization as a tool to assess the immune competence of HIV-infected patients at different stages of disease in vivo, and to assess the impact of viral load levels and therapy-induced changes in viral load levels on the response to immunization with the neo-antigen bacteriophage phi X174. Bacteriophage phi X174 immunization is a method that has been in use for more than 25 years to assess the immunity o",
+      "enrollment": 52,
+      "last_update": "2008-03-04",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04289948",
+      "title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Diabetes",
+        "Diabetic Foot",
+        "Diabetic Foot Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Phage",
+          "description": "The studies will be undertaken using a cocktail of at least 2-3 anti-staphylococcal phages produced by Intralytix Inc, Baltimore, Maryland, USA. The phages will be included in a gel designed for application directly to the wound surface and packaged in 5 ml single use tubes."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United Kingdom"
+      ],
+      "locations": [
+        {
+          "country": "United Kingdom",
+          "city": "Derby",
+          "facility": "University Hospitals Derby and Burton NHS Foundation Trust"
+        }
+      ],
+      "description": "Work Package 1: Observational cohort pilot safety study Work Package 2: Randomised, double-blind, placebo controlled pilot study Work Package 3: Observer-blind pilot RCT",
+      "enrollment": 0,
+      "last_update": "2020-02-28",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07076238",
+      "title": "Biomarkers of Phage Treatment Response in NTM and Other Infections",
+      "phases": [],
+      "status": "RECRUITING",
+      "conditions": [
+        "Nontuberculous Mycobacterial Lung Disease"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage Treatment",
+          "description": "Participants who have a positive match for their NTM isolate will start on mycobacteriophage treatment per prescribed treatment regimen."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "分枝杆菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "New York",
+          "facility": "NYU Langone Health"
+        }
+      ],
+      "description": "This study aims to identify biomarkers associated with response to phage therapy for refractory bacterial infections. This includes mycobacteriophage treatment for patients with nontuberculous mycobacterial infections. Blood and airway samples will be obtained from follow up visits of patients with refractory bacterial infections that are considered for phage therapy. Samples will be compared between those that receive phage therapy and those that did not. Biomarkers will include changes in the ",
+      "enrollment": 100,
+      "last_update": "2025-10-30",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07382271",
+      "title": "Evaluation of Safety and Efficacy of Phage Therapy for Drug-resistant Bacterial Infections: An Exploratory, Prospective Single-arm Study",
+      "phases": [
+        "NA"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Urinary Tract Infections",
+        "Urinary Tract Infections Caused by Drug-resistant Bacteria"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Personalized Phage Cocktail",
+          "description": "Intravesical perfusion via urinary catheter. 50 mL of diluted phage cocktail (diluted with Ringer's solution if needed) is infused, followed by clamping the catheter for 30 minutes to maximize phage-bacteria contact. Dosing is repeated every 12 hours for 2 or 3 consecutive days (6 total doses)."
+        }
+      ],
+      "route": [
+        "膀胱灌注"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "This study is an investigator-initiated, single-center, exploratory clinical trial designed to evaluate the safety and efficacy of phage therapy in patients with urinary tract infections caused by drug-resistant bacteria.\n\nEligible patients aged 18 to 65 years will receive the phage cocktail intervention according to a predefined dosage regimen, with a treatment course of 2 to 3 days and a follow-up period of 2 to 4 weeks after treatment. The primary outcome measures include the incidence of adv",
+      "enrollment": 6,
+      "last_update": "2026-02-02",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05616221",
+      "title": "Study to Evaluate the Safety, Phage Kinetics, and Efficacy of Inhaled AP-PA02 in Subjects With Non-Cystic Fibrosis Bronchiectasis and Chronic Pulmonary Pseudomonas Aeruginosa Infection",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Non-cystic Fibrosis Bronchiectasis",
+        "Pseudomonas Aeruginosa",
+        "Lung Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AP-PA02",
+          "description": "Bacteriophage administered via inhalation"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Inactive Placebo administered via inhalation"
+        }
+      ],
+      "route": [
+        "雾化吸入"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Mobile",
+          "facility": "Velocity Clinical Research"
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "Southern California Institute for Respiratory Diseases Cedars-Sinai West Tower"
+        },
+        {
+          "country": "United States",
+          "city": "Farmington",
+          "facility": "UCONN Health"
+        },
+        {
+          "country": "United States",
+          "city": "Washington D.C.",
+          "facility": "Georgetown University Hospital / Pulmonary Critical Care and Sleep Medicine"
+        },
+        {
+          "country": "United States",
+          "city": "Fort Myers",
+          "facility": "Southwest General Healthcare Center"
+        }
+      ],
+      "description": "A phase 2, multi-center, double-blind, randomized, placebo-controlled study to evaluate the safety, phage kinetics, and efficacy of inhaled AP-PA02 administered in subjects with non-cystic fibrosis bronchiectasis and chronic pulmonary Pseudomonas aeruginosa infection.",
+      "enrollment": 48,
+      "last_update": "2026-01-05",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04803708",
+      "title": "Bacteriophage Therapy TP-102 in Diabetic Foot Ulcers",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Diabetic Foot Ulcer",
+        "Pseudomonas Aeruginosa Infection",
+        "Staphylococcus Aureus Infection",
+        "Acinetobacter Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TP-102",
+          "description": "One mL of IP solution will be applied topically per cm3 of target ulcer. The titer of each bacteriophage in TP 102 is 1x10\\^9 plaque forming units per milliliter (PFU/mL)."
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "Israel"
+      ],
+      "locations": [
+        {
+          "country": "Israel",
+          "city": "Jerusalem",
+          "facility": "Hadassah Medical Center, Ein Kerem"
+        },
+        {
+          "country": "Israel",
+          "city": "Tel Aviv",
+          "facility": "Tel Aviv Sourasky Medical Center"
+        }
+      ],
+      "description": "This is a Phase I/IIa trial designed to evaluate topical bacteriophage therapy in patients with diabetic foot ulcers.",
+      "enrollment": 20,
+      "last_update": "2022-10-04",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06814756",
+      "title": "Bacteriophage Therapy for Morganella Morganii Prosthetic Joint Infection",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Prosthetic Joint Infections of Hip"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "phage therapy",
+          "description": "Single anti-Morganella morganii bacteriophage drug product"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Calgary",
+          "facility": "Foothills Medical Centre, University of Calgary"
+        }
+      ],
+      "description": "This is a single-patient, phase I/II clinical trial that aims to evaluate the potential of a bacteriophage drug product to treat and prevent the recurrence of a Morganella morganii prosthetic joint infection of the hip. The patient has exhausted all conventional therapies, both surgical and medical, at considerable detriment to their quality of life. The treatment involves 2 intra-articular injections of bacteriophages into the joint and surrounding area and 14 days of intravenous phage therapy.",
+      "enrollment": 1,
+      "last_update": "2025-06-12",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06370598",
+      "title": "Phase 1/2a to Assess the Safety and Tolerability of TP-122A for the Treatment of Ventilator-Associated Pneumonia",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Pneumonia, Ventilator-Associated"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TP-122A",
+          "description": "Bacteriophage cocktail targeting Psa"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Nantes",
+          "facility": "CH Nantes"
+        }
+      ],
+      "description": "Given the challenges of treating complex cases of VAP caused by P. aeruginosa and K. pneumoniae, TechnoPhage developed a bacteriophage cocktail (TP-122) against those pathogens, aiming to provide a hospital-based add-on therapy to the SoC including antibiotic therapy, administered by nebulization. TP-122 is a bacteriophage cocktail divided in two different components: TP-122A is comprised of three bacteriophages against infections caused by Pseudomonas aeruginosa and TP-122B includes three bacte",
+      "enrollment": 15,
+      "last_update": "2024-04-17",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03140085",
+      "title": "Bacteriophages for Treating Urinary Tract Infections in Patients Undergoing Transurethral Resection of the Prostate",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Intravesical Bacteriophage Treatment for Urinary Tract Infections"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "PYO Phage",
+          "description": "Intravescial instillation"
+        },
+        {
+          "type": "DRUG",
+          "name": "Antibiotics",
+          "description": "Oral application"
+        },
+        {
+          "type": "OTHER",
+          "name": "Sterile bacteriology media",
+          "description": "Sterile bacteriology media, with identical color as bacteriophage preparation"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Georgia"
+      ],
+      "locations": [
+        {
+          "country": "Georgia",
+          "city": "Tbilisi",
+          "facility": "National Center of Urology"
+        }
+      ],
+      "description": "Urinary tract infections are among the most prevalent microbial diseases and their financial burden on society is substantial. The use of bacteriophages against bacterial pathogens has gained over the last years a renewed interest, because of the continuing increase in antibiotic resistance worldwide. Thus, the aim of this study is to investigate the efficacy of intravesical bacteriophage treatment to normalize urine culture compared to intravesical placebo or standard antibiotic treatment in a ",
+      "enrollment": 97,
+      "last_update": "2019-03-21",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04815798",
+      "title": "Phage Therapy for the Prevention and Treatment of Pressure Ulcers.",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Pressure Ulcer"
+      ],
+      "interventions": [
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Bacteriophage-loaded Microcapsule Spray",
+          "description": "Study intervention consists of a dosage-metered airless spray containing a cocktail of 14 bacteriophages encapsulated in a biodegradable polymer. This bacteriophage product will be delivered topically every 3 days for 56 days or until wound has healed."
+        },
+        {
+          "type": "COMBINATION_PRODUCT",
+          "name": "Placebo",
+          "description": "Placebo intervention consists of a dosage-metered airless spray containing a buffer solution analogous to the study intervention. This placebo will be delivered topically every 3 days for 56 days or until wound has healed."
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Standard of Care",
+          "description": "Standard of care consists of but is not limited to offloading, positioning, cleansing, debridement, and wound dressing. A topical antimicrobial hydrogel will applied to wounds with signs of localized infection."
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "This study will evaluate a topical bacteriophage therapy product (BACTELIDE) as an adjunct to standard therapy for the prevention and treatment of pressure ulcers colonized with S. aureus, P. aeruginosa, or K. pneumoniae species.\n\nThis study will compare the safety and efficacy of BACTELIDE in conjunction with standard of care (SOC) versus a placebo in conjunction with standard of care.",
+      "enrollment": 69,
+      "last_update": "2021-12-21",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05537519",
+      "title": "Phage Therapy for the Treatment of Urinary Tract Infection",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Recurrent Urinary Tract Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage Therapy",
+          "description": "3-phage cocktail comprised of HP3, HP3.1 and ES19"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Toronto",
+          "facility": "St. Joseph's Health Centre"
+        }
+      ],
+      "description": "This is a single-patient, phase I/II clinical trial that aims to evaluate the potential of bacteriophage therapy to treat and prevent the recurrence of a drug-resistant urinary tract infection with serious long-term effects. This study will follow a minimally invasive phage therapy approach consisting of oral, topical (opening of the urethra) and bladder installations of a 3-phage cocktail comprised of HP3, HP3.1 and ES19.",
+      "enrollment": 1,
+      "last_update": "2024-03-26",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05272566",
+      "title": "Prephage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants - Donor Study",
+      "phases": [],
+      "status": "COMPLETED",
+      "conditions": [
+        "Feeding Patterns",
+        "Microbial Colonization"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Denmark"
+      ],
+      "locations": [
+        {
+          "country": "Denmark",
+          "city": "Copenhagen",
+          "facility": "Gustav R Jakobsen"
+        }
+      ],
+      "description": "PrePhage - Fecal bacteriophage transfer for enhanced gastrointestinal tract maturation in preterm infants\n\nThis pilot triol has the primary goal of demonstrating the safety of transferring viruses and proteins from healthy term infants to preterm infants born between gestational age (GA) 26 + 0 and 30+6. The long-term goal is to develop a safe and effective treatment to prevent the severe gut disease called necrotizing enterocolitis (NEC).\n\nNEC is a common disease in neonatal intensive care unit",
+      "enrollment": 38,
+      "last_update": "2024-06-04",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05590195",
+      "title": "Effect of PreforPro® on Urinary and Vaginal Health",
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Bacterial Vaginosis",
+        "Bacterial Infections",
+        "Bacterial Vaginosis &#X7C; Vaginal &#X7C; Microbiology",
+        "Vaginal Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Preforpro",
+          "description": "Preforpro will be investigated to improve vaginal health in women with BV."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo capsules manufactured to look like Preforpro capsules"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "This study will investigate the effects of PreforPro® (prebiotic and bacteriophages (LH01-Myoviridae, LL5-Siphoviridae, T4D-Myoviridae, and LL12-Myoviridae, greater \\> 6.7 X 107 PFU/gram) on bacterial vaginosis.",
+      "enrollment": 50,
+      "last_update": "2024-01-09",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00663091",
+      "title": "A Prospective, Randomized, Double-Blind Controlled Study of WPP-201 for the Safety and Efficacy of Treatment of Venous Leg Ulcers",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Venous Leg Ulcers"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage",
+          "description": "WPP-201 is a pH neutral, polyvalent phage preparation, which contains 8 bacteriophages (\"component bacteriophages\" or \"component phages\") lytic for P. aeruginosa, S. aureus, and E. coli (Table 1). The cocktail contains a concentration of approximately 1 x 109 PFU/ml of each of the component monophages. The phage component of WPP-201 is roughly estimated to be £ 0.5 ppm by weight and the remainder is phosphate-buffered saline containing \\< 1,000 ppm total organic carbon from the growth medium and biomass. All phages contained in the preparation have been originally isolated from the environment, and they have not been genetically manipulated in any way (i.e., the preparation is 100% natural). WPP-201 contains no preservatives and antioxidants."
+        },
+        {
+          "type": "DRUG",
+          "name": "WPP-201 Bacteriophage",
+          "description": "WPP-201 is a pH neutral, polyvalent phage preparation, which contains 8 bacteriophages (\"component bacteriophages\" or \"component phages\") lytic for P. aeruginosa, S. aureus, and E. coli (Table 1). The cocktail contains a concentration of approximately 1 x 109 PFU/ml of each of the component monophages. The phage component of WPP-201 is roughly estimated to be £ 0.5 ppm by weight and the remainder is phosphate-buffered saline containing \\< 1,000 ppm total organic carbon from the growth medium and biomass. All phages contained in the preparation have been originally isolated from the environment, and they have not been genetically manipulated in any way (i.e., the preparation is 100% natural). WPP-201 contains no preservatives and antioxidants."
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophages",
+          "description": "WPP-201 is a pH neutral, polyvalent phage preparation, which contains 8 bacteriophages (\"component bacteriophages\" or \"component phages\") lytic for P. aeruginosa, S. aureus, and E. coli (Table 1). The cocktail contains a concentration of approximately 1 x 109 PFU/ml of each of the component monophages. The phage component of WPP-201 is roughly estimated to be £ 0.5 ppm by weight and the remainder is phosphate-buffered saline containing \\< 1,000 ppm total organic carbon from the growth medium and biomass. All phages contained in the preparation have been originally isolated from the environment, and they have not been genetically manipulated in any way (i.e., the preparation is 100% natural). WPP-201 contains no preservatives and antioxidants."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "大肠杆菌",
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Lubbock",
+          "facility": "Southweast Regional Wound Care Center"
+        }
+      ],
+      "description": "To test safety and efficacy of Bacteriophage on Venous Leg Ulcers.",
+      "enrollment": 64,
+      "last_update": "2011-09-07",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06798168",
+      "title": "Bacteriophage Clinical Trial for Periprosthetic Joint Infection of Multidrug Resistant Pseudomonas Aeruginosa",
+      "phases": [],
+      "status": "AVAILABLE",
+      "conditions": [
+        "Joint Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Combining bacteriophage therapy with antibiotics for a case with hip PJI",
+          "description": "The treatment plan is to treat the patient with weekly intra-articular injections of a personalized phage therapy cocktail (QDP-PSA-011) for 3 consecutive weeks. This will be associated with antibiotics for 6 weeks."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Ottawa",
+          "facility": "The Ottawa Hospital"
+        }
+      ],
+      "description": "This is a single patient study (SPS) that aims to test the bacteriophage treatment as an experimental treatment on a patient suffering from chronic periprosthetic joint infection (PJI) of the right hip. This patients has been suffering from an infection in the right sided hip arthroplasty with a multidrug resistant (MDR) strain of Pseudomonas aeruginosa bacteria. All treatment options for this type of infection have been exhausted. If this patient remains without treatment then there is a high r",
+      "enrollment": "",
+      "last_update": "2025-01-29",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05498363",
+      "title": "Bacteriophage Therapy of Difficult-to-treat Infections",
+      "phases": [],
+      "status": "COMPLETED",
+      "conditions": [
+        "Bacterial Infections"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage therapy",
+          "description": "Difficult-to-treat bacterial infections were treated with bacteriophages (selected from a collection of 25 individual bacteriophages and 6 bacteriophage cocktails), which were shown to target the patient's infecting bacterial strain (in vitro)"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "A retrospective, observational analysis of the first one hundred consecutive cases of bacteriophage therapy of difficult-to-treat infections, facilitated by a Belgian consortium.",
+      "enrollment": 100,
+      "last_update": "2022-08-12",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05906680",
+      "title": "The Gut Virome as a Trigger for IBD: From Metagenomics to Pathogenesis",
+      "phases": [],
+      "status": "UNKNOWN",
+      "conditions": [
+        "IBD"
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Additional biopsies collection",
+          "description": "We will recruit only subjects (UC, CD and NO-UC/CD) scheduled for the endoscopy and biopsies-collection according to the usual clinical practice. During the endoscopy we will collect 6 additional biopsies."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Italy"
+      ],
+      "locations": [
+        {
+          "country": "Italy",
+          "city": "Milan",
+          "facility": "IRCCS Ospedale San Raffaele"
+        }
+      ],
+      "description": "Alterations in the composition of the intestinal microbiota (dysbiosis) are well known involved in the pathogenesis of gastrointestinal disorders, such as inflammatory bowel disease (IBD), which includes ulcerative colitis (UC) and Crohn's disease (CD). While bacteria have always gotten the most attention in gastrointestinal disorders, the viral component of the human gut microbiome, called the \"gut virome\", is underestimated. In addition to bacteriophages, the gut virome also harbors viruses th",
+      "enrollment": 69,
+      "last_update": "2023-06-18",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT02664740",
+      "title": "Standard Treatment Associated With Phage Therapy Versus Placebo for Diabetic Foot Ulcers Infected by S. Aureus",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Diabetic Foot",
+        "Staphylococcal Infections"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Topical anti-Staphylococcus bacteriophage therapy",
+          "description": "Patients randomized to the experimental arm will receive sterile compress dressings impregnated with a phage solution of 10\\^7 PFU/ml on days 0, 7 and 14 (unless the wound is already healed, i.e. phage solutions are not applied to healed wounds)."
+        },
+        {
+          "type": "DRUG",
+          "name": "Topical placebo corresponding to anti-Staphylococcus bacteriophage therapy",
+          "description": "Patients randomized to the placebo arm will receive sterile compress dressings impregnated with a placebo solution on days 0, 7 and 14 (unless the wound is already healed, i.e. placebo solutions are not applied to healed wounds)."
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Bordeaux",
+          "facility": "CHU de Bordeaux - Hôpital Pellegrin"
+        },
+        {
+          "country": "France",
+          "city": "Le Grau-du-Roi",
+          "facility": "CHRU de Nîmes - Hôpital Universitaire de Réadaptation du Grau du Roi"
+        },
+        {
+          "country": "France",
+          "city": "Marseille",
+          "facility": "Hopital européen"
+        },
+        {
+          "country": "France",
+          "city": "Toulouse",
+          "facility": "CHRU de Toulouse - Hôpital de Rangueil"
+        },
+        {
+          "country": "France",
+          "city": "Tourcoing",
+          "facility": "CH de Tourcoing"
+        }
+      ],
+      "description": "The primary objective of this study is to compare the efficacy of standard treatment associated with a topical anti-staphylococcal bacteriophage cocktail versus standard treatment plus placebo for diabetic foot ulcers monoinfected by methicillin-resistant or susceptible S. aureus (MRSA or MSSA) as measured by the relative reduction in wound surface area (%) at 12 weeks.",
+      "enrollment": 60,
+      "last_update": "2026-03-20",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07202234",
+      "title": "Bacteriophage Cocktail Therapy for Multidrug-Resistant Gram-Negative Ventilator-Associated Pneumonia",
+      "phases": [
+        "NA"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "VAP - Ventilator Associated Pneumonia"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Phage cocktail administered via nebulization",
+          "description": "Phage cocktail administered via nebulization，BID"
+        },
+        {
+          "type": "DRUG",
+          "name": "Nebulized normal saline inhalation therapy",
+          "description": "Nebulized normal saline inhalation therapy, BID"
+        }
+      ],
+      "route": [
+        "雾化吸入"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "The purpose of this study is to systematically evaluate the efficacy and safety of bacteriophage cocktail therapy in patients with ventilator-associated pneumonia caused by Gram-negative bacterial infections.",
+      "enrollment": 248,
+      "last_update": "2025-10-01",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05314426",
+      "title": "Mayo Clinic Phage Program Biobank",
+      "phases": [],
+      "status": "ENROLLING_BY_INVITATION",
+      "conditions": [
+        "Bacteriophage Therapy"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Rochester",
+          "facility": "Mayo Clinic Rochester"
+        }
+      ],
+      "description": "The purpose of this study is to help scientists and clinicians discover answers to research questions related to antibiotic-resistant bacterial infections, and the role that phage therapy plays as a possible treatment.",
+      "enrollment": 100,
+      "last_update": "2025-06-12",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06319235",
+      "title": "Clinical Trial to Demonstrate the Safety and Efficacy of DUOFAG®",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Surgical Site Infection",
+        "Staphylococcus Aureus Infection",
+        "Pseudomonas Aeruginosa Infection",
+        "Bacterial Infections",
+        "Surgical Wound Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "IMP",
+          "description": "DUOFAG® is a phage cocktail (cutaneous liquid) manufactured by MB PHARMA s.r.o. and it contains bacteriophages active against Staphylococcus aureus and Pseudomonas aeruginosa."
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "0.9% Sodium Chloride Injection solution was manufactured by B. Braun Melsungen AG. Marketing authorization number assigned from the State Institute for drug control (Czech Republic): 76/847/92-B/C"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "Czechia"
+      ],
+      "locations": [
+        {
+          "country": "Czechia",
+          "city": "Brno",
+          "facility": "St. Anne's University Hospital Brno"
+        }
+      ],
+      "description": "DUOFAG® is a phage cocktail containing bacteriophages active against Staphylococcus aureus and Pseudomonas aeruginosa. It is an investigational medicinal product for the treatment of surgical site infections caused by S. aureus and P. aeruginosa.\n\nThe primary objective of the study is to demonstrate the safety of DUOFAG® and the clinical and microbiological change within 10 weeks after the start of treatment or until healing.",
+      "enrollment": 52,
+      "last_update": "2024-03-19",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05453578",
+      "title": "A Phase 1b/2 Trial of the Safety and Microbiological Activity of Bacteriophage Therapy in Cystic Fibrosis Subjects Colonized With Pseudomonas Aeruginosa",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Bacterial Disease Carrier",
+        "Cystic Fibrosis"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "0.9 percent sodium chloride"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "WRAIR-PAM-CF1",
+          "description": "Bacteriophage combination composed of the following phages: PaWRA01Phi11, PaWRA01Phi39, PaWRA02Phi83, and PaWRA02Phi87."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Tucson",
+          "facility": "The University of Arizona - Banner University Medical Center Tucson Campus - Tucson"
+        },
+        {
+          "country": "United States",
+          "city": "La Jolla",
+          "facility": "University of California, San Diego"
+        },
+        {
+          "country": "United States",
+          "city": "La Jolla",
+          "facility": "University of California, San Diego (UCSD) - Antiviral Research Center (AVRC)"
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "University of California Los Angeles Medical Center - Westwood Clinic"
+        },
+        {
+          "country": "United States",
+          "city": "Sacramento",
+          "facility": "University of California Davis Health"
+        }
+      ],
+      "description": "This is a phase 1b/2 study of a single dose of intravenous (IV) bacteriophage in males and non-pregnant females, at least 18 years old, diagnosed with Cystic Fibrosis (CF). This clinical trial is designed to assess the safety and microbiological activity of bacteriophage product Walter Reed Army Institute of Research- PAM-Cystic Fibrosis1 (WRAIR-PAM-CF1), directed at Pseudomonas aeruginosa in clinically stable CF individuals chronically colonized with P. aeruginosa. WRAIR-PAM-CF1 is a 4 componen",
+      "enrollment": 72,
+      "last_update": "2025-12-22",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05272579",
+      "title": "PrePhage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Necrotizing Enterocolitis",
+        "Microbial Substitution"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Fecal Filtrate Transfer",
+          "description": "Treatment with donated fecal samples filtered to contain practically no bacteria and mainly viruses, including bacteriophages"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Saline solution"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Denmark"
+      ],
+      "locations": [
+        {
+          "country": "Denmark",
+          "city": "Copenhagen",
+          "facility": "Rigshospitalet"
+        }
+      ],
+      "description": "PrePhage - Fecal bacteriophage transfer for enhanced gastrointestinal tract maturation in preterm infants\n\nThis pilot triol has the primary goal of demonstrating the safety of transferring viruses and proteins from healthy term infants to preterm infants born between gestational age (GA) 26 + 0 and 30+6. The long-term goal is to develop a safe and effective treatment to prevent the severe gut disease called necrotizing enterocolitis (NEC).\n\nNEC is a common disease in neonatal intensive care unit",
+      "enrollment": 20,
+      "last_update": "2024-11-15",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04650607",
+      "title": "Phage Safety Cohort Study",
+      "phases": [],
+      "status": "RECRUITING",
+      "conditions": [
+        "Prosthetic Joint Infection",
+        "Severe Infection"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Adverse event after injection of phages",
+          "description": "rate and description of adverse event after injection of phages"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Lyon",
+          "facility": "Hospices Civils de Lyon"
+        }
+      ],
+      "description": "This cohort study aims to describe the adverse events related to the use of bacteriophages to treat serious infections, data from the literature being almost non-existent on this subject.",
+      "enrollment": 100,
+      "last_update": "2023-04-13",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05715619",
+      "title": "Safety and Efficacy of Oral Administration of the Phage Cocktail, VRELysin™, In Healthy and VRE-Colonized Subjects",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Vancomycin-Resistant Enterococcal Colonization"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "VRELysin™",
+          "description": "A cocktail of lytic Enterococcus-specific bacteriophages orally administered with sodium bicarbonate solution"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo orally administered with sodium bicarbonate solution"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [
+        "肠球菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Pittsburgh",
+          "facility": "UPMC Presbyterian"
+        }
+      ],
+      "description": "The study is a first-in-human Phase 1/2a randomized, double-blind, placebo-controlled trial to assess the clinical safety and efficacy of VRELysin in healthy and VRE-colonized adults.",
+      "enrollment": 80,
+      "last_update": "2023-10-30",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00677495",
+      "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
+      "phases": [
+        "NA"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Genetic Predisposition to Disease",
+        "Celiac Disease"
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Gluten-free diet",
+          "description": "Gluten-free diet"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Italy"
+      ],
+      "locations": [
+        {
+          "country": "Italy",
+          "city": "Trieste",
+          "facility": "IRCCS Burlo Garofolo"
+        }
+      ],
+      "description": "Undetected or untreated CD may cause severe complications later in life, such as autoimmune disorders.\n\nIt is recommended for subjects with autoimmune diseases or at risk for CD to be screened for CD and to repeat serological screening about every three years to detect cases of clinically silent, late-onset CD.\n\nCeliac disease (CD) auto-antibodies against tissue transglutaminase (anti-tTG) are produced in the intestinal mucosa even when not measurable in serum. By using the phage display librari",
+      "enrollment": 30,
+      "last_update": "2020-09-03",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04787250",
+      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Prosthetic Joint Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage Therapy",
+          "description": "Phage will be administered based on patient's matching results."
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Two-Stage Exchange Arthroplasty",
+          "description": "Performed per the study center's standard of care. No investigational products are used."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Rochester",
+          "facility": "Mayo Clinic"
+        }
+      ],
+      "description": "This is a study designed to evaluate bacteriophage therapy in patients with chronic prosthetic joint infections.",
+      "enrollment": 0,
+      "last_update": "2022-04-04",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00945087",
+      "title": "Experimental Phage Therapy of Bacterial Infections",
+      "phases": [
+        "NA"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Bacterial Infections"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Bacteriophage preparation",
+          "description": "Bacteriophage lysates or purified phage formulations containing phages lytic for Staphylococcus, Enterococcus, Pseudomonas, Escherichia, Klebsiella, Proteus, Citrobacter, Acinetobacter, Serratia, Morganella, Shigella, Salmonella, Enterobacter, Stenotrophomonas, or Burkholderia strains isolated from a patient used for oral, rectal and/or topical application."
+        }
+      ],
+      "route": [
+        "局部外用",
+        "口服"
+      ],
+      "pathogens": [
+        "伯克霍尔德菌",
+        "肠球菌",
+        "沙门氏菌",
+        "志贺氏菌"
+      ],
+      "countries": [
+        "Poland"
+      ],
+      "locations": [
+        {
+          "country": "Poland",
+          "city": "Wroclaw",
+          "facility": "Phage Therapy Unit at the Institute of Immunology and Experimental Therapy of the Polish Academy of Sciences"
+        }
+      ],
+      "description": "The primary purpose of this experimental therapy is to treat, with the aid of bacteriophages, patients with non-healing postoperative wounds or bone, upper respiratory tract, genital or urinary tract infections in whom extensive antibiotic therapy failed or the use of the targeted drug is contraindicated.",
+      "enrollment": "",
+      "last_update": "2013-09-06",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03231267",
+      "title": "Existence in the Human Digestive Flora of Phages Able to Prevent the Acquisition of Multiresistant Enterobacteria",
+      "phases": [],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Multiresistant Enterobacteriaceae"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Paris",
+          "facility": "réanimation médicale Hôpital Saint Antoine"
+        }
+      ],
+      "description": "This research focuses on antibiotic resistant bacteria that may reside in the digestive tract (intestinal flora) of everyone.\n\nWhen we develop an infection, the bacteria in question is, often, already present in our flora. Face to the growing phenomenon of multi-resistance, which is a public health problem, it is essential to follow the frequency of these bacteria but also to find new strategies and effective means to fight against their spread.\n\nIt has been discovered long time ago that it exis",
+      "enrollment": 460,
+      "last_update": "2019-07-16",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05948592",
+      "title": "Bacteriophage Therapy TP-102 in Patients With Diabetic Foot Infection",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Diabetic Foot Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "TP-102",
+          "description": "Patients randomised to TP-102 will receive 1 (one) mL of IP solution, applied topically per cm3 of target ulcer. The titre of each bacteriophage in TP-102 is 1x109 PFU/mL (\\>1x108 PFU/mL and \\<1x1010 PFU/mL). All patients randomised to TP-102 will receive the same concentration per mL. TP-102 will be applied to the target ulcer using a syringe without a needle. The volume of TP-102 to be administered will be determined from the wound volume assessment at the previous visit through an automated wound measurement system (Silhouette), except on the first day of treatment where the amount applied will be determined based on the wound volume determined at that time using the automated wound measurement system (Silhouette)."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Patients randomised to placebo, the volume calculated to be administered will be determined from the wound volume assessment at the previous visit through an automated wound measurement system (Silhouette), except on the first day of treatment where the amount applied will be determined based on the wound volume determined at that time using the automated wound measurement system (Silhouette)."
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [],
+      "countries": [
+        "India",
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "Clemente Clinical Research"
+        },
+        {
+          "country": "United States",
+          "city": "Webster",
+          "facility": "Tranquil Clinical Research"
+        },
+        {
+          "country": "India",
+          "city": "Chennai",
+          "facility": "MV Hospital for Diabetes Pvt. Ltd"
+        },
+        {
+          "country": "India",
+          "city": "Kanpur",
+          "facility": "GSVM Medical College"
+        },
+        {
+          "country": "India",
+          "city": "Nagpur",
+          "facility": "Crescent Hospital & Heart Centre"
+        }
+      ],
+      "description": "TP-102 is a novel bacteriophage cocktail comprised of 5 (five) lytic bacteriophages against Staphylococcus aureus, Pseudomonas aeruginosa, and Acinetobacter baumannii. TP-102 is being developed for topical treatment of patients with wound infections including chronic ulcers; applied every other day (three times weekly (TIW)).",
+      "enrollment": 76,
+      "last_update": "2025-12-22",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06368388",
+      "title": "Bacteriophage Therapy for Difficult-to-treat Infections: the Implementation of a Multidisciplinary Phage Task Force",
+      "phases": [],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Musculoskeletal Infection",
+        "Chronic Rhinosinusitis (Diagnosis)",
+        "Sepsis",
+        "Pulmonary Infection",
+        "Hidradenitis Suppurativa"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Prospective data collection",
+          "description": "Prospective data collection prior to, during and after phage treatment."
+        },
+        {
+          "type": "OTHER",
+          "name": "Prospective data collection",
+          "description": "Prospective data collection prior to, during and after standard infection treatment."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Belgium"
+      ],
+      "locations": [
+        {
+          "country": "Belgium",
+          "city": "Leuven",
+          "facility": "University Hospitals Leuven"
+        }
+      ],
+      "description": "PHAGEFORCE is a prospective, observational registry study. The University Hospitals Leuven has approved the application of phage therapy as standard-of-care only in patients for whom no curative treatment alternatives (antibiotic and/or surgical) are available ('last-resort cases'). A multidisciplinary phage task force, referred to as the Coordination group for Bacteriophage therapy Leuven (CBL) was set up. The CBL screens patients with difficult-to-treat infections, evaluates who could benefit ",
+      "enrollment": 50,
+      "last_update": "2024-04-16",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05182749",
+      "title": "Safety and Efficacy of the Bacteriophage Preparation, ShigActive™, in a Human Experimental Model of Shigellosis",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Shigellosis"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "bacteriophage",
+          "description": "A cocktail of lytic Shigella-specific bacteriophages orally administered with sodium bicarbonate solution"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo orally administered with sodium bicarbonate solution"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [
+        "志贺氏菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Baltimore",
+          "facility": "University of Maryland, Baltimore, University of Maryland School of Medicine, Center for Vaccine Development and Global Health"
+        }
+      ],
+      "description": "The study is a first-in-human Phase 1/2a randomized, double-blind, placebo-controlled trial to assess the clinical safety and efficacy of ShigActive in healthy adults with experimental Shigella challenge.",
+      "enrollment": 52,
+      "last_update": "2025-06-15",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03395769",
+      "title": "Individual Patient Expanded Access for AB-SA01, an Investigational Anti-Staphylococcus Aureus Bacteriophage Therapeutic",
+      "phases": [],
+      "status": "NO_LONGER_AVAILABLE",
+      "conditions": [],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AB-SA01",
+          "description": "AB-SA01 is an investigational bacteriophage therapeutic for treatment of Staphylococcus aureus infections"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [],
+      "locations": [],
+      "description": "The purpose of the expanded access program is to allow physicians to provide treatment with investigational drug, AB-SA01, for patients with serious or immediately life-threatening Staphylococcus aureus infections, for which no alternative treatment(s) are currently available, and who meet the criteria for treatment under FDA's Expanded Access regulations and criteria set forth by AmpliPhi Biosciences Corporation.\n\nTo be considered for expanded access, the request should be submitted to AmpliPhi",
+      "enrollment": "",
+      "last_update": "2019-05-29",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05973721",
+      "title": "Clinical Study of Phage Therapy for Chronic Constipation Efficacy and Safety",
+      "phases": [
+        "NA"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Pib Specific Phage",
+        "Intractable Constipation"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "phage",
+          "description": "The treatment group was given one phage each time, once a day for two weeks"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "China"
+      ],
+      "locations": [
+        {
+          "country": "China",
+          "city": "Shanghai",
+          "facility": "Shanghai Tenth People's Hospital"
+        }
+      ],
+      "description": "The overall aim was to evaluate the efficacy of PiB-specific phages for the treatment of refractory constipation through clinical studies, primarily for the publication of scientific papers and to guide the development of phage therapies. The purpose of this study will be subdivided into three aspects from three aspects: target exposure level, target occupation, and functional effects after acting on the target, including:1) The distribution of PIB phage in the intestine of patients with refract",
+      "enrollment": 50,
+      "last_update": "2023-08-03",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07228702",
+      "title": "Bacteriophage Therapy for Mycobacterium Abscessus Pulmonary Infection",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "ENROLLING_BY_INVITATION",
+      "conditions": [
+        "Non-Tuberculous Mycobacterial (NTM) Pneumonia",
+        "Mycobacterium Abscessus Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Mycobacteriophage Muddy_HRMN0052",
+          "description": "In-vitro effective Mycobacteriophage Muddy\\_HRMN0052 against specific strain of Mycobacterium abscessus ssp abscessuss"
+        },
+        {
+          "type": "DRUG",
+          "name": "Amikacin Injection",
+          "description": "Amikacin 1000mg IV 3x/wk"
+        },
+        {
+          "type": "DRUG",
+          "name": "Clofazimine",
+          "description": "Clofazimine 100mg PO OD"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bedaquiline (B)",
+          "description": "Bedaquiline 400mg PO OD x 2 weeks then 200mg PO 3x/wk (Alternate agent if toxicity/intolerance to amikacin or clofazimine to ensure on 2 antibiotics throughout)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Linezolid (LZD)",
+          "description": "Linezolid 600mg PO OD (dose reduce to 600mg PO 3x/wk if adverse effects)(Alternate agent if toxicity/intolerance to amikacin or clofazimine to ensure on 2 antibiotics throughout)"
+        },
+        {
+          "type": "DRUG",
+          "name": "Sulfamethoxazole/Trimethoprim",
+          "description": "Sulfamethoxazole/Trimethoprim 800/160mg PO BID (Alternate agent if toxicity/intolerance to amikacin or clofazimine to ensure on 2 antibiotics throughout)"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "脓肿分枝杆菌",
+        "分枝杆菌"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Vancouver",
+          "facility": "Vancouver General Hospital Non-Tuberculous Mycobacterial Disease Clinic"
+        }
+      ],
+      "description": "This study aims to use mycobacteriophage therapy, using identified in-vitro effective Mycobacteriophage Muddy\\_HRMN0052, along with combination conventional antimycobacterial therapy for their NTM pulmonary disease with Mycobacterium abscessus with goal to reduce infection burden and improve pulmonary disease",
+      "enrollment": 1,
+      "last_update": "2025-11-17",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07280598",
+      "title": "Safety of Combined Intravenous Antibiotic and Bacteriophage Therapy in Adults With Cystic Fibrosis and Antibiotic-Resistant Lung Infections",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "CF - Cystic Fibrosis",
+        "Klebsiella Pneumoniae Infection",
+        "E Coli Infections",
+        "Staphylococcus Aureus Infection",
+        "Achromobacter",
+        "Stenotrophomonas Maltophilia Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Intravenous Bacteriophage Cocktail plus Standard IV Antibiotics",
+          "description": "Participants will receive a seven-day course of intravenous (IV) bacteriophage therapy in combination with standard IV antibiotics. The bacteriophage therapy consists of a pathogen-specific cocktail containing four purified, lytic bacteriophages selected based on pre-treatment sensitivity testing of the participant's bacterial isolate. Each phage cocktail targets one of the following antibiotic-resistant pathogens: Pseudomonas aeruginosa, Klebsiella spp., Stenotrophomonas maltophilia, Escherichia coli, Staphylococcus aureus, or Achromobacter xylosoxidans. Phage cocktails are administered IV twice daily at a concentration of 1x10⁹ PFU/mL, following antibiotic infusion. The first three doses are observed in clinic; remaining doses are self-administered at home via PICC line. All phages are produced under GMP conditions and screened to be lytic-only, free of known toxin, resistance, or lysogeny genes."
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌",
+        "肺炎克雷伯菌",
+        "铜绿假单胞菌",
+        "无色杆菌",
+        "大肠杆菌"
+      ],
+      "countries": [],
+      "locations": [],
+      "description": "This is a Phase 1, open-label, multi-center pilot study evaluating the safety and microbiological activity of intravenous (IV) bacteriophage therapy in combination with standard IV antibiotics in adults with cystic fibrosis (CF) experiencing pulmonary exacerbations due to antibiotic-resistant bacterial infections. Eligible participants will receive a 7-day course of IV antibiotics, selected by their treating clinician, along with a phage cocktail specifically formulated to target their identifie",
+      "enrollment": 30,
+      "last_update": "2025-12-12",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04511221",
+      "title": "BacterioPHAGE for Gastrointestinal Health 2 Study",
+      "phases": [
+        "NA"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Mild Gastrointestinal Symptoms in Healthy Adults"
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Bifidobacterium animals subsp. lactis BL04+PreforPro",
+          "description": "One 15mg capsule taken orally each day"
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Bifidobacterium animals subsp. lactis BL04",
+          "description": "One 15mg capsule taken orally each day"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "One 15mg capsule taken orally each day"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Fort Collins",
+          "facility": "Colorado State University"
+        }
+      ],
+      "description": "The BacterioPHAGE for Gastrointestinal Health-2 study is designed to determine if a commercial bacteriophage product can increase the survival and efficacy of probiotic bacteria that will be concurrently administered. Bacteriophages may act as prebiotics, which are traditionally defined as indigestible dietary components that selectively enhance specific bacterial species in the intestines to confer a health benefit. In this study, the \"prebiotic\" is a unique combination of bacteriophages, or vi",
+      "enrollment": 93,
+      "last_update": "2020-08-13",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05269134",
+      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections (PJI)",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Prosthetic Joint Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage",
+          "description": "Phage Therapy"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "San Diego",
+          "facility": "University of California San Diego Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "Hartford",
+          "facility": "Hartford Health Care Bone & Joint Insitute"
+        },
+        {
+          "country": "United States",
+          "city": "Idaho Falls",
+          "facility": "Snake River Research"
+        },
+        {
+          "country": "United States",
+          "city": "Baltimore",
+          "facility": "University of Maryland Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "Baltimore",
+          "facility": "Sinai Hospital of Baltimore"
+        }
+      ],
+      "description": "This is a study designed to evaluate bacteriophage therapy in patients with chronic prosthetic joint infections.",
+      "enrollment": 0,
+      "last_update": "2023-11-30",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05618418",
+      "title": "BActeriophages To Treat Liver Disease Eliminating Harmful Bacteria (BATTLE)",
+      "phases": [],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Alcoholic Hepatitis"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "No intervention",
+          "description": "No intervention"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Denmark"
+      ],
+      "locations": [
+        {
+          "country": "Denmark",
+          "city": "Hvidovre",
+          "facility": "Copenhagen University Hospital Hvidovre"
+        }
+      ],
+      "description": "Alcoholic hepatitis is a disease with a high mortality rate with few treatment options improving survival. Recently certain bacterial strains has been correlated to survival in patients with alcoholic hepatitis.\n\nIn the BATTLE-trial the investigators will investigate if certain bacteria are correlated to decreased chance of survival in patients with alcoholic hepatitis.",
+      "enrollment": 30,
+      "last_update": "2022-11-16",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06827041",
+      "title": "Use of Phage Therapy for Treatment of a Periprosthetic Joint Infection",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Periprosthetic Joint Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage (Cytophage Technologies)",
+          "description": "Our phage is a new type of investigational treatment for bacterial infections. Our lytic, monophage preparation was provided by Cytophage Technologies and underwent rigorous testing to ensure final product potency (7 x 10\\^9 PFU/dose), purity, fidelity, and safety; laboratory tests demonstrate phage in vitro efficacy against the S. epidermidis strain.\n\nPhage prepared in injection-grade saline will be given via two routes: a) intravenously twice daily, and concomitantly, b) intraarticularly twice daily, for a total duration of 14 days."
+        }
+      ],
+      "route": [
+        "静脉注射",
+        "关节腔内注射"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Ottawa",
+          "facility": "Ottawa Hospital Research Institute"
+        }
+      ],
+      "description": "The goal of this clinical trial is to learn about the safety, tolerability and activity or efficacy of systemic intravenous and intraarticular administration of a mono-bacteriophage (phage) peparation in a patient with chronic-recalcitrant methicillin-resistant Staphylococcus epidermidis (MRSE) periprosthetic joint infection (PJI) and also to understand clinical changes pre- and post-therapy, as well as identifying adjunctive changes in biomarkers (C-reactive protein \\[CRP\\], erythrocyte sedimen",
+      "enrollment": 1,
+      "last_update": "2025-02-14",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06998043",
+      "title": "Study With Phage for CF Subjects With Pseudomonas Lung Infection",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Chronic Pseudomonas Aeruginosa Infection",
+        "Cystic Fibrosis (CF)"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "BX004",
+          "description": "Bacteriophage"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Birmingham",
+          "facility": "University of Alabama at Birmingham"
+        },
+        {
+          "country": "United States",
+          "city": "Anchorage",
+          "facility": "Providence Alaska Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "Little Rock",
+          "facility": "University of Arkansas for Medical Sciences"
+        },
+        {
+          "country": "United States",
+          "city": "Palo Alto",
+          "facility": "Stanford University"
+        },
+        {
+          "country": "United States",
+          "city": "San Francisco",
+          "facility": "University of California San Francisco"
+        }
+      ],
+      "description": "The goal of this Phase 2b clinical trial is to see if nebulized phage (BX004) can treat chronic Pseudomonas aeruginosa (PsA) lung infection in CF subjects. The primary goal is to see if 8 weeks of twice daily BX004 can reduce the amount of PsA in the sputum compared to placebo (on top of background CF therapy).",
+      "enrollment": 63,
+      "last_update": "2025-07-22",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04682964",
+      "title": "Bacteriophage Therapy in Tonsillitis",
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Acute Tonsillitis"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nebulizer inhalation irrigation of the mucous membranes of the tonsils with a bacteriophage.",
+          "description": "Bacteriophage therapy using a liquid complex of pyobacteriophages (pyobacteriophage complex liquid - PСL). PСL was administered via nebulizer inhalation to irrigate the mucous membranes of the tonsils. In total, 5 ml of PCL was inhaled for up to 10 minutes once every 5 days."
+        }
+      ],
+      "route": [
+        "雾化吸入"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Uzbekistan"
+      ],
+      "locations": [
+        {
+          "country": "Uzbekistan",
+          "city": "Tashkent",
+          "facility": "Tashkent Pediatric Medical Institute"
+        }
+      ],
+      "description": "The patients received bacteriophage therapy with a liquid piobacteriophage complex (liquid pyobacteriophage complex - PCL). PСL was administered via nebulizer inhalation to irrigate the tonsil mucosa. A total of 5 ml of PCL was inhaled for 10 minutes every 5 days. The drug causes the lysis of certain bacteria, including staphylococcus, enterococcus, streptococcus, enteropathogenic E. coli, Proteus vulgaris, Proteus mirabilis, Pseudomonas aeruginosa, Klebsiella pneumoniae and Klebsiella oxytoca. ",
+      "enrollment": 128,
+      "last_update": "2025-05-21",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT01818206",
+      "title": "Bacteriophage Effects on Pseudomonas Aeruginosa",
+      "phases": [
+        "NA"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Cystic Fibrosis"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Collection of induced sputum in order to evaluate the efficacy of a cocktail of 10 bacteriophages.",
+          "description": "Collection of induced sputum on cystic fibrosis patients in order to evaluate the efficacy of a cocktail of 10 bacteriophages."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Montpellier",
+          "facility": "CHU de Montpellier - Hôpital Arnaud de Villeneuve CRCM"
+        }
+      ],
+      "description": "Pulmonary phage therapy to treat bacterial infections of the respiratory tract have been investigated in animals. The aim of the present study is to evaluate the efficacy of bacteriophages in infecting Pseudomonas aeruginosa (PA) strains present in sputum samples. A cocktail of 10 bacteriophages will be applied on 60 sputum samples obtained from cystic fibrosis (CF) patients during 6 hours.We will determine the bacteria and bacteriophages strains in sputum samples collected. Then the sensitivity",
+      "enrollment": 59,
+      "last_update": "2013-09-05",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04724603",
+      "title": "Phage Safety Retrospective Cohort Study",
+      "phases": [],
+      "status": "RECRUITING",
+      "conditions": [
+        "Bone and Joint Infection",
+        "Prosthetic Joint Infection"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "patients having had avderse event after phagotherapy for bone or joint or implant infection",
+          "description": "to determine the accountability of adverse effects in having had avderse event after phagotherapy for bone or joint or implant infection"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Lyon",
+          "facility": "Hospices Civils de Lyon"
+        }
+      ],
+      "description": "The aim of this study is to determine the imputability of adverse events in patients who have had phage therapy for the treatment of their bone or joint or implant infection, in order to find out whether these adverse effects are related to surgery, antibiotic treatment or bacteriophages.",
+      "enrollment": 25,
+      "last_update": "2023-04-13",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03395743",
+      "title": "Individual Patient Expanded Access for AB-PA01, an Investigational Anti-Pseudomonas Aeruginosa Bacteriophage Therapeutic",
+      "phases": [],
+      "status": "NO_LONGER_AVAILABLE",
+      "conditions": [],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AB-PA01",
+          "description": "AB-PA01 is an investigational bacteriophage therapeutic for treatment of Pseudomonas aeruginosa infections"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [],
+      "locations": [],
+      "description": "The purpose of the expanded access program is to allow physicians to provide treatment with investigational drug, AB-PA01, for patients with serious or immediately life-threatening Pseudomonas aeruginosa infections, for which no alternative treatment(s) are currently available, and who meet the criteria for treatment under FDA's Expanded Access regulations and criteria set forth by AmpliPhi Biosciences Corporation.\n\nTo be considered for expanded access, the request should be submitted to AmpliPh",
+      "enrollment": "",
+      "last_update": "2019-05-29",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07429162",
+      "title": "Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Mycobacterium Abscessus Infection",
+        "Bacteriophage Therapy",
+        "Pulmonary Disease"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "DP-QB-MYA-002",
+          "description": "In-vitro effective Mycobacteriophage DP-QB-MYA-002 against specific strain of Mycobacterium abscessus ssp abscessuss"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "脓肿分枝杆菌",
+        "分枝杆菌"
+      ],
+      "countries": [],
+      "locations": [],
+      "description": "The objective of this study is to evaluate mycobacteriophage therapy using in-vitro validated mycobacteriophage DP-QB-MYA-002 in combination with conventional antimycobacterial agents for the treatment of multidrug-resistant Mycobacterium abscessus pulmonary disease, with the goal of reducing mycobacterial burden and improving pulmonary outcomes.",
+      "enrollment": 1,
+      "last_update": "2026-02-24",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06870409",
+      "title": "Bacteriophages in Addition to Antibiotics for the Treatment of Patients With Infective Endocarditis",
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Endocarditis, Bacterial"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage",
+          "description": "Complex drug of 3-4 virulent phages to each type of bacteria, active against:\n\n* Staphylococcus spp. \\[Staphylococcus aureus, CoNS (S. epidermidis, S. haemolyticus, S. hominis, S. warneri, S. capitis)\\].\n* Streptococcus spp. \\[Streptococcus viridans (Str. mutans, Str. sanguis, Str. mitis, Str. cristatus, Str. gordonii, Str. oralis, Str. salivarius), Gemella hemolysans, Str. bovis (Str. gallolyticus), Str. constellatus, Str. anginosus, Str. agalactiae\\].\n* Enterococcus spp. \\[E. faecalis, E. faecium\\].\n* Non-HACEK \\[E. coli, A. baumanii, K. pneumoniae, P. aeruginosa\\]"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [
+        "肠球菌",
+        "金黄色葡萄球菌",
+        "肺炎克雷伯菌",
+        "铜绿假单胞菌",
+        "大肠杆菌"
+      ],
+      "countries": [
+        "Russia"
+      ],
+      "locations": [
+        {
+          "country": "Russia",
+          "city": "Moscow",
+          "facility": "University Clinical Hospital named after V.V.Vinogradov (branch) of the Peoples' Friendship University of Russia named after Patrice Lumumba"
+        }
+      ],
+      "description": "Infective endocarditis (IE) is an endocardial lesion caused by bacterial and/or fungal infection that most commonly affects the heart valves and/or the endocardium around implanted intracardiac devices. In general, IE is classified as a rare disease, but there has been a steady increase in incidence, primarily in high-income countries. The danger of IE lies in the high frequency of complicated course of the disease and the risk of lethal outcomes both at the inpatient stage of treatment 25.0% an",
+      "enrollment": 30,
+      "last_update": "2026-03-19",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07275905",
+      "title": "Bacteriophages for Adults With Cystic Fibrosis and Chronic Achromobacter Lung Infection",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Cystic Fibrosis (CF)",
+        "Achromobacter Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AchromoPhage",
+          "description": "AchromoPhage is a cocktail of four genetically distinct, obligately lytic bacteriophages (phiACH01, phiACH04, phiACH06, phiACH07) with in vitro activity against \\>75% of a panel of 17 genetically diverse Achromobacter isolates from persons with cystic fibrosis. In this study, AchromoPhage will be administered by inhaled, intravenous, or sequential inhaled + intravenous routes with weekly dose escalation. Each participant will receive three weekly administrations, with escalating total doses of 4×10⁷ PFU, 4×10⁸ PFU, and 4×10⁹ PFU per route (double the total dose in the combination arm)."
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "无色杆菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "San Diego",
+          "facility": "University of California San Diego (UCSD)"
+        },
+        {
+          "country": "United States",
+          "city": "Pittsburgh",
+          "facility": "University of Pittsburgh"
+        }
+      ],
+      "description": "The goal of this clinical trial is to learn if a new treatment called AchromoPhage is safe and well tolerated in adults with cystic fibrosis (CF) who have long-term lung infections caused by Achromobacter bacteria. AchromoPhage is a mixture of four naturally occurring viruses, called phages, that are designed to target and kill Achromobacter.\n\nThis study will include 12 participants. People will be randomly assigned to one of three groups to receive AchromoPhage in different ways: by inhalation ",
+      "enrollment": 12,
+      "last_update": "2026-04-07",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05369104",
+      "title": "Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR.",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Infection of Total Hip Joint Prosthesis",
+        "Infection of Total Knee Joint Prosthesis"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Anti-Staphylococcus aureus Bacteriophages",
+          "description": "Single intra-articular injection"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Lyon",
+          "facility": "Pr Tristan Ferry"
+        }
+      ],
+      "description": "Pilot non comparative study assessing the clinical control of infection of DAIR + SAT +NaCl and DAIR + SAT + Phages anti-Staphylococcus aureus in patients with Staphylococcus aureus Prosthetic Joint Infection with an indication of DAIR + SAT.",
+      "enrollment": 64,
+      "last_update": "2022-06-22",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06559618",
+      "title": "Bacteriophage Therapy in Spinal Cord Injury Patients With Bacteriuria",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Bacteriuria",
+        "Spinal Cord Injuries",
+        "Asymptomatic Bacteriuria",
+        "Escherichia Coli"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Phage Therapy",
+          "description": "A 20 mL sterile solution containing one to three individual phage drug substances (TPC) with total strength (potency) 3 x 10\\^8 plaque-forming units (PFU), will be administered intravesicularly twice a day (one instillation in the morning and one in the evening \\[at least six hours apart\\], respectively) for 7 days. The selection of individual phages to include in the TPC are personalized/customized for each participant per phage susceptibility testing to the participant's urinary E. coli (testing is conducted by TAILФR Service Center). Each dose of TPC will be followed with a 10 mL flush of sterile 0.9% saline solution."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Sterile 0.9% saline solution also 20 mL, followed with a 10 mL flush of the same solution."
+        }
+      ],
+      "route": [
+        "膀胱灌注"
+      ],
+      "pathogens": [
+        "大肠杆菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Houston",
+          "facility": "Michael E. DeBakey VA Medical Center"
+        }
+      ],
+      "description": "This is a Phase 1b study to assess the safety, tolerability, PK, and PD of investigational phage therapy (IP) in adults with SCI and bladder colonization (ASB). It is a single-center, randomized, double-blind, placebo-controlled study in adults with SCI with neurogenic bladders and bacteriuria who use indwelling catheters, or who require intermittent catheterization for bladder drainage.",
+      "enrollment": 30,
+      "last_update": "2025-05-14",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05269121",
+      "title": "Bacteriophage Therapy in First Time Chronic Prosthetic Joint Infections",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Prosthetic Joint Infection",
+        "Bacterial Infections"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage Therapy",
+          "description": "Patient will undergo a DAIR procedure. After the DAIR, phage therapy will be administered in conjunction with antibiotic treatment."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "This study will test the feasibility of a regimen of intraoperative (IO) and intravenous (IV) PhageBank™ bacteriophage therapy in conjunction with a DAIR procedure to cure chronic prosthetic joint infection (PJI) without replacement of the prosthesis.",
+      "enrollment": 0,
+      "last_update": "2024-02-22",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06185920",
+      "title": "PHAGEinLYON Clinic Cohort Study: a Descriptive Study of Severe Infections Treated With Phage Therapy at the HCL.",
+      "phases": [],
+      "status": "RECRUITING",
+      "conditions": [
+        "Severe Infection"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Description of severe infection",
+          "description": "Description of severe infections treated with bacteriophage in the Hospices Civils de Lyon from 2015 to 2033."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Lyon",
+          "facility": "Department of Infectious and Tropical Diseases of the Croix Rousse Hospital of the Civil Hospitals of Lyon"
+        }
+      ],
+      "description": "PHAGEinLYON Clinic cohort study is a single site non-interventional retrospective and prospective study, initiated by the Hospices Civils de Lyon. Population targeted are patients with a severe infection treated with bacteriophage in the Hospices civils de Lyon from 2015 to 2033. The primary objective is to describe the severe infections treated with phagotherapy. 250 patients will be included in the study.",
+      "enrollment": 250,
+      "last_update": "2023-12-29",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06942624",
+      "title": "Phage Therapy for the Treatment of a Chronic Enterococcus Faecium Periprosthetic Joint Infection",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Periprosthetic Joint Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage Therapy",
+          "description": "Our phage is an investigational treatment for bacterial infections. Our lytic phage preparation was provided by Cytophage Technologies (CIP-200)."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Winnipeg",
+          "facility": "Concordia Hospital"
+        }
+      ],
+      "description": "This purpose of this clinical trial is to evaluate the safety, tolerability and efficacy of a bacteriophage therapy in a patient with a methicillin-susceptible Enterococcus faecium (E. faecium) prosthetic joint infection (PJI) of the hip. We have exhausted all surgical and medical management of PJI for our patient.\n\nThe phage will be administered to the study patient during a 14 days period via intravenous and intra-articular. The patient will be monitored in clinic for up to 1 year.",
+      "enrollment": 1,
+      "last_update": "2025-04-24",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04323475",
+      "title": "Phage Therapy for the Prevention and Treatment of Wound Infections in Burned Patients",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Wound Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage cocktail spray",
+          "description": "Study intervention consists of a dosage-metered airless spray containing a cocktail of 14 bacteriophages at a concentration of 1.4 x 10\\^8 PFU/mL for an effective dosage of 2.5 x10\\^5 PFU/cm\\^2 of burned area. The study intervention will be applied in conjunction with standard of care."
+        },
+        {
+          "type": "DRUG",
+          "name": "Xeroform",
+          "description": "Standard of care will consist of Xeroform primary dressing and Kenacomb topical antibiotic cream (for wounds with signs of localized infection)"
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "The central aim of this trial is to investigate the safety and tolerability of Phage Cocktail-SPK as an adjunct to standard therapy for the prevention and treatment of burns susceptible to infection/or infected by S. aureus, P. aeruginosa, or K. pneumoniae species. It is hypothesized that no adverse events, clinical abnormalities, or changes in laboratory tests results related to the application of Phage Cocktail SPK Spray will be observed.",
+      "enrollment": 12,
+      "last_update": "2021-12-22",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05177107",
+      "title": "Bacteriophage Therapy in Patients With Diabetic Foot Osteomyelitis",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "TERMINATED",
+      "conditions": [
+        "Osteomyelitis",
+        "Diabetic Foot Osteomyelitis"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage Therapy",
+          "description": "Bacteriophage therapy will be personalized for each patient dependent on phage susceptibility testing"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Placebo (normal saline)"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Tuscon",
+          "facility": "Southern Arizona VA Health Care System"
+        },
+        {
+          "country": "United States",
+          "city": "Fairfield",
+          "facility": "NorthBay Healthcare"
+        },
+        {
+          "country": "United States",
+          "city": "Torrance",
+          "facility": "Harbor Hospital / UCLA"
+        },
+        {
+          "country": "United States",
+          "city": "Aurora",
+          "facility": "Rocky Mountain VA"
+        },
+        {
+          "country": "United States",
+          "city": "Fort Lauderdale",
+          "facility": "Holy Cross Health"
+        }
+      ],
+      "description": "This is a phase 2b randomized trial designed to evaluate bacteriophage therapy in subjects with diabetic foot osteomyelitis.",
+      "enrollment": 41,
+      "last_update": "2025-08-19",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT02116010",
+      "title": "Evaluation of Phage Therapy for the Treatment of Escherichia Coli and Pseudomonas Aeruginosa Wound Infections in Burned Patients",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Wound Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "E. coli Phages cocktail",
+          "description": "Use of Pherecydes Pharma Phages cocktail to treat respectively E. coli burn wound infection"
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard of care : Silver Sulfadiazine",
+          "description": "Use of Standard of care : Silver Sulfadiazine, to treat E. coli or P. aeruginosa infected burn wound"
+        },
+        {
+          "type": "DRUG",
+          "name": "P. Aeruginosa, Phages cocktail",
+          "description": "Use of Pherecydes Pharma Phages cocktail to treat P. aeruginosa burn wound infection"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "大肠杆菌"
+      ],
+      "countries": [
+        "France",
+        "Switzerland",
+        "Belgium"
+      ],
+      "locations": [
+        {
+          "country": "Belgium",
+          "city": "Brussels",
+          "facility": "Hopital Militaire Reine Astrid"
+        },
+        {
+          "country": "Belgium",
+          "city": "Liège",
+          "facility": "CHU Sart-Tilman"
+        },
+        {
+          "country": "France",
+          "city": "Clamart",
+          "facility": "Hôpital d'instruction des armées Percy"
+        },
+        {
+          "country": "France",
+          "city": "Lyon",
+          "facility": "Centre hospitalier ST Joseph et St Luc"
+        },
+        {
+          "country": "Switzerland",
+          "city": "Lausanne",
+          "facility": "Centre Hospitalier Universitaire Vaudois"
+        }
+      ],
+      "description": "The objective of PHAGOBURN is to assess tolerance and efficacy of local bacteriophage treatment of E. coli or P. aeruginosa wound infections in burned patients.",
+      "enrollment": "",
+      "last_update": "2015-07-24",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06262282",
+      "title": "Mycobacteriophage Treatment of Non-tuberculosis Mycobacteria",
+      "phases": [],
+      "status": "ENROLLING_BY_INVITATION",
+      "conditions": [
+        "Cystic Fibrosis",
+        "Nontuberculous Mycobacterial Lung Disease",
+        "Nontuberculous Mycobacterium Infection",
+        "Mycobacterium Infections",
+        "Mycobacterium; Pulmonary"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "mycobacteriophage",
+          "description": "mycobacteriophage phage that has been found effective in killing participants NTM infection"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "分枝杆菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Birmingham",
+          "facility": "University of Alabama"
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "Children's Hospital of Los Angeles"
+        },
+        {
+          "country": "United States",
+          "city": "San Diego",
+          "facility": "University of California"
+        },
+        {
+          "country": "United States",
+          "city": "Denver",
+          "facility": "Childrens Hospital Colorado"
+        },
+        {
+          "country": "United States",
+          "city": "Denver",
+          "facility": "National Jewish Health"
+        }
+      ],
+      "description": "About 10 people with cystic fibrosis (CF) and persistent Nontuberculosis mycobacteria (NTM) infection despite treatment will be screened to find out if their NTM infection has at least one mycobacteriophage that is effective in killing the mycobacteria. Individuals who are found to have at least one phage will be offered assistance in pursuing FDA approval for treatment via expanded-access Individual New Drug (IND) for compassionate-use. They will receive phage treatment for 1 year along with th",
+      "enrollment": 10,
+      "last_update": "2025-05-21",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04596319",
+      "title": "Ph 1/2 Study Evaluating Safety and Tolerability of Inhaled AP-PA02 in Subjects With Chronic Pseudomonas Aeruginosa Lung Infections and Cystic Fibrosis",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Cystic Fibrosis",
+        "Pseudomonas Aeruginosa",
+        "Pseudomonas",
+        "Lung Infection",
+        "Lung Infection Pseudomonal"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AP-PA02",
+          "description": "Bacteriophage administered via inhalation"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Inactive Placebo administered via inhalation"
+        }
+      ],
+      "route": [
+        "雾化吸入"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "Children's Hospital Los Angeles"
+        },
+        {
+          "country": "United States",
+          "city": "Tampa",
+          "facility": "University of South Florida"
+        },
+        {
+          "country": "United States",
+          "city": "Boise",
+          "facility": "St. Luke's Cystic Fibrosis Center of Idaho"
+        },
+        {
+          "country": "United States",
+          "city": "Chicago",
+          "facility": "Northwestern University"
+        },
+        {
+          "country": "United States",
+          "city": "Iowa City",
+          "facility": "University of Iowa"
+        }
+      ],
+      "description": "Phase 1b/2a, double-blind, randomized, placebo-controlled, single and multiple ascending dose study to evaluate the safety, tolerability and phage recovery profile of AP-PA02 multi-bacteriophage therapeutic candidate administered by inhalation in subjects with cystic fibrosis and chronic pulmonary Pseudomonas aeruginosa (PA) infection.",
+      "enrollment": 29,
+      "last_update": "2024-01-31",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03296631",
+      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
+      "phases": [],
+      "status": "TERMINATED",
+      "conditions": [
+        "Human Gut Microbiome Development"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "collection of diapers with fresh stools",
+          "description": "collection of diapers with fresh stools"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Orsay",
+          "facility": "Crèche du Parc"
+        },
+        {
+          "country": "France",
+          "city": "Orsay",
+          "facility": "Crèche La Farandole"
+        }
+      ],
+      "description": "Microbial communities are key components of human environment. Consequently, human gut microbiome have been extensively studied providing a better understanding of the relations between bacterial populations and host physiology. However, a typical analysis tends to elude the complexity of the mixes in term of species, strains, as well as extra-chromosomal DNA molecules such as and phages. MetaKids project aims at bringing, at an unprecedented resolution, a new view of those populations and the i",
+      "enrollment": 19,
+      "last_update": "2019-07-16",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07212400",
+      "title": "Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)",
+      "phases": [],
+      "status": "RECRUITING",
+      "conditions": [
+        "General Population (no Specific Condition or Disease)"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Jouy-en-Josas",
+          "facility": "Metagenopolis"
+        }
+      ],
+      "description": "The gut microbiota plays a crucial role in health through its involvement in pathogen defense, immune regulation, and nutrient digestion. Microbiota diversity is essential to maintain these functions, and disturbances caused by antibiotic intake or extreme diets can lead to an imbalance (dysbiosis), which is often described as being implicated in numerous diseases as well as in the proliferation of antibiotic-resistant pathogens.\n\nThe microbiota is defined as the community of microorganisms inha",
+      "enrollment": 4,
+      "last_update": "2026-01-13",
+      "sponsors": []
+    }
+  ],
+  "stats": {
+    "total": 73,
+    "by_phase": {
+      "EARLY_PHASE1": 2,
+      "NA": 7,
+      "PHASE1": 31,
+      "PHASE2": 31,
+      "PHASE3": 4
+    },
+    "by_status": {
+      "COMPLETED": 16,
+      "UNKNOWN": 15,
+      "RECRUITING": 12,
+      "NOT_YET_RECRUITING": 11,
+      "ACTIVE_NOT_RECRUITING": 5,
+      "WITHDRAWN": 4,
+      "TERMINATED": 3,
+      "NO_LONGER_AVAILABLE": 3,
+      "ENROLLING_BY_INVITATION": 3,
+      "AVAILABLE": 1
+    },
+    "by_country": {
+      "United States": 24,
+      "France": 12,
+      "Canada": 8,
+      "Denmark": 3,
+      "Israel": 2,
+      "Czechia": 2,
+      "Italy": 2,
+      "Belgium": 2,
+      "Spain": 1,
+      "Netherlands": 1,
+      "United Kingdom": 1,
+      "Georgia": 1,
+      "Poland": 1,
+      "India": 1,
+      "China": 1
+    },
+    "by_pathogen": {
+      "铜绿假单胞菌": 12,
+      "金黄色葡萄球菌": 9,
+      "大肠杆菌": 6,
+      "分枝杆菌": 4,
+      "肠球菌": 3,
+      "志贺氏菌": 2,
+      "脓肿分枝杆菌": 2,
+      "肺炎克雷伯菌": 2,
+      "无色杆菌": 2,
+      "鲍曼不动杆菌": 1,
+      "伯克霍尔德菌": 1,
+      "沙门氏菌": 1
+    },
+    "by_route": {
+      "其他": 49,
+      "口服": 7,
+      "静脉注射": 6,
+      "局部外用": 6,
+      "雾化吸入": 5,
+      "膀胱灌注": 2,
+      "关节腔内注射": 1
+    },
+    "by_condition": {
+      "Cystic Fibrosis": 6,
+      "Prosthetic Joint Infection": 5,
+      "Bacterial Infections": 4,
+      "Urinary Tract Infections": 3,
+      "Prosthetic Joint Infections of Hip": 3,
+      "Bacteriophage Therapy": 3,
+      "Staphylococcus Aureus Infection": 2,
+      "Chronic Pseudomonas Aeruginosa Infection": 2,
+      "Diabetic Foot": 2,
+      "Nontuberculous Mycobacterial Lung Disease": 2
+    }
+  },
+  "changes": [
+    {
+      "type": "new",
+      "nct_id": "NCT04287478",
+      "title": "Bacteriophage Therapy in Patients With Urinary Tract Infections",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy in Patients With Urinary Tract Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05883995",
+      "title": "Avis-PHAGEinLYON Clinic",
+      "status": "RECRUITING",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Avis-PHAGEinLYON Clinic"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05488340",
+      "title": "A Study of LBP-EC01 in the Treatment of Acute Uncomplicated UTI Caused by Drug Resistant E. Coli (ELIMINATE Trial)",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: A Study of LBP-EC01 in the Treatment of Acute Uncomplicated UTI Caused by Drug Resistant E. Coli (ELIMINATE Trial)"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06456424",
+      "title": "Bacteriophage Therapy for Methicillin-Sensitive Staphylococcus Aureus Prosthetic Joint Infection",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: Bacteriophage Therapy for Methicillin-Sensitive Staphylococcus Aureus Prosthetic Joint Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04636554",
+      "title": "Personalized Phage Treatment in Covid-19 Patients With Bacterial Co-Infections Microbials for Pneumonia or Bacteremia/Septicemia",
+      "status": "NO_LONGER_AVAILABLE",
+      "phases": [],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "鲍曼不动杆菌",
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: Personalized Phage Treatment in Covid-19 Patients With Bacterial Co-Infections Microbials for Pneumonia or Bacteremia/Septicemia"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT02828774",
+      "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
+      "status": "UNKNOWN",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07461337",
+      "title": "Bacteriophage Therapy for Staphylococcus Lugdunensis Prosthetic Joint Infection",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: Bacteriophage Therapy for Staphylococcus Lugdunensis Prosthetic Joint Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05010577",
+      "title": "Nebulized Bacteriophage Therapy in Cystic Fibrosis Patients With Chronic Pseudomonas Aeruginosa Pulmonary Infection",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "description": "新增临床试验: Nebulized Bacteriophage Therapy in Cystic Fibrosis Patients With Chronic Pseudomonas Aeruginosa Pulmonary Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06605651",
+      "title": "Proof of Concept Study to Assess Safety and Efficacy of Phage Therapy in Hip or Knee Prosthetic Joint Infections Due to Staphylococcus Aureus Treated by DAIR.",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Proof of Concept Study to Assess Safety and Efficacy of Phage Therapy in Hip or Knee Prosthetic Joint Infections Due to Staphylococcus Aureus Treated by DAIR."
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07338123",
+      "title": "A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06409819",
+      "title": "Phage Therapy for Recurrent UTIs in Kidney Transplant Recipients",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "大肠杆菌"
+      ],
+      "description": "新增临床试验: Phage Therapy for Recurrent UTIs in Kidney Transplant Recipients"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT00001540",
+      "title": "The Use of Bacteriophage Phi X174 to Assess the Immune Competence of HIV-Infected Patients In Vivo",
+      "status": "COMPLETED",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: The Use of Bacteriophage Phi X174 to Assess the Immune Competence of HIV-Infected Patients In Vivo"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04289948",
+      "title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07076238",
+      "title": "Biomarkers of Phage Treatment Response in NTM and Other Infections",
+      "status": "RECRUITING",
+      "phases": [],
+      "pathogens": [
+        "分枝杆菌"
+      ],
+      "description": "新增临床试验: Biomarkers of Phage Treatment Response in NTM and Other Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07382271",
+      "title": "Evaluation of Safety and Efficacy of Phage Therapy for Drug-resistant Bacterial Infections: An Exploratory, Prospective Single-arm Study",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Evaluation of Safety and Efficacy of Phage Therapy for Drug-resistant Bacterial Infections: An Exploratory, Prospective Single-arm Study"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04803708",
+      "title": "Bacteriophage Therapy TP-102 in Diabetic Foot Ulcers",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: Bacteriophage Therapy TP-102 in Diabetic Foot Ulcers"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06814756",
+      "title": "Bacteriophage Therapy for Morganella Morganii Prosthetic Joint Infection",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy for Morganella Morganii Prosthetic Joint Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06370598",
+      "title": "Phase 1/2a to Assess the Safety and Tolerability of TP-122A for the Treatment of Ventilator-Associated Pneumonia",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Phase 1/2a to Assess the Safety and Tolerability of TP-122A for the Treatment of Ventilator-Associated Pneumonia"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT03140085",
+      "title": "Bacteriophages for Treating Urinary Tract Infections in Patients Undergoing Transurethral Resection of the Prostate",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophages for Treating Urinary Tract Infections in Patients Undergoing Transurethral Resection of the Prostate"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04815798",
+      "title": "Phage Therapy for the Prevention and Treatment of Pressure Ulcers.",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Therapy for the Prevention and Treatment of Pressure Ulcers."
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05537519",
+      "title": "Phage Therapy for the Treatment of Urinary Tract Infection",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Therapy for the Treatment of Urinary Tract Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05272566",
+      "title": "Prephage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants - Donor Study",
+      "status": "COMPLETED",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Prephage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants - Donor Study"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05590195",
+      "title": "Effect of PreforPro® on Urinary and Vaginal Health",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE3"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Effect of PreforPro® on Urinary and Vaginal Health"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT00663091",
+      "title": "A Prospective, Randomized, Double-Blind Controlled Study of WPP-201 for the Safety and Efficacy of Treatment of Venous Leg Ulcers",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "大肠杆菌",
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: A Prospective, Randomized, Double-Blind Controlled Study of WPP-201 for the Safety and Efficacy of Treatment of Venous Leg Ulcers"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06798168",
+      "title": "Bacteriophage Clinical Trial for Periprosthetic Joint Infection of Multidrug Resistant Pseudomonas Aeruginosa",
+      "status": "AVAILABLE",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Clinical Trial for Periprosthetic Joint Infection of Multidrug Resistant Pseudomonas Aeruginosa"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05498363",
+      "title": "Bacteriophage Therapy of Difficult-to-treat Infections",
+      "status": "COMPLETED",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy of Difficult-to-treat Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05906680",
+      "title": "The Gut Virome as a Trigger for IBD: From Metagenomics to Pathogenesis",
+      "status": "UNKNOWN",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: The Gut Virome as a Trigger for IBD: From Metagenomics to Pathogenesis"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT02664740",
+      "title": "Standard Treatment Associated With Phage Therapy Versus Placebo for Diabetic Foot Ulcers Infected by S. Aureus",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Standard Treatment Associated With Phage Therapy Versus Placebo for Diabetic Foot Ulcers Infected by S. Aureus"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07202234",
+      "title": "Bacteriophage Cocktail Therapy for Multidrug-Resistant Gram-Negative Ventilator-Associated Pneumonia",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Cocktail Therapy for Multidrug-Resistant Gram-Negative Ventilator-Associated Pneumonia"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05314426",
+      "title": "Mayo Clinic Phage Program Biobank",
+      "status": "ENROLLING_BY_INVITATION",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Mayo Clinic Phage Program Biobank"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06319235",
+      "title": "Clinical Trial to Demonstrate the Safety and Efficacy of DUOFAG®",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: Clinical Trial to Demonstrate the Safety and Efficacy of DUOFAG®"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05453578",
+      "title": "A Phase 1b/2 Trial of the Safety and Microbiological Activity of Bacteriophage Therapy in Cystic Fibrosis Subjects Colonized With Pseudomonas Aeruginosa",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: A Phase 1b/2 Trial of the Safety and Microbiological Activity of Bacteriophage Therapy in Cystic Fibrosis Subjects Colonized With Pseudomonas Aeruginosa"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05272579",
+      "title": "PrePhage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants",
+      "status": "RECRUITING",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: PrePhage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04650607",
+      "title": "Phage Safety Cohort Study",
+      "status": "RECRUITING",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Safety Cohort Study"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05715619",
+      "title": "Safety and Efficacy of Oral Administration of the Phage Cocktail, VRELysin™, In Healthy and VRE-Colonized Subjects",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "肠球菌"
+      ],
+      "description": "新增临床试验: Safety and Efficacy of Oral Administration of the Phage Cocktail, VRELysin™, In Healthy and VRE-Colonized Subjects"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT00677495",
+      "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Gluten-free Diet in Gluten-genetically Predisposed Subjects"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04787250",
+      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy in Patients With Prosthetic Joint Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT00945087",
+      "title": "Experimental Phage Therapy of Bacterial Infections",
+      "status": "UNKNOWN",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [
+        "伯克霍尔德菌",
+        "肠球菌",
+        "沙门氏菌",
+        "志贺氏菌"
+      ],
+      "description": "新增临床试验: Experimental Phage Therapy of Bacterial Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT03231267",
+      "title": "Existence in the Human Digestive Flora of Phages Able to Prevent the Acquisition of Multiresistant Enterobacteria",
+      "status": "UNKNOWN",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Existence in the Human Digestive Flora of Phages Able to Prevent the Acquisition of Multiresistant Enterobacteria"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05948592",
+      "title": "Bacteriophage Therapy TP-102 in Patients With Diabetic Foot Infection",
+      "status": "COMPLETED",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy TP-102 in Patients With Diabetic Foot Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06368388",
+      "title": "Bacteriophage Therapy for Difficult-to-treat Infections: the Implementation of a Multidisciplinary Phage Task Force",
+      "status": "UNKNOWN",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy for Difficult-to-treat Infections: the Implementation of a Multidisciplinary Phage Task Force"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05182749",
+      "title": "Safety and Efficacy of the Bacteriophage Preparation, ShigActive™, in a Human Experimental Model of Shigellosis",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "志贺氏菌"
+      ],
+      "description": "新增临床试验: Safety and Efficacy of the Bacteriophage Preparation, ShigActive™, in a Human Experimental Model of Shigellosis"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT03395769",
+      "title": "Individual Patient Expanded Access for AB-SA01, an Investigational Anti-Staphylococcus Aureus Bacteriophage Therapeutic",
+      "status": "NO_LONGER_AVAILABLE",
+      "phases": [],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "description": "新增临床试验: Individual Patient Expanded Access for AB-SA01, an Investigational Anti-Staphylococcus Aureus Bacteriophage Therapeutic"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05973721",
+      "title": "Clinical Study of Phage Therapy for Chronic Constipation Efficacy and Safety",
+      "status": "UNKNOWN",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Clinical Study of Phage Therapy for Chronic Constipation Efficacy and Safety"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07228702",
+      "title": "Bacteriophage Therapy for Mycobacterium Abscessus Pulmonary Infection",
+      "status": "ENROLLING_BY_INVITATION",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [
+        "脓肿分枝杆菌",
+        "分枝杆菌"
+      ],
+      "description": "新增临床试验: Bacteriophage Therapy for Mycobacterium Abscessus Pulmonary Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07280598",
+      "title": "Safety of Combined Intravenous Antibiotic and Bacteriophage Therapy in Adults With Cystic Fibrosis and Antibiotic-Resistant Lung Infections",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌",
+        "肺炎克雷伯菌",
+        "铜绿假单胞菌",
+        "无色杆菌",
+        "大肠杆菌"
+      ],
+      "description": "新增临床试验: Safety of Combined Intravenous Antibiotic and Bacteriophage Therapy in Adults With Cystic Fibrosis and Antibiotic-Resistant Lung Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04511221",
+      "title": "BacterioPHAGE for Gastrointestinal Health 2 Study",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: BacterioPHAGE for Gastrointestinal Health 2 Study"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05269134",
+      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections (PJI)",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy in Patients With Prosthetic Joint Infections (PJI)"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05618418",
+      "title": "BActeriophages To Treat Liver Disease Eliminating Harmful Bacteria (BATTLE)",
+      "status": "UNKNOWN",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: BActeriophages To Treat Liver Disease Eliminating Harmful Bacteria (BATTLE)"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06827041",
+      "title": "Use of Phage Therapy for Treatment of a Periprosthetic Joint Infection",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Use of Phage Therapy for Treatment of a Periprosthetic Joint Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06998043",
+      "title": "Study With Phage for CF Subjects With Pseudomonas Lung Infection",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "description": "新增临床试验: Study With Phage for CF Subjects With Pseudomonas Lung Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04682964",
+      "title": "Bacteriophage Therapy in Tonsillitis",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phases": [
+        "PHASE3"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy in Tonsillitis"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT01818206",
+      "title": "Bacteriophage Effects on Pseudomonas Aeruginosa",
+      "status": "COMPLETED",
+      "phases": [
+        "NA"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Effects on Pseudomonas Aeruginosa"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04724603",
+      "title": "Phage Safety Retrospective Cohort Study",
+      "status": "RECRUITING",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Safety Retrospective Cohort Study"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT03395743",
+      "title": "Individual Patient Expanded Access for AB-PA01, an Investigational Anti-Pseudomonas Aeruginosa Bacteriophage Therapeutic",
+      "status": "NO_LONGER_AVAILABLE",
+      "phases": [],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "description": "新增临床试验: Individual Patient Expanded Access for AB-PA01, an Investigational Anti-Pseudomonas Aeruginosa Bacteriophage Therapeutic"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07429162",
+      "title": "Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [
+        "脓肿分枝杆菌",
+        "分枝杆菌"
+      ],
+      "description": "新增临床试验: Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06870409",
+      "title": "Bacteriophages in Addition to Antibiotics for the Treatment of Patients With Infective Endocarditis",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE3"
+      ],
+      "pathogens": [
+        "肠球菌",
+        "金黄色葡萄球菌",
+        "肺炎克雷伯菌",
+        "铜绿假单胞菌",
+        "大肠杆菌"
+      ],
+      "description": "新增临床试验: Bacteriophages in Addition to Antibiotics for the Treatment of Patients With Infective Endocarditis"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07275905",
+      "title": "Bacteriophages for Adults With Cystic Fibrosis and Chronic Achromobacter Lung Infection",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [
+        "无色杆菌"
+      ],
+      "description": "新增临床试验: Bacteriophages for Adults With Cystic Fibrosis and Chronic Achromobacter Lung Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05369104",
+      "title": "Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR.",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR."
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06559618",
+      "title": "Bacteriophage Therapy in Spinal Cord Injury Patients With Bacteriuria",
+      "status": "RECRUITING",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [
+        "大肠杆菌"
+      ],
+      "description": "新增临床试验: Bacteriophage Therapy in Spinal Cord Injury Patients With Bacteriuria"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05269121",
+      "title": "Bacteriophage Therapy in First Time Chronic Prosthetic Joint Infections",
+      "status": "WITHDRAWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy in First Time Chronic Prosthetic Joint Infections"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06185920",
+      "title": "PHAGEinLYON Clinic Cohort Study: a Descriptive Study of Severe Infections Treated With Phage Therapy at the HCL.",
+      "status": "RECRUITING",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: PHAGEinLYON Clinic Cohort Study: a Descriptive Study of Severe Infections Treated With Phage Therapy at the HCL."
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06942624",
+      "title": "Phage Therapy for the Treatment of a Chronic Enterococcus Faecium Periprosthetic Joint Infection",
+      "status": "NOT_YET_RECRUITING",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Therapy for the Treatment of a Chronic Enterococcus Faecium Periprosthetic Joint Infection"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT04323475",
+      "title": "Phage Therapy for the Prevention and Treatment of Wound Infections in Burned Patients",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Phage Therapy for the Prevention and Treatment of Wound Infections in Burned Patients"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT05177107",
+      "title": "Bacteriophage Therapy in Patients With Diabetic Foot Osteomyelitis",
+      "status": "TERMINATED",
+      "phases": [
+        "PHASE2"
+      ],
+      "pathogens": [],
+      "description": "新增临床试验: Bacteriophage Therapy in Patients With Diabetic Foot Osteomyelitis"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT02116010",
+      "title": "Evaluation of Phage Therapy for the Treatment of Escherichia Coli and Pseudomonas Aeruginosa Wound Infections in Burned Patients",
+      "status": "UNKNOWN",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌",
+        "大肠杆菌"
+      ],
+      "description": "新增临床试验: Evaluation of Phage Therapy for the Treatment of Escherichia Coli and Pseudomonas Aeruginosa Wound Infections in Burned Patients"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT06262282",
+      "title": "Mycobacteriophage Treatment of Non-tuberculosis Mycobacteria",
+      "status": "ENROLLING_BY_INVITATION",
+      "phases": [],
+      "pathogens": [
+        "分枝杆菌"
+      ],
+      "description": "新增临床试验: Mycobacteriophage Treatment of Non-tuberculosis Mycobacteria"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT03296631",
+      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
+      "status": "TERMINATED",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Phages Dynamics and Influences During Human Gut Microbiome Establishment"
+    },
+    {
+      "type": "new",
+      "nct_id": "NCT07212400",
+      "title": "Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)",
+      "status": "RECRUITING",
+      "phases": [],
+      "pathogens": [],
+      "description": "新增临床试验: Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)"
+    }
+  ],
+  "updated_at": "2026-04-09T16:13:09.024540",
+  "total_count": 73,
+  "change_count": 69
+}

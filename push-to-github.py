@@ -26,15 +26,19 @@ def run(cmd, cwd=REPO_DIR, check=True):
     return result
 
 print("=" * 50)
-print("[1/4] 采集数据...")
+print("[1/5] 采集知识库数据...")
 run("python server.py collect-fast")
 
 print("=" * 50)
-print("[2/4] 导出 JSON...")
+print("[2/5] 采集噬菌体临床试验数据...")
+run("python server.py phage-trials")
+
+print("=" * 50)
+print("[3/5] 导出 JSON...")
 run("python server.py export")
 
 print("=" * 50)
-print("[3/4] Git 提交...")
+print("[4/5] Git 提交...")
 # 设置 Git 用户信息（确保自动化环境下也有）
 run('git config user.name "silenceyz525"')
 run('git config user.email "silenceyz525@163.com"')
@@ -44,11 +48,11 @@ status = run("git status --porcelain", check=False)
 if not status.stdout.strip():
     print("没有变更，跳过推送")
 else:
-    run("git add data/articles.json")
+    run("git add data/articles.json data/phage_trials.json")
     run(f'git commit -m "{COMMIT_MSG}"')
 
     print("=" * 50)
-    print("[4/4] 推送到 GitHub...")
+    print("[5/5] 推送到 GitHub...")
     remote = f"https://{TOKEN}@github.com/silenceyz525/biokb.git"
     run(f"git remote set-url origin {remote}")
     result = run("git push origin master", check=False)
@@ -60,3 +64,16 @@ else:
 
 print("=" * 50)
 print("完成！")
+
+# ==================== 清理历史记忆文件 ====================
+print("=" * 50)
+print("[清理] 删除前一天的历史记忆文件...")
+from datetime import timedelta
+yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+memory_dir = os.path.join(REPO_DIR, '.workbuddy', 'memory')
+yesterday_file = os.path.join(memory_dir, f"{yesterday}.md")
+if os.path.exists(yesterday_file):
+    os.remove(yesterday_file)
+    print(f"[清理] 已删除 {yesterday}.md")
+else:
+    print(f"[清理] 昨天无记忆文件需要删除")
