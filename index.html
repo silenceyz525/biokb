@@ -1257,19 +1257,28 @@
                     const data = await resp.json();
                     allArticles = data.articles || [];
                 } else {
-                    const resp2 = await fetch('./data/articles.json');
-                    const data2 = await resp2.json();
-                    allArticles = data2.articles || [];
+                    // API返回错误，强制降级到静态JSON
+                    throw new Error('API returned ' + resp.status);
                 }
             } catch(e) {
+                // API不可用，降级到静态JSON
+                console.log('[Articles] API不可用，降级到静态JSON:', e.message);
+            }
+            
+            // 如果allArticles仍为空，强制加载静态JSON
+            if (allArticles.length === 0) {
                 try {
                     const resp2 = await fetch('./data/articles.json');
-                    const data2 = await resp2.json();
-                    allArticles = data2.articles || [];
+                    if (resp2.ok) {
+                        const data2 = await resp2.json();
+                        allArticles = data2.articles || [];
+                        console.log('[Articles] 静态JSON加载成功，共', allArticles.length, '篇');
+                    }
                 } catch(e2) {
-                    allArticles = [];
+                    console.error('[Articles] 静态JSON也加载失败:', e2);
                 }
             }
+            
             updateStats();
             buildFilters();
             applyFilters();
@@ -1282,7 +1291,6 @@
             document.getElementById('count-innovation').textContent = cats.innovation;
             document.getElementById('count-biomanufacturing').textContent = cats.biomanufacturing;
             document.getElementById('count-health').textContent = cats.health;
-            document.getElementById('count-phage').textContent = cats.phage;
             document.getElementById('count-scholar').textContent = cats.scholar;
             document.getElementById('stat-innovation').textContent = cats.innovation;
             document.getElementById('stat-biomanufacturing').textContent = cats.biomanufacturing;
@@ -1460,7 +1468,7 @@
 
         // ==================== Scholars ====================
         async function loadScholars() {
-            // 优先尝试 API，失败则降级到静态 JSON
+            // 优先尝试 API
             try {
                 const resp = await fetch(API_BASE + '/api/scholars');
                 if (resp.ok) {
@@ -1470,15 +1478,16 @@
                     return;
                 }
             } catch(e) {
-                // API 不可用，降级到静态 JSON
+                console.log('[Scholars] API不可用:', e.message);
             }
             
-            // 降级：尝试加载静态 scholars.json
+            // API不可用，降级到静态JSON
             try {
                 const resp = await fetch('./data/scholars.json');
                 if (resp.ok) {
                     const data = await resp.json();
                     scholarsData = data.scholars || [];
+                    console.log('[Scholars] 静态JSON加载成功，共', scholarsData.length, '位');
                     renderScholars();
                 } else {
                     document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请运行 python server.py scholars 生成学者数据</p></div>';
@@ -1570,24 +1579,29 @@
                         stats: data.stats || {},
                         changes: data.changes || []
                     };
-                } else {
-                    throw new Error('API not available');
+                    renderPhageTrials();
+                    return;
                 }
             } catch(e) {
-                // 降级到静态 JSON
-                try {
-                    const resp = await fetch('./data/phage_trials.json');
-                    if (resp.ok) {
-                        const data = await resp.json();
-                        phageTrialsData = {
-                            trials: data.trials || [],
-                            stats: data.stats || {},
-                            changes: data.changes || []
-                        };
-                    }
-                } catch(e2) {
-                    console.log('[Phage] 静态数据也不可用');
+                console.log('[Phage] API不可用:', e.message);
+            }
+            
+            // API不可用，降级到静态JSON
+            try {
+                const resp = await fetch('./data/phage_trials.json');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    phageTrialsData = {
+                        trials: data.trials || [],
+                        stats: data.stats || {},
+                        changes: data.changes || []
+                    };
+                    console.log('[Phage] 静态JSON加载成功，共', phageTrialsData.trials.length, '项试验');
+                } else {
+                    console.error('[Phage] 静态JSON加载失败');
                 }
+            } catch(e2) {
+                console.error('[Phage] 静态数据也不可用:', e2);
             }
             renderPhageTrials();
         }
