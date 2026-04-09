@@ -237,8 +237,8 @@
         "静脉注射"
       ],
       "pathogens": [
-        "铜绿假单胞菌",
         "鲍曼不动杆菌",
+        "铜绿假单胞菌",
         "金黄色葡萄球菌"
       ],
       "countries": [],
@@ -387,11 +387,11 @@
         "铜绿假单胞菌"
       ],
       "countries": [
-        "United States",
-        "Israel",
         "Czechia",
+        "Netherlands",
         "Spain",
-        "Netherlands"
+        "United States",
+        "Israel"
       ],
       "locations": [
         {
@@ -1145,8 +1145,8 @@
         "其他"
       ],
       "pathogens": [
-        "铜绿假单胞菌",
         "大肠杆菌",
+        "铜绿假单胞菌",
         "金黄色葡萄球菌"
       ],
       "countries": [
@@ -1716,10 +1716,10 @@
         "口服"
       ],
       "pathogens": [
-        "伯克霍尔德菌",
-        "肠球菌",
         "沙门氏菌",
-        "志贺氏菌"
+        "志贺氏菌",
+        "肠球菌",
+        "伯克霍尔德菌"
       ],
       "countries": [
         "Poland"
@@ -2023,8 +2023,8 @@
         "其他"
       ],
       "pathogens": [
-        "脓肿分枝杆菌",
-        "分枝杆菌"
+        "分枝杆菌",
+        "脓肿分枝杆菌"
       ],
       "countries": [
         "Canada"
@@ -2067,11 +2067,11 @@
         "静脉注射"
       ],
       "pathogens": [
-        "金黄色葡萄球菌",
         "肺炎克雷伯菌",
         "铜绿假单胞菌",
         "无色杆菌",
-        "大肠杆菌"
+        "大肠杆菌",
+        "金黄色葡萄球菌"
       ],
       "countries": [],
       "locations": [],
@@ -2239,8 +2239,8 @@
         }
       ],
       "route": [
-        "静脉注射",
-        "关节腔内注射"
+        "关节腔内注射",
+        "静脉注射"
       ],
       "pathogens": [],
       "countries": [
@@ -2478,8 +2478,8 @@
         "其他"
       ],
       "pathogens": [
-        "脓肿分枝杆菌",
-        "分枝杆菌"
+        "分枝杆菌",
+        "脓肿分枝杆菌"
       ],
       "countries": [],
       "locations": [],
@@ -2509,11 +2509,11 @@
         "口服"
       ],
       "pathogens": [
-        "肠球菌",
-        "金黄色葡萄球菌",
         "肺炎克雷伯菌",
         "铜绿假单胞菌",
-        "大肠杆菌"
+        "肠球菌",
+        "大肠杆菌",
+        "金黄色葡萄球菌"
       ],
       "countries": [
         "Russia"
@@ -2885,8 +2885,8 @@
         "其他"
       ],
       "pathogens": [
-        "铜绿假单胞菌",
-        "大肠杆菌"
+        "大肠杆菌",
+        "铜绿假单胞菌"
       ],
       "countries": [
         "France",
@@ -2984,175 +2984,40 @@
       "enrollment": 10,
       "last_update": "2025-05-21",
       "sponsors": []
-    },
-    {
-      "nct_id": "NCT04596319",
-      "title": "Ph 1/2 Study Evaluating Safety and Tolerability of Inhaled AP-PA02 in Subjects With Chronic Pseudomonas Aeruginosa Lung Infections and Cystic Fibrosis",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "status": "COMPLETED",
-      "conditions": [
-        "Cystic Fibrosis",
-        "Pseudomonas Aeruginosa",
-        "Pseudomonas",
-        "Lung Infection",
-        "Lung Infection Pseudomonal"
-      ],
-      "interventions": [
-        {
-          "type": "BIOLOGICAL",
-          "name": "AP-PA02",
-          "description": "Bacteriophage administered via inhalation"
-        },
-        {
-          "type": "OTHER",
-          "name": "Placebo",
-          "description": "Inactive Placebo administered via inhalation"
-        }
-      ],
-      "route": [
-        "雾化吸入"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌"
-      ],
-      "countries": [
-        "United States"
-      ],
-      "locations": [
-        {
-          "country": "United States",
-          "city": "Los Angeles",
-          "facility": "Children's Hospital Los Angeles"
-        },
-        {
-          "country": "United States",
-          "city": "Tampa",
-          "facility": "University of South Florida"
-        },
-        {
-          "country": "United States",
-          "city": "Boise",
-          "facility": "St. Luke's Cystic Fibrosis Center of Idaho"
-        },
-        {
-          "country": "United States",
-          "city": "Chicago",
-          "facility": "Northwestern University"
-        },
-        {
-          "country": "United States",
-          "city": "Iowa City",
-          "facility": "University of Iowa"
-        }
-      ],
-      "description": "Phase 1b/2a, double-blind, randomized, placebo-controlled, single and multiple ascending dose study to evaluate the safety, tolerability and phage recovery profile of AP-PA02 multi-bacteriophage therapeutic candidate administered by inhalation in subjects with cystic fibrosis and chronic pulmonary Pseudomonas aeruginosa (PA) infection.",
-      "enrollment": 29,
-      "last_update": "2024-01-31",
-      "sponsors": []
-    },
-    {
-      "nct_id": "NCT03296631",
-      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
-      "phases": [],
-      "status": "TERMINATED",
-      "conditions": [
-        "Human Gut Microbiome Development"
-      ],
-      "interventions": [
-        {
-          "type": "OTHER",
-          "name": "collection of diapers with fresh stools",
-          "description": "collection of diapers with fresh stools"
-        }
-      ],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [
-        "France"
-      ],
-      "locations": [
-        {
-          "country": "France",
-          "city": "Orsay",
-          "facility": "Crèche du Parc"
-        },
-        {
-          "country": "France",
-          "city": "Orsay",
-          "facility": "Crèche La Farandole"
-        }
-      ],
-      "description": "Microbial communities are key components of human environment. Consequently, human gut microbiome have been extensively studied providing a better understanding of the relations between bacterial populations and host physiology. However, a typical analysis tends to elude the complexity of the mixes in term of species, strains, as well as extra-chromosomal DNA molecules such as and phages. MetaKids project aims at bringing, at an unprecedented resolution, a new view of those populations and the i",
-      "enrollment": 19,
-      "last_update": "2019-07-16",
-      "sponsors": []
-    },
-    {
-      "nct_id": "NCT07212400",
-      "title": "Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)",
-      "phases": [],
-      "status": "RECRUITING",
-      "conditions": [
-        "General Population (no Specific Condition or Disease)"
-      ],
-      "interventions": [],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [
-        "France"
-      ],
-      "locations": [
-        {
-          "country": "France",
-          "city": "Jouy-en-Josas",
-          "facility": "Metagenopolis"
-        }
-      ],
-      "description": "The gut microbiota plays a crucial role in health through its involvement in pathogen defense, immune regulation, and nutrient digestion. Microbiota diversity is essential to maintain these functions, and disturbances caused by antibiotic intake or extreme diets can lead to an imbalance (dysbiosis), which is often described as being implicated in numerous diseases as well as in the proliferation of antibiotic-resistant pathogens.\n\nThe microbiota is defined as the community of microorganisms inha",
-      "enrollment": 4,
-      "last_update": "2026-01-13",
-      "sponsors": []
     }
   ],
   "stats": {
-    "total": 73,
+    "total": 70,
     "by_phase": {
       "EARLY_PHASE1": 2,
       "NA": 7,
-      "PHASE1": 31,
-      "PHASE2": 31,
+      "PHASE1": 30,
+      "PHASE2": 30,
       "PHASE3": 4
     },
     "by_status": {
-      "COMPLETED": 16,
       "UNKNOWN": 15,
-      "RECRUITING": 12,
+      "COMPLETED": 15,
+      "RECRUITING": 11,
       "NOT_YET_RECRUITING": 11,
       "ACTIVE_NOT_RECRUITING": 5,
       "WITHDRAWN": 4,
-      "TERMINATED": 3,
       "NO_LONGER_AVAILABLE": 3,
       "ENROLLING_BY_INVITATION": 3,
+      "TERMINATED": 2,
       "AVAILABLE": 1
     },
     "by_country": {
-      "United States": 24,
-      "France": 12,
+      "United States": 23,
+      "France": 10,
       "Canada": 8,
       "Denmark": 3,
-      "Israel": 2,
       "Czechia": 2,
+      "Israel": 2,
       "Italy": 2,
       "Belgium": 2,
-      "Spain": 1,
       "Netherlands": 1,
+      "Spain": 1,
       "United Kingdom": 1,
       "Georgia": 1,
       "Poland": 1,
@@ -3160,7 +3025,7 @@
       "China": 1
     },
     "by_pathogen": {
-      "铜绿假单胞菌": 12,
+      "铜绿假单胞菌": 11,
       "金黄色葡萄球菌": 9,
       "大肠杆菌": 6,
       "分枝杆菌": 4,
@@ -3170,20 +3035,20 @@
       "肺炎克雷伯菌": 2,
       "无色杆菌": 2,
       "鲍曼不动杆菌": 1,
-      "伯克霍尔德菌": 1,
-      "沙门氏菌": 1
+      "沙门氏菌": 1,
+      "伯克霍尔德菌": 1
     },
     "by_route": {
-      "其他": 49,
+      "其他": 47,
       "口服": 7,
       "静脉注射": 6,
       "局部外用": 6,
-      "雾化吸入": 5,
+      "雾化吸入": 4,
       "膀胱灌注": 2,
       "关节腔内注射": 1
     },
     "by_condition": {
-      "Cystic Fibrosis": 6,
+      "Cystic Fibrosis": 5,
       "Prosthetic Joint Infection": 5,
       "Bacterial Infections": 4,
       "Urinary Tract Infections": 3,
@@ -3195,813 +3060,8 @@
       "Nontuberculous Mycobacterial Lung Disease": 2
     }
   },
-  "changes": [
-    {
-      "type": "new",
-      "nct_id": "NCT04287478",
-      "title": "Bacteriophage Therapy in Patients With Urinary Tract Infections",
-      "status": "TERMINATED",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy in Patients With Urinary Tract Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05883995",
-      "title": "Avis-PHAGEinLYON Clinic",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Avis-PHAGEinLYON Clinic"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05488340",
-      "title": "A Study of LBP-EC01 in the Treatment of Acute Uncomplicated UTI Caused by Drug Resistant E. Coli (ELIMINATE Trial)",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: A Study of LBP-EC01 in the Treatment of Acute Uncomplicated UTI Caused by Drug Resistant E. Coli (ELIMINATE Trial)"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06456424",
-      "title": "Bacteriophage Therapy for Methicillin-Sensitive Staphylococcus Aureus Prosthetic Joint Infection",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: Bacteriophage Therapy for Methicillin-Sensitive Staphylococcus Aureus Prosthetic Joint Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04636554",
-      "title": "Personalized Phage Treatment in Covid-19 Patients With Bacterial Co-Infections Microbials for Pneumonia or Bacteremia/Septicemia",
-      "status": "NO_LONGER_AVAILABLE",
-      "phases": [],
-      "pathogens": [
-        "铜绿假单胞菌",
-        "鲍曼不动杆菌",
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: Personalized Phage Treatment in Covid-19 Patients With Bacterial Co-Infections Microbials for Pneumonia or Bacteremia/Septicemia"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT02828774",
-      "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
-      "status": "UNKNOWN",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07461337",
-      "title": "Bacteriophage Therapy for Staphylococcus Lugdunensis Prosthetic Joint Infection",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: Bacteriophage Therapy for Staphylococcus Lugdunensis Prosthetic Joint Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05010577",
-      "title": "Nebulized Bacteriophage Therapy in Cystic Fibrosis Patients With Chronic Pseudomonas Aeruginosa Pulmonary Infection",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌"
-      ],
-      "description": "新增临床试验: Nebulized Bacteriophage Therapy in Cystic Fibrosis Patients With Chronic Pseudomonas Aeruginosa Pulmonary Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06605651",
-      "title": "Proof of Concept Study to Assess Safety and Efficacy of Phage Therapy in Hip or Knee Prosthetic Joint Infections Due to Staphylococcus Aureus Treated by DAIR.",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Proof of Concept Study to Assess Safety and Efficacy of Phage Therapy in Hip or Knee Prosthetic Joint Infections Due to Staphylococcus Aureus Treated by DAIR."
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07338123",
-      "title": "A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "EARLY_PHASE1"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06409819",
-      "title": "Phage Therapy for Recurrent UTIs in Kidney Transplant Recipients",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "大肠杆菌"
-      ],
-      "description": "新增临床试验: Phage Therapy for Recurrent UTIs in Kidney Transplant Recipients"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT00001540",
-      "title": "The Use of Bacteriophage Phi X174 to Assess the Immune Competence of HIV-Infected Patients In Vivo",
-      "status": "COMPLETED",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: The Use of Bacteriophage Phi X174 to Assess the Immune Competence of HIV-Infected Patients In Vivo"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04289948",
-      "title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
-      "status": "WITHDRAWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07076238",
-      "title": "Biomarkers of Phage Treatment Response in NTM and Other Infections",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [
-        "分枝杆菌"
-      ],
-      "description": "新增临床试验: Biomarkers of Phage Treatment Response in NTM and Other Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07382271",
-      "title": "Evaluation of Safety and Efficacy of Phage Therapy for Drug-resistant Bacterial Infections: An Exploratory, Prospective Single-arm Study",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Evaluation of Safety and Efficacy of Phage Therapy for Drug-resistant Bacterial Infections: An Exploratory, Prospective Single-arm Study"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04803708",
-      "title": "Bacteriophage Therapy TP-102 in Diabetic Foot Ulcers",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌",
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: Bacteriophage Therapy TP-102 in Diabetic Foot Ulcers"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06814756",
-      "title": "Bacteriophage Therapy for Morganella Morganii Prosthetic Joint Infection",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy for Morganella Morganii Prosthetic Joint Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06370598",
-      "title": "Phase 1/2a to Assess the Safety and Tolerability of TP-122A for the Treatment of Ventilator-Associated Pneumonia",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phase 1/2a to Assess the Safety and Tolerability of TP-122A for the Treatment of Ventilator-Associated Pneumonia"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03140085",
-      "title": "Bacteriophages for Treating Urinary Tract Infections in Patients Undergoing Transurethral Resection of the Prostate",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE2",
-        "PHASE3"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophages for Treating Urinary Tract Infections in Patients Undergoing Transurethral Resection of the Prostate"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04815798",
-      "title": "Phage Therapy for the Prevention and Treatment of Pressure Ulcers.",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Therapy for the Prevention and Treatment of Pressure Ulcers."
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05537519",
-      "title": "Phage Therapy for the Treatment of Urinary Tract Infection",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Therapy for the Treatment of Urinary Tract Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05272566",
-      "title": "Prephage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants - Donor Study",
-      "status": "COMPLETED",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Prephage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants - Donor Study"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05590195",
-      "title": "Effect of PreforPro® on Urinary and Vaginal Health",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE3"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Effect of PreforPro® on Urinary and Vaginal Health"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT00663091",
-      "title": "A Prospective, Randomized, Double-Blind Controlled Study of WPP-201 for the Safety and Efficacy of Treatment of Venous Leg Ulcers",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌",
-        "大肠杆菌",
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: A Prospective, Randomized, Double-Blind Controlled Study of WPP-201 for the Safety and Efficacy of Treatment of Venous Leg Ulcers"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06798168",
-      "title": "Bacteriophage Clinical Trial for Periprosthetic Joint Infection of Multidrug Resistant Pseudomonas Aeruginosa",
-      "status": "AVAILABLE",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Clinical Trial for Periprosthetic Joint Infection of Multidrug Resistant Pseudomonas Aeruginosa"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05498363",
-      "title": "Bacteriophage Therapy of Difficult-to-treat Infections",
-      "status": "COMPLETED",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy of Difficult-to-treat Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05906680",
-      "title": "The Gut Virome as a Trigger for IBD: From Metagenomics to Pathogenesis",
-      "status": "UNKNOWN",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: The Gut Virome as a Trigger for IBD: From Metagenomics to Pathogenesis"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT02664740",
-      "title": "Standard Treatment Associated With Phage Therapy Versus Placebo for Diabetic Foot Ulcers Infected by S. Aureus",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Standard Treatment Associated With Phage Therapy Versus Placebo for Diabetic Foot Ulcers Infected by S. Aureus"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07202234",
-      "title": "Bacteriophage Cocktail Therapy for Multidrug-Resistant Gram-Negative Ventilator-Associated Pneumonia",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Cocktail Therapy for Multidrug-Resistant Gram-Negative Ventilator-Associated Pneumonia"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05314426",
-      "title": "Mayo Clinic Phage Program Biobank",
-      "status": "ENROLLING_BY_INVITATION",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Mayo Clinic Phage Program Biobank"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06319235",
-      "title": "Clinical Trial to Demonstrate the Safety and Efficacy of DUOFAG®",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌",
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: Clinical Trial to Demonstrate the Safety and Efficacy of DUOFAG®"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05453578",
-      "title": "A Phase 1b/2 Trial of the Safety and Microbiological Activity of Bacteriophage Therapy in Cystic Fibrosis Subjects Colonized With Pseudomonas Aeruginosa",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: A Phase 1b/2 Trial of the Safety and Microbiological Activity of Bacteriophage Therapy in Cystic Fibrosis Subjects Colonized With Pseudomonas Aeruginosa"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05272579",
-      "title": "PrePhage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants",
-      "status": "RECRUITING",
-      "phases": [
-        "EARLY_PHASE1"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: PrePhage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04650607",
-      "title": "Phage Safety Cohort Study",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Safety Cohort Study"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05715619",
-      "title": "Safety and Efficacy of Oral Administration of the Phage Cocktail, VRELysin™, In Healthy and VRE-Colonized Subjects",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "肠球菌"
-      ],
-      "description": "新增临床试验: Safety and Efficacy of Oral Administration of the Phage Cocktail, VRELysin™, In Healthy and VRE-Colonized Subjects"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT00677495",
-      "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Gluten-free Diet in Gluten-genetically Predisposed Subjects"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04787250",
-      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections",
-      "status": "WITHDRAWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy in Patients With Prosthetic Joint Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT00945087",
-      "title": "Experimental Phage Therapy of Bacterial Infections",
-      "status": "UNKNOWN",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [
-        "伯克霍尔德菌",
-        "肠球菌",
-        "沙门氏菌",
-        "志贺氏菌"
-      ],
-      "description": "新增临床试验: Experimental Phage Therapy of Bacterial Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03231267",
-      "title": "Existence in the Human Digestive Flora of Phages Able to Prevent the Acquisition of Multiresistant Enterobacteria",
-      "status": "UNKNOWN",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Existence in the Human Digestive Flora of Phages Able to Prevent the Acquisition of Multiresistant Enterobacteria"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05948592",
-      "title": "Bacteriophage Therapy TP-102 in Patients With Diabetic Foot Infection",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy TP-102 in Patients With Diabetic Foot Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06368388",
-      "title": "Bacteriophage Therapy for Difficult-to-treat Infections: the Implementation of a Multidisciplinary Phage Task Force",
-      "status": "UNKNOWN",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy for Difficult-to-treat Infections: the Implementation of a Multidisciplinary Phage Task Force"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05182749",
-      "title": "Safety and Efficacy of the Bacteriophage Preparation, ShigActive™, in a Human Experimental Model of Shigellosis",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "志贺氏菌"
-      ],
-      "description": "新增临床试验: Safety and Efficacy of the Bacteriophage Preparation, ShigActive™, in a Human Experimental Model of Shigellosis"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03395769",
-      "title": "Individual Patient Expanded Access for AB-SA01, an Investigational Anti-Staphylococcus Aureus Bacteriophage Therapeutic",
-      "status": "NO_LONGER_AVAILABLE",
-      "phases": [],
-      "pathogens": [
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: Individual Patient Expanded Access for AB-SA01, an Investigational Anti-Staphylococcus Aureus Bacteriophage Therapeutic"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05973721",
-      "title": "Clinical Study of Phage Therapy for Chronic Constipation Efficacy and Safety",
-      "status": "UNKNOWN",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Clinical Study of Phage Therapy for Chronic Constipation Efficacy and Safety"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07228702",
-      "title": "Bacteriophage Therapy for Mycobacterium Abscessus Pulmonary Infection",
-      "status": "ENROLLING_BY_INVITATION",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "脓肿分枝杆菌",
-        "分枝杆菌"
-      ],
-      "description": "新增临床试验: Bacteriophage Therapy for Mycobacterium Abscessus Pulmonary Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07280598",
-      "title": "Safety of Combined Intravenous Antibiotic and Bacteriophage Therapy in Adults With Cystic Fibrosis and Antibiotic-Resistant Lung Infections",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "金黄色葡萄球菌",
-        "肺炎克雷伯菌",
-        "铜绿假单胞菌",
-        "无色杆菌",
-        "大肠杆菌"
-      ],
-      "description": "新增临床试验: Safety of Combined Intravenous Antibiotic and Bacteriophage Therapy in Adults With Cystic Fibrosis and Antibiotic-Resistant Lung Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04511221",
-      "title": "BacterioPHAGE for Gastrointestinal Health 2 Study",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: BacterioPHAGE for Gastrointestinal Health 2 Study"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05269134",
-      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections (PJI)",
-      "status": "WITHDRAWN",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy in Patients With Prosthetic Joint Infections (PJI)"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05618418",
-      "title": "BActeriophages To Treat Liver Disease Eliminating Harmful Bacteria (BATTLE)",
-      "status": "UNKNOWN",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: BActeriophages To Treat Liver Disease Eliminating Harmful Bacteria (BATTLE)"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06827041",
-      "title": "Use of Phage Therapy for Treatment of a Periprosthetic Joint Infection",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Use of Phage Therapy for Treatment of a Periprosthetic Joint Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06998043",
-      "title": "Study With Phage for CF Subjects With Pseudomonas Lung Infection",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌"
-      ],
-      "description": "新增临床试验: Study With Phage for CF Subjects With Pseudomonas Lung Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04682964",
-      "title": "Bacteriophage Therapy in Tonsillitis",
-      "status": "ACTIVE_NOT_RECRUITING",
-      "phases": [
-        "PHASE3"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy in Tonsillitis"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT01818206",
-      "title": "Bacteriophage Effects on Pseudomonas Aeruginosa",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Effects on Pseudomonas Aeruginosa"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04724603",
-      "title": "Phage Safety Retrospective Cohort Study",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Safety Retrospective Cohort Study"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03395743",
-      "title": "Individual Patient Expanded Access for AB-PA01, an Investigational Anti-Pseudomonas Aeruginosa Bacteriophage Therapeutic",
-      "status": "NO_LONGER_AVAILABLE",
-      "phases": [],
-      "pathogens": [
-        "铜绿假单胞菌"
-      ],
-      "description": "新增临床试验: Individual Patient Expanded Access for AB-PA01, an Investigational Anti-Pseudomonas Aeruginosa Bacteriophage Therapeutic"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07429162",
-      "title": "Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "脓肿分枝杆菌",
-        "分枝杆菌"
-      ],
-      "description": "新增临床试验: Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06870409",
-      "title": "Bacteriophages in Addition to Antibiotics for the Treatment of Patients With Infective Endocarditis",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE3"
-      ],
-      "pathogens": [
-        "肠球菌",
-        "金黄色葡萄球菌",
-        "肺炎克雷伯菌",
-        "铜绿假单胞菌",
-        "大肠杆菌"
-      ],
-      "description": "新增临床试验: Bacteriophages in Addition to Antibiotics for the Treatment of Patients With Infective Endocarditis"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07275905",
-      "title": "Bacteriophages for Adults With Cystic Fibrosis and Chronic Achromobacter Lung Infection",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "无色杆菌"
-      ],
-      "description": "新增临床试验: Bacteriophages for Adults With Cystic Fibrosis and Chronic Achromobacter Lung Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05369104",
-      "title": "Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR.",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR."
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06559618",
-      "title": "Bacteriophage Therapy in Spinal Cord Injury Patients With Bacteriuria",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "大肠杆菌"
-      ],
-      "description": "新增临床试验: Bacteriophage Therapy in Spinal Cord Injury Patients With Bacteriuria"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05269121",
-      "title": "Bacteriophage Therapy in First Time Chronic Prosthetic Joint Infections",
-      "status": "WITHDRAWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy in First Time Chronic Prosthetic Joint Infections"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06185920",
-      "title": "PHAGEinLYON Clinic Cohort Study: a Descriptive Study of Severe Infections Treated With Phage Therapy at the HCL.",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: PHAGEinLYON Clinic Cohort Study: a Descriptive Study of Severe Infections Treated With Phage Therapy at the HCL."
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06942624",
-      "title": "Phage Therapy for the Treatment of a Chronic Enterococcus Faecium Periprosthetic Joint Infection",
-      "status": "NOT_YET_RECRUITING",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Therapy for the Treatment of a Chronic Enterococcus Faecium Periprosthetic Joint Infection"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04323475",
-      "title": "Phage Therapy for the Prevention and Treatment of Wound Infections in Burned Patients",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage Therapy for the Prevention and Treatment of Wound Infections in Burned Patients"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05177107",
-      "title": "Bacteriophage Therapy in Patients With Diabetic Foot Osteomyelitis",
-      "status": "TERMINATED",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Bacteriophage Therapy in Patients With Diabetic Foot Osteomyelitis"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT02116010",
-      "title": "Evaluation of Phage Therapy for the Treatment of Escherichia Coli and Pseudomonas Aeruginosa Wound Infections in Burned Patients",
-      "status": "UNKNOWN",
-      "phases": [
-        "PHASE1",
-        "PHASE2"
-      ],
-      "pathogens": [
-        "铜绿假单胞菌",
-        "大肠杆菌"
-      ],
-      "description": "新增临床试验: Evaluation of Phage Therapy for the Treatment of Escherichia Coli and Pseudomonas Aeruginosa Wound Infections in Burned Patients"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06262282",
-      "title": "Mycobacteriophage Treatment of Non-tuberculosis Mycobacteria",
-      "status": "ENROLLING_BY_INVITATION",
-      "phases": [],
-      "pathogens": [
-        "分枝杆菌"
-      ],
-      "description": "新增临床试验: Mycobacteriophage Treatment of Non-tuberculosis Mycobacteria"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03296631",
-      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
-      "status": "TERMINATED",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Phages Dynamics and Influences During Human Gut Microbiome Establishment"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT07212400",
-      "title": "Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)"
-    }
-  ],
-  "updated_at": "2026-04-09T16:13:09.024540",
-  "total_count": 73,
-  "change_count": 69
+  "changes": [],
+  "updated_at": "2026-04-09T17:25:05.237879",
+  "total_count": 70,
+  "change_count": 0
 }
