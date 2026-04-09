@@ -1488,8 +1488,13 @@
             }
         }
 
+        function updateScholarCount() {
+            document.getElementById('count-scholar').textContent = scholarsData.length;
+        }
+
         function renderScholars() {
             const grid = document.getElementById('scholarsGrid');
+            updateScholarCount();
             if (!scholarsData.length) {
                 grid.innerHTML = '<div class="empty-state"><div class="icon">&#x1F468;&#x200D;&#x1F52C;</div><h3>暂无学者数据</h3><p>学者追踪功能将自动采集高影响力学者的最新论文</p></div>';
                 return;
@@ -1957,8 +1962,8 @@
 
         // Init
         loadArticles();
-        // 预加载噬菌体试验数据
         loadPhageTrials();
+        loadScholars();
     </script>
 </body>
 </html>
