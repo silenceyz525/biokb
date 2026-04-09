@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioKB - 生物医药知识库</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --bg2: #161822;
+            --card: #1c1f2e;
+            --border: #2a2d3e;
+            --text: #e4e6f0;
+            --text2: #8b8fa3;
+            --accent: #00d4aa;
+            --accent2: #00b894;
+            --red: #e74c3c;
+            --blue: #3498db;
+            --purple: #9b59b6;
+            --orange: #f39c12;
+            --pink: #e91e8b;
+            --radius: 12px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .header {
+            background: var(--bg2);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--accent);
+            white-space: nowrap;
+        }
+        .logo span { font-size: 13px; color: var(--text2); font-weight: 400; }
+        .search-box {
+            flex: 1;
+            min-width: 280px;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 16px 10px 40px;
+            color: var(--text);
+            font-size: 14px;
+            outline: none;
+            transition: border-color .2s;
+        }
+        .search-box input:focus { border-color: var(--accent); }
+        .search-box::before {
+            content: '\1F50D';
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+        }
+        .tabs {
+            display: flex;
+            gap: 4px;
+            background: var(--card);
+            border-radius: 8px;
+            padding: 3px;
+        }
+        .tab {
+            padding: 7px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            color: var(--text2);
+            transition: all .2s;
+            white-space: nowrap;
+            border: none;
+            background: none;
+        }
+        .tab:hover { color: var(--text); }
+        .tab.active { background: var(--accent); color: #000; font-weight: 600; }
+        .tab .count {
+            display: inline-block;
+            background: rgba(255,255,255,.15);
+            border-radius: 10px;
+            padding: 1px 7px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+        .tab.active .count { background: rgba(0,0,0,.2); }
+
+        .main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .stat-icon {
+            width: 42px;
+            height: 42px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        .stat-icon.inno { background: rgba(0,212,170,.12); }
+        .stat-icon.bio { background: rgba(52,152,219,.12); }
+        .stat-icon.health { background: rgba(233,30,139,.12); }
+        .stat-icon.phage { background: rgba(155,89,182,.12); }
+        .stat-icon.scholar { background: rgba(243,156,18,.12); }
+        .stat-info .num { font-size: 22px; font-weight: 700; }
+        .stat-info .label { font-size: 12px; color: var(--text2); }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 900px) { .content-grid { grid-template-columns: 1fr; } }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .filter-panel {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+        }
+        .filter-panel h3 {
+            font-size: 13px;
+            color: var(--text2);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 12px;
+        }
+        .filter-tag {
+            display: inline-block;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 5px 12px;
+            font-size: 12px;
+            cursor: pointer;
+            margin: 0 4px 6px 0;
+            transition: all .2s;
+            color: var(--text2);
+        }
+        .filter-tag:hover, .filter-tag.active { border-color: var(--accent); color: var(--accent); }
+        .filter-tag.active { background: rgba(0,212,170,.1); }
+
+        .date-range { margin-top: 8px; }
+        .date-range input {
+            width: 100%;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 7px 10px;
+            color: var(--text);
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        .articles { display: flex; flex-direction: column; gap: 12px; }
+        .article-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            cursor: pointer;
+            transition: all .2s;
+        }
+        .article-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(0,212,170,.08);
+        }
+        .article-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .article-tags { display: flex; gap: 6px; flex-shrink: 0; }
+        .tag {
+            display: inline-block;
+            border-radius: 4px;
+            padding: 2px 8px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .tag-inno { background: rgba(0,212,170,.15); color: #00d4aa; }
+        .tag-bio { background: rgba(52,152,219,.15); color: #3498db; }
+        .tag-health { background: rgba(233,30,139,.15); color: #e91e8b; }
+        .tag-phage { background: rgba(155,89,182,.15); color: #9b59b6; }
+        .tag-scholar { background: rgba(243,156,18,.15); color: #f39c12; }
+        .tag-source { background: rgba(155,89,182,.15); color: #9b59b6; }
+        .article-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        .article-title:hover { color: var(--accent); }
+        .article-summary {
+            font-size: 13px;
+            color: var(--text2);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .article-summary .cn-summary {
+            color: var(--text);
+            font-size: 13.5px;
+            margin-bottom: 4px;
+        }
+        .article-summary .en-summary {
+            color: var(--text2);
+            font-size: 12.5px;
+            margin-top: 6px;
+            padding-top: 6px;
+            border-top: 1px dashed var(--border);
+        }
+        .article-summary .summary-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            opacity: .6;
+            margin-right: 6px;
+        }
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 12px;
+            color: var(--text2);
+            flex-wrap: wrap;
+        }
+        .article-meta a { color: var(--accent); text-decoration: none; }
+        .article-meta a:hover { text-decoration: underline; }
+        .ai-score {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(0,212,170,.1);
+            border-radius: 4px;
+            padding: 2px 8px;
+            font-size: 11px;
+            color: var(--accent);
+        }
+
+        /* Scholars Page */
+        .scholars-page {
+            display: none;
+        }
+        .scholars-page.active { display: block; }
+        .scholars-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+        }
+        .scholar-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            transition: all .2s;
+        }
+        .scholar-card:hover {
+            border-color: var(--orange);
+            box-shadow: 0 4px 20px rgba(243,156,18,.08);
+        }
+        .scholar-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+        .scholar-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--orange), var(--red));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+            flex-shrink: 0;
+        }
+        .scholar-name {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .scholar-org {
+            font-size: 12px;
+            color: var(--text2);
+        }
+        .scholar-field {
+            display: inline-block;
+            background: rgba(243,156,18,.12);
+            color: var(--orange);
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin-bottom: 14px;
+            font-weight: 600;
+        }
+        .scholar-papers-title {
+            font-size: 12px;
+            color: var(--text2);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 8px;
+        }
+        .scholar-paper-item {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        .scholar-paper-item:last-child { border-bottom: none; }
+        .scholar-paper-item .paper-date {
+            font-size: 11px;
+            color: var(--text2);
+            margin-top: 2px;
+        }
+        .scholar-paper-item .paper-title {
+            color: var(--text);
+        }
+        .scholar-paper-item .paper-title:hover {
+            color: var(--accent);
+        }
+        .scholar-paper-item a {
+            color: var(--text);
+            text-decoration: none;
+        }
+        .scholar-paper-item a:hover { color: var(--accent); }
+        .scholar-no-papers {
+            font-size: 12px;
+            color: var(--text2);
+            padding: 8px 0;
+        }
+        .scholar-resume {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+            font-size: 12.5px;
+            line-height: 1.8;
+            color: var(--text2);
+            position: relative;
+        }
+        .scholar-resume::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -1px;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: var(--orange);
+        }
+        .scholar-resume .resume-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--orange);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 6px;
+        }
+        .scholar-resume .resume-text {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            transition: all .2s;
+        }
+        .scholar-resume.expanded .resume-text {
+            -webkit-line-clamp: unset;
+            display: block;
+        }
+        .scholar-resume .resume-toggle {
+            background: none;
+            border: none;
+            color: var(--orange);
+            cursor: pointer;
+            font-size: 12px;
+            padding: 4px 0;
+            margin-top: 4px;
+        }
+        .scholar-resume .resume-toggle:hover { text-decoration: underline; }
+        .scholar-resume .resume-date {
+            font-size: 10px;
+            color: var(--text2);
+            opacity: .6;
+            margin-top: 6px;
+        }
+        .scholar-no-resume {
+            font-size: 12px;
+            color: var(--text2);
+            opacity: .5;
+            padding: 8px 0;
+            font-style: italic;
+        }
+
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,.6);
+            z-index: 200;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-overlay.active { display: flex; }
+        .modal {
+            background: var(--bg2);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 32px;
+            position: relative;
+        }
+        .modal h2 { margin-bottom: 12px; font-size: 20px; line-height: 1.4; }
+        .modal .meta { color: var(--text2); font-size: 13px; margin-bottom: 16px; }
+        .modal .content { font-size: 14px; line-height: 1.8; }
+        .modal .content .cn-block {
+            background: rgba(0,212,170,.06);
+            border-left: 3px solid var(--accent);
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 16px;
+        }
+        .modal .content .cn-block .block-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 6px;
+        }
+        .modal .content .en-block {
+            color: var(--text2);
+            margin-bottom: 16px;
+        }
+        .modal .content .en-block .block-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text2);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            margin-bottom: 6px;
+        }
+        .modal .close-btn {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: var(--text2);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .ai-panel {
+            position: fixed;
+            right: -420px;
+            top: 0;
+            bottom: 0;
+            width: 420px;
+            background: var(--bg2);
+            border-left: 1px solid var(--border);
+            z-index: 150;
+            display: flex;
+            flex-direction: column;
+            transition: right .3s ease;
+        }
+        .ai-panel.open { right: 0; }
+        .ai-toggle {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--accent);
+            color: #000;
+            border: none;
+            border-radius: 8px 0 0 8px;
+            padding: 12px 8px;
+            cursor: pointer;
+            font-size: 18px;
+            z-index: 151;
+            writing-mode: vertical-rl;
+            font-weight: 600;
+        }
+        .ai-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .ai-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .ai-msg {
+            padding: 12px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            line-height: 1.7;
+            max-width: 90%;
+            white-space: pre-wrap;
+        }
+        .ai-msg.user {
+            align-self: flex-end;
+            background: var(--accent);
+            color: #000;
+        }
+        .ai-msg.assistant {
+            align-self: flex-start;
+            background: var(--card);
+            border: 1px solid var(--border);
+        }
+        .ai-input-area {
+            padding: 12px 16px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 8px;
+        }
+        .ai-input-area input {
+            flex: 1;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 14px;
+            color: var(--text);
+            font-size: 13px;
+            outline: none;
+        }
+        .ai-input-area input:focus { border-color: var(--accent); }
+        .ai-input-area button {
+            background: var(--accent);
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 16px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 20px;
+        }
+        .pagination button {
+            background: var(--card);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .pagination button:hover { border-color: var(--accent); }
+        .pagination button.active { background: var(--accent); color: #000; border-color: var(--accent); }
+        .pagination button:disabled { opacity: .4; cursor: not-allowed; }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text2);
+        }
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text2);
+        }
+        .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+        .empty-state h3 { margin-bottom: 8px; color: var(--text); }
+
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+        .pulse { animation: pulse 1.5s infinite; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="logo">&#x1F9EC; BioKB <span>生物医药知识库</span></div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索论文、新闻、学者动态...">
+            </div>
+            <div class="tabs">
+                <button class="tab active" data-tab="all">全部<span class="count" id="count-all">0</span></button>
+                <button class="tab" data-tab="innovation">创新药<span class="count" id="count-innovation">0</span></button>
+                <button class="tab" data-tab="biomanufacturing">生物制造<span class="count" id="count-biomanufacturing">0</span></button>
+                <button class="tab" data-tab="health">大健康<span class="count" id="count-health">0</span></button>
+                <button class="tab" data-tab="phage">噬菌体<span class="count" id="count-phage">0</span></button>
+                <button class="tab" data-tab="scholar">学者<span class="count" id="count-scholar">0</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-icon inno">&#x1F48A;</div>
+                <div class="stat-info"><div class="num" id="stat-innovation">0</div><div class="label">创新药</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon bio">&#x1F52C;</div>
+                <div class="stat-info"><div class="num" id="stat-biomanufacturing">0</div><div class="label">生物制造</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon health">&#x1F3E5;</div>
+                <div class="stat-info"><div class="num" id="stat-health">0</div><div class="label">大健康</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon phage">&#x1F9A0;</div>
+                <div class="stat-info"><div class="num" id="stat-phage">0</div><div class="label">噬菌体</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon scholar">&#x1F468;&#x200D;&#x1F52C;</div>
+                <div class="stat-info"><div class="num" id="stat-scholar">0</div><div class="label">学者动态</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon inno">&#x1F4C5;</div>
+                <div class="stat-info"><div class="num" id="stat-updated">--</div><div class="label">最近更新</div></div>
+            </div>
+        </div>
+
+        <!-- Articles View -->
+        <div id="articlesView">
+            <div class="content-grid">
+                <div class="sidebar">
+                    <div class="filter-panel">
+                        <h3>&#x1F4CC; 来源</h3>
+                        <div id="sourceFilters"></div>
+                    </div>
+                    <div class="filter-panel">
+                        <h3>&#x1F3F7; 标签</h3>
+                        <div id="tagFilters"></div>
+                    </div>
+                    <div class="filter-panel">
+                        <h3>&#x1F4C5; 日期范围</h3>
+                        <div class="date-range">
+                            <input type="date" id="dateFrom">
+                            <input type="date" id="dateTo">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="articles" id="articleList">
+                        <div class="loading pulse">正在加载知识库...</div>
+                    </div>
+                    <div class="pagination" id="pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scholars View -->
+        <div id="scholarsView" class="scholars-page">
+            <div class="scholars-grid" id="scholarsGrid">
+                <div class="loading pulse">正在加载学者数据...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detail Modal -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal" id="modalContent"></div>
+    </div>
+
+    <!-- AI Chat Panel -->
+    <button class="ai-toggle" id="aiToggle" onclick="toggleAI()">&#x1F916; AI 问答</button>
+    <div class="ai-panel" id="aiPanel">
+        <div class="ai-header">
+            <span>&#x1F916; 知识库 AI 问答</span>
+            <button style="background:none;border:none;color:var(--text2);cursor:pointer;font-size:18px" onclick="toggleAI()">&#x2715;</button>
+        </div>
+        <div class="ai-messages" id="aiMessages">
+            <div class="ai-msg assistant">你好！我是知识库 AI 助手。你可以问我关于创新药、生物制造、大健康领域的问题，我会基于知识库内容为你解答。</div>
+        </div>
+        <div class="ai-input-area">
+            <input type="text" id="aiInput" placeholder="输入你的问题..." onkeypress="if(event.key==='Enter')sendAI()">
+            <button onclick="sendAI()">发送</button>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+        let allArticles = [];
+        let filteredArticles = [];
+        let currentPage = 1;
+        const PAGE_SIZE = 15;
+        let currentTab = 'all';
+        let selectedSources = new Set();
+        let selectedTags = new Set();
+        let searchQuery = '';
+        let scholarsData = [];
+
+        // Load articles from API
+        async function loadArticles() {
+            try {
+                const resp = await fetch(API_BASE + '/api/articles');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    allArticles = data.articles || [];
+                } else {
+                    const resp2 = await fetch('./data/articles.json');
+                    const data2 = await resp2.json();
+                    allArticles = data2.articles || [];
+                }
+            } catch(e) {
+                try {
+                    const resp2 = await fetch('./data/articles.json');
+                    const data2 = await resp2.json();
+                    allArticles = data2.articles || [];
+                } catch(e2) {
+                    allArticles = [];
+                }
+            }
+            updateStats();
+            buildFilters();
+            applyFilters();
+        }
+
+        function updateStats() {
+            const cats = { innovation: 0, biomanufacturing: 0, health: 0, phage: 0, scholar: 0 };
+            allArticles.forEach(a => { if (cats[a.category] !== undefined) cats[a.category]++; });
+            document.getElementById('count-all').textContent = allArticles.length;
+            document.getElementById('count-innovation').textContent = cats.innovation;
+            document.getElementById('count-biomanufacturing').textContent = cats.biomanufacturing;
+            document.getElementById('count-health').textContent = cats.health;
+            document.getElementById('count-phage').textContent = cats.phage;
+            document.getElementById('count-scholar').textContent = cats.scholar;
+            document.getElementById('stat-innovation').textContent = cats.innovation;
+            document.getElementById('stat-biomanufacturing').textContent = cats.biomanufacturing;
+            document.getElementById('stat-health').textContent = cats.health;
+            document.getElementById('stat-phage').textContent = cats.phage;
+            document.getElementById('stat-scholar').textContent = cats.scholar;
+            if (allArticles.length > 0) {
+                const dates = allArticles.map(a => a.date).sort().reverse();
+                const d = dates[0];
+                if (d) {
+                    const today = new Date().toISOString().slice(0,10);
+                    const diff = Math.floor((new Date(today) - new Date(d)) / 86400000);
+                    document.getElementById('stat-updated').textContent = diff === 0 ? '今天' : diff + '天前';
+                }
+            }
+        }
+
+        function buildFilters() {
+            const sources = [...new Set(allArticles.map(a => a.source))];
+            const tags = [...new Set(allArticles.flatMap(a => a.tags || []))];
+            const sf = document.getElementById('sourceFilters');
+            const tf = document.getElementById('tagFilters');
+            sf.innerHTML = sources.map(s => `<span class="filter-tag" onclick="toggleFilter('source','${escAttr(s)}',this)">${escHtml(s)}</span>`).join('');
+            tf.innerHTML = tags.map(t => `<span class="filter-tag" onclick="toggleFilter('tag','${escAttr(t)}',this)">${escHtml(t)}</span>`).join('');
+        }
+
+        function toggleFilter(type, value, el) {
+            const set = type === 'source' ? selectedSources : selectedTags;
+            if (set.has(value)) { set.delete(value); el.classList.remove('active'); }
+            else { set.add(value); el.classList.add('active'); }
+            currentPage = 1;
+            applyFilters();
+        }
+
+        function applyFilters() {
+            filteredArticles = allArticles.filter(a => {
+                if (currentTab !== 'all' && a.category !== currentTab) return false;
+                if (selectedSources.size > 0 && !selectedSources.has(a.source)) return false;
+                if (selectedTags.size > 0 && !(a.tags || []).some(t => selectedTags.has(t))) return false;
+                if (searchQuery) {
+                    const q = searchQuery.toLowerCase();
+                    const haystack = (a.title + ' ' + a.chinese_summary + ' ' + a.summary + ' ' + (a.authors||'') + ' ' + (a.tags||[]).join(' ')).toLowerCase();
+                    return haystack.includes(q);
+                }
+                const from = document.getElementById('dateFrom').value;
+                const to = document.getElementById('dateTo').value;
+                if (from && a.date < from) return false;
+                if (to && a.date > to) return false;
+                return true;
+            });
+            filteredArticles.sort((a,b) => (b.date || '').localeCompare(a.date || ''));
+            renderArticles();
+            renderPagination();
+        }
+
+        // Get display summary: chinese_summary priority
+        function getDisplaySummary(a) {
+            const cn = a.chinese_summary;
+            const en = a.summary;
+            return { cn, en };
+        }
+
+        function renderArticles() {
+            const list = document.getElementById('articleList');
+            if (filteredArticles.length === 0) {
+                list.innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>暂无内容</h3><p>尝试调整筛选条件或等待数据采集</p></div>';
+                return;
+            }
+            const start = (currentPage - 1) * PAGE_SIZE;
+            const page = filteredArticles.slice(start, start + PAGE_SIZE);
+            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体', scholar: '学者' };
+            list.innerHTML = page.map((a, i) => {
+                const { cn, en } = getDisplaySummary(a);
+                let summaryHtml = '';
+                if (cn) {
+                    summaryHtml += `<div class="cn-summary">${escHtml(cn.length > 200 ? cn.slice(0, 200) + '...' : cn)}</div>`;
+                }
+                if (en && en !== cn) {
+                    const enShort = en.length > 150 ? en.slice(0, 150) + '...' : en;
+                    summaryHtml += `<div class="en-summary"><span class="summary-label">EN</span>${escHtml(enShort)}</div>`;
+                }
+                if (!cn && !en) {
+                    summaryHtml = '<span style="color:var(--text2);font-size:12px">暂无摘要</span>';
+                }
+
+                return `
+                <div class="article-card" onclick="openArticle(${start + i})">
+                    <div class="article-header">
+                        <div class="article-tags">
+                            <span class="tag tag-${a.category}">${catLabels[a.category] || a.category}</span>
+                            <span class="tag tag-source">${escHtml(a.source)}</span>
+                        </div>
+                        ${a.ai_score ? `<span class="ai-score">&#x2B50; ${a.ai_score}</span>` : ''}
+                    </div>
+                    <div class="article-title">${escHtml(a.title)}</div>
+                    <div class="article-summary">${summaryHtml}</div>
+                    <div class="article-meta">
+                        <span>&#x1F4C5; ${a.date || '--'}</span>
+                        ${a.authors && a.authors.length ? `<span>&#x270D;&#xFE0F; ${(a.authors||[]).slice(0, 3).join(', ')}${a.authors.length > 3 ? ' 等' : ''}</span>` : ''}
+                        ${a.url ? `<a href="${a.url}" target="_blank" onclick="event.stopPropagation()">&#x1F517; 查看原文</a>` : ''}
+                        ${a.journal ? `<span>&#x1F4D6; ${escHtml(a.journal)}</span>` : ''}
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        function renderPagination() {
+            const total = Math.ceil(filteredArticles.length / PAGE_SIZE);
+            const pg = document.getElementById('pagination');
+            if (total <= 1) { pg.innerHTML = ''; return; }
+            let btns = `<button ${currentPage===1?'disabled':''} onclick="goPage(${currentPage-1})">上一页</button>`;
+            for (let i = 1; i <= total; i++) {
+                if (total > 7 && i > 2 && i < total - 1 && Math.abs(i - currentPage) > 1) {
+                    if (i === 3 || i === total - 2) btns += '<button disabled>...</button>';
+                    continue;
+                }
+                btns += `<button class="${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+            }
+            btns += `<button ${currentPage===total?'disabled':''} onclick="goPage(${currentPage+1})">下一页</button>`;
+            pg.innerHTML = btns;
+        }
+
+        function goPage(p) {
+            const total = Math.ceil(filteredArticles.length / PAGE_SIZE);
+            if (p < 1 || p > total) return;
+            currentPage = p;
+            renderArticles();
+            renderPagination();
+            document.querySelector('.main').scrollTop = 0;
+        }
+
+        function openArticle(idx) {
+            const a = filteredArticles[idx];
+            if (!a) return;
+            const modal = document.getElementById('modal');
+            const content = document.getElementById('modalContent');
+            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体', scholar: '学者' };
+            const { cn, en } = getDisplaySummary(a);
+
+            let bodyHtml = '';
+            // Chinese summary block (highlighted)
+            if (cn) {
+                bodyHtml += `<div class="cn-block"><div class="block-label">&#x1F4AC; 中文摘要</div><p>${escHtml(cn)}</p></div>`;
+            }
+            // English summary block
+            if (en && en !== cn) {
+                bodyHtml += `<div class="en-block"><div class="block-label">Abstract</div><p>${escHtml(en)}</p></div>`;
+            }
+            if (!cn && !en) {
+                bodyHtml = '<p style="color:var(--text2)">暂无摘要</p>';
+            }
+
+            content.innerHTML = `
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+                <h2>${escHtml(a.title)}</h2>
+                <div class="meta">
+                    <span class="tag tag-${a.category}" style="margin-right:8px">${catLabels[a.category] || a.category}</span>
+                    <span class="tag tag-source" style="margin-right:8px">${escHtml(a.source)}</span>
+                    ${a.date ? `<span style="margin-right:12px">&#x1F4C5; ${a.date}</span>` : ''}
+                    ${a.journal ? `<span style="margin-right:12px">&#x1F4D6; ${escHtml(a.journal)}</span>` : ''}
+                    ${a.authors && a.authors.length ? `<span>&#x270D;&#xFE0F; ${(a.authors||[]).join(', ')}</span>` : ''}
+                    ${a.ai_score ? `<span class="ai-score" style="margin-left:12px">&#x2B50; 相关度 ${a.ai_score}</span>` : ''}
+                </div>
+                <div class="content">
+                    ${bodyHtml}
+                    ${a.url ? `<p style="margin-top:16px"><a href="${a.url}" target="_blank" style="color:var(--accent)">&#x1F517; 查看原文</a></p>` : ''}
+                    ${a.tags && a.tags.length ? `<div style="margin-top:16px;display:flex;gap:6px;flex-wrap:wrap">${a.tags.map(t=>`<span class="filter-tag active">${escHtml(t)}</span>`).join('')}</div>` : ''}
+                </div>
+            `;
+            modal.classList.add('active');
+        }
+
+        function closeModal() { document.getElementById('modal').classList.remove('active'); }
+        document.getElementById('modal').addEventListener('click', e => { if (e.target === e.currentTarget) closeModal(); });
+
+        // ==================== Scholars ====================
+        async function loadScholars() {
+            try {
+                const resp = await fetch(API_BASE + '/api/scholars');
+                if (resp.ok) {
+                    const data = await resp.json();
+                    scholarsData = data.scholars || [];
+                    renderScholars();
+                } else {
+                    document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请确认后端服务已启动</p></div>';
+                }
+            } catch(e) {
+                document.getElementById('scholarsGrid').innerHTML = '<div class="empty-state"><div class="icon">&#x1F4ED;</div><h3>无法加载学者数据</h3><p>请确认后端服务已启动</p></div>';
+            }
+        }
+
+        function renderScholars() {
+            const grid = document.getElementById('scholarsGrid');
+            if (!scholarsData.length) {
+                grid.innerHTML = '<div class="empty-state"><div class="icon">&#x1F468;&#x200D;&#x1F52C;</div><h3>暂无学者数据</h3><p>学者追踪功能将自动采集高影响力学者的最新论文</p></div>';
+                return;
+            }
+            grid.innerHTML = scholarsData.map((s, idx) => {
+                const initials = (s.name || '?').slice(0, 2);
+                const papers = s.recent_papers || [];
+                let papersHtml = '';
+                if (papers.length > 0) {
+                    papersHtml = papers.map(p => `
+                        <div class="scholar-paper-item">
+                            ${p.url ? `<a href="${p.url}" target="_blank" onclick="event.stopPropagation()" class="paper-title">${escHtml(p.title)}</a>` : `<span class="paper-title">${escHtml(p.title)}</span>`}
+                            <div class="paper-date">${p.publish_date || ''}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    papersHtml = '<div class="scholar-no-papers">暂无最近论文</div>';
+                }
+
+                // Resume section
+                let resumeHtml = '';
+                if (s.resume) {
+                    const isLong = s.resume.length > 200;
+                    const dateStr = s.resume_updated_at ? s.resume_updated_at.slice(0, 10) : '';
+                    resumeHtml = `
+                        <div class="scholar-resume" id="resume-${idx}">
+                            <div class="resume-label">&#x1F4CB; 个人履历</div>
+                            <div class="resume-text">${escHtml(s.resume)}</div>
+                            ${isLong ? `<button class="resume-toggle" onclick="toggleResume(${idx}, this)">展开全文</button>` : ''}
+                            ${dateStr ? `<div class="resume-date">更新于 ${dateStr}</div>` : ''}
+                        </div>`;
+                } else {
+                    resumeHtml = '<div class="scholar-no-resume">履历生成中...</div>';
+                }
+
+                return `
+                <div class="scholar-card">
+                    <div class="scholar-header">
+                        <div class="scholar-avatar">${escHtml(initials)}</div>
+                        <div>
+                            <div class="scholar-name">${escHtml(s.name)}</div>
+                            <div class="scholar-org">${escHtml(s.organization || '未知机构')}</div>
+                        </div>
+                    </div>
+                    ${s.field ? `<div class="scholar-field">${escHtml(s.field)}</div>` : ''}
+                    ${resumeHtml}
+                    <div class="scholar-papers-title">最新论文 (${papers.length})</div>
+                    ${papersHtml}
+                </div>`;
+            }).join('');
+        }
+
+        function toggleResume(idx, btn) {
+            const el = document.getElementById('resume-' + idx);
+            if (el.classList.contains('expanded')) {
+                el.classList.remove('expanded');
+                btn.textContent = '展开全文';
+            } else {
+                el.classList.add('expanded');
+                btn.textContent = '收起';
+            }
+        }
+
+        // ==================== View Switching ====================
+        function switchView(tab) {
+            const articlesView = document.getElementById('articlesView');
+            const scholarsView = document.getElementById('scholarsView');
+            if (tab === 'scholar') {
+                articlesView.style.display = 'none';
+                scholarsView.classList.add('active');
+                if (scholarsData.length === 0) loadScholars();
+            } else {
+                articlesView.style.display = 'block';
+                scholarsView.classList.remove('active');
+            }
+        }
+
+        // ==================== AI Chat ====================
+        function toggleAI() {
+            document.getElementById('aiPanel').classList.toggle('open');
+            const toggle = document.getElementById('aiToggle');
+            toggle.style.display = document.getElementById('aiPanel').classList.contains('open') ? 'none' : 'block';
+        }
+
+        async function sendAI() {
+            const input = document.getElementById('aiInput');
+            const msg = input.value.trim();
+            if (!msg) return;
+            input.value = '';
+            const msgs = document.getElementById('aiMessages');
+            msgs.innerHTML += `<div class="ai-msg user">${escHtml(msg)}</div>`;
+            msgs.innerHTML += `<div class="ai-msg assistant pulse">思考中...</div>`;
+            msgs.scrollTop = msgs.scrollHeight;
+
+            try {
+                const resp = await fetch(API_BASE + '/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: msg })
+                });
+                const data = await resp.json();
+                msgs.lastElementChild.textContent = data.reply || data.error || '无法获取回答';
+                msgs.lastElementChild.classList.remove('pulse');
+            } catch(e) {
+                const results = allArticles.filter(a => {
+                    const q = msg.toLowerCase();
+                    return (a.title + ' ' + a.chinese_summary + ' ' + a.summary).toLowerCase().includes(q);
+                }).slice(0, 5);
+                if (results.length > 0) {
+                    let reply = '基于知识库，找到以下相关内容：\n\n';
+                    results.forEach(r => {
+                        const cn = r.chinese_summary || '';
+                        reply += `- ${r.title}\n  ${cn ? cn.slice(0, 80) : ''}...\n\n`;
+                    });
+                    msgs.lastElementChild.textContent = reply;
+                } else {
+                    msgs.lastElementChild.textContent = '抱歉，知识库中暂未找到相关内容。请尝试更换关键词，或等待更多数据采集入库。';
+                }
+                msgs.lastElementChild.classList.remove('pulse');
+            }
+            msgs.scrollTop = msgs.scrollHeight;
+        }
+
+        // ==================== Utility ====================
+        function escHtml(s) {
+            if (!s) return '';
+            const d = document.createElement('div');
+            d.textContent = s;
+            return d.innerHTML;
+        }
+        function escAttr(s) {
+            if (!s) return '';
+            return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+        }
+
+        // ==================== Tabs ====================
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentTab = tab.dataset.tab;
+                currentPage = 1;
+                switchView(currentTab);
+                if (currentTab !== 'scholar') applyFilters();
+            });
+        });
+
+        // Search
+        let searchTimer;
+        document.getElementById('searchInput').addEventListener('input', e => {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => { searchQuery = e.target.value; currentPage = 1; applyFilters(); }, 300);
+        });
+
+        // Date range
+        document.getElementById('dateFrom').addEventListener('change', () => { currentPage = 1; applyFilters(); });
+        document.getElementById('dateTo').addEventListener('change', () => { currentPage = 1; applyFilters(); });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Init
+        loadArticles();
+    </script>
+</body>
+</html>
