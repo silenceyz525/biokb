@@ -769,21 +769,21 @@ def main():
         from scholar_resume import batch_generate_resumes
         batch_generate_resumes()
     elif cmd == 'phage-trials':
-        # 采集噬菌体临床试验数据
+        # 采集噬菌体临床试验数据（使用V2版本，支持增量采集和审核）
         scripts_dir = str(BASE_DIR / 'scripts')
         if scripts_dir not in sys.path:
             sys.path.insert(0, scripts_dir)
-        from phage_trials import run_collection
-        run_collection()
+        from phage_trials_v2 import run_collection_v2
+        run_collection_v2(auto_approve=True)
     elif cmd == 'all':
         init_db()
         migrate_db()
         run_full_collection(auto_score=True)
         export_to_json()
         generate_report('weekly')
-        # 同时采集噬菌体临床试验
-        from phage_trials import run_collection as run_phage
-        run_phage()
+        # 同时采集噬菌体临床试验（使用V2版本）
+        from phage_trials_v2 import run_collection_v2 as run_phage
+        run_phage(auto_approve=True)
         start_api_server()
     else:
         print(f"未知命令: {cmd}")

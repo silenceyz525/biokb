@@ -1,0 +1,2111 @@
+{
+  "audited_studies": {
+    "NCT00001145": {
+      "nct_id": "NCT00001145",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T11:59:42.307787",
+      "auto_approved": true,
+      "title": "Study of Immune Responses and Safety of Recombinant Human CD40 Ligand in Patients With X-Linked Hyper-IgM Syndrome"
+    },
+    "NCT00001540": {
+      "nct_id": "NCT00001540",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T11:59:45.117496",
+      "auto_approved": true,
+      "title": "The Use of Bacteriophage Phi X174 to Assess the Immune Competence of HIV-Infected Patients In Vivo"
+    },
+    "NCT00006066": {
+      "nct_id": "NCT00006066",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T11:59:49.218688",
+      "auto_approved": true,
+      "title": "Interleukin-2 Plus Anti-HIV Therapy in HIV-Infected Children With Weakened Immune Systems"
+    },
+    "NCT00089180": {
+      "nct_id": "NCT00089180",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T11:59:52.424488",
+      "auto_approved": true,
+      "title": "T4N5 Liposomal Lotion in Preventing The Recurrence of Nonmelanoma Skin Cancer in Patients Who Have Undergone a Kidney Transplant"
+    },
+    "NCT00306878": {
+      "nct_id": "NCT00306878",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T11:59:55.618410",
+      "auto_approved": true,
+      "title": "Phase I Study of BMS-188667 (CTLA4Ig) in Patients With Psoriasis Vulgaris"
+    },
+    "NCT00489294": {
+      "nct_id": "NCT00489294",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:00:00.124562",
+      "auto_approved": true,
+      "title": "Safety Study of Syntropin (Human Growth Hormone) for the Treatment of Growth Hormone Deficiency"
+    },
+    "NCT00663091": {
+      "nct_id": "NCT00663091",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage preparation'"
+      ],
+      "audited_at": "2026-04-10T12:00:03.025057",
+      "auto_approved": true,
+      "title": "A Prospective, Randomized, Double-Blind Controlled Study of WPP-201 for the Safety and Efficacy of Treatment of Venous Leg Ulcers"
+    },
+    "NCT00677495": {
+      "nct_id": "NCT00677495",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:00:05.827862",
+      "auto_approved": false,
+      "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
+      "overview": {
+        "nct_id": "NCT00677495",
+        "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
+        "official_title": "Usefulness of Gluten-free Diet in Gluten-genetically Predisposed Subjects Positive to Intestinal-mucosa Anti-transglutaminase Antibodies",
+        "brief_summary": "Undetected or untreated CD may cause severe complications later in life, such as autoimmune disorders.\n\nIt is recommended for subjects with autoimmune diseases or at risk for CD to be screened for CD and to repeat serological screening about every three years to detect cases of clinically silent, late-onset CD.\n\nCeliac disease (CD) auto-antibodies against tissue transglutaminase (anti-tTG) are produced in the intestinal mucosa even when not measurable in serum. By using the phage display libraries technique it is possible to investigate in vivo (intestinal biopsy) early antibody responses in autoimmune disease. In particularly, this technique demonstrated that the humoral response against tissue transglutaminase occurs at the intestinal mucosal level, and that the human VH5 gene is the com",
+        "detailed_description": "Celiac disease (CD) is an autoimmune enteropathy triggered by ingestion of gluten in genetically susceptible subjects and is one of the most frequently occurring, treatable, lifelong disorders. In this disease we recognize the trigger (gluten), the genetic factor (HLA DQ2/8), the auto-antigen (the tissue-transglutaminase enzyme) and the auto-antibodies (IgA-IgG anti-transglutaminase) which are produced by the intestinal mucosa B lymphocytes (Gastroenterology 2000;119:234, J Immunol 2001;166:4170). Undetected or untreated, CD may cause more severe complications later in life, such as autoimmune disorders. Clear evidence exists of gluten-related autoimmunity in genetically predisposed patients (presence of the HLA DQ2/8). It has been shown that autoimmune disorders involving organs other than intestine (such as pancreas, cerebellum, liver, skin) could develop in unrecognized and/or untreated celiac subjects because of a persistent exposure to gluten. Presently, the additional risk for au",
+        "interventions": [
+          {
+            "type": "DIETARY_SUPPLEMENT",
+            "name": "Gluten-free diet",
+            "description": "Gluten-free diet"
+          }
+        ],
+        "conditions": [
+          "Genetic Predisposition to Disease",
+          "Celiac Disease"
+        ],
+        "keywords": [
+          "Gluten-free diet",
+          "Celiac Disease",
+          "Genetic predisposition",
+          "Phage display library",
+          "Autoimmune diseases"
+        ],
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "COMPLETED"
+      },
+      "manual_review": true,
+      "review_reason": "使用phage display技术研究抗体，非噬菌体治疗",
+      "reviewed_at": "2026-04-10T12:09:07.504335"
+    },
+    "NCT00785967": {
+      "nct_id": "NCT00785967",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:08.775433",
+      "auto_approved": true,
+      "title": "Immune Responses in Patients Treated With Raltegravir"
+    },
+    "NCT00814151": {
+      "nct_id": "NCT00814151",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:11.816593",
+      "auto_approved": true,
+      "title": "MicroPhage S. Aureus / MSSA / MRSA Blood Culture Beta Trial"
+    },
+    "NCT00916292": {
+      "nct_id": "NCT00916292",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:00:15.117395",
+      "auto_approved": true,
+      "title": "Safety Study of Topical Human FGF-1 for Wound Healing"
+    },
+    "NCT00937274": {
+      "nct_id": "NCT00937274",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:00:17.880144",
+      "auto_approved": true,
+      "title": "Antibacterial Treatment Against Diarrhea in Oral Rehydration Solution"
+    },
+    "NCT00945087": {
+      "nct_id": "NCT00945087",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage preparation'",
+        "包含强相关关键词: 'phage lysate'"
+      ],
+      "audited_at": "2026-04-10T12:00:20.601118",
+      "auto_approved": true,
+      "title": "Experimental Phage Therapy of Bacterial Infections"
+    },
+    "NCT01184339": {
+      "nct_id": "NCT01184339",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:23.802363",
+      "auto_approved": true,
+      "title": "Prospective Study Into the Performance of the MicroPhage S. Aureus/MSSA/MRSA Test Direct From Blood Culture Positives"
+    },
+    "NCT01617122": {
+      "nct_id": "NCT01617122",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:26.630442",
+      "auto_approved": true,
+      "title": "Evaluate Bacteriophage as a Useful Immunogen in Patients With Primary Immune Deficiency Diseases (PIDD)"
+    },
+    "NCT01640886": {
+      "nct_id": "NCT01640886",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:29.374306",
+      "auto_approved": true,
+      "title": "Study of the Performance of the KeyPath MRSA/MSSA Blood Culture Test - BTA"
+    },
+    "NCT01693965": {
+      "nct_id": "NCT01693965",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:00:32.107295",
+      "auto_approved": true,
+      "title": "Clinical Course and Changes in the Respiratory Microbiota Based on Antibiotic Treatment in Patients With Cystic Fibrosis"
+    },
+    "NCT01816880": {
+      "nct_id": "NCT01816880",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:00:35.666780",
+      "auto_approved": true,
+      "title": "Wellderly Immune Antibodies Study, a Sub-Study of Healthy Elderly Active Longevity (HEAL) Cohort"
+    },
+    "NCT01818206": {
+      "nct_id": "NCT01818206",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:00:38.197794",
+      "auto_approved": true,
+      "title": "Bacteriophage Effects on Pseudomonas Aeruginosa"
+    },
+    "NCT01855048": {
+      "nct_id": "NCT01855048",
+      "status": "approved",
+      "confidence": "medium",
+      "reasons": [
+        "包含中等相关关键词: 'endolysin'"
+      ],
+      "audited_at": "2026-04-10T12:00:41.035404",
+      "auto_approved": true,
+      "title": "A Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of N-Rephasin® SAL200 in Healthy Male Volunteers"
+    },
+    "NCT02001974": {
+      "nct_id": "NCT02001974",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:00:44.404862",
+      "auto_approved": true,
+      "title": "Pilot Study to Evaluate Reparixin With Weekly Paclitaxel in Patients With HER 2 Negative Metastatic Breast Cancer (MBC)"
+    },
+    "NCT02116010": {
+      "nct_id": "NCT02116010",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage treatment'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:00:47.769395",
+      "auto_approved": true,
+      "title": "Evaluation of Phage Therapy for the Treatment of Escherichia Coli and Pseudomonas Aeruginosa Wound Infections in Burned Patients"
+    },
+    "NCT02664740": {
+      "nct_id": "NCT02664740",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:00:50.825617",
+      "auto_approved": true,
+      "title": "Standard Treatment Associated With Phage Therapy Versus Placebo for Diabetic Foot Ulcers Infected by S. Aureus"
+    },
+    "NCT02695784": {
+      "nct_id": "NCT02695784",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:53.625929",
+      "auto_approved": true,
+      "title": "Probiotics After Discharge"
+    },
+    "NCT02757755": {
+      "nct_id": "NCT02757755",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:00:56.109198",
+      "auto_approved": true,
+      "title": "Ascending Dose Study of the Safety of AB-SA01 When Topically Applied to Intact Skin of Healthy Adults"
+    },
+    "NCT02828774": {
+      "nct_id": "NCT02828774",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:00:58.784899",
+      "auto_approved": false,
+      "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
+      "overview": {
+        "nct_id": "NCT02828774",
+        "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
+        "official_title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
+        "brief_summary": "Using phage libraries extensively pre-absorbed on a series of normal cell types, we will isolate phage specifically internalized by B-CLL cells from newly diagnosed and untreated CLL patients. Peptide sequences are then derived by Next Generation Sequencing (NGS). NGS-based studies are contributing to an improved understanding of cancer heterogeneity in order to tailor treatment to patients based on the individual makeup of their tumor. However the use of NGS to derive phage displayed peptide sequences is so far rare (22). Traditionally, after exposure to a target and recovery by elution, the phage clones are isolated by titration on bacterial lawns. It is technically demanding and labour intensive to select and analyze more than about 15 of the sometimes thousands clones recovered. Theref",
+        "detailed_description": "Methodology A: CLL specific peptides: (Specific aim 1) Whole blood samples are received from healthy volunteers and newly diagnosed and untreated CLL patients according to our Helsinki permit no. 0432-13-RMC. (Rabin Medical Center) Acquisition of samples at follow up and from an additional 80 patients will be covered by additional Helsinki submissions now underway. Lymphocytes are separated using Ficoll and the B cells isolated using a B-cell isolation kit. The B-cells from the healthy volunteers and an aliquot of those isolated cells from each patient are frozen for later use (see D: below). The remaining patient cells are divided into two fractions. One is used for RNA extraction. The other is exposed to an \"Absorbed\" phage library pre-absorbed on normal cells. After incubation, cells are washed and phage bound to the cell membrane are eluted and recovered. Cells are then lysed and the lysate retained. Phage in the eluate and lysate (membrane-bound and internalized respectively) are ",
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "there will be no intervention.",
+            "description": "this study is observational, procedure are done in vitro and on animal models."
+          }
+        ],
+        "conditions": [
+          "CLL"
+        ],
+        "keywords": [],
+        "phases": [],
+        "study_type": "OBSERVATIONAL",
+        "status": "UNKNOWN"
+      },
+      "manual_review": true,
+      "review_reason": "使用phage display技术筛选肽段，非噬菌体治疗",
+      "reviewed_at": "2026-04-10T12:09:06.888299"
+    },
+    "NCT02925533": {
+      "nct_id": "NCT02925533",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:01:01.535397",
+      "auto_approved": false,
+      "title": "Ph 1B B-701 in Combination With Pembrolizumab in Metastatic Transitional Cell Carcinoma of the Urothelial Tract",
+      "overview": {
+        "nct_id": "NCT02925533",
+        "title": "Ph 1B B-701 in Combination With Pembrolizumab in Metastatic Transitional Cell Carcinoma of the Urothelial Tract",
+        "official_title": "A Phase 1B Study of B-701 in Combination With Pembrolizumab in Relapsed or Refractory Locally Advanced or Metastatic Transitional Cell Carcinoma of the Urothelial Tract",
+        "brief_summary": "This research study is studying a combination of two experimental drugs as a possible treatment for Bladder Cancer that recurred after treatment with standard therapy, or Bladder Cancer that got worse while on treatment with standard therapy.\n\nThe following interventions will be involved in this study:\n\n* B-701\n* Pembrolizumab",
+        "detailed_description": "This research study is a Phase I clinical trial, which tests the safety of an investigational intervention and also tries to define the appropriate dose of the investigational intervention to use for further studies. \"Investigational\" means that the intervention is being studied.\n\nThe FDA (the U.S. Food and Drug Administration) has not approved B-701 as a treatment for any disease.\n\nThe FDA has not approved Pembrolizumab for Bladder Cancer but it has been approved for other uses.\n\nThis is the first time that B-701 in combination with Pembrolizumab will be given to humans.\n\nIn this research study, Investigators are...\n\n* Testing the effectiveness and safety of the combination of two experimental drugs (B-701 and Pembrolizumab);\n* Learning about the good and/or bad effects the drugs have on participants and their cancer;\n* Administering B-701 and Pembrolizumab, which are antibodies (proteins that bind to other molecules), because...\n\n  * B-701 binds to a protein receptor called FGFR3 (fi",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "B-701",
+            "description": "B-701 is a phage-derived, affinity-matured, human monoclonal antibody (mAb) specific for FGFR3. It is based on a human immunoglobulin G1 (IgG1) framework containing heavy chain VHIII and light chain VκI subgroup sequences."
+          },
+          {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "Pembrolizumab is an mAb that binds to the programmed cell death protein 1 (PD-1) receptor and blocks its interaction with programmed death-ligand 1 (PD-L1) and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response. In syngeneic mouse tumor models, blocking PD-1 activity resulted in decreased tumor growth."
+          }
+        ],
+        "conditions": [
+          "Bladder Cancer"
+        ],
+        "keywords": [
+          "Bladder Cancer",
+          "Urothelial Cancer"
+        ],
+        "phases": [
+          "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "TERMINATED"
+      },
+      "manual_review": true,
+      "review_reason": "B-701是phage-derived抗体，非直接噬菌体治疗",
+      "reviewed_at": "2026-04-10T12:09:06.332128"
+    },
+    "NCT02957370": {
+      "nct_id": "NCT02957370",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:01:03.856835",
+      "auto_approved": false,
+      "title": "Molecular Biosensors for Detection of Bladder Cancer",
+      "overview": {
+        "nct_id": "NCT02957370",
+        "title": "Molecular Biosensors for Detection of Bladder Cancer",
+        "official_title": "Electro-Phage and Colorimetric Aptamer Sensors for Clinical Staging and Monitoring of Bladder Cancer",
+        "brief_summary": "This project focuses on developing specific and sensitive detectors of biomarker-based signatures associated with diagnosed and recurrent bladder cancer.",
+        "detailed_description": "The focus of this research is to discover urinary biomarker(s) that is distinct to bladder cancer, while developing molecular sensors that can detect the urinary anomalies. By applying in vitro selection techniques, both entities (biomarker discovery and sensor development) will be done simultaneously.\n\nAll patients with bladder cancer diagnosis undergoing transurethral resection bladder tumor (TURBT), those under surveillance for bladder cancer and patients presenting with microscopic and visible (gross) hematuria will be invited to participate in the study. Patients will undergo a standard of care evaluation as previously described (upper urinary tract imaging, cystouretheroscopy and urine testing with urinalysis, culture and cytology).\n\nUrine samples (10 mL) for the study will be collected prior to initial cystoscopy and/or TURBT. The specimen will be barcoded and tracked by the UC Irvine Health software. Barcode encoding will ensure that the identity of the patient and his/her clin",
+        "interventions": [],
+        "conditions": [
+          "Urinary Bladder Neoplasms"
+        ],
+        "keywords": [],
+        "phases": [],
+        "study_type": "OBSERVATIONAL",
+        "status": "UNKNOWN"
+      },
+      "manual_review": true,
+      "review_reason": "未明确提及噬菌体相关内容",
+      "reviewed_at": "2026-04-10T12:09:07.944614"
+    },
+    "NCT03009903": {
+      "nct_id": "NCT03009903",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:01:06.838917",
+      "auto_approved": false,
+      "title": "Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage",
+      "overview": {
+        "nct_id": "NCT03009903",
+        "title": "Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage",
+        "official_title": "Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage Using Pore Strips in Humans",
+        "brief_summary": "This multi-center, outpatient study will extract and evaluate the presence of facial P. acnes bacteria and phage strains using pore strips on up to 400 human subjects.",
+        "detailed_description": "This multi-center, outpatient study will extract and evaluate the presence of facial P. acnes bacteria and phage strains using pore strips on up to 400 human subjects. An additional P. acnes visual detection method (VISIOPOR ® PP34N) will be used in this study as per PI decision to explore whether there is a correlation between P. acnes bacterial presence and fluorescent signal.",
+        "interventions": [],
+        "conditions": [
+          "Acne"
+        ],
+        "keywords": [],
+        "phases": [],
+        "study_type": "OBSERVATIONAL",
+        "status": "UNKNOWN"
+      },
+      "manual_review": true,
+      "review_reason": "痤疮丙酸杆菌和噬菌体观察性研究，非治疗性",
+      "reviewed_at": "2026-04-10T12:09:18.596571"
+    },
+    "NCT03140085": {
+      "nct_id": "NCT03140085",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'phage preparation'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:01:10.418423",
+      "auto_approved": true,
+      "title": "Bacteriophages for Treating Urinary Tract Infections in Patients Undergoing Transurethral Resection of the Prostate"
+    },
+    "NCT03231267": {
+      "nct_id": "NCT03231267",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:01:12.816274",
+      "auto_approved": true,
+      "title": "Existence in the Human Digestive Flora of Phages Able to Prevent the Acquisition of Multiresistant Enterobacteria"
+    },
+    "NCT03269617": {
+      "nct_id": "NCT03269617",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:01:15.458772",
+      "auto_approved": true,
+      "title": "PHAGE Study: Bacteriophages as Novel Prebiotics"
+    },
+    "NCT03296631": {
+      "nct_id": "NCT03296631",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:01:17.859028",
+      "auto_approved": false,
+      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
+      "overview": {
+        "nct_id": "NCT03296631",
+        "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
+        "official_title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
+        "brief_summary": "Microbial communities are key components of human environment. Consequently, human gut microbiome have been extensively studied providing a better understanding of the relations between bacterial populations and host physiology. However, a typical analysis tends to elude the complexity of the mixes in term of species, strains, as well as extra-chromosomal DNA molecules such as and phages. MetaKids project aims at bringing, at an unprecedented resolution, a new view of those populations and the internal relationships during human gut establishment, a crucial step with long-term impacts on host health. This project relies on the ability of Meta3C, a newly technique developed in the lab, to identify the bacterial host genomes of the different phages the investigators will detect thanks to the",
+        "detailed_description": "Over the last decade, the role of microorganisms residing in human intestines has been intensively studied. The intestinal microbiome includes bacteria, viruses, fungi and archaea. The importance of microbiome to human health is highlighted by the observation that dysbiotic shifts in these microbial communities have been associated with numerous human diseases, including obesity, inflammatory bowel disorders, autoimmune disease or gastrointestinal cancer. It is also clearly established that some of these microorganisms interact with the immune system and contribute to its development. The intestinal microbiome is established soon after birth, and its composition changes over the next several years toward a stereotypical 'adult-like' bacterial community structure. Epidemiological studies have demonstrated the importance of this period for a long-term health. It also has been shown that this process can be influenced by multiple interacting factors such as nutrition, antibiotic use and o",
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "collection of diapers with fresh stools",
+            "description": "collection of diapers with fresh stools"
+          }
+        ],
+        "conditions": [
+          "Human Gut Microbiome Development"
+        ],
+        "keywords": [
+          "microbiome",
+          "gut",
+          "infant gut",
+          "phages",
+          "phages-bacteria interactions",
+          "microbiome development"
+        ],
+        "phases": [],
+        "study_type": "OBSERVATIONAL",
+        "status": "TERMINATED"
+      },
+      "manual_review": true,
+      "review_reason": "肠道噬菌体动态基础研究，非治疗性临床试验",
+      "reviewed_at": "2026-04-10T12:09:17.967272"
+    },
+    "NCT03326947": {
+      "nct_id": "NCT03326947",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:01:20.297135",
+      "auto_approved": false,
+      "title": "Phage II Trial of Stathmin as Predictive Biomarker for TPF Induction Chemotherapy in OSCC",
+      "overview": {
+        "nct_id": "NCT03326947",
+        "title": "Phage II Trial of Stathmin as Predictive Biomarker for TPF Induction Chemotherapy in OSCC",
+        "official_title": "A Randomized Phase II Trial of Low Stathmin Expression as a Predictive Biomarker for OSCC Patients Receiving TPF Induction Chemotherapy Followed by Radical Surgery and Radiotherapy/Chemoradiotherapy",
+        "brief_summary": "To investigate the predictive value of stathmin expression as a predictive biomarker in OSCC patients, who treated with TPF (docetaxel, cisplatin and 5-fluorouracil ) induction chemotherapy followed by radical surgery and radiotherapy/chemoradiotherapy.",
+        "detailed_description": "Induction chemotherapy is regarded as an effective way to reduce or downgrade the locally advanced or aggressive cancers, and to improve the chance of eradication of the locoregional lesions by radical surgery and/or radiotherapy. However, there are still debates on the clinical value of induction chemotherapy for patients with advanced and resectable oral squamous cell carcinoma(OSCC). A prospective, open label, parallel, interventional, randomized control trial on TPF induction chemotherapy indicate there is no difference in overall survival, disease free survival, local regional recurrence free survival and metastasis free survival between experimental group and control group (Zhong et al, Randomized Phase III Trial of Induction Chemotherapy With Docetaxel, Cisplatin, and Fluorouracil Followed by Surgery Versus Up-Front Surgery in Locally Advanced Resectable Oral Squamous Cell Carcinoma, J Clin Oncol 2013); however, the subgroup analysis proves that the induction chemotherapy of TPF",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "docetaxel, cisplatin and 5-fluorouracil",
+            "description": "Drug: TPF induction chemotherapy TPF induction chemotherapy: 2 cycles; docetaxel(75mg/m\\^2), cisplatin(75 mg/m\\^2), 5-Fu(750 mg/m\\^2/day) for 5 days; 16 days later, the 2nd cycle. 2 weeks later, surgery.\n\nSurgery: radical resection and full neck dissection with reconstruction. Radiotherapy: 4-6 weeks after surgery, 1.8-2Gy/day, 5 days/week for 6 weeks, and totally 54-60Gy, for high risk factors, concurrent chemotherapy with cisplatin of 80mg/m2.\n\nOther Names:\n\nTPF protocol group Procedure/Surgery: surgery In the TPF group,surgery was performed at least 2 weeks after completion of induction chemotherapy.Surgery group includes radical resection of the primary lesion and full neck dissection(functional or radical) with proper reconstruction(pedicle or free flap) were performed.\n\nRadiation: radiotherapy"
+          }
+        ],
+        "conditions": [
+          "Neoplasm Neck"
+        ],
+        "keywords": [
+          "TPF induction chemotherapy, randomized, trial,OSCC"
+        ],
+        "phases": [
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "RECRUITING"
+      },
+      "manual_review": true,
+      "review_reason": "Phage II是二期试验缩写，与噬菌体无关",
+      "reviewed_at": "2026-04-10T12:09:08.496077"
+    },
+    "NCT03374033": {
+      "nct_id": "NCT03374033",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:01:22.897938",
+      "auto_approved": true,
+      "title": "High Protein and High Energy Intakes and Physical Activity on Growth of Extremely Low Birth Weight Infants"
+    },
+    "NCT03395743": {
+      "nct_id": "NCT03395743",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:01:25.497375",
+      "auto_approved": true,
+      "title": "Individual Patient Expanded Access for AB-PA01, an Investigational Anti-Pseudomonas Aeruginosa Bacteriophage Therapeutic"
+    },
+    "NCT03395769": {
+      "nct_id": "NCT03395769",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:01:27.939099",
+      "auto_approved": true,
+      "title": "Individual Patient Expanded Access for AB-SA01, an Investigational Anti-Staphylococcus Aureus Bacteriophage Therapeutic"
+    },
+    "NCT03418454": {
+      "nct_id": "NCT03418454",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:01:30.402062",
+      "auto_approved": true,
+      "title": "The Oral Microbiome as a Prognostic Tool in Oral Malignant and Premalignant Lesions and in Medication Related Osteonecrosis of the Jaw"
+    },
+    "NCT03639246": {
+      "nct_id": "NCT03639246",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:01:32.835840",
+      "auto_approved": true,
+      "title": "Efficacy and Safety Study of AVB-S6-500 in Patients With Platinum-Resistant Recurrent Ovarian Cancer"
+    },
+    "NCT03808103": {
+      "nct_id": "NCT03808103",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage preparation'"
+      ],
+      "audited_at": "2026-04-10T12:01:35.235030",
+      "auto_approved": true,
+      "title": "Safety and Efficacy of EcoActive on Intestinal Adherent Invasive E. Coli in Patients With Inactive Crohn's Disease"
+    },
+    "NCT03835520": {
+      "nct_id": "NCT03835520",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:01:37.586103",
+      "auto_approved": true,
+      "title": "Prospective Collection of Tumor Biopsy and Plasma Samples From Cancer Patients Treated With Molecular Targeted Therapies or Immunotherapy"
+    },
+    "NCT03967236": {
+      "nct_id": "NCT03967236",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:01:40.075303",
+      "auto_approved": true,
+      "title": "Impact of Intestinal Virome on Pediatric Inflammatory Bowel Disease"
+    },
+    "NCT03972826": {
+      "nct_id": "NCT03972826",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:01:42.517022",
+      "auto_approved": true,
+      "title": "Use of Provodine to Protect HCW Hands (Aim II.1)"
+    },
+    "NCT04089501": {
+      "nct_id": "NCT04089501",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:01:45.069397",
+      "auto_approved": true,
+      "title": "The Role of the Pregnane X Receptor (PXR) in Indole Signaling and Intestinal Permeability in Inflammatory Bowel Disease"
+    },
+    "NCT04191148": {
+      "nct_id": "NCT04191148",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:01:47.738642",
+      "auto_approved": true,
+      "title": "Safety, Tolerability, and PK of LBP-EC01 in Patients With Lower Urinary Tract Colonization Caused by E. Coli"
+    },
+    "NCT04226261": {
+      "nct_id": "NCT04226261",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:01:50.088783",
+      "auto_approved": true,
+      "title": "Next Generation Pathogen Sequencing for Prediction of Infection in Rheumatic Disease"
+    },
+    "NCT04287478": {
+      "nct_id": "NCT04287478",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:01:52.448066",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in Patients With Urinary Tract Infections"
+    },
+    "NCT04289948": {
+      "nct_id": "NCT04289948",
+      "status": "approved",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:01:55.008755",
+      "auto_approved": false,
+      "title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
+      "overview": {
+        "nct_id": "NCT04289948",
+        "title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
+        "official_title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
+        "brief_summary": "Work Package 1: Observational cohort pilot safety study Work Package 2: Randomised, double-blind, placebo controlled pilot study Work Package 3: Observer-blind pilot RCT",
+        "detailed_description": "Work Package 1\n\nWP1 is a safety cohort pilot study targeting patients with DFU which are non-infected as determined by the IDSA criteria. 20 participants will be recruited from Diabetic Foot Clinic at the Royal Derby Hospital. Phage gel will be applied to the index ulcer after the first and second sets of measures at baseline, weeks 1, 2 and 3. Samples will be taken at baseline and weekly up to 4 weeks by surface swab and deep tissue sample for determination of bacterial colonisation using both conventional and genotypic (molecular) microbiological methods, prior to any IMP application.\n\nWork Package 2\n\nWP2 is a pilot double blind, placebo-controlled, randomised study targeting patients with mild or moderate infection of DFUs and comparing systemic antibiotic therapy plus phage gel against systemic antibiotics therapy plus placebo gel. A total of 50 participants from two centres (foot clinics at Royal Derby Hospital and City Campus, Nottingham University Hospitals NHS Trust) will be re",
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Phage",
+            "description": "The studies will be undertaken using a cocktail of at least 2-3 anti-staphylococcal phages produced by Intralytix Inc, Baltimore, Maryland, USA. The phages will be included in a gel designed for application directly to the wound surface and packaged in 5 ml single use tubes."
+          }
+        ],
+        "conditions": [
+          "Diabetes",
+          "Diabetic Foot",
+          "Diabetic Foot Infection"
+        ],
+        "keywords": [
+          "Diabetes",
+          "Diabetic Foot Disease",
+          "Diabetic Foot Ulcer"
+        ],
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "WITHDRAWN"
+      },
+      "manual_review": true,
+      "review_reason": "抗葡萄球菌噬菌体治疗糖尿病足溃疡感染，直接噬菌体治疗研究",
+      "reviewed_at": "2026-04-10T12:08:55.557026"
+    },
+    "NCT04323475": {
+      "nct_id": "NCT04323475",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:01:57.458987",
+      "auto_approved": true,
+      "title": "Phage Therapy for the Prevention and Treatment of Wound Infections in Burned Patients"
+    },
+    "NCT04325685": {
+      "nct_id": "NCT04325685",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:00.416856",
+      "auto_approved": true,
+      "title": "The Effect of Supraglottic and Oropharyngeal Decontamination on the Incidence of Ventilator-associated Pneumonia"
+    },
+    "NCT04511221": {
+      "nct_id": "NCT04511221",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage preparation'",
+        "包含强相关关键词: 'phage product'"
+      ],
+      "audited_at": "2026-04-10T12:02:02.916285",
+      "auto_approved": true,
+      "title": "BacterioPHAGE for Gastrointestinal Health 2 Study"
+    },
+    "NCT04596319": {
+      "nct_id": "NCT04596319",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:05.599339",
+      "auto_approved": true,
+      "title": "Ph 1/2 Study Evaluating Safety and Tolerability of Inhaled AP-PA02 in Subjects With Chronic Pseudomonas Aeruginosa Lung Infections and Cystic Fibrosis"
+    },
+    "NCT04636554": {
+      "nct_id": "NCT04636554",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:02:08.166695",
+      "auto_approved": true,
+      "title": "Personalized Phage Treatment in Covid-19 Patients With Bacterial Co-Infections Microbials for Pneumonia or Bacteremia/Septicemia"
+    },
+    "NCT04650607": {
+      "nct_id": "NCT04650607",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:11.284935",
+      "auto_approved": true,
+      "title": "Phage Safety Cohort Study"
+    },
+    "NCT04682964": {
+      "nct_id": "NCT04682964",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:13.066314",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in Tonsillitis"
+    },
+    "NCT04684641": {
+      "nct_id": "NCT04684641",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:14.856381",
+      "auto_approved": true,
+      "title": "CYstic Fibrosis bacterioPHage Study at Yale (CYPHY)"
+    },
+    "NCT04708704": {
+      "nct_id": "NCT04708704",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:02:16.568007",
+      "auto_approved": true,
+      "title": "Photodegraded Edible Food Dyes"
+    },
+    "NCT04724603": {
+      "nct_id": "NCT04724603",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:18.294104",
+      "auto_approved": true,
+      "title": "Phage Safety Retrospective Cohort Study"
+    },
+    "NCT04737876": {
+      "nct_id": "NCT04737876",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:02:19.875564",
+      "auto_approved": true,
+      "title": "A Study to Evaluate the Safety, Tolerability, and Fecal Pharmacokinetics of BX002-A in Healthy Adults"
+    },
+    "NCT04787250": {
+      "nct_id": "NCT04787250",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:21.544602",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections"
+    },
+    "NCT04791644": {
+      "nct_id": "NCT04791644",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:23.284466",
+      "auto_approved": true,
+      "title": "Faecal Microbiota Characterization in Lynch Syndrome (LS) Patients With or Without Colorectal Neoplasia"
+    },
+    "NCT04803708": {
+      "nct_id": "NCT04803708",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:02:24.998257",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy TP-102 in Diabetic Foot Ulcers"
+    },
+    "NCT04815798": {
+      "nct_id": "NCT04815798",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage product'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:26.719352",
+      "auto_approved": true,
+      "title": "Phage Therapy for the Prevention and Treatment of Pressure Ulcers."
+    },
+    "NCT04923958": {
+      "nct_id": "NCT04923958",
+      "status": "approved",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:02:28.716429",
+      "auto_approved": false,
+      "title": "Rapid Research in Diagnostics Development for TB Network",
+      "overview": {
+        "nct_id": "NCT04923958",
+        "title": "Rapid Research in Diagnostics Development for TB Network",
+        "official_title": "Rapid Research in Diagnostics Development for TB Network (R2D2 TB Network) Study",
+        "brief_summary": "To reduce the burden of TB worldwide through more accurate, faster, simpler, and less expensive diagnosis of TB Every year, more than 3 million people with TB remain undiagnosed and 1 million die. Better diagnostics are essential to reducing the enormous burden of TB worldwide. The Rapid Research in Diagnostics Development for TB Network (R2D2 TB Network) brings together experts in TB care, technology assessment, diagnostics development, laboratory medicine, epidemiology, health economics and mathematical modeling with highly experienced clinical study sites in 10 countries.",
+        "detailed_description": "The Rapid Research in Diagnostics Development for TB Network (R2D2 TB Network) study seeks to identify and rigorously assess promising early stage tuberculosis (TB) triage, diagnostic and drug resistance tests (hereafter referred to as \"novel tests\") in clinical studies conducted in settings of intended use. Rapid diagnosis, identification of drug resistance and effective treatment are critical for improving patient outcomes and reducing TB transmission. However, analysis of care cascades and prevalence surveys indicate that 40-60% of patients with TB are not initiated on effective treatment.1,2 The different types of tests required to reduce this \"diagnostic gap\" have been described in the form of target product profiles (TPPs). The highest- priority TPPs are for: 1) a point-of-care, non-sputum biomarker-based test to facilitate rapid TB diagnosis using easily accessible samples (a biomarker-based diagnostic test) and 2) a simple, low-cost test that can be used by front-line health wo",
+        "interventions": [
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Novel mycobacterial culture techniques",
+            "description": "We will evaluate tests intended to make culture more sensitive, faster, and have less contamination."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Novel sputum smear microscopy techniques",
+            "description": "We will evaluate new staining techniques or visualization methods to increase the sensitivity of smear microscopy."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Sputum-based molecular assays",
+            "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Tongue swab-based molecular assays",
+            "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Urine LAM assays",
+            "description": "We will evaluate urine LAM assays incorporating techniques such as analyte concentration, higher sensitivity or specificity antibodies, or enhanced visualization to improve LAM detection."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Blood-based host immune response assays",
+            "description": "We will evaluate assays measuring host immune response parameters intended for use at near point of care or point of care."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Breath-based assays",
+            "description": "We will evaluate assays assessing volatile organic compounds or exhaled breath condensate for near point of care of point of care detection of TB."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Artificial intelligence-based digital health tools",
+            "description": "We will evaluate AI-based algorithms evaluating images (chest x-ray, ultrasound) or sounds (cough sounds, lung sounds) including an Infrasound-to-ultrasound e-stethoscope (Level 42 AI, USA)."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Phage-based assays",
+            "description": "We will evaluate assays using phages to lyse mycobacterial cells for detection of DNA or antigens."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Cartridge-based molecular assays for detecting drug resistance",
+            "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Sequencing-based assays for detecting drug resistance",
+            "description": "We will evaluate targeted and whole genome sequencing assays."
+          }
+        ],
+        "conditions": [
+          "Tuberculosis"
+        ],
+        "keywords": [
+          "Tuberculosis",
+          "Diagnostics",
+          "Global Health"
+        ],
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "RECRUITING"
+      },
+      "manual_review": true,
+      "review_reason": "包含噬菌体检测技术用于结核诊断",
+      "reviewed_at": "2026-04-10T12:08:56.958708"
+    },
+    "NCT04935892": {
+      "nct_id": "NCT04935892",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:31.454589",
+      "auto_approved": true,
+      "title": "Slippers to Reduce Transfer From Floors to Surfaces"
+    },
+    "NCT04948567": {
+      "nct_id": "NCT04948567",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:02:33.154770",
+      "auto_approved": true,
+      "title": "Efficacy of Split-dose of Oral MMS for Bowel Preparation in Elderly Patients"
+    },
+    "NCT05010577": {
+      "nct_id": "NCT05010577",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:02:34.880538",
+      "auto_approved": true,
+      "title": "Nebulized Bacteriophage Therapy in Cystic Fibrosis Patients With Chronic Pseudomonas Aeruginosa Pulmonary Infection"
+    },
+    "NCT05166096": {
+      "nct_id": "NCT05166096",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:02:36.616785",
+      "auto_approved": true,
+      "title": "Comparative Pharmacokinetic, Pharmacodynamic, and Safety Study of 1 Dose Level of Aspirin for Injection and Oral Aspirin Tablets in Healthy Adult Human Subjects"
+    },
+    "NCT05177107": {
+      "nct_id": "NCT05177107",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:38.347728",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in Patients With Diabetic Foot Osteomyelitis"
+    },
+    "NCT05182749": {
+      "nct_id": "NCT05182749",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage preparation'"
+      ],
+      "audited_at": "2026-04-10T12:02:39.915193",
+      "auto_approved": true,
+      "title": "Safety and Efficacy of the Bacteriophage Preparation, ShigActive™, in a Human Experimental Model of Shigellosis"
+    },
+    "NCT05184764": {
+      "nct_id": "NCT05184764",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:42.709220",
+      "auto_approved": true,
+      "title": "Study Evaluating Safety, Tolerability, and Efficacy of Intravenous AP-SA02 in Subjects With S. Aureus Bacteremia"
+    },
+    "NCT05240300": {
+      "nct_id": "NCT05240300",
+      "status": "approved",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:02:44.378249",
+      "auto_approved": false,
+      "title": "A Study of Topical BX005-A in Subjects With Moderate to Severe Atopic Dermatitis",
+      "overview": {
+        "nct_id": "NCT05240300",
+        "title": "A Study of Topical BX005-A in Subjects With Moderate to Severe Atopic Dermatitis",
+        "official_title": "A Phase 1b/2a, Double-blind (Sponsor Open), Randomized, Vehicle-controlled Study of Topically Administered BX005-A in Subjects With Moderate to Severe Atopic Dermatitis",
+        "brief_summary": "The purpose of study BMX-05-001 is to evaluate the safety, tolerability, efficacy, and pharmacodynamics of BX005-A compared to vehicle administered topically in adult subjects with moderate to severe atopic dermatitis (AD).",
+        "detailed_description": "BMX-05-001 is a double-blind (Sponsor open), randomized, vehicle-controlled, first-in-human, Phase 1b/2a study to evaluate the safety, tolerability, efficacy, and pharmacodynamics of BX005-A compared to vehicle administered topically twice daily for 8 weeks to lesional areas in adult subjects with moderate to severe atopic dermatitis (AD).",
+        "interventions": [
+          {
+            "type": "BIOLOGICAL",
+            "name": "BX005-A",
+            "description": "phage gel"
+          },
+          {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": "vehicle gel"
+          }
+        ],
+        "conditions": [
+          "Atopic Dermatitis"
+        ],
+        "keywords": [],
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "WITHDRAWN"
+      },
+      "manual_review": true,
+      "review_reason": "BX005-A是噬菌体凝胶，用于特应性皮炎治疗",
+      "reviewed_at": "2026-04-10T12:08:56.285624"
+    },
+    "NCT05269121": {
+      "nct_id": "NCT05269121",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:46.197788",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in First Time Chronic Prosthetic Joint Infections"
+    },
+    "NCT05269134": {
+      "nct_id": "NCT05269134",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:47.916478",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in Patients With Prosthetic Joint Infections (PJI)"
+    },
+    "NCT05272566": {
+      "nct_id": "NCT05272566",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:51.074823",
+      "auto_approved": true,
+      "title": "Prephage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants - Donor Study"
+    },
+    "NCT05272579": {
+      "nct_id": "NCT05272579",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:52.794018",
+      "auto_approved": true,
+      "title": "PrePhage - Faecal Bacteriophage Transfer for Enhanced Gastrointestinal Tract Maturation in Preterm Infants"
+    },
+    "NCT05277350": {
+      "nct_id": "NCT05277350",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:02:54.484295",
+      "auto_approved": true,
+      "title": "A Study Investigating the Safety, Recovery, and Pharmacodynamics of Multiple Oral Administrations of SNIPR001 in Healthy Subjects"
+    },
+    "NCT05314426": {
+      "nct_id": "NCT05314426",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:02:56.207560",
+      "auto_approved": true,
+      "title": "Mayo Clinic Phage Program Biobank"
+    },
+    "NCT05329168": {
+      "nct_id": "NCT05329168",
+      "status": "approved",
+      "confidence": "medium",
+      "reasons": [
+        "包含中等相关关键词: 'endolysin'"
+      ],
+      "audited_at": "2026-04-10T12:02:58.115455",
+      "auto_approved": true,
+      "title": "ERAdicate S. Aureus in Patients With Bacteremia and Endocarditis"
+    },
+    "NCT05369104": {
+      "nct_id": "NCT05369104",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:03:00.474966",
+      "auto_approved": true,
+      "title": "Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR."
+    },
+    "NCT05453578": {
+      "nct_id": "NCT05453578",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage product'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:03:03.598443",
+      "auto_approved": true,
+      "title": "A Phase 1b/2 Trial of the Safety and Microbiological Activity of Bacteriophage Therapy in Cystic Fibrosis Subjects Colonized With Pseudomonas Aeruginosa"
+    },
+    "NCT05457140": {
+      "nct_id": "NCT05457140",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:03:06.568266",
+      "auto_approved": false,
+      "title": "Multiomic Diagnostics in Youth With Psychosis",
+      "overview": {
+        "nct_id": "NCT05457140",
+        "title": "Multiomic Diagnostics in Youth With Psychosis",
+        "official_title": "Multiomic Diagnostics in Child and Adolescent Psychosis",
+        "brief_summary": "Rady Children's Institute for Genomic Medicine seeks to understand the genomes and immune systems in 15 children and adolescents who are admitted to Rady Children's Hospital Child and Adolescent Psychiatry Service with psychotic symptoms or schizophrenia. Cutting-edge genome and protein sequencing technology will be used to better understand how immunological and genetic assessments may improve our ability to identify the cause of psychosis and impact care. The investigator also hopes to identify new genetic and/or autoimmune causes of psychosis that may inform new treatment for future patients.",
+        "detailed_description": "Schizophrenia is a severe mental illness that often starts in late adolescence or early adulthood where individuals experience changes in how they perceive and interact with the world around them (psychosis). These extreme changes in how one perceives and interacts with the world can cause great distress and have a very negative impact on one's life. In most cases, the cause of schizophrenia or psychosis is unknown. However, in a small subset of people who develop schizophrenia or psychosis, their own immune system creates antibodies that attack the brain, which leads to psychosis (autoimmune psychosis). In another subset of patients, there are specific genetic changes that serve as major risk factors for developing psychosis. Identifying autoimmune and genetic factors associated with psychosis with psychosis can inform diagnosis, treatment and prognosis. However, it is still currently unknown how frequently these autoimmune and genetic factors are present in adolescents presenting to ",
+        "interventions": [
+          {
+            "type": "GENETIC",
+            "name": "Genetic: Genomic sequencing and molecular diagnostic results, if any.",
+            "description": "Genomic sequencing results may be used for diagnosis and treatment of participants."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Phage display ImmunoPrecipiation Sequencing (PhIP-Seq)",
+            "description": "Whole Proteome programmable phage display immunoprecipitation sequencing will be used to diagnose known and novel autoantibodies."
+          }
+        ],
+        "conditions": [
+          "Psychosis"
+        ],
+        "keywords": [
+          "Genomic",
+          "Pediatric",
+          "Rady Children's Hospital"
+        ],
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "RECRUITING"
+      },
+      "manual_review": true,
+      "review_reason": "使用PhIP-Seq技术，非噬菌体治疗",
+      "reviewed_at": "2026-04-10T12:09:09.015425"
+    },
+    "NCT05488340": {
+      "nct_id": "NCT05488340",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:03:08.967652",
+      "auto_approved": true,
+      "title": "A Study of LBP-EC01 in the Treatment of Acute Uncomplicated UTI Caused by Drug Resistant E. Coli (ELIMINATE Trial)"
+    },
+    "NCT05498363": {
+      "nct_id": "NCT05498363",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:03:12.625055",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy of Difficult-to-treat Infections"
+    },
+    "NCT05537519": {
+      "nct_id": "NCT05537519",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:03:15.857184",
+      "auto_approved": true,
+      "title": "Phage Therapy for the Treatment of Urinary Tract Infection"
+    },
+    "NCT05590195": {
+      "nct_id": "NCT05590195",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:03:18.447807",
+      "auto_approved": true,
+      "title": "Effect of PreforPro® on Urinary and Vaginal Health"
+    },
+    "NCT05616221": {
+      "nct_id": "NCT05616221",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:03:21.097884",
+      "auto_approved": true,
+      "title": "Study to Evaluate the Safety, Phage Kinetics, and Efficacy of Inhaled AP-PA02 in Subjects With Non-Cystic Fibrosis Bronchiectasis and Chronic Pulmonary Pseudomonas Aeruginosa Infection"
+    },
+    "NCT05618418": {
+      "nct_id": "NCT05618418",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:03:23.697633",
+      "auto_approved": true,
+      "title": "BActeriophages To Treat Liver Disease Eliminating Harmful Bacteria (BATTLE)"
+    },
+    "NCT05715619": {
+      "nct_id": "NCT05715619",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:03:26.415494",
+      "auto_approved": true,
+      "title": "Safety and Efficacy of Oral Administration of the Phage Cocktail, VRELysin™, In Healthy and VRE-Colonized Subjects"
+    },
+    "NCT05750433": {
+      "nct_id": "NCT05750433",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:03:29.246009",
+      "auto_approved": true,
+      "title": "Phage 3Determination of Phage/Probiotic Synergistic Effects on Gastrointestinal Health"
+    },
+    "NCT05883995": {
+      "nct_id": "NCT05883995",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:03:32.307715",
+      "auto_approved": true,
+      "title": "Avis-PHAGEinLYON Clinic"
+    },
+    "NCT05895890": {
+      "nct_id": "NCT05895890",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:03:35.102314",
+      "auto_approved": true,
+      "title": "French National MICMAF Cohort"
+    },
+    "NCT05906680": {
+      "nct_id": "NCT05906680",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:03:37.935883",
+      "auto_approved": true,
+      "title": "The Gut Virome as a Trigger for IBD: From Metagenomics to Pathogenesis"
+    },
+    "NCT05948592": {
+      "nct_id": "NCT05948592",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:03:40.631740",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy TP-102 in Patients With Diabetic Foot Infection"
+    },
+    "NCT05967130": {
+      "nct_id": "NCT05967130",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:03:43.217746",
+      "auto_approved": true,
+      "title": "Treatment Chronic UTI Post Kidney Transplant"
+    },
+    "NCT05973721": {
+      "nct_id": "NCT05973721",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:03:47.274141",
+      "auto_approved": true,
+      "title": "Clinical Study of Phage Therapy for Chronic Constipation Efficacy and Safety"
+    },
+    "NCT06070428": {
+      "nct_id": "NCT06070428",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:03:50.287485",
+      "auto_approved": true,
+      "title": "Project 4: ACHIEVE PATHFINDER"
+    },
+    "NCT06185920": {
+      "nct_id": "NCT06185920",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:03:53.984851",
+      "auto_approved": true,
+      "title": "PHAGEinLYON Clinic Cohort Study: a Descriptive Study of Severe Infections Treated With Phage Therapy at the HCL."
+    },
+    "NCT06186102": {
+      "nct_id": "NCT06186102",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:03:56.984803",
+      "auto_approved": true,
+      "title": "Polyamine Treatment in Elderly Patients With Coronary Artery Disease"
+    },
+    "NCT06262282": {
+      "nct_id": "NCT06262282",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:04:00.041227",
+      "auto_approved": true,
+      "title": "Mycobacteriophage Treatment of Non-tuberculosis Mycobacteria"
+    },
+    "NCT06290557": {
+      "nct_id": "NCT06290557",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:04:03.189249",
+      "auto_approved": true,
+      "title": "First-in-man Single-dose and Multiple Dose Study to Evaluate the Safety, Tolerability and Efficacy ofHY-133"
+    },
+    "NCT06319235": {
+      "nct_id": "NCT06319235",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:04:06.099090",
+      "auto_approved": true,
+      "title": "Clinical Trial to Demonstrate the Safety and Efficacy of DUOFAG®"
+    },
+    "NCT06368388": {
+      "nct_id": "NCT06368388",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:08.998443",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy for Difficult-to-treat Infections: the Implementation of a Multidisciplinary Phage Task Force"
+    },
+    "NCT06370598": {
+      "nct_id": "NCT06370598",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:04:11.717703",
+      "auto_approved": true,
+      "title": "Phase 1/2a to Assess the Safety and Tolerability of TP-122A for the Treatment of Ventilator-Associated Pneumonia"
+    },
+    "NCT06409819": {
+      "nct_id": "NCT06409819",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:14.548577",
+      "auto_approved": true,
+      "title": "Phage Therapy for Recurrent UTIs in Kidney Transplant Recipients"
+    },
+    "NCT06456424": {
+      "nct_id": "NCT06456424",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:04:17.325425",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy for Methicillin-Sensitive Staphylococcus Aureus Prosthetic Joint Infection"
+    },
+    "NCT06524791": {
+      "nct_id": "NCT06524791",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:04:20.877044",
+      "auto_approved": true,
+      "title": "Prevalence of Faecal Bacteriophage in Patients With Digestive Symptoms"
+    },
+    "NCT06548841": {
+      "nct_id": "NCT06548841",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:04:23.729149",
+      "auto_approved": true,
+      "title": "Development and Validation of (Bio)Sensors for the Identification of Pathogens"
+    },
+    "NCT06559618": {
+      "nct_id": "NCT06559618",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:26.376902",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy in Spinal Cord Injury Patients With Bacteriuria"
+    },
+    "NCT06568380": {
+      "nct_id": "NCT06568380",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:04:29.149353",
+      "auto_approved": true,
+      "title": "Validation of a Boindicator as Monitoring Tool for Oyster Norovirus Outbreak"
+    },
+    "NCT06605651": {
+      "nct_id": "NCT06605651",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:31.807796",
+      "auto_approved": true,
+      "title": "Proof of Concept Study to Assess Safety and Efficacy of Phage Therapy in Hip or Knee Prosthetic Joint Infections Due to Staphylococcus Aureus Treated by DAIR."
+    },
+    "NCT06656572": {
+      "nct_id": "NCT06656572",
+      "status": "rejected",
+      "confidence": "low",
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ],
+      "audited_at": "2026-04-10T12:04:34.576014",
+      "auto_approved": false,
+      "title": "Immunogenomic Analyses of Pediatric Catatonia",
+      "overview": {
+        "nct_id": "NCT06656572",
+        "title": "Immunogenomic Analyses of Pediatric Catatonia",
+        "official_title": "Immunogenomic Analyses of Pediatric Catatonia",
+        "brief_summary": "Rady Children's Institute for Genomic Medicine seeks to understand the genomes and immune systems in 40 children and adolescents who are admitted to Rady Children's Hospital San Diego with a catatonia diagnosis. Cutting-edge genome and protein sequencing technology will be used to better understand how immunological and genetic assessments may improve the ability to identify the cause of catatonia and impact care. The investigator also hopes to identify new genetic and/or autoimmune causes of catatonia that may inform new treatment for future patients.",
+        "detailed_description": "Catatonia is a complex condition that affects children's behavior, movement, and emotions. It can be caused by various underlying health issues, such as genetic disorders or problems with the immune system. Identifying these underlying causes is crucial for providing the best care and treatment to affected children. In this study, the investigators aim to compare the effectiveness of traditional medical tests with a more advanced approach that includes genetic testing and immune system screening in finding the underlying causes of catatonia in children. The investigators will compare two groups of children with catatonia. One group will be identified from hospital records and will have undergone standard medical tests to find the cause of their catatonia. The other group will be a new set of patients who will receive both standard medical tests and additional advanced testing, including genome sequencing (a technique that reads the entire genetic code) and screening for antibodies that",
+        "interventions": [
+          {
+            "type": "GENETIC",
+            "name": "Genetic: Genomic sequencing and molecular diagnostic results, if any.",
+            "description": "Genomic sequencing results may be used for diagnosis and treatment of participants."
+          },
+          {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Phage display ImmunoPrecipiation Sequencing (PhIP-Seq)",
+            "description": "Whole Proteome programmable phage display immunoprecipitation sequencing will be used to diagnose known and novel autoantibodies."
+          }
+        ],
+        "conditions": [
+          "Catatonia"
+        ],
+        "keywords": [
+          "Genomics",
+          "Pediatric"
+        ],
+        "phases": [
+          "NA"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "status": "NOT_YET_RECRUITING"
+      },
+      "manual_review": true,
+      "review_reason": "使用PhIP-Seq技术，非噬菌体治疗",
+      "reviewed_at": "2026-04-10T12:09:09.558573"
+    },
+    "NCT06683248": {
+      "nct_id": "NCT06683248",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:04:38.350998",
+      "auto_approved": true,
+      "title": "The Effects of Night Shift Work on Health Across the Menstrual Cycle"
+    },
+    "NCT06750588": {
+      "nct_id": "NCT06750588",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage preparation'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:41.026302",
+      "auto_approved": true,
+      "title": "Safety and Tolerability of NTR-101 in Patients With Acute Alcohol-Associated Hepatitis"
+    },
+    "NCT06798168": {
+      "nct_id": "NCT06798168",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:04:43.875504",
+      "auto_approved": true,
+      "title": "Bacteriophage Clinical Trial for Periprosthetic Joint Infection of Multidrug Resistant Pseudomonas Aeruginosa"
+    },
+    "NCT06814756": {
+      "nct_id": "NCT06814756",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:46.882087",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy for Morganella Morganii Prosthetic Joint Infection"
+    },
+    "NCT06827041": {
+      "nct_id": "NCT06827041",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage preparation'"
+      ],
+      "audited_at": "2026-04-10T12:04:49.534392",
+      "auto_approved": true,
+      "title": "Use of Phage Therapy for Treatment of a Periprosthetic Joint Infection"
+    },
+    "NCT06834984": {
+      "nct_id": "NCT06834984",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:04:52.338218",
+      "auto_approved": true,
+      "title": "Ritual Synbiotic+, a Dietary Supplement Designed to Impact Gastrointestinal Health, Mood, and Behavior in Women"
+    },
+    "NCT06855836": {
+      "nct_id": "NCT06855836",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:04:55.284924",
+      "auto_approved": true,
+      "title": "Motivational Interviewing to Increase Uptake of Drug Checking and Safe Drug Use Behaviors to Reduce Overdose"
+    },
+    "NCT06870409": {
+      "nct_id": "NCT06870409",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:04:58.284851",
+      "auto_approved": true,
+      "title": "Bacteriophages in Addition to Antibiotics for the Treatment of Patients With Infective Endocarditis"
+    },
+    "NCT06931977": {
+      "nct_id": "NCT06931977",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:05:00.927010",
+      "auto_approved": true,
+      "title": "Natural Product System and Lifestyle Modification"
+    },
+    "NCT06938867": {
+      "nct_id": "NCT06938867",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:05:03.656275",
+      "auto_approved": true,
+      "title": "Phase 1b/2a Randomized Double-blind Study to Investigate Safety Tolerability PK PD Preliminary Efficacy of Oral Administration of SNIPR001 in Patients With Hematologic Malignancy Scheduled for Allogeneic Hematopoietic Stem-Cell Transplant Receiving FQ Prophylaxis & Harboring FQR Ecoli Pre-Transplant"
+    },
+    "NCT06942624": {
+      "nct_id": "NCT06942624",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage preparation'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:05:06.506281",
+      "auto_approved": true,
+      "title": "Phage Therapy for the Treatment of a Chronic Enterococcus Faecium Periprosthetic Joint Infection"
+    },
+    "NCT06992726": {
+      "nct_id": "NCT06992726",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:05:09.485665",
+      "auto_approved": true,
+      "title": "Improvement of Fish Oil in Obesity With Mild Cognitive Impairment"
+    },
+    "NCT06998043": {
+      "nct_id": "NCT06998043",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:05:12.931434",
+      "auto_approved": true,
+      "title": "Study With Phage for CF Subjects With Pseudomonas Lung Infection"
+    },
+    "NCT07076238": {
+      "nct_id": "NCT07076238",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage treatment'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage treatment'"
+      ],
+      "audited_at": "2026-04-10T12:05:17.974345",
+      "auto_approved": true,
+      "title": "Biomarkers of Phage Treatment Response in NTM and Other Infections"
+    },
+    "NCT07202234": {
+      "nct_id": "NCT07202234",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:05:20.835074",
+      "auto_approved": true,
+      "title": "Bacteriophage Cocktail Therapy for Multidrug-Resistant Gram-Negative Ventilator-Associated Pneumonia"
+    },
+    "NCT07212400": {
+      "nct_id": "NCT07212400",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:05:24.209612",
+      "auto_approved": true,
+      "title": "Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)"
+    },
+    "NCT07228702": {
+      "nct_id": "NCT07228702",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:05:27.769191",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy for Mycobacterium Abscessus Pulmonary Infection"
+    },
+    "NCT07240181": {
+      "nct_id": "NCT07240181",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:05:31.509697",
+      "auto_approved": true,
+      "title": "OPTImization of Inflammatory Bowel Disease Treatment Through Understanding of Gut VIRome Heterogeneity"
+    },
+    "NCT07275905": {
+      "nct_id": "NCT07275905",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:05:34.167547",
+      "auto_approved": true,
+      "title": "Bacteriophages for Adults With Cystic Fibrosis and Chronic Achromobacter Lung Infection"
+    },
+    "NCT07280598": {
+      "nct_id": "NCT07280598",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:05:37.125799",
+      "auto_approved": true,
+      "title": "Safety of Combined Intravenous Antibiotic and Bacteriophage Therapy in Adults With Cystic Fibrosis and Antibiotic-Resistant Lung Infections"
+    },
+    "NCT07323680": {
+      "nct_id": "NCT07323680",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:05:39.980260",
+      "auto_approved": true,
+      "title": "Comparative Pharmacokinetic, Pharmacodynamic, and Safety Study of 1 Dose of Aspirin for Injection and Oral Aspirin Tablets in Healthy Adult Subjects"
+    },
+    "NCT07338123": {
+      "nct_id": "NCT07338123",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:05:43.479384",
+      "auto_approved": true,
+      "title": "A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli"
+    },
+    "NCT07382271": {
+      "nct_id": "NCT07382271",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:05:46.888419",
+      "auto_approved": true,
+      "title": "Evaluation of Safety and Efficacy of Phage Therapy for Drug-resistant Bacterial Infections: An Exploratory, Prospective Single-arm Study"
+    },
+    "NCT07429162": {
+      "nct_id": "NCT07429162",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'"
+      ],
+      "audited_at": "2026-04-10T12:05:49.798290",
+      "auto_approved": true,
+      "title": "Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection"
+    },
+    "NCT07461337": {
+      "nct_id": "NCT07461337",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'",
+        "包含强相关关键词: 'phage therapy'",
+        "包含强相关关键词: 'phage cocktail'",
+        "包含强相关关键词: 'bacteriophage therapy'",
+        "包含强相关关键词: 'bacteriophage cocktail'"
+      ],
+      "audited_at": "2026-04-10T12:05:53.464667",
+      "auto_approved": true,
+      "title": "Bacteriophage Therapy for Staphylococcus Lugdunensis Prosthetic Joint Infection"
+    },
+    "NCT07487259": {
+      "nct_id": "NCT07487259",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:05:56.417859",
+      "auto_approved": true,
+      "title": "Impact of the Early Life Virome Development on Bronchopulmonary Dysplasia in Preterm Neonates"
+    },
+    "NCT07492771": {
+      "nct_id": "NCT07492771",
+      "status": "approved",
+      "confidence": "high",
+      "reasons": [
+        "包含强相关关键词: 'bacteriophage'"
+      ],
+      "audited_at": "2026-04-10T12:05:59.017388",
+      "auto_approved": true,
+      "title": "MP101 in Adults With Acute Pseudomonas Aeruginosa Pneumonia"
+    },
+    "NCT07494864": {
+      "nct_id": "NCT07494864",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:06:01.865087",
+      "auto_approved": true,
+      "title": "Effects of Microbiological and Immunological Factors on the Lower Urinary Tract"
+    },
+    "NCT07509398": {
+      "nct_id": "NCT07509398",
+      "status": "rejected",
+      "confidence": "none",
+      "reasons": [
+        "未检测到噬菌体相关关键词"
+      ],
+      "audited_at": "2026-04-10T12:06:04.634470",
+      "auto_approved": true,
+      "title": "FMT Combined With Standard First-Line Therapy in Initially Unresectable Colorectal Cancer"
+    }
+  },
+  "last_search_time": "2026-04-10T12:06:04.834742",
+  "search_history": [
+    {
+      "time": "2026-04-10T12:06:04.834763",
+      "total_candidates": 141,
+      "new_candidates": 141,
+      "approved": 105,
+      "rejected": 24,
+      "uncertain": 12
+    }
+  ]
+}

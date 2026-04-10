@@ -21,11 +21,11 @@
         "口服"
       ],
       "pathogens": [
-        "肺炎克雷伯菌",
+        "金黄色葡萄球菌",
         "肠球菌",
         "大肠杆菌",
-        "铜绿假单胞菌",
-        "金黄色葡萄球菌"
+        "肺炎克雷伯菌",
+        "铜绿假单胞菌"
       ],
       "countries": [
         "Russia"
@@ -138,8 +138,8 @@
         "其他"
       ],
       "pathogens": [
-        "脓肿分枝杆菌",
-        "分枝杆菌"
+        "分枝杆菌",
+        "脓肿分枝杆菌"
       ],
       "countries": [],
       "locations": [],
@@ -1116,11 +1116,11 @@
         "铜绿假单胞菌"
       ],
       "countries": [
-        "Czechia",
-        "United States",
         "Israel",
+        "Netherlands",
+        "United States",
         "Spain",
-        "Netherlands"
+        "Czechia"
       ],
       "locations": [
         {
@@ -1176,10 +1176,10 @@
         "口服"
       ],
       "pathogens": [
-        "志贺氏菌",
         "伯克霍尔德菌",
-        "肠球菌",
-        "沙门氏菌"
+        "沙门氏菌",
+        "志贺氏菌",
+        "肠球菌"
       ],
       "countries": [
         "Poland"
@@ -1615,8 +1615,8 @@
         "铜绿假单胞菌"
       ],
       "countries": [
-        "Belgium",
         "France",
+        "Belgium",
         "Switzerland"
       ],
       "locations": [
@@ -1694,8 +1694,8 @@
         }
       ],
       "route": [
-        "口服",
-        "静脉注射"
+        "静脉注射",
+        "口服"
       ],
       "pathogens": [],
       "countries": [
@@ -1760,8 +1760,8 @@
       ],
       "pathogens": [],
       "countries": [
-        "India",
-        "United States"
+        "United States",
+        "India"
       ],
       "locations": [
         {
@@ -1993,11 +1993,11 @@
         "静脉注射"
       ],
       "pathogens": [
+        "金黄色葡萄球菌",
+        "大肠杆菌",
         "无色杆菌",
         "肺炎克雷伯菌",
-        "大肠杆菌",
-        "铜绿假单胞菌",
-        "金黄色葡萄球菌"
+        "铜绿假单胞菌"
       ],
       "countries": [],
       "locations": [],
@@ -2658,6 +2658,34 @@
       "sponsors": []
     },
     {
+      "nct_id": "NCT04791644",
+      "title": "Faecal Microbiota Characterization in Lynch Syndrome (LS) Patients With or Without Colorectal Neoplasia",
+      "phases": [],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Lynch Syndrome"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Bobigny",
+          "facility": "Hôpital Avicenne, AP-HP, Service de Gastroentérologie et Oncologie Digestive"
+        }
+      ],
+      "description": "Colorectal cancer (CRC) is the second cause of cancer-related death in western countries. CRC prevention and screening are major public health issues. Better knowledge of colorectal carcinogenesis could lead to better prevention. Gut microbiota (GM) is a complex community of bacteria, fungi, protozoa, viruses and bacteriophages which live in a symbiotic and epigenetic relationship with the host. GM can promote either digestive health or CRC through inflammatory and proliferative effects.\n\nLynch ",
+      "enrollment": 285,
+      "last_update": "2021-05-18",
+      "sponsors": []
+    },
+    {
       "nct_id": "NCT07338123",
       "title": "A Randomized Controlled Trial (RCT) of Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia Caused by Drug-resistant Gram-negative Bacilli",
       "phases": [
@@ -2884,8 +2912,8 @@
         "其他"
       ],
       "pathogens": [
-        "脓肿分枝杆菌",
-        "分枝杆菌"
+        "分枝杆菌",
+        "脓肿分枝杆菌"
       ],
       "countries": [
         "Canada"
@@ -2900,6 +2928,40 @@
       "description": "This study aims to use mycobacteriophage therapy, using identified in-vitro effective Mycobacteriophage Muddy\\_HRMN0052, along with combination conventional antimycobacterial therapy for their NTM pulmonary disease with Mycobacterium abscessus with goal to reduce infection burden and improve pulmonary disease",
       "enrollment": 1,
       "last_update": "2025-11-17",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06524791",
+      "title": "Prevalence of Faecal Bacteriophage in Patients With Digestive Symptoms",
+      "phases": [],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Gastroenteritis"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "bacteriophage detection",
+          "description": "bacteriophage detection"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Nancy",
+          "facility": "CHRU Nancy"
+        }
+      ],
+      "description": "Define the prevalence of fecal phage carriage in individuals with digestive symptoms (i) Determine the concentrations of infectious fecal phages in the stools of individuals with digestive symptoms (detection by culture)\n\n(ii) Determine fecal phage genome concentrations in the stools of individuals with digestive symptoms (PCR detection)\n\n(iii) Explore factors that could impact fecal phage carriage (patients with digestive symptoms vs. healthy individuals, immunocompromised patients vs. immunoco",
+      "enrollment": 300,
+      "last_update": "2024-07-30",
       "sponsors": []
     },
     {
@@ -3301,8 +3363,8 @@
         "其他"
       ],
       "pathogens": [
-        "金黄色葡萄球菌",
         "大肠杆菌",
+        "金黄色葡萄球菌",
         "铜绿假单胞菌"
       ],
       "countries": [
@@ -3555,50 +3617,1297 @@
       "enrollment": 12,
       "last_update": "2021-12-22",
       "sponsors": []
+    },
+    {
+      "nct_id": "NCT01184339",
+      "title": "Prospective Study Into the Performance of the MicroPhage S. Aureus/MSSA/MRSA Test Direct From Blood Culture Positives",
+      "phases": [],
+      "status": "COMPLETED",
+      "conditions": [
+        "Bacteremia"
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "MicroPhage S. aureus/MSSA/MRSA Blood Culture Test",
+          "description": "In vitro diagnostic for the Identification of S. aureus and determination of MSSA or MRSA from a positive blood culture.\n\nApproximately 5 hour rapid test."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [],
+      "locations": [],
+      "description": "Direct in-vitro identification of S. aureus, methicillin-sensitive S. aureus (MSSA), and methicillin-resistant S. aureus (MRSA) from positive blood cultures by MicroPhage's bacteriophage-based diagnostic platform, two gold-standard reference methods, and two predicate devices with similar indications for use.",
+      "enrollment": 1165,
+      "last_update": "2010-08-18",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00001145",
+      "title": "Study of Immune Responses and Safety of Recombinant Human CD40 Ligand in Patients With X-Linked Hyper-IgM Syndrome",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Immunoproliferative Disorder"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage",
+          "description": ""
+        },
+        {
+          "type": "DRUG",
+          "name": "rhuCD40L",
+          "description": ""
+        },
+        {
+          "type": "DRUG",
+          "name": "KLH",
+          "description": ""
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Bethesda",
+          "facility": "National Institute of Allergy and Infectious Diseases (NIAID)"
+        }
+      ],
+      "description": "The primary goal of this Phase I/II study is to assess the immune response and safety of recombinant human CD40 ligand (rhuCD40L) in patients with X-linked hyper IgM syndrome (XHIM). XHIM is a rare genetic disease caused by mutations in the gene encoding CD40 ligand. Individuals with this syndrome fail to make gamma immune globulin, frequently suffer from opportunistic infections, and are at an increased risk of developing cancer. Despite treatment with gamma globulin replacement therapy, the ex",
+      "enrollment": 5,
+      "last_update": "2008-03-04",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00006066",
+      "title": "Interleukin-2 Plus Anti-HIV Therapy in HIV-Infected Children With Weakened Immune Systems",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "HIV Infections"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Diphtheria & Tetanus Toxoids & Acellular Pertussis Vaccine Adsorbed",
+          "description": ""
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Diphtheria and Tetanus Toxoids Adsorbed",
+          "description": ""
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Tetanus and Diphtheria Toxoids Adsorbed",
+          "description": ""
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage phi X 174",
+          "description": ""
+        },
+        {
+          "type": "DRUG",
+          "name": "Aldesleukin",
+          "description": ""
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States",
+        "Puerto Rico"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Long Beach",
+          "facility": "Long Beach Memorial Med. Ctr., Miller Children's Hosp."
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "Usc La Nichd Crs"
+        },
+        {
+          "country": "United States",
+          "city": "San Diego",
+          "facility": "UCSD Maternal, Child, and Adolescent HIV CRS"
+        },
+        {
+          "country": "United States",
+          "city": "San Francisco",
+          "facility": "UCSF Pediatric AIDS CRS"
+        },
+        {
+          "country": "United States",
+          "city": "Washington D.C.",
+          "facility": "Children's National Med. Ctr. Washington DC NICHD CRS"
+        }
+      ],
+      "description": "The purpose of this study is to determine the safety of a drug called interleukin-2 (IL-2) given with anti-HIV therapy in children with HIV infection. This study will also determine the best dose of IL-2 to give children.\n\nIL-2 is an important substance produced by the body's white blood cells that helps the body fight infection. People with HIV infection do not produce enough IL-2. It is hoped that IL-2 treatment will help boost the immune system in people with HIV infection. It has not been st",
+      "enrollment": 92,
+      "last_update": "2021-11-01",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00089180",
+      "title": "T4N5 Liposomal Lotion in Preventing The Recurrence of Nonmelanoma Skin Cancer in Patients Who Have Undergone a Kidney Transplant",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Actinic Keratosis",
+        "Basal Cell Carcinoma of the Skin",
+        "Recurrent Skin Cancer",
+        "Squamous Cell Carcinoma of the Skin"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "liposomal T4N5 lotion",
+          "description": "Given topically"
+        },
+        {
+          "type": "OTHER",
+          "name": "placebo",
+          "description": "Given topically"
+        },
+        {
+          "type": "OTHER",
+          "name": "laboratory biomarker analysis",
+          "description": "Correlative studies"
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Birmingham",
+          "facility": "UAB Comprehensive Cancer Center"
+        }
+      ],
+      "description": "This randomized phase II trial is studying how well T4N5 liposomal lotion works in preventing the recurrence of nonmelanoma skin cancer in patients who have undergone a kidney transplant. Chemoprevention therapy is the use of certain drugs to try to prevent the development of or recurrence of cancer. T4N5 liposomal lotion may be effective preventing the recurrence of nonmelanoma skin cancer in patients who have undergone a kidney transplant.",
+      "enrollment": 100,
+      "last_update": "2015-12-04",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00785967",
+      "title": "Immune Responses in Patients Treated With Raltegravir",
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "HIV Infections"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Various vaccines",
+          "description": "VAQTA: 1.0ml IM at weeks 24 \\& 48; Pneumovax 23: 0.5ml IM at screening; Td ADSORBED: 0.5ml IM at screening; phiX174 bacteriophage: 0.02ml/kg body weight IV at weeks 28, 32, 36, 40."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Canada"
+      ],
+      "locations": [
+        {
+          "country": "Canada",
+          "city": "Montreal",
+          "facility": "Immune Deficiency Treatment Centre, Montreal General Hospital, McGill University Health Centre"
+        }
+      ],
+      "description": "Hypothesis: Treatment with raltegravir does not alter V(D)J recombination or immune responses to neoantigens.\n\nA process known as V(D)J recombination is essential for developing lymphocytes and the specific functioning of the immune system. Raltegravir is the first approved drug of the new integrase inhibitor class of anti-HIV drugs. Integrase inhibitors have been shown in some studies to interfere with DNA cleavage and the activities of RAG-1/2. These studies suggest a potential to affect aspec",
+      "enrollment": 0,
+      "last_update": "2015-04-14",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT00937274",
+      "title": "Antibacterial Treatment Against Diarrhea in Oral Rehydration Solution",
+      "phases": [
+        "NA"
+      ],
+      "status": "TERMINATED",
+      "conditions": [
+        "Diarrhea"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "T4 phage cocktail test",
+          "description": "T4 phages 106 PFU/ ml up to 5 days"
+        },
+        {
+          "type": "OTHER",
+          "name": "Commercial T4 phage cocktail",
+          "description": "Treatment as recommended by the manufacturer (Microgen phages)"
+        },
+        {
+          "type": "OTHER",
+          "name": "standard oral rehydration solution (ORS)",
+          "description": "Standard hospital treatment with ORS"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Bangladesh"
+      ],
+      "locations": [
+        {
+          "country": "Bangladesh",
+          "city": "Dhaka",
+          "facility": "Clinical Sciences Division, ICDDR,B, Mohakhali,"
+        }
+      ],
+      "description": "This study hopes to demonstrate the potentials of a new form of therapy for childhood diarrhea, a major cause of morbidity and deaths in Bangladesh and other developing countries, and thus a priority for improving child health.",
+      "enrollment": 120,
+      "last_update": "2013-11-13",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT01855048",
+      "title": "A Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of N-Rephasin® SAL200 in Healthy Male Volunteers",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Healthy Volunteers",
+        "Anti-Bacterial Agents",
+        "Methicillin-Resistant Staphylococcus Aureus"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "N-Rephasin® SAL200",
+          "description": "continuous intravenous infusion over 60 minutes"
+        },
+        {
+          "type": "OTHER",
+          "name": "INT200-Placebo",
+          "description": "Formulation buffer for continuous intravenous infusion over 60 minutes"
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "South Korea"
+      ],
+      "locations": [
+        {
+          "country": "South Korea",
+          "city": "Seoul",
+          "facility": "Seoul National University Hospital"
+        }
+      ],
+      "description": "The Objectives of this study is to evaluate the safety, pharmacokinetics and pharmacodynamics of single dose of N-Rephasin® SAL200 in healthy male subjects.",
+      "enrollment": 36,
+      "last_update": "2021-11-03",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT02695784",
+      "title": "Probiotics After Discharge",
+      "phases": [
+        "PHASE4"
+      ],
+      "status": "UNKNOWN",
+      "conditions": [
+        "Microbiota",
+        "Bacteriophages",
+        "Infantile Colic",
+        "Growth"
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Probiotic Continuation",
+          "description": "This arm will continue to receive probiotics beyond 34 weeks corrected gestation until two months after discharge"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United Kingdom"
+      ],
+      "locations": [
+        {
+          "country": "United Kingdom",
+          "city": "Newcastle upon Tyne",
+          "facility": "Newcastle Neonatal Service"
+        }
+      ],
+      "description": "The influence of the preterm gut microbiota in health and disease has been well established. However, relatively little is known about how the microbiome changes after discharge and its relationship with growth, health and disease outcomes in the preterm population. This study aims to follow a cohort of preterm infants and explore the relationship of the later microbiome ('after discharge') with later growth and health outcomes in infancy. The study will also explore the effect of timing of stop",
+      "enrollment": 40,
+      "last_update": "2017-12-27",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT02757755",
+      "title": "Ascending Dose Study of the Safety of AB-SA01 When Topically Applied to Intact Skin of Healthy Adults",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AB-SA01 (10^8 PFU per phage)",
+          "description": "Gauze pads will be saturated with AB-SA01 and then applied to each subject's volar forearm and covered with occlusive dressing once daily for 3 consecutive days. Placement of the gauze to each subject's right or left volar forearm will be randomized and double-blinded."
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "AB-SA01 (10^9 PFU per phage)",
+          "description": "Gauze pads will be saturated with AB-SA01 and then applied to each subject's volar forearm and covered with occlusive dressing once daily for 3 consecutive days. Placement of the gauze to each subject's right or left volar forearm will be randomized and double-blinded."
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Placebo (for Cohort 10^8)",
+          "description": "Gauze pads will be saturated with Placebo and then applied to each subject's volar forearm and covered with occlusive dressing once daily for 3 consecutive days. Placement of the gauze to each subject's right or left volar forearm will be randomized and double-blinded."
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Placebo (for Cohort 10^9)",
+          "description": "Gauze pads will be saturated with Placebo and then applied to each subject's volar forearm and covered with occlusive dressing once daily for 3 consecutive days. Placement of the gauze to each subject's right or left volar forearm will be randomized and double-blinded."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Silver Spring",
+          "facility": "Clinical Trials Center, WRAIR"
+        }
+      ],
+      "description": "This study will examine the safety of ascending doses of AB-SA01 when topically applied to intact skin of healthy adults.",
+      "enrollment": 12,
+      "last_update": "2016-08-31",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03808103",
+      "title": "Safety and Efficacy of EcoActive on Intestinal Adherent Invasive E. Coli in Patients With Inactive Crohn's Disease",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "ACTIVE_NOT_RECRUITING",
+      "conditions": [
+        "Crohn Disease"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Placebo",
+          "description": "Orally, twice a day, for a period of fifteen days"
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage preparation",
+          "description": "Orally, twice a day, for a period of fifteen days"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Lutherville",
+          "facility": "Johns Hopkins Green Spring Station"
+        },
+        {
+          "country": "United States",
+          "city": "New York",
+          "facility": "Icahn School of Medicine at Mount Sinai Hospital"
+        }
+      ],
+      "description": "This study will evaluate the safety of oral administration of EcoActive to patients with inactive Crohn's disease and how it affects the levels of AIEC in stool.",
+      "enrollment": 30,
+      "last_update": "2025-06-15",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03967236",
+      "title": "Impact of Intestinal Virome on Pediatric Inflammatory Bowel Disease",
+      "phases": [],
+      "status": "COMPLETED",
+      "conditions": [
+        "Inflammatory Bowel Diseases"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Collection of stool and blood samples",
+          "description": "For each visit, stool and blood samples will be collected during a pediatric gastroenterology day hospital stay.\n\nThis collection of stool and blood specific IVOIRE study is carried out in the context of examination already planned for the usual care of the patient."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Bron",
+          "facility": "Service de gastroentérologie nutrition, hépatologie pédiatrique - Hôpital Femme Mère Enfant groupement hospitalier Est - HCL"
+        }
+      ],
+      "description": "Over the last few years, dysbiosis has emerged as a possible trigger of gut inflammation in inflammatory bowel disease (IBD) and a promising therapeutic target. The complex diversity of microbiota was initially highlighted by the powerful new tools in genetics, including next-generation sequencing (NGS). NGS permitted to decipher the composition of bacterial intestinal communities, but also that of the gut virome. Since then, the evidence of a dynamic instability of the enteric virome in IBD has",
+      "enrollment": 20,
+      "last_update": "2022-11-29",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT03972826",
+      "title": "Use of Provodine to Protect HCW Hands (Aim II.1)",
+      "phases": [
+        "NA"
+      ],
+      "status": "TERMINATED",
+      "conditions": [
+        "Infection"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Provodine",
+          "description": "Subjects serve as self-controls. Subjects first perform hand-hygiene with alcohol-based hand rub then doff gloves contaminated with either S. marcescens or MS2 phage and the hands are cultured using a bag-broth method to determine whether the subjects self-contaminated while doffing. Subjects then clean their hands thoroughly, perform hand hygiene with Provodine, then repeat the doffing and culture process."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "The investigators will assess whether applying Provodine, an FDA-approved hand hygiene product with a long duration of anti-microbial action, to healthcare workers' hands protects against self-contamination during the removal of personal protective equipment (gloves, gowns, etc).",
+      "enrollment": 27,
+      "last_update": "2022-11-10",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05184764",
+      "title": "Study Evaluating Safety, Tolerability, and Efficacy of Intravenous AP-SA02 in Subjects With S. Aureus Bacteremia",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Bacteremia",
+        "Staphylococcus Aureus",
+        "Staphylococcus Aureus Bacteremia",
+        "Bacteremia Staph",
+        "Bacteremia Due to Staphylococcus Aureus"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AP-SA02",
+          "description": "Bacteriophage administered via intravenous bolus infusion"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Inactive Placebo administered via intravenous bolus infusion"
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "Australia",
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Tucson",
+          "facility": "Banner University Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "La Jolla",
+          "facility": "University of California, San Diego (UCSD) - Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "University of Southern California Keck School of Medicine"
+        },
+        {
+          "country": "United States",
+          "city": "Los Angeles",
+          "facility": "University of California, Los Angeles (UCLA) - Medical Center"
+        },
+        {
+          "country": "United States",
+          "city": "Torrance",
+          "facility": "Lundquist Institute for Biomedical Innovation at Harbor UCLA Medical Center"
+        }
+      ],
+      "description": "Phase 1b/2a, Randomized, Double-Blind, Placebo-Controlled, Multiple Ascending Dose Escalation Study of the Safety, Tolerability, and Efficacy of Intravenous AP SA02 as an Adjunct to Best Available Antibiotic Therapy Compared to Best Available Antibiotic Therapy Alone for the Treatment of Adults With Bacteremia Due to Staphylococcus aureus",
+      "enrollment": 56,
+      "last_update": "2026-03-23",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05277350",
+      "title": "A Study Investigating the Safety, Recovery, and Pharmacodynamics of Multiple Oral Administrations of SNIPR001 in Healthy Subjects",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "E.Coli Infections",
+        "Bloodstream Infection"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "SNIPR001",
+          "description": "SNIPR001 is a live biotherapeutic product consisting of genetically modified bacteriophages specifically targeting Escherichia coli"
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "大肠杆菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Cincinnati",
+          "facility": "Medpace Clinical Pharmacology"
+        }
+      ],
+      "description": "This is a Phase 1, randomized, double-blind, placebo-controlled, multiple dose, dose escalation study in healthy participants, investigating the safety, tolerability, recovery, and PD of multiple oral administrations of SNIPR001.",
+      "enrollment": 36,
+      "last_update": "2023-05-17",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05329168",
+      "title": "ERAdicate S. Aureus in Patients With Bacteremia and Endocarditis",
+      "phases": [
+        "PHASE2"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Bacteremia Due to Staphylococcus Aureus",
+        "Left Sided Infective Endocarditis (Disorder)",
+        "Right Sided Infective Endocarditis (Disorder)",
+        "Endocarditis Infective"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tonabacase (LSVT-1701)",
+          "description": "4.5 or 6.0 mg/kg IV once daily for 4 days"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "金黄色葡萄球菌"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Butte",
+          "facility": "Lsvt-1701-2001"
+        }
+      ],
+      "description": "This study evaluates safety and tolerability of endolysin-derived LSVT-1701 (tonabacase) as an add-on to standard of care (SOC) antibiotic therapy for the treatment of patients with complicated Staphylococcus aureus bacteremia (SAB), including left- and right-sided infective endocarditis (IE).",
+      "enrollment": 0,
+      "last_update": "2022-06-30",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05967130",
+      "title": "Treatment Chronic UTI Post Kidney Transplant",
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "TERMINATED",
+      "conditions": [
+        "Urinary Tract Infections",
+        "Transplant-Related Disorder"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Phage",
+          "description": "Inserting specific specimen of phages in to the bladder"
+        }
+      ],
+      "route": [
+        "膀胱灌注"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Iran"
+      ],
+      "locations": [
+        {
+          "country": "Iran",
+          "city": "Tehran",
+          "facility": "Nooshin Dalili"
+        }
+      ],
+      "description": "Urinary tract infections (UTIs) with extended-spectrum -lactamase (ESBL)-positive Enterobacteriums (ESBL-E) are a common infectious complication of renal transplant recipients, with 10% of patients suffering from UTIs with ESBL-E within the first year posttransplant. Moreover, recurrence rates of UTI caused by ESBL-E are almost three times higher than those by cephalosporin-susceptible Enterobacteriums demonstrating the decreased efficacy of antibiotics in the treatment of these UTIs.",
+      "enrollment": 5,
+      "last_update": "2025-06-10",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06548841",
+      "title": "Development and Validation of (Bio)Sensors for the Identification of Pathogens",
+      "phases": [],
+      "status": "COMPLETED",
+      "conditions": [
+        "Infections",
+        "Infection, Bacterial",
+        "Infection Viral",
+        "Infection, Parasite",
+        "SARS CoV 2 Infection",
+        "Pseudomonas Aeruginosa Infection",
+        "Leishmania Infantum Disease"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Nanobiotechnology platforms",
+          "description": "The analyses will be carried out using the novel devices, which are of two types:\n\n1. The first type of nanobiotechnological platform encompasses the hybridization of pathogen nucleic acids - that may be present in the clinical specimen - by employing specific molecular probes.\n2. The second type of nanobiotechnological platform encompasses the use of capture bacteriophages or \"bait Phages\" to specifically detect bacterial or protozoan cell surface antigens (in the case of P. aeruginosa or L. infantum respectively) or viral particles (in the case of SARS-CoV2) and the use of reporter bacteriophages (\"transducer Phages\") for the transduction of the electrochemiluminescent signal."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [
+        "Italy"
+      ],
+      "locations": [
+        {
+          "country": "Italy",
+          "city": "Bologna",
+          "facility": "Department of Medical and Surgical Sciences, University of Bologna"
+        }
+      ],
+      "description": "The recent COVID-19 pandemic has revealed the need to develop tests that are accurate, rapid, and inexpensive for the diagnosis of infectious diseases. This problem is relevant not only for viruses, but also for bacteria and parasites: the identification of pathogens at low concentrations by simple and accurate methods is still largely unsatisfied because these microorganisms are structurally complex and are incorporated in composite and diverse biological samples, which can create relevant inte",
+      "enrollment": 149,
+      "last_update": "2025-12-10",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06568380",
+      "title": "Validation of a Boindicator as Monitoring Tool for Oyster Norovirus Outbreak",
+      "phases": [
+        "NA"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Gastroenteritis Norovirus"
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Oyster consumption",
+          "description": "Volunteers consume one of the four panel of oysters (Noro+Phage+, Noro+Phage-, Noro-Phage+ and Noro-Phage-)."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "France"
+      ],
+      "locations": [
+        {
+          "country": "France",
+          "city": "Nancy",
+          "facility": "CHRU Nancy"
+        }
+      ],
+      "description": "Noroviruses are responsible for 700M of annual cases of gastroenteritis, of which 15M are directly related to the consumption of contaminated food, including oysters. Current regulations do not require control of human noroviruses in shellfish. However, an ISO standard recommended to detect their genome in high-risk foodstuffs. However, presence of viral genome doesn't testify to the presence of infectious particles. Routine application of this standard would therefore wrongly lead to the withdr",
+      "enrollment": 0,
+      "last_update": "2024-08-23",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06750588",
+      "title": "Safety and Tolerability of NTR-101 in Patients With Acute Alcohol-Associated Hepatitis",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Alcohol-Associated Hepatitis"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "bacteriophage preparation",
+          "description": "NTR-101 will be given orally to participants once daily for 7 days"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage preparation",
+          "description": "NTR-101 will be given orally to participants once daily for 7 days"
+        },
+        {
+          "type": "DRUG",
+          "name": "bacteriophage preparation",
+          "description": "NTR-101 will be given orally to participants twice daily for 7 days"
+        },
+        {
+          "type": "DRUG",
+          "name": "bacteriophage preparation",
+          "description": "NTR-101 will be given orally to participants three times daily for 7 days"
+        }
+      ],
+      "route": [
+        "口服"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Coronado",
+          "facility": "Southern California Research Center, inc"
+        }
+      ],
+      "description": "The goal of this clinical trial is to learn about the safety and tolerability of NTR-101 in adult participants suffering from acute alcohol-associated hepatitis (AH).\n\nThe drug is intended for use in the treatment of AH where the presence of specific strains of E. faecalis play a contributing role.\n\nThe main questions it aims to answer are:\n\nAre multiple doses of NTR-101 in participants with acute AH safe and well tolerated? What medical problems do participants have when taking NTR-101? Researc",
+      "enrollment": 12,
+      "last_update": "2025-08-17",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06834984",
+      "title": "Ritual Synbiotic+, a Dietary Supplement Designed to Impact Gastrointestinal Health, Mood, and Behavior in Women",
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Gastrointestinal Disease Symptoms"
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Prebiotic, probiotic, postbiotic combination",
+          "description": "The product consists of two probiotics, Lactobacillus rhamnosus LGG and Bifidibacterium animalis subsp. lactis BB-12, supplied at a total concentration of 11B CFU's, a prebiotic consisting of 1 × 106 Plaque Forming Units (PFU) LH01-Myoviridae, LL5-Siphoviridae, T4D-Myoviridae, and LL12-Myoviridae bacteriophages, marketed as PreforPro, and tributyrin- a stale form of butyrate"
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Placebo",
+          "description": "Placebo pill containing stomach acid-resistant outer vegan capsule (hypromellose, gellan gum), hi oleic safflower oil, inner vegan capsule (hypromellose, gellan gum) microcrystalline cellulose, ascorbyl palmitate, silica"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Fort Collins",
+          "facility": "Colorado State University Food and Nutrition Clinical Research Laboratory"
+        }
+      ],
+      "description": "The aim of this study is to determine how regular consumption of Synbiotic+, a dietary supplement that contains prebiotics, probiotics, and postbiotics, impacts functional gastrointestinal health, markers of intestinal inflammation and immune health, and influences mood and behavior. The primary outcome will be to assess gastrointestinal health using bowel movement tracking, self-report and objective assessments of gastrointestinal symptom severity, stool levels of short chain fatty acids, chang",
+      "enrollment": 60,
+      "last_update": "2025-11-14",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06931977",
+      "title": "Natural Product System and Lifestyle Modification",
+      "phases": [
+        "NA"
+      ],
+      "status": "COMPLETED",
+      "conditions": [
+        "Healthy"
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Supplement system + copaiba softgels",
+          "description": "The supplement system consists of:\n\n* dōTERRA VMG+ Whole-Food Nutrient Complex (VMG) sachets\n* dōTERRA EO Mega+ Essential Oil Omega Complex (EOM) softgels\n* dōTERRA PB Restore ProBiome Complex (PBR) capsules\n\nWhich will also be taken with:\n\n• dōTERRA Copaiba Essential Oil (CEO) softgels\n\nVMG is a powdered nutritional drink packaged in individual sachets. The powder is a blend of food powders/extracts, vitamins and minerals, probiotics, essential oils, and sweeteners.\n\nEOM is a softgel containing fish oil and wild orange essential oil.\n\nPBR is a capsule containing a mix of pre-, pro-, and post-biotics and bacteriophages.\n\nCEO is a softgel containing Copaifera (copaiba) essential oil and extra virgin olive oil.\n\nParticipants will also be asked to implement lifestyle changes. They will be asked to try to get at least 8 hours of sleep, eat at least three servings of fruit/vegetables daily, and exercise at least 30 minutes every day."
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Supplement system + placebo softgels",
+          "description": "The supplement system consists of:\n\n* dōTERRA VMG+ Whole-Food Nutrient Complex (VMG) sachets\n* dōTERRA EO Mega+ Essential Oil Omega Complex (EOM) softgels\n* dōTERRA PB Restore ProBiome Complex (PBR) capsules\n\nWhich will also be taken with:\n\n• Olive oil placebo softgels\n\nVMG is a powdered nutritional drink packaged in individual sachets. The powder is a blend of food powders/extracts, vitamins and minerals, probiotics, essential oils, and sweeteners.\n\nEOM is a softgel containing fish oil and wild orange essential oil.\n\nPBR is a capsule containing a mix of pre-, pro-, and post-biotics and bacteriophages.\n\nThe placebo is a softgel containing extra virgin olive oil.\n\nParticipants will also be asked to implement lifestyle changes. They will be asked to try to get at least 8 hours of sleep, eat at least three servings of fruit/vegetables daily, and exercise at least 30 minutes every day."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Pleasant Grove",
+          "facility": "doTERRA International"
+        }
+      ],
+      "description": "The goal of this clinical trial is to learn whether four dietary supplements and lifestyle changes can affect gene expression and blood markers in healthy volunteers. The main questions it aims to answer are:\n\n1. How does daily ingestion of dietary supplements affect gene expression and hsCRP and vitamin D levels measured in blood?\n2. How does daily ingestion of dietary supplements affect anthropometric measurements, sleep and physical activity, and gut microbiome composition?\n3. How does daily ",
+      "enrollment": 97,
+      "last_update": "2026-03-10",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06938867",
+      "title": "Phase 1b/2a Randomized Double-blind Study to Investigate Safety Tolerability PK PD Preliminary Efficacy of Oral Administration of SNIPR001 in Patients With Hematologic Malignancy Scheduled for Allogeneic Hematopoietic Stem-Cell Transplant Receiving FQ Prophylaxis & Harboring FQR Ecoli Pre-Transplant",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "E Coli Infections",
+        "Allogenic Transplant Patients"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "SNIPR001 consists of genetically modified bacteriophages specifically targeting Escherichia coli",
+          "description": "SNIPR001 is a live biotherapeutic product"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo 10 mL",
+          "description": "Placebo 10 mL matching to SNIPR001 will be administered."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "United States"
+      ],
+      "locations": [
+        {
+          "country": "United States",
+          "city": "Duarte",
+          "facility": "City of Hope"
+        },
+        {
+          "country": "United States",
+          "city": "San Francisco",
+          "facility": "University of California, San Francisco"
+        },
+        {
+          "country": "United States",
+          "city": "Baltimore",
+          "facility": "John Hopkins University"
+        },
+        {
+          "country": "United States",
+          "city": "Minneapolis",
+          "facility": "University of Minnesota"
+        },
+        {
+          "country": "United States",
+          "city": "New York",
+          "facility": "Weill Cornell Medicine"
+        }
+      ],
+      "description": "This is a Phase 1b/2a study in allogenic hematopoietic stem cell transplant patients to investigate the safety, PK, PD and preliminary efficacy of multiple oral administrations of SNIPR001 when given concomitantly with SoC levofloxacin.",
+      "enrollment": 24,
+      "last_update": "2025-10-14",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT06992726",
+      "title": "Improvement of Fish Oil in Obesity With Mild Cognitive Impairment",
+      "phases": [
+        "PHASE4"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Obesity",
+        "Mild Cognitive Impairment"
+      ],
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Fish oil intervention",
+          "description": "The diet was based on the principles of a balanced diet, and subjects in this group were additionally supplemented with n-3 PUFA (provided as 1.36 g fish oil capsules), with the rest of the intervention being the same as in the control group."
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo intervention",
+          "description": "Diet based on the principles of a balanced diet, taking placebo capsules with the same appearance and odor as the fish oil capsules."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "Eighty-eight patients with obesity with mild cognitive impairment（MCI） from the Multicenter Nutrition and Chronic Disease Cohort, who met the inclusion and exclusion criteria, were selected as study subjects and randomly divided into 2 groups, i.e., the placebo group and the n-3 PUFA intervention group. Subjects in the intervention group were given supplemental n-3 PUFA (supplied in 1.36 g fish oil capsules); the placebo group took placebo (1.36 g/d), and the intervention period was 12 consecuti",
+      "enrollment": 88,
+      "last_update": "2025-06-17",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07240181",
+      "title": "OPTImization of Inflammatory Bowel Disease Treatment Through Understanding of Gut VIRome Heterogeneity",
+      "phases": [],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "IBD (Inflammatory Bowel Disease)",
+        "Crohns Disease",
+        "Colitis Ulcerative"
+      ],
+      "interventions": [],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Denmark"
+      ],
+      "locations": [
+        {
+          "country": "Denmark",
+          "city": "Hvidovre",
+          "facility": "Hvidovre Hospital"
+        }
+      ],
+      "description": "Title: The Role of Good Viruses in Inflammatory Bowel Disease\n\nBackground An imbalance in the bacteria in the gut - called gut dysbiosis - is linked to chronic bowel diseases such as Crohn's disease and ulcerative colitis (IBD). A special and more severe form of IBD, called primary sclerosing cholangitis-associated IBD (PSC-IBD), affects both the gut and the bile ducts, and in serious cases can lead to liver failure. There is currently no cure for IBD.\n\nResearch suggests that microorganisms in t",
+      "enrollment": 40,
+      "last_update": "2025-11-20",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT07492771",
+      "title": "MP101 in Adults With Acute Pseudomonas Aeruginosa Pneumonia",
+      "phases": [
+        "PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Pneumonia - Bacterial",
+        "Pseudomonas Aeruginosa Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "MP101",
+          "description": "This clinical trial is a Phase 1 study with a randomized, double-blind, placebo-controlled, single-dose, sequential dose-escalation design and consists of two dose cohorts. After the safety of the low-dose cohort (Cohort A) is evaluated, dosing will proceed to the high-dose cohort (Cohort B).\n\nThe investigational product, MP101, is a cocktail formulation comprising two bacteriophages. Participants in Cohort A will receive low dose, and participants in Cohort B will receive high dose. MP101 will be administered as a single intravenous infusion. The placebo is a clear solution with the same appearance as MP101 but without bacteriophages, and it will be administered in the same manner."
+        },
+        {
+          "type": "DRUG",
+          "name": "Antibiotics",
+          "description": "All study subjects will receive concomitant antibiotic therapy. The choice of the concomitant antibiotic will be based on the results of antibiotic susceptibility testing and will follow the best available therapy, as determined by the investigator."
+        }
+      ],
+      "route": [
+        "静脉注射"
+      ],
+      "pathogens": [
+        "铜绿假单胞菌"
+      ],
+      "countries": [
+        "South Korea"
+      ],
+      "locations": [
+        {
+          "country": "South Korea",
+          "city": "Seoul",
+          "facility": "Severance Hospital"
+        }
+      ],
+      "description": "The purpose of this study is to evaluate the safety and tolerability of a single intravenous dose of MP101 administered in addition to standard antibiotic therapy in adult patients with acute Pseudomonas aeruginosa pneumonia. The study will also assess the pharmacokinetic and pharmacodynamic characteristics of MP101 and its antibacterial activity, including changes in P. aeruginosa burden in sputum and changes in susceptibility to MP101 and concomitant antibiotics.",
+      "enrollment": 18,
+      "last_update": "2026-03-30",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT05240300",
+      "title": "A Study of Topical BX005-A in Subjects With Moderate to Severe Atopic Dermatitis",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "status": "WITHDRAWN",
+      "conditions": [
+        "Atopic Dermatitis"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "BX005-A",
+          "description": "phage gel"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "vehicle gel"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [],
+      "locations": [],
+      "description": "The purpose of study BMX-05-001 is to evaluate the safety, tolerability, efficacy, and pharmacodynamics of BX005-A compared to vehicle administered topically in adult subjects with moderate to severe atopic dermatitis (AD).",
+      "enrollment": 0,
+      "last_update": "2025-08-03",
+      "sponsors": []
+    },
+    {
+      "nct_id": "NCT04923958",
+      "title": "Rapid Research in Diagnostics Development for TB Network",
+      "phases": [
+        "NA"
+      ],
+      "status": "RECRUITING",
+      "conditions": [
+        "Tuberculosis"
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Novel mycobacterial culture techniques",
+          "description": "We will evaluate tests intended to make culture more sensitive, faster, and have less contamination."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Novel sputum smear microscopy techniques",
+          "description": "We will evaluate new staining techniques or visualization methods to increase the sensitivity of smear microscopy."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Sputum-based molecular assays",
+          "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Tongue swab-based molecular assays",
+          "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Urine LAM assays",
+          "description": "We will evaluate urine LAM assays incorporating techniques such as analyte concentration, higher sensitivity or specificity antibodies, or enhanced visualization to improve LAM detection."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Blood-based host immune response assays",
+          "description": "We will evaluate assays measuring host immune response parameters intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Breath-based assays",
+          "description": "We will evaluate assays assessing volatile organic compounds or exhaled breath condensate for near point of care of point of care detection of TB."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Artificial intelligence-based digital health tools",
+          "description": "We will evaluate AI-based algorithms evaluating images (chest x-ray, ultrasound) or sounds (cough sounds, lung sounds) including an Infrasound-to-ultrasound e-stethoscope (Level 42 AI, USA)."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Phage-based assays",
+          "description": "We will evaluate assays using phages to lyse mycobacterial cells for detection of DNA or antigens."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Cartridge-based molecular assays for detecting drug resistance",
+          "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Sequencing-based assays for detecting drug resistance",
+          "description": "We will evaluate targeted and whole genome sequencing assays."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "Vietnam",
+        "Georgia",
+        "Uganda",
+        "Zambia",
+        "Philippines",
+        "India",
+        "Nigeria",
+        "South Africa"
+      ],
+      "locations": [
+        {
+          "country": "Georgia",
+          "city": "Tbilisi",
+          "facility": "National Center for Tuberculosis and Lung Diseases"
+        },
+        {
+          "country": "India",
+          "city": "Vellore",
+          "facility": "Chitoor (Christian Medical College satellite campus)"
+        },
+        {
+          "country": "India",
+          "city": "Vellore",
+          "facility": "Christian Medical College CMC Pulmonary Outpatient Department"
+        },
+        {
+          "country": "India",
+          "city": "Vellore",
+          "facility": "Primary care clinics (Shalom/LCC, CHAD)"
+        },
+        {
+          "country": "Nigeria",
+          "city": "Abuja",
+          "facility": "Zankli Research Center"
+        }
+      ],
+      "description": "To reduce the burden of TB worldwide through more accurate, faster, simpler, and less expensive diagnosis of TB Every year, more than 3 million people with TB remain undiagnosed and 1 million die. Better diagnostics are essential to reducing the enormous burden of TB worldwide. The Rapid Research in Diagnostics Development for TB Network (R2D2 TB Network) brings together experts in TB care, technology assessment, diagnostics development, laboratory medicine, epidemiology, health economics and ma",
+      "enrollment": 26436,
+      "last_update": "2025-11-14",
+      "sponsors": []
     }
   ],
   "stats": {
-    "total": 84,
+    "total": 113,
     "by_phase": {
       "EARLY_PHASE1": 2,
-      "NA": 12,
-      "PHASE1": 33,
-      "PHASE2": 32,
-      "PHASE3": 4
+      "NA": 18,
+      "PHASE1": 43,
+      "PHASE2": 39,
+      "PHASE3": 6,
+      "PHASE4": 2
     },
     "by_status": {
-      "COMPLETED": 22,
-      "UNKNOWN": 17,
-      "RECRUITING": 14,
-      "NOT_YET_RECRUITING": 11,
-      "ACTIVE_NOT_RECRUITING": 5,
-      "WITHDRAWN": 4,
-      "TERMINATED": 4,
+      "COMPLETED": 33,
+      "UNKNOWN": 19,
+      "RECRUITING": 17,
+      "NOT_YET_RECRUITING": 16,
+      "WITHDRAWN": 8,
+      "TERMINATED": 7,
+      "ACTIVE_NOT_RECRUITING": 6,
       "ENROLLING_BY_INVITATION": 3,
       "NO_LONGER_AVAILABLE": 3,
       "AVAILABLE": 1
     },
     "by_country": {
-      "United States": 30,
-      "France": 12,
-      "Canada": 8,
-      "Denmark": 3,
+      "United States": 42,
+      "France": 16,
+      "Canada": 9,
+      "Denmark": 4,
+      "Italy": 3,
       "Russia": 2,
+      "Georgia": 2,
       "Czechia": 2,
       "China": 2,
+      "United Kingdom": 2,
       "Belgium": 2,
       "Israel": 2,
-      "Italy": 2,
-      "Georgia": 1,
-      "Uzbekistan": 1,
-      "United Kingdom": 1,
-      "Spain": 1,
-      "Netherlands": 1
+      "India": 2,
+      "South Korea": 2,
+      "Uzbekistan": 1
     },
     "by_pathogen": {
-      "铜绿假单胞菌": 12,
-      "金黄色葡萄球菌": 11,
-      "大肠杆菌": 6,
+      "金黄色葡萄球菌": 15,
+      "铜绿假单胞菌": 14,
+      "大肠杆菌": 7,
       "分枝杆菌": 4,
       "肠球菌": 3,
       "肺炎克雷伯菌": 2,
@@ -3610,167 +4919,35 @@
       "鲍曼不动杆菌": 1
     },
     "by_route": {
-      "其他": 60,
-      "口服": 7,
-      "静脉注射": 6,
-      "局部外用": 6,
+      "其他": 81,
+      "口服": 10,
+      "静脉注射": 9,
+      "局部外用": 7,
       "雾化吸入": 5,
-      "膀胱灌注": 2,
+      "膀胱灌注": 3,
       "关节腔内注射": 1
     },
     "by_condition": {
       "Cystic Fibrosis": 6,
       "Prosthetic Joint Infection": 5,
+      "Bacteremia": 5,
       "Bacterial Infections": 4,
+      "Urinary Tract Infections": 4,
       "Bacteriophage Therapy": 3,
-      "Bacteremia": 3,
-      "Urinary Tract Infections": 3,
+      "HIV Infections": 3,
+      "Healthy Volunteers": 3,
       "Prosthetic Joint Infections of Hip": 3,
-      "Mycobacterium Abscessus Infection": 2,
-      "Periprosthetic Joint Infection": 2,
-      "Cystic Fibrosis (CF)": 2
+      "Mycobacterium Abscessus Infection": 2
     }
   },
-  "changes": [
-    {
-      "type": "new",
-      "nct_id": "NCT07212400",
-      "title": "Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)",
-      "status": "RECRUITING",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Collection of Stool From Healthy Donors for the ex Vivo Study of Shifts of Microbiome Induced by Dairy Phages and Antibiotics: a Model of Bacteria/Host Interaction (DAIRY-SHAPE)"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT00814151",
-      "title": "MicroPhage S. Aureus / MSSA / MRSA Blood Culture Beta Trial",
-      "status": "COMPLETED",
-      "phases": [],
-      "pathogens": [
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: MicroPhage S. Aureus / MSSA / MRSA Blood Culture Beta Trial"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03269617",
-      "title": "PHAGE Study: Bacteriophages as Novel Prebiotics",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: PHAGE Study: Bacteriophages as Novel Prebiotics"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT05750433",
-      "title": "Phage 3Determination of Phage/Probiotic Synergistic Effects on Gastrointestinal Health",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage 3Determination of Phage/Probiotic Synergistic Effects on Gastrointestinal Health"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03326947",
-      "title": "Phage II Trial of Stathmin as Predictive Biomarker for TPF Induction Chemotherapy in OSCC",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE2"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Phage II Trial of Stathmin as Predictive Biomarker for TPF Induction Chemotherapy in OSCC"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03009903",
-      "title": "Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage",
-      "status": "UNKNOWN",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT06290557",
-      "title": "First-in-man Single-dose and Multiple Dose Study to Evaluate the Safety, Tolerability and Efficacy ofHY-133",
-      "status": "RECRUITING",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [
-        "金黄色葡萄球菌"
-      ],
-      "description": "新增临床试验: First-in-man Single-dose and Multiple Dose Study to Evaluate the Safety, Tolerability and Efficacy ofHY-133"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04737876",
-      "title": "A Study to Evaluate the Safety, Tolerability, and Fecal Pharmacokinetics of BX002-A in Healthy Adults",
-      "status": "COMPLETED",
-      "phases": [
-        "PHASE1"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: A Study to Evaluate the Safety, Tolerability, and Fecal Pharmacokinetics of BX002-A in Healthy Adults"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT03296631",
-      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
-      "status": "TERMINATED",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Phages Dynamics and Influences During Human Gut Microbiome Establishment"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04325685",
-      "title": "The Effect of Supraglottic and Oropharyngeal Decontamination on the Incidence of Ventilator-associated Pneumonia",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: The Effect of Supraglottic and Oropharyngeal Decontamination on the Incidence of Ventilator-associated Pneumonia"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT01617122",
-      "title": "Evaluate Bacteriophage as a Useful Immunogen in Patients With Primary Immune Deficiency Diseases (PIDD)",
-      "status": "UNKNOWN",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Evaluate Bacteriophage as a Useful Immunogen in Patients With Primary Immune Deficiency Diseases (PIDD)"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT01640886",
-      "title": "Study of the Performance of the KeyPath MRSA/MSSA Blood Culture Test - BTA",
-      "status": "TERMINATED",
-      "phases": [],
-      "pathogens": [],
-      "description": "新增临床试验: Study of the Performance of the KeyPath MRSA/MSSA Blood Culture Test - BTA"
-    },
-    {
-      "type": "new",
-      "nct_id": "NCT04935892",
-      "title": "Slippers to Reduce Transfer From Floors to Surfaces",
-      "status": "COMPLETED",
-      "phases": [
-        "NA"
-      ],
-      "pathogens": [],
-      "description": "新增临床试验: Slippers to Reduce Transfer From Floors to Surfaces"
-    }
-  ],
-  "updated_at": "2026-04-10T09:19:49.967107",
-  "total_count": 84,
-  "change_count": 13
+  "changes": [],
+  "updated_at": "2026-04-10T12:17:24.624126",
+  "total_count": 113,
+  "change_count": 0,
+  "audit_info": {
+    "version": "v2",
+    "auto_approved_count": 0,
+    "manual_review_count": 0,
+    "rejected_count": 0
+  }
 }

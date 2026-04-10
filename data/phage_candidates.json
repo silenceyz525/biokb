@@ -1,0 +1,328 @@
+{
+  "created_at": "2026-04-10T12:06:04.842568",
+  "count": 12,
+  "candidates": [
+    {
+      "nct_id": "NCT00677495",
+      "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
+      "brief_summary": "Undetected or untreated CD may cause severe complications later in life, such as autoimmune disorders.\n\nIt is recommended for subjects with autoimmune diseases or at risk for CD to be screened for CD and to repeat serological screening about every three years to detect cases of clinically silent, late-onset CD.\n\nCeliac disease (CD) auto-antibodies against tissue transglutaminase (anti-tTG) are produced in the intestinal mucosa even when not measurable in serum. By using the phage display libraries technique it is possible to investigate in vivo (intestinal biopsy) early antibody responses in autoimmune disease. In particularly, this technique demonstrated that the humoral response against tissue transglutaminase occurs at the intestinal mucosal level, and that the human VH5 gene is the com",
+      "interventions": [
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Gluten-free diet",
+          "description": "Gluten-free diet"
+        }
+      ],
+      "conditions": [
+        "Genetic Predisposition to Disease",
+        "Celiac Disease"
+      ],
+      "keywords": [
+        "Gluten-free diet",
+        "Celiac Disease",
+        "Genetic predisposition",
+        "Phage display library",
+        "Autoimmune diseases"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT02828774",
+      "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
+      "brief_summary": "Using phage libraries extensively pre-absorbed on a series of normal cell types, we will isolate phage specifically internalized by B-CLL cells from newly diagnosed and untreated CLL patients. Peptide sequences are then derived by Next Generation Sequencing (NGS). NGS-based studies are contributing to an improved understanding of cancer heterogeneity in order to tailor treatment to patients based on the individual makeup of their tumor. However the use of NGS to derive phage displayed peptide sequences is so far rare (22). Traditionally, after exposure to a target and recovery by elution, the phage clones are isolated by titration on bacterial lawns. It is technically demanding and labour intensive to select and analyze more than about 15 of the sometimes thousands clones recovered. Theref",
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "there will be no intervention.",
+          "description": "this study is observational, procedure are done in vitro and on animal models."
+        }
+      ],
+      "conditions": [
+        "CLL"
+      ],
+      "keywords": [],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT02925533",
+      "title": "Ph 1B B-701 in Combination With Pembrolizumab in Metastatic Transitional Cell Carcinoma of the Urothelial Tract",
+      "brief_summary": "This research study is studying a combination of two experimental drugs as a possible treatment for Bladder Cancer that recurred after treatment with standard therapy, or Bladder Cancer that got worse while on treatment with standard therapy.\n\nThe following interventions will be involved in this study:\n\n* B-701\n* Pembrolizumab",
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "B-701",
+          "description": "B-701 is a phage-derived, affinity-matured, human monoclonal antibody (mAb) specific for FGFR3. It is based on a human immunoglobulin G1 (IgG1) framework containing heavy chain VHIII and light chain VκI subgroup sequences."
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "Pembrolizumab is an mAb that binds to the programmed cell death protein 1 (PD-1) receptor and blocks its interaction with programmed death-ligand 1 (PD-L1) and PD-L2, releasing PD-1 pathway-mediated inhibition of the immune response, including the anti-tumor immune response. In syngeneic mouse tumor models, blocking PD-1 activity resulted in decreased tumor growth."
+        }
+      ],
+      "conditions": [
+        "Bladder Cancer"
+      ],
+      "keywords": [
+        "Bladder Cancer",
+        "Urothelial Cancer"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT02957370",
+      "title": "Molecular Biosensors for Detection of Bladder Cancer",
+      "brief_summary": "This project focuses on developing specific and sensitive detectors of biomarker-based signatures associated with diagnosed and recurrent bladder cancer.",
+      "interventions": [],
+      "conditions": [
+        "Urinary Bladder Neoplasms"
+      ],
+      "keywords": [],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT03009903",
+      "title": "Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage",
+      "brief_summary": "This multi-center, outpatient study will extract and evaluate the presence of facial P. acnes bacteria and phage strains using pore strips on up to 400 human subjects.",
+      "interventions": [],
+      "conditions": [
+        "Acne"
+      ],
+      "keywords": [],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT03296631",
+      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
+      "brief_summary": "Microbial communities are key components of human environment. Consequently, human gut microbiome have been extensively studied providing a better understanding of the relations between bacterial populations and host physiology. However, a typical analysis tends to elude the complexity of the mixes in term of species, strains, as well as extra-chromosomal DNA molecules such as and phages. MetaKids project aims at bringing, at an unprecedented resolution, a new view of those populations and the internal relationships during human gut establishment, a crucial step with long-term impacts on host health. This project relies on the ability of Meta3C, a newly technique developed in the lab, to identify the bacterial host genomes of the different phages the investigators will detect thanks to the",
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "collection of diapers with fresh stools",
+          "description": "collection of diapers with fresh stools"
+        }
+      ],
+      "conditions": [
+        "Human Gut Microbiome Development"
+      ],
+      "keywords": [
+        "microbiome",
+        "gut",
+        "infant gut",
+        "phages",
+        "phages-bacteria interactions",
+        "microbiome development"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT03326947",
+      "title": "Phage II Trial of Stathmin as Predictive Biomarker for TPF Induction Chemotherapy in OSCC",
+      "brief_summary": "To investigate the predictive value of stathmin expression as a predictive biomarker in OSCC patients, who treated with TPF (docetaxel, cisplatin and 5-fluorouracil ) induction chemotherapy followed by radical surgery and radiotherapy/chemoradiotherapy.",
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "docetaxel, cisplatin and 5-fluorouracil",
+          "description": "Drug: TPF induction chemotherapy TPF induction chemotherapy: 2 cycles; docetaxel(75mg/m\\^2), cisplatin(75 mg/m\\^2), 5-Fu(750 mg/m\\^2/day) for 5 days; 16 days later, the 2nd cycle. 2 weeks later, surgery.\n\nSurgery: radical resection and full neck dissection with reconstruction. Radiotherapy: 4-6 weeks after surgery, 1.8-2Gy/day, 5 days/week for 6 weeks, and totally 54-60Gy, for high risk factors, concurrent chemotherapy with cisplatin of 80mg/m2.\n\nOther Names:\n\nTPF protocol group Procedure/Surgery: surgery In the TPF group,surgery was performed at least 2 weeks after completion of induction chemotherapy.Surgery group includes radical resection of the primary lesion and full neck dissection(functional or radical) with proper reconstruction(pedicle or free flap) were performed.\n\nRadiation: radiotherapy"
+        }
+      ],
+      "conditions": [
+        "Neoplasm Neck"
+      ],
+      "keywords": [
+        "TPF induction chemotherapy, randomized, trial,OSCC"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT04289948",
+      "title": "Assessing the Efficacy of Anti-staphylococcal Phages in the Management of Infected Foot Ulcers in Diabetes",
+      "brief_summary": "Work Package 1: Observational cohort pilot safety study Work Package 2: Randomised, double-blind, placebo controlled pilot study Work Package 3: Observer-blind pilot RCT",
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Phage",
+          "description": "The studies will be undertaken using a cocktail of at least 2-3 anti-staphylococcal phages produced by Intralytix Inc, Baltimore, Maryland, USA. The phages will be included in a gel designed for application directly to the wound surface and packaged in 5 ml single use tubes."
+        }
+      ],
+      "conditions": [
+        "Diabetes",
+        "Diabetic Foot",
+        "Diabetic Foot Infection"
+      ],
+      "keywords": [
+        "Diabetes",
+        "Diabetic Foot Disease",
+        "Diabetic Foot Ulcer"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT04923958",
+      "title": "Rapid Research in Diagnostics Development for TB Network",
+      "brief_summary": "To reduce the burden of TB worldwide through more accurate, faster, simpler, and less expensive diagnosis of TB Every year, more than 3 million people with TB remain undiagnosed and 1 million die. Better diagnostics are essential to reducing the enormous burden of TB worldwide. The Rapid Research in Diagnostics Development for TB Network (R2D2 TB Network) brings together experts in TB care, technology assessment, diagnostics development, laboratory medicine, epidemiology, health economics and mathematical modeling with highly experienced clinical study sites in 10 countries.",
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Novel mycobacterial culture techniques",
+          "description": "We will evaluate tests intended to make culture more sensitive, faster, and have less contamination."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Novel sputum smear microscopy techniques",
+          "description": "We will evaluate new staining techniques or visualization methods to increase the sensitivity of smear microscopy."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Sputum-based molecular assays",
+          "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Tongue swab-based molecular assays",
+          "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Urine LAM assays",
+          "description": "We will evaluate urine LAM assays incorporating techniques such as analyte concentration, higher sensitivity or specificity antibodies, or enhanced visualization to improve LAM detection."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Blood-based host immune response assays",
+          "description": "We will evaluate assays measuring host immune response parameters intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Breath-based assays",
+          "description": "We will evaluate assays assessing volatile organic compounds or exhaled breath condensate for near point of care of point of care detection of TB."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Artificial intelligence-based digital health tools",
+          "description": "We will evaluate AI-based algorithms evaluating images (chest x-ray, ultrasound) or sounds (cough sounds, lung sounds) including an Infrasound-to-ultrasound e-stethoscope (Level 42 AI, USA)."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Phage-based assays",
+          "description": "We will evaluate assays using phages to lyse mycobacterial cells for detection of DNA or antigens."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Cartridge-based molecular assays for detecting drug resistance",
+          "description": "We will evaluate semi-automated or automated molecular assays intended for use at near point of care or point of care."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Sequencing-based assays for detecting drug resistance",
+          "description": "We will evaluate targeted and whole genome sequencing assays."
+        }
+      ],
+      "conditions": [
+        "Tuberculosis"
+      ],
+      "keywords": [
+        "Tuberculosis",
+        "Diagnostics",
+        "Global Health"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT05240300",
+      "title": "A Study of Topical BX005-A in Subjects With Moderate to Severe Atopic Dermatitis",
+      "brief_summary": "The purpose of study BMX-05-001 is to evaluate the safety, tolerability, efficacy, and pharmacodynamics of BX005-A compared to vehicle administered topically in adult subjects with moderate to severe atopic dermatitis (AD).",
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "BX005-A",
+          "description": "phage gel"
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "vehicle gel"
+        }
+      ],
+      "conditions": [
+        "Atopic Dermatitis"
+      ],
+      "keywords": [],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT05457140",
+      "title": "Multiomic Diagnostics in Youth With Psychosis",
+      "brief_summary": "Rady Children's Institute for Genomic Medicine seeks to understand the genomes and immune systems in 15 children and adolescents who are admitted to Rady Children's Hospital Child and Adolescent Psychiatry Service with psychotic symptoms or schizophrenia. Cutting-edge genome and protein sequencing technology will be used to better understand how immunological and genetic assessments may improve our ability to identify the cause of psychosis and impact care. The investigator also hopes to identify new genetic and/or autoimmune causes of psychosis that may inform new treatment for future patients.",
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "Genetic: Genomic sequencing and molecular diagnostic results, if any.",
+          "description": "Genomic sequencing results may be used for diagnosis and treatment of participants."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Phage display ImmunoPrecipiation Sequencing (PhIP-Seq)",
+          "description": "Whole Proteome programmable phage display immunoprecipitation sequencing will be used to diagnose known and novel autoantibodies."
+        }
+      ],
+      "conditions": [
+        "Psychosis"
+      ],
+      "keywords": [
+        "Genomic",
+        "Pediatric",
+        "Rady Children's Hospital"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    },
+    {
+      "nct_id": "NCT06656572",
+      "title": "Immunogenomic Analyses of Pediatric Catatonia",
+      "brief_summary": "Rady Children's Institute for Genomic Medicine seeks to understand the genomes and immune systems in 40 children and adolescents who are admitted to Rady Children's Hospital San Diego with a catatonia diagnosis. Cutting-edge genome and protein sequencing technology will be used to better understand how immunological and genetic assessments may improve the ability to identify the cause of catatonia and impact care. The investigator also hopes to identify new genetic and/or autoimmune causes of catatonia that may inform new treatment for future patients.",
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "Genetic: Genomic sequencing and molecular diagnostic results, if any.",
+          "description": "Genomic sequencing results may be used for diagnosis and treatment of participants."
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Phage display ImmunoPrecipiation Sequencing (PhIP-Seq)",
+          "description": "Whole Proteome programmable phage display immunoprecipitation sequencing will be used to diagnose known and novel autoantibodies."
+        }
+      ],
+      "conditions": [
+        "Catatonia"
+      ],
+      "keywords": [
+        "Genomics",
+        "Pediatric"
+      ],
+      "reasons": [
+        "包含弱相关关键词: 'phage'，建议人工确认"
+      ]
+    }
+  ]
+}
