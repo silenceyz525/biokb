@@ -90,32 +90,6 @@
       "sponsors": []
     },
     {
-      "nct_id": "NCT02828774",
-      "title": "Peptide-drug-conjugates for Personalized, Targeted Therapy of Chronic Lymphocytic Leukemia",
-      "phases": [],
-      "status": "UNKNOWN",
-      "conditions": [
-        "CLL"
-      ],
-      "interventions": [
-        {
-          "type": "OTHER",
-          "name": "there will be no intervention.",
-          "description": "this study is observational, procedure are done in vitro and on animal models."
-        }
-      ],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [],
-      "locations": [],
-      "description": "Using phage libraries extensively pre-absorbed on a series of normal cell types, we will isolate phage specifically internalized by B-CLL cells from newly diagnosed and untreated CLL patients. Peptide sequences are then derived by Next Generation Sequencing (NGS). NGS-based studies are contributing to an improved understanding of cancer heterogeneity in order to tailor treatment to patients based on the individual makeup of their tumor. However the use of NGS to derive phage displayed peptide se",
-      "enrollment": 30,
-      "last_update": "2016-07-12",
-      "sponsors": []
-    },
-    {
       "nct_id": "NCT07429162",
       "title": "Bacteriophage for Chronic Multidrug-Resistant Mycobacterium Abscessus Subsp. Abscessus Pulmonary Infection",
       "phases": [
@@ -1197,42 +1171,6 @@
       "sponsors": []
     },
     {
-      "nct_id": "NCT03326947",
-      "title": "Phage II Trial of Stathmin as Predictive Biomarker for TPF Induction Chemotherapy in OSCC",
-      "phases": [
-        "PHASE2"
-      ],
-      "status": "RECRUITING",
-      "conditions": [
-        "Neoplasm Neck"
-      ],
-      "interventions": [
-        {
-          "type": "DRUG",
-          "name": "docetaxel, cisplatin and 5-fluorouracil",
-          "description": "Drug: TPF induction chemotherapy TPF induction chemotherapy: 2 cycles; docetaxel(75mg/m\\^2), cisplatin(75 mg/m\\^2), 5-Fu(750 mg/m\\^2/day) for 5 days; 16 days later, the 2nd cycle. 2 weeks later, surgery.\n\nSurgery: radical resection and full neck dissection with reconstruction. Radiotherapy: 4-6 weeks after surgery, 1.8-2Gy/day, 5 days/week for 6 weeks, and totally 54-60Gy, for high risk factors, concurrent chemotherapy with cisplatin of 80mg/m2.\n\nOther Names:\n\nTPF protocol group Procedure/Surgery: surgery In the TPF group,surgery was performed at least 2 weeks after completion of induction chemotherapy.Surgery group includes radical resection of the primary lesion and full neck dissection(functional or radical) with proper reconstruction(pedicle or free flap) were performed.\n\nRadiation: radiotherapy"
-        }
-      ],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [
-        "China"
-      ],
-      "locations": [
-        {
-          "country": "China",
-          "city": "Shanghai",
-          "facility": "Ninth People's Hospital, School of Medicine, Shanghai Jiao Tong University"
-        }
-      ],
-      "description": "To investigate the predictive value of stathmin expression as a predictive biomarker in OSCC patients, who treated with TPF (docetaxel, cisplatin and 5-fluorouracil ) induction chemotherapy followed by radical surgery and radiotherapy/chemoradiotherapy.",
-      "enrollment": 60,
-      "last_update": "2024-02-20",
-      "sponsors": []
-    },
-    {
       "nct_id": "NCT05369104",
       "title": "Phage Therapy in Prosthetic Joint Infection Due to Staphylococcus Aureus Treated With DAIR.",
       "phases": [
@@ -1331,26 +1269,6 @@
       "description": "The goal of this Phase 2b clinical trial is to see if nebulized phage (BX004) can treat chronic Pseudomonas aeruginosa (PsA) lung infection in CF subjects. The primary goal is to see if 8 weeks of twice daily BX004 can reduce the amount of PsA in the sputum compared to placebo (on top of background CF therapy).",
       "enrollment": 63,
       "last_update": "2025-07-22",
-      "sponsors": []
-    },
-    {
-      "nct_id": "NCT03009903",
-      "title": "Evaluation and Detection of Facial Propionibacterium Acnes Bacteria and Phage",
-      "phases": [],
-      "status": "UNKNOWN",
-      "conditions": [
-        "Acne"
-      ],
-      "interventions": [],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [],
-      "locations": [],
-      "description": "This multi-center, outpatient study will extract and evaluate the presence of facial P. acnes bacteria and phage strains using pore strips on up to 400 human subjects.",
-      "enrollment": 400,
-      "last_update": "2017-01-04",
       "sponsors": []
     },
     {
@@ -1793,45 +1711,6 @@
       "description": "TP-102 is a novel bacteriophage cocktail comprised of 5 (five) lytic bacteriophages against Staphylococcus aureus, Pseudomonas aeruginosa, and Acinetobacter baumannii. TP-102 is being developed for topical treatment of patients with wound infections including chronic ulcers; applied every other day (three times weekly (TIW)).",
       "enrollment": 76,
       "last_update": "2025-12-22",
-      "sponsors": []
-    },
-    {
-      "nct_id": "NCT03296631",
-      "title": "Phages Dynamics and Influences During Human Gut Microbiome Establishment",
-      "phases": [],
-      "status": "TERMINATED",
-      "conditions": [
-        "Human Gut Microbiome Development"
-      ],
-      "interventions": [
-        {
-          "type": "OTHER",
-          "name": "collection of diapers with fresh stools",
-          "description": "collection of diapers with fresh stools"
-        }
-      ],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [
-        "France"
-      ],
-      "locations": [
-        {
-          "country": "France",
-          "city": "Orsay",
-          "facility": "Crèche du Parc"
-        },
-        {
-          "country": "France",
-          "city": "Orsay",
-          "facility": "Crèche La Farandole"
-        }
-      ],
-      "description": "Microbial communities are key components of human environment. Consequently, human gut microbiome have been extensively studied providing a better understanding of the relations between bacterial populations and host physiology. However, a typical analysis tends to elude the complexity of the mixes in term of species, strains, as well as extra-chromosomal DNA molecules such as and phages. MetaKids project aims at bringing, at an unprecedented resolution, a new view of those populations and the i",
-      "enrollment": 19,
-      "last_update": "2019-07-16",
       "sponsors": []
     },
     {
@@ -3173,43 +3052,6 @@
       "description": "The primary objective of this study is to compare the efficacy of standard treatment associated with a topical anti-staphylococcal bacteriophage cocktail versus standard treatment plus placebo for diabetic foot ulcers monoinfected by methicillin-resistant or susceptible S. aureus (MRSA or MSSA) as measured by the relative reduction in wound surface area (%) at 12 weeks.",
       "enrollment": 60,
       "last_update": "2026-03-20",
-      "sponsors": []
-    },
-    {
-      "nct_id": "NCT00677495",
-      "title": "Gluten-free Diet in Gluten-genetically Predisposed Subjects",
-      "phases": [
-        "NA"
-      ],
-      "status": "COMPLETED",
-      "conditions": [
-        "Genetic Predisposition to Disease",
-        "Celiac Disease"
-      ],
-      "interventions": [
-        {
-          "type": "DIETARY_SUPPLEMENT",
-          "name": "Gluten-free diet",
-          "description": "Gluten-free diet"
-        }
-      ],
-      "route": [
-        "其他"
-      ],
-      "pathogens": [],
-      "countries": [
-        "Italy"
-      ],
-      "locations": [
-        {
-          "country": "Italy",
-          "city": "Trieste",
-          "facility": "IRCCS Burlo Garofolo"
-        }
-      ],
-      "description": "Undetected or untreated CD may cause severe complications later in life, such as autoimmune disorders.\n\nIt is recommended for subjects with autoimmune diseases or at risk for CD to be screened for CD and to repeat serological screening about every three years to detect cases of clinically silent, late-onset CD.\n\nCeliac disease (CD) auto-antibodies against tissue transglutaminase (anti-tTG) are produced in the intestinal mucosa even when not measurable in serum. By using the phage display librari",
-      "enrollment": 30,
-      "last_update": "2020-09-03",
       "sponsors": []
     },
     {
@@ -4866,43 +4708,43 @@
     }
   ],
   "stats": {
-    "total": 113,
+    "total": 108,
     "by_phase": {
       "EARLY_PHASE1": 2,
-      "NA": 18,
+      "NA": 17,
       "PHASE1": 43,
-      "PHASE2": 39,
+      "PHASE2": 38,
       "PHASE3": 6,
       "PHASE4": 2
     },
     "by_status": {
-      "COMPLETED": 33,
-      "UNKNOWN": 19,
-      "RECRUITING": 17,
+      "COMPLETED": 32,
+      "UNKNOWN": 17,
+      "RECRUITING": 16,
       "NOT_YET_RECRUITING": 16,
       "WITHDRAWN": 8,
-      "TERMINATED": 7,
       "ACTIVE_NOT_RECRUITING": 6,
+      "TERMINATED": 6,
       "ENROLLING_BY_INVITATION": 3,
       "NO_LONGER_AVAILABLE": 3,
       "AVAILABLE": 1
     },
     "by_country": {
       "United States": 42,
-      "France": 16,
+      "France": 15,
       "Canada": 9,
       "Denmark": 4,
-      "Italy": 3,
       "Russia": 2,
       "Georgia": 2,
       "Czechia": 2,
-      "China": 2,
       "United Kingdom": 2,
       "Belgium": 2,
       "Israel": 2,
       "India": 2,
+      "Italy": 2,
       "South Korea": 2,
-      "Uzbekistan": 1
+      "Uzbekistan": 1,
+      "China": 1
     },
     "by_pathogen": {
       "金黄色葡萄球菌": 15,
@@ -4919,7 +4761,7 @@
       "鲍曼不动杆菌": 1
     },
     "by_route": {
-      "其他": 81,
+      "其他": 76,
       "口服": 10,
       "静脉注射": 9,
       "局部外用": 7,
@@ -4941,8 +4783,8 @@
     }
   },
   "changes": [],
-  "updated_at": "2026-04-10T12:30:29.291221",
-  "total_count": 113,
+  "updated_at": "2026-04-10T12:39:07.041368",
+  "total_count": 108,
   "change_count": 0,
   "audit_info": {
     "version": "v2",
