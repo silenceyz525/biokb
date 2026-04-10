@@ -139,6 +139,7 @@
             font-size: 20px;
         }
         .stat-icon.inno { background: rgba(0,212,170,.12); }
+        .stat-icon.device { background: rgba(231,76,60,.12); }
         .stat-icon.bio { background: rgba(52,152,219,.12); }
         .stat-icon.health { background: rgba(233,30,139,.12); }
         .stat-icon.phage { background: rgba(155,89,182,.12); }
@@ -1029,6 +1030,7 @@
             <div class="tabs">
                 <button class="tab active" data-tab="all">全部<span class="count" id="count-all">0</span></button>
                 <button class="tab" data-tab="innovation">创新药<span class="count" id="count-innovation">0</span></button>
+                <button class="tab" data-tab="medical-device">医疗器械<span class="count" id="count-medical-device">0</span></button>
                 <button class="tab" data-tab="biomanufacturing">生物制造<span class="count" id="count-biomanufacturing">0</span></button>
                 <button class="tab" data-tab="health">大健康<span class="count" id="count-health">0</span></button>
                 <button class="tab" data-tab="phage-trials">噬菌体临床<span class="count" id="count-phage-trials">-</span></button>
@@ -1042,6 +1044,10 @@
             <div class="stat-card">
                 <div class="stat-icon inno">&#x1F48A;</div>
                 <div class="stat-info"><div class="num" id="stat-innovation">0</div><div class="label">创新药</div></div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon device">&#x1F489;</div>
+                <div class="stat-info"><div class="num" id="stat-medical-device">0</div><div class="label">医疗器械</div></div>
             </div>
             <div class="stat-card">
                 <div class="stat-icon bio">&#x1F52C;</div>
@@ -1285,14 +1291,16 @@
         }
 
         function updateStats() {
-            const cats = { innovation: 0, biomanufacturing: 0, health: 0, phage: 0, scholar: 0 };
+            const cats = { innovation: 0, 'medical-device': 0, biomanufacturing: 0, health: 0, phage: 0, scholar: 0 };
             allArticles.forEach(a => { if (cats[a.category] !== undefined) cats[a.category]++; });
             document.getElementById('count-all').textContent = allArticles.length;
             document.getElementById('count-innovation').textContent = cats.innovation;
+            document.getElementById('count-medical-device').textContent = cats['medical-device'];
             document.getElementById('count-biomanufacturing').textContent = cats.biomanufacturing;
             document.getElementById('count-health').textContent = cats.health;
             document.getElementById('count-scholar').textContent = cats.scholar;
             document.getElementById('stat-innovation').textContent = cats.innovation;
+            document.getElementById('stat-medical-device').textContent = cats['medical-device'];
             document.getElementById('stat-biomanufacturing').textContent = cats.biomanufacturing;
             document.getElementById('stat-health').textContent = cats.health;
             document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || cats.phage;
@@ -1361,7 +1369,7 @@
             }
             const start = (currentPage - 1) * PAGE_SIZE;
             const page = filteredArticles.slice(start, start + PAGE_SIZE);
-            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体临床', scholar: '学者' };
+            const catLabels = { innovation: '创新药', 'medical-device': '医疗器械', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体临床', scholar: '学者' };
             list.innerHTML = page.map((a, i) => {
                 const { cn, en } = getDisplaySummary(a);
                 let summaryHtml = '';
@@ -1427,7 +1435,7 @@
             if (!a) return;
             const modal = document.getElementById('modal');
             const content = document.getElementById('modalContent');
-            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体临床', scholar: '学者' };
+            const catLabels = { innovation: '创新药', 'medical-device': '医疗器械', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体临床', scholar: '学者' };
             const { cn, en } = getDisplaySummary(a);
 
             let bodyHtml = '';
