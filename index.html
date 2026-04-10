@@ -1295,7 +1295,7 @@
             document.getElementById('stat-innovation').textContent = cats.innovation;
             document.getElementById('stat-biomanufacturing').textContent = cats.biomanufacturing;
             document.getElementById('stat-health').textContent = cats.health;
-            document.getElementById('stat-phage').textContent = cats.phage;
+            document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || cats.phage;
             document.getElementById('stat-scholar').textContent = cats.scholar;
             if (allArticles.length > 0) {
                 const dates = allArticles.map(a => a.date).sort().reverse();
@@ -1580,6 +1580,8 @@
                         changes: data.changes || []
                     };
                     renderPhageTrials();
+                    // 更新首页噬菌体临床统计
+                    document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
                     return;
                 }
             } catch(e) {
@@ -1597,6 +1599,8 @@
                         changes: data.changes || []
                     };
                     console.log('[Phage] 静态JSON加载成功，共', phageTrialsData.trials.length, '项试验');
+                    // 更新首页噬菌体临床统计
+                    document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
                 } else {
                     console.error('[Phage] 静态JSON加载失败');
                 }
