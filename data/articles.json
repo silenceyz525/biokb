@@ -157,6 +157,55 @@
       "date": "2026-04-09"
     },
     {
+      "id": 1088,
+      "title": "Expert Reveals the Major Catalyst Behind Medtech M&amp;A in 2026",
+      "summary": "CDMO platforms are driving Medtech M&amp;A in 2026 as buyers seek specialized capabilities like precision diagnostics and regenerative biomaterials, emphasizing complexity and strategic partnerships.",
+      "chinese_summary": "专家指出2026年医疗器械并购的主要推动力是CDMO平台，收购方寻求精准诊断和再生生物材料等专业能力，强调技术复杂性和战略合作在行业整合中的重要性。",
+      "url": "https://www.mddionline.com/ma/expert-reveals-the-major-catalyst-behind-medtech-m-a-in-2026",
+      "source": "MDDI Online",
+      "category": "biomanufacturing",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "CDMO",
+        "Medtech M&A",
+        "regenerative biomaterials"
+      ],
+      "ai_score": 7,
+      "content_hash": "c71423fa61df901953c5794b4debd413",
+      "created_at": "2026-04-10 06:06:21",
+      "updated_at": "2026-04-10 06:06:21",
+      "date": "2026-04-09"
+    },
+    {
+      "id": 1086,
+      "title": "Medline Hit with FDA Warning Over CAPA Failures, Cleanroom Violations, &amp; Design Testing Deficiencies",
+      "summary": "Medline Industries faces FDA scrutiny for significant quality system violations.",
+      "chinese_summary": "Medline Industries因质量体系违规受到FDA警告，涉及纠正措施失效、洁净室违规及设计测试缺陷。这直接关联生物制造领域的GMP合规、生产质量控制和CDMO监管要求，突显生物医药生产质量管理的重要性。",
+      "url": "https://www.mddionline.com/qa-qc/medline-hit-with-fda-warning-over-capa-failures-cleanroom-violations-design-testing-deficiencies",
+      "source": "MDDI Online",
+      "category": "biomanufacturing",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "FDA监管",
+        "质量体系",
+        "洁净室",
+        "CAPA"
+      ],
+      "ai_score": 7,
+      "content_hash": "c60b23aa4cd335274a6f61ffc99da17e",
+      "created_at": "2026-04-10 06:06:08",
+      "updated_at": "2026-04-10 06:06:08",
+      "date": "2026-04-09"
+    },
+    {
       "id": 1016,
       "title": "CDRH targets hospital readmissions with home device innovation challenge",
       "summary": "The center plans to pick nine devices to help support patients and caregivers after a hospital stay.",
@@ -584,6 +633,30 @@
       "content_hash": "006d555ce425563220427540822375d7",
       "created_at": "2026-04-10 01:18:29",
       "updated_at": "2026-04-10 01:18:29",
+      "date": "2026-04-09"
+    },
+    {
+      "id": 1087,
+      "title": "GE HealthCare &amp; Medtronic in Digital Integration Collaboration",
+      "summary": "GE HealthCare’s bkActiv intraoperative ultrasound (iUS) system will now work with Medtronic’s Stealth Axis surgical navigation system.",
+      "chinese_summary": "GE医疗与美敦力达成数字整合合作，将GE的bkActiv术中超声系统与美敦力Stealth Axis手术导航系统集成。该合作旨在提升手术精准度和效率，属于医疗设备数字化领域，与创新药和生物制造直接关联度较低。",
+      "url": "https://www.mddionline.com/surgical/ge-healthcare-medtronic-in-digital-integration-collaboration",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "medical devices",
+        "surgical navigation",
+        "intraoperative imaging"
+      ],
+      "ai_score": 3,
+      "content_hash": "7f6b6991f9814dccc7fb11ddcb22546d",
+      "created_at": "2026-04-10 06:06:15",
+      "updated_at": "2026-04-10 06:06:15",
       "date": "2026-04-09"
     },
     {
@@ -1148,6 +1221,30 @@
       "date": "2026-04-09"
     },
     {
+      "id": 1089,
+      "title": "Real-Time Blood Pressure Monitoring Without Invasive Lines: BD’s Solution",
+      "summary": "BD’s HemoSphere Stream Module delivers continuous, noninvasive arterial blood pressure monitoring, enhancing patient safety and enabling real-time visibility into hemodynamic changes.",
+      "chinese_summary": "BD公司开发的HemoSphere血流模块提供连续无创动脉血压监测解决方案，通过实时可视化血流动力学变化提升患者安全性，属于大健康领域的医疗设备创新。",
+      "url": "https://www.mddionline.com/cardiovascular/real-time-blood-pressure-monitoring-without-invasive-lines-bd-s-solution",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-08",
+      "tags": [
+        "medical devices",
+        "patient monitoring",
+        "hemodynamics"
+      ],
+      "ai_score": 7,
+      "content_hash": "9c8b57a6708fe4e75e15fc9c827a2e87",
+      "created_at": "2026-04-10 06:06:28",
+      "updated_at": "2026-04-10 06:06:28",
+      "date": "2026-04-08"
+    },
+    {
       "id": 1020,
       "title": "Digital health funding concentrates in fewer startups: report",
       "summary": "Companies raised $4 billion in the first quarter, an increase of $1 billion over the prior year, according to Rock Health. But nearly 60% of the capital deployed came from 12 large deals.",
@@ -1204,6 +1301,54 @@
       "date": "2026-04-08"
     },
     {
+      "id": 1090,
+      "title": "Pulse Biosciences Latest Milestone Helps It Be Heard in Noisy PFA Market",
+      "summary": "The Hayward, CA-based company has enrolled the first patients in the NANOPULSE-AF  study. The milestone comes on the heels of Johnson &amp; Johnson announcing the European launch of its PFA device.",
+      "chinese_summary": "Pulse Biosciences公司启动了NANOPULSE-AF研究的首位患者入组，该研究关注脉冲场消融(PFA)技术用于房颤治疗。强生公司近期也在欧洲推出了PFA设备。该技术属于心脏电生理领域的创新医疗器械，与大健康领域的精准医疗相关，但与创新药和生物制造直接关联度较低。",
+      "url": "https://www.mddionline.com/cardiovascular/pulse-biosciences-latest-milestone-helps-it-be-heard-in-noisy-pfa-market",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-08",
+      "tags": [
+        "PFA",
+        "cardiac ablation",
+        "medical device"
+      ],
+      "ai_score": 3,
+      "content_hash": "a094487b45dfde8327ea5e1f1b50f8af",
+      "created_at": "2026-04-10 06:06:35",
+      "updated_at": "2026-04-10 06:06:35",
+      "date": "2026-04-08"
+    },
+    {
+      "id": 1085,
+      "title": "Hologic hires former Baxter leader José Almeida as CEO",
+      "summary": "The company appointed Almeida as chief executive in conjunction with the completion of an $18.3 billion go-private deal.",
+      "chinese_summary": "医疗设备公司Hologic任命前百特高管José Almeida为CEO，同时完成183亿美元私有化交易。此次人事变动主要涉及医疗器械领域的企业战略调整，与创新药和生物制造直接关联度较低，属于大健康领域的商业运营范畴。",
+      "url": "https://www.medtechdive.com/news/hologic-hires-ex-baxter-leader-jose-almeida-as-ceo/816919/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-08",
+      "tags": [
+        "leadership",
+        "M&A",
+        "healthcare"
+      ],
+      "ai_score": 3,
+      "content_hash": "77017723818a27eb5e464ac6f0ac83c0",
+      "created_at": "2026-04-10 06:06:02",
+      "updated_at": "2026-04-10 06:06:02",
+      "date": "2026-04-08"
+    },
+    {
       "id": 1018,
       "title": "Philips warns not to use certain nebulizers in Trilogy Evo ventilator recall",
       "summary": "Using non-pneumatic nebulizers with the ventilators can lead to under-delivery of therapy to patients, the company said.",
@@ -1225,26 +1370,6 @@
       "content_hash": "df54574a0feee246e04005f248d0226d",
       "created_at": "2026-04-10 02:23:33",
       "updated_at": "2026-04-10 02:23:33",
-      "date": "2026-04-08"
-    },
-    {
-      "id": 1019,
-      "title": "Hologic hires former Baxter leader José Almeida as CEO",
-      "summary": "The company appointed Almeida as chief executive in conjunction with the completion of an $18.3 billion go-private deal.",
-      "chinese_summary": "",
-      "url": "https://www.medtechdive.com/news/hologic-hires-ex-baxter-leader-jose-almeida-as-ceo/816919/",
-      "source": "MedTech Dive",
-      "category": "medical-device",
-      "journal": "MedTech Dive",
-      "authors": [
-        "[]"
-      ],
-      "publish_date": "2026-04-08",
-      "tags": [],
-      "ai_score": null,
-      "content_hash": "77017723818a27eb5e464ac6f0ac83c0",
-      "created_at": "2026-04-10 02:24:05",
-      "updated_at": "2026-04-10 02:24:05",
       "date": "2026-04-08"
     },
     {
@@ -5308,6 +5433,30 @@
       "date": "2026-04-08"
     },
     {
+      "id": 1093,
+      "title": "How iRhythm Is Transforming Primary Care with AI &amp; Wearable Tech",
+      "summary": "iRhythm Technologies CFO Daniel Wilson joins us on this episode of Let's Talk Medtech to discuss the company's expansion into primary care and how the firm sits at the intersection of digital health, wearables, and artificial intelligence.",
+      "chinese_summary": "iRhythm科技公司CFO讨论如何通过AI和可穿戴技术转型初级保健。公司处于数字健康、可穿戴设备与人工智能的交汇点，重点在于利用先进技术改善心血管监测和疾病管理，属于大健康领域的创新应用。",
+      "url": "https://www.mddionline.com/wearable-medical-devices/how-irhythm-is-transforming-primary-care-with-ai-wearable-tech",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "digital health",
+        "wearable tech",
+        "AI in healthcare"
+      ],
+      "ai_score": 7,
+      "content_hash": "06659e2ade2ec681a8f81795a66dff74",
+      "created_at": "2026-04-10 06:06:55",
+      "updated_at": "2026-04-10 06:06:55",
+      "date": "2026-04-07"
+    },
+    {
       "id": 1022,
       "title": "J&J launches enhanced PFA device in Europe",
       "summary": "The Varipulse Pro pulsed field ablation platform, which has received a CE mark, will be a focus at the upcoming European Heart Rhythm Association annual meeting in Paris.",
@@ -5332,6 +5481,78 @@
       "date": "2026-04-07"
     },
     {
+      "id": 1095,
+      "title": "Medical Device Suppliers Consolidating to Meet OEM Demand",
+      "summary": "Confronted by demand for innovation in increasingly complex global regulatory and supply chain environments, OEMs are looking to simplify relationships with suppliers by contracting with fewer vendors who can handle more responsibility.",
+      "chinese_summary": "文章讨论医疗器械供应商为满足OEM需求进行整合。面对全球监管和供应链的复杂性，OEM倾向于与能承担更多责任的供应商简化合作，这与生物制造领域的CDMO模式有一定相关性，但未直接涉及创新药或大健康。",
+      "url": "https://www.mddionline.com/ma/medical-device-suppliers-consolidating-to-meet-oem-demand",
+      "source": "MDDI Online",
+      "category": "biomanufacturing",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "supply chain",
+        "CDMO",
+        "medical devices"
+      ],
+      "ai_score": 4,
+      "content_hash": "de10be78dde5a767737bf5f5eaf0c8c7",
+      "created_at": "2026-04-10 06:07:08",
+      "updated_at": "2026-04-10 06:07:08",
+      "date": "2026-04-07"
+    },
+    {
+      "id": 1092,
+      "title": "Johnson &amp; Johnson Kicks off Varipulse Pro European Launch",
+      "summary": "This new pulse sequence marks the next evolution of J&amp;J's Varipulse Platform and is designed to improve procedural efficiency while reinforcing its established safety and effectiveness profile.",
+      "chinese_summary": "强生公司启动Varipulse Pro在欧洲的上市，这是其Varipulse平台的新一代脉冲序列技术，旨在提高手术效率并保持其安全有效性。该产品属于心脏电生理领域的医疗设备，与创新药和生物制造直接关联度较低，主要涉及医疗健康领域的手术治疗。",
+      "url": "https://www.mddionline.com/cardiovascular/johnson-johnson-kicks-off-varipulse-pro-european-launch",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "medical device",
+        "cardiac ablation",
+        "procedural efficiency"
+      ],
+      "ai_score": 3,
+      "content_hash": "f8fafe0e8899735905682b9a6205182d",
+      "created_at": "2026-04-10 06:06:48",
+      "updated_at": "2026-04-10 06:06:48",
+      "date": "2026-04-07"
+    },
+    {
+      "id": 1091,
+      "title": "Medical Device Packaging Is a Patient-Critical User Interface",
+      "summary": "Medical device packaging should not be treated as separate from the device itself.  It sits at the critical intersection of package engineering and human factors — and that bridging these disciplines is essential for patient safety, regulatory compliance, and commercial success.",
+      "chinese_summary": "本文强调医疗器械包装不应与设备本身分离，而是包装工程与人因工程的关键交叉点。连接这些学科对患者安全、法规合规和商业成功至关重要，主要关注医疗器械使用界面而非创新药物或生物制造领域。",
+      "url": "https://www.mddionline.com/packaging/medical-device-packaging-is-a-patient-critical-user-interface",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "医疗器械包装",
+        "人因工程",
+        "患者安全"
+      ],
+      "ai_score": 3,
+      "content_hash": "e266632e57fd65a3d4b265dc5d86226d",
+      "created_at": "2026-04-10 06:06:42",
+      "updated_at": "2026-04-10 06:06:42",
+      "date": "2026-04-07"
+    },
+    {
       "id": 1021,
       "title": "Zimmer hires chief science, technology and medical affairs officer",
       "summary": "Jonathan Vigdorchik, an orthopedic surgeon from the Hospital for Special Surgery, previously was chief medical technology adviser for the company.",
@@ -5353,6 +5574,30 @@
       "content_hash": "759cf170ed76ce77cebd886573bb3ad1",
       "created_at": "2026-04-10 02:24:16",
       "updated_at": "2026-04-10 02:24:16",
+      "date": "2026-04-07"
+    },
+    {
+      "id": 1094,
+      "title": "From Mowing Lawns &amp; Washing Dishes to Medtech CEO",
+      "summary": "Trivia Tuesday: Which medtech CEO spent his early days mowing lawns, delivering newspapers, and washing dishes at restaurants?",
+      "chinese_summary": "本文通过一则轶事介绍某医疗器械公司CEO早年的平凡工作经历，主要关注个人职业发展故事。内容与医疗器械行业相关，但与创新药、生物制造等核心技术领域关联度很低，属于大健康范畴的职业传记类轻量内容。",
+      "url": "https://www.mddionline.com/business/from-mowing-lawns-washing-dishes-to-medtech-ceo",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "medtech",
+        "career-development",
+        "biography"
+      ],
+      "ai_score": 2,
+      "content_hash": "2e53683579e59246f085e9424b420f01",
+      "created_at": "2026-04-10 06:07:02",
+      "updated_at": "2026-04-10 06:07:02",
       "date": "2026-04-07"
     },
     {
@@ -6208,6 +6453,102 @@
       "date": "2026-04-07"
     },
     {
+      "id": 1099,
+      "title": "This Is 45: Monitoring My Heart and Sleep in the Age of Wearable Tech",
+      "summary": "This week in Pedersen's POV, our senior editor shares her recent experiences with at-home medical testing and wearable technology.",
+      "chinese_summary": "文章探讨了可穿戴技术在监测心率和睡眠质量方面的应用，反映了数字健康设备在个人健康管理中的实践。虽然不涉及创新药或生物制造，但与大健康领域的预防医学和精准健康管理高度相关。",
+      "url": "https://www.mddionline.com/wearable-medical-devices/this-is-45-monitoring-my-heart-and-sleep-in-the-age-of-wearable-tech",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-06",
+      "tags": [
+        "wearable_technology",
+        "digital_health",
+        "preventive_medicine"
+      ],
+      "ai_score": 7,
+      "content_hash": "4326c0e561f89b326531e3b51b706c3c",
+      "created_at": "2026-04-10 06:07:35",
+      "updated_at": "2026-04-10 06:07:35",
+      "date": "2026-04-06"
+    },
+    {
+      "id": 1096,
+      "title": "Ensuring Reliability, Security, &amp; Performance of Remote Medical Devices in Non-Clinical Environments",
+      "summary": "Manufacturers must invest in advanced design strategies, connectivity solutions, and cybersecurity measures to meet these challenges effectively.",
+      "chinese_summary": "本文探讨远程医疗设备在非临床环境中的可靠性、安全性和性能保障，强调制造商需投资先进设计策略、连接解决方案和网络安全措施。主要涉及医疗设备监管与技术创新，与大健康领域的数字医疗和公共健康密切相关。",
+      "url": "https://www.mddionline.com/software/ensuring-reliability-security-performance-of-remote-medical-devices-in-non-clinical-environments",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-06",
+      "tags": [
+        "medical devices",
+        "cybersecurity",
+        "remote monitoring"
+      ],
+      "ai_score": 6,
+      "content_hash": "d7453c694e35e895162defb968e297fa",
+      "created_at": "2026-04-10 06:07:15",
+      "updated_at": "2026-04-10 06:07:15",
+      "date": "2026-04-06"
+    },
+    {
+      "id": 1098,
+      "title": "Hologic CEO Sets His Sights on Retirement After Go-Private Deal Closes",
+      "summary": "After an impressive tenure as Hologic's CEO, Steve MacMillan will retire when the company's $18.3B go-private deal closes.",
+      "chinese_summary": "Hologic公司CEO Steve MacMillan将在公司完成183亿美元私有化交易后退休。Hologic主要专注于女性健康领域的医疗设备诊断产品，与创新药和生物制造直接关联度较低，属于大健康领域的医疗设备企业并购事件。",
+      "url": "https://www.mddionline.com/business/hologic-ceo-sets-his-sights-on-retirement-after-go-private-deal-closes",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-06",
+      "tags": [
+        "企业并购",
+        "CEO退休",
+        "医疗设备"
+      ],
+      "ai_score": 3,
+      "content_hash": "e4020b24fbcb25a74cd52e74816ddd29",
+      "created_at": "2026-04-10 06:07:29",
+      "updated_at": "2026-04-10 06:07:29",
+      "date": "2026-04-06"
+    },
+    {
+      "id": 1097,
+      "title": "Can Solventum Overcome Competition from Big Tech's AI Solutions in Autonomous Coding Space",
+      "summary": "Here's what an analyst has to say regarding concerns about heightened competition from Microsoft and other tech companies, which could adversely affect Solventum’s Health Information Systems segment.",
+      "chinese_summary": "文章分析Solventum公司在医疗信息系统领域面临微软等科技巨头AI解决方案的竞争压力，主要关注自主编码市场的商业竞争格局。虽涉及医疗健康信息技术，但与创新药、生物制造等核心生物医药领域直接关联有限。",
+      "url": "https://www.mddionline.com/artificial-intelligence/can-solventum-overcome-competition-from-big-tech-s-ai-solutions-in-autonomous-coding-space",
+      "source": "MDDI Online",
+      "category": "health",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-06",
+      "tags": [
+        "healthcare IT",
+        "competitive analysis",
+        "medical coding"
+      ],
+      "ai_score": 3,
+      "content_hash": "5a4a318af33fdfe2cb35f63e35012201",
+      "created_at": "2026-04-10 06:07:22",
+      "updated_at": "2026-04-10 06:07:22",
+      "date": "2026-04-06"
+    },
+    {
       "id": 649,
       "title": "Perinuclear anchoring of telomeres enables plant infection by Ustilago maydis",
       "summary": "The spatial organization of the genome is critical for cellular function, yet its contribution to the success of host-pathogen interactions remains poorly understood. A conserved hallmark of nuclear architecture is the perinuclear localization of heterochromatin, which includes not only specific chromosomal subdomains but also major structural elements like centromeres and telomeres. To determine the importance of this organization during fungal pathogenesis, we used the maize pathogen Ustilago ",
@@ -6830,6 +7171,30 @@
       "created_at": "2026-04-07 01:03:44",
       "updated_at": "2026-04-07 01:03:44",
       "date": "2026-04-06"
+    },
+    {
+      "id": 1100,
+      "title": "Vdyne Granted IDE to Address ‘Forgotten’ Valve",
+      "summary": "Vdyne secures IDE approval to launch a pivotal trial for its TTVR system, positioning itself as a key competitor to Edwards Lifesciences in the growing tricuspid valve replacement market.",
+      "chinese_summary": "Vdyne获得IDE批准启动TTVR系统关键试验，成为三尖瓣置换市场中Edwards Lifesciences的主要竞争者。该技术专注于治疗被忽视的三尖瓣疾病，属于结构性心脏病介入治疗领域的创新医疗器械。",
+      "url": "https://www.mddionline.com/cardiovascular/vdyne-granted-ide-to-address-forgotten-valve",
+      "source": "MDDI Online",
+      "category": "innovation",
+      "journal": "MDDI Online",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-05",
+      "tags": [
+        "structural heart",
+        "medical device",
+        "tricuspid valve"
+      ],
+      "ai_score": 7,
+      "content_hash": "d593564adef0939c0bf1e04ee7e4bcfa",
+      "created_at": "2026-04-10 06:07:41",
+      "updated_at": "2026-04-10 06:07:41",
+      "date": "2026-04-05"
     },
     {
       "id": 532,
@@ -15533,6 +15898,31 @@
       "date": "2026"
     },
     {
+      "id": 1101,
+      "title": "Suspected Hypersensitivity Reaction to Titanium Screws Following Kalish Osteotomy for Hallux Valgus.",
+      "summary": "",
+      "chinese_summary": "本文报道一例接受Kalish截骨术治疗拇外翻后疑似对钛螺钉产生过敏反应的病例。该研究聚焦于骨科植入物的生物相容性问题，属于医疗器械安全范畴，与创新药、生物制造领域直接关联性较低，主要涉及临床医疗实践中的不良反应监测。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41939579/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Cureus",
+      "authors": [
+        "[\"Ajarrag S\"",
+        "\"Torchon MC\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "orthopedic_surgery",
+        "hypersensitivity_reaction",
+        "medical_devices"
+      ],
+      "ai_score": 2,
+      "content_hash": "075e169267b64efeb97cadd82751f7f3",
+      "created_at": "2026-04-10 06:07:48",
+      "updated_at": "2026-04-10 06:07:48",
+      "date": "2026"
+    },
+    {
       "id": 1060,
       "title": "Life history and ecology shape global patterns in avian hatching failure rates.",
       "summary": "",
@@ -15947,27 +16337,6 @@
       "content_hash": "321fa44a2bdceeeaedcd8500150e14ba",
       "created_at": "2026-04-10 05:33:06",
       "updated_at": "2026-04-10 05:33:06",
-      "date": "2026"
-    },
-    {
-      "id": 1003,
-      "title": "Suspected Hypersensitivity Reaction to Titanium Screws Following Kalish Osteotomy for Hallux Valgus.",
-      "summary": "Titanium implants are generally regarded as biocompatible and inert; however, hypersensitivity reactions, although uncommon, have been increasingly recognized in orthopedic surgery. We report a case of chronic inflammatory reaction following a Kalish osteotomy for hallux valgus, ultimately attributed to titanium hypersensitivity. A 58-year-old woman underwent fixation of the first metatarsal with two titanium screws. The postoperative course was complicated by wound dehiscence, delayed healing, recurrent granulomatous tissue, and persistent swelling, despite antibiotic therapy. Over the months, two additional surgical procedures were performed, including the removal of a floating bone fragment, followed by biopsy and complete hardware removal. Histopathologic analysis demonstrated reactive",
-      "chinese_summary": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41939579/",
-      "source": "PubMed",
-      "category": "medical-device",
-      "journal": "Cureus",
-      "authors": [
-        "[\"Ajarrag S\"",
-        "\"Torchon MC\"]"
-      ],
-      "publish_date": "2026",
-      "tags": [],
-      "ai_score": null,
-      "content_hash": "075e169267b64efeb97cadd82751f7f3",
-      "created_at": "2026-04-10 02:22:00",
-      "updated_at": "2026-04-10 02:22:00",
       "date": "2026"
     },
     {
@@ -29066,5 +29435,5 @@
       "date": ""
     }
   ],
-  "updated_at": "2026-04-10T13:56:03.598753"
+  "updated_at": "2026-04-10T14:07:48.087984"
 }
