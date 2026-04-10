@@ -1,6 +1,31 @@
 {
   "articles": [
     {
+      "id": 1012,
+      "title": "Cancer Drug Shortfalls Tied to How BET Inhibitors Hit BRD2 and BRD4 Differently",
+      "summary": "Using rapid protein degradation, chemogenomics, and super‑resolution microscopy in mouse embryonic stem cells, the team dissected the distinct contributions of BRD2 and BRD4 to transcription.\nThe post Cancer Drug Shortfalls Tied to How BET Inhibitors Hit BRD2 and BRD4 Differently appeared first on GEN - Genetic Engineering and Biotechnology News.",
+      "chinese_summary": "研究团队通过快速蛋白质降解、化学基因组学及超分辨率显微镜技术，在小鼠胚胎干细胞中揭示了BRD2和BRD4在转录调控中的不同作用。该发现解释了现有BET抑制剂类抗癌药物疗效不足的原因，为开发更精准的靶向药物提供了关键机制依据。",
+      "url": "https://www.genengnews.com/topics/cancer/cancer-drug-shortfalls-tied-to-how-bet-inhibitors-hit-brd2-and-brd4-differently/",
+      "source": "GEN",
+      "category": "innovation",
+      "journal": "GEN",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-10",
+      "tags": [
+        "BET inhibitors",
+        "BRD2/BRD4",
+        "transcription mechanism",
+        "drug development"
+      ],
+      "ai_score": 8,
+      "content_hash": "4d6109d8e5ef738c91d2f72be75f455e",
+      "created_at": "2026-04-10 02:22:54",
+      "updated_at": "2026-04-10 02:22:54",
+      "date": "2026-04-10"
+    },
+    {
       "id": 984,
       "title": "STAT+: 5 years after lupus breakthrough, CAR-T is still surprising autoimmunity researchers",
       "summary": "CAR-T therapy is toting up more remissions in autoimmune disease, and generating a flood of experimentation and investment.",
@@ -83,6 +108,30 @@
       "content_hash": "9f32a3388b6cc8a21f5c4e2da2e90758",
       "created_at": "2026-04-10 01:06:07",
       "updated_at": "2026-04-10 01:06:07",
+      "date": "2026-04-09"
+    },
+    {
+      "id": 1016,
+      "title": "CDRH targets hospital readmissions with home device innovation challenge",
+      "summary": "The center plans to pick nine devices to help support patients and caregivers after a hospital stay.",
+      "chinese_summary": "CDRH推出家庭医疗设备创新挑战赛，旨在选取九种设备支持患者出院后恢复及护理，通过减少再入院率改善医疗系统效率，属于大健康领域的医疗创新应用。",
+      "url": "https://www.medtechdive.com/news/cdrh-targets-hospital-readmissions-with-home-device-innovation-challenge/817071/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "medical devices",
+        "home care",
+        "hospital readmissions"
+      ],
+      "ai_score": 7,
+      "content_hash": "a239bb7739cc268697b1896e2eaa59d2",
+      "created_at": "2026-04-10 02:23:22",
+      "updated_at": "2026-04-10 02:23:22",
       "date": "2026-04-09"
     },
     {
@@ -372,6 +421,30 @@
       "date": "2026-04-09"
     },
     {
+      "id": 1013,
+      "title": "E2 raises $80M to market thrombectomy platform",
+      "summary": "The funding round follows high-profile acquisitions by Boston Scientific and Stryker to pick up mechanical thrombectomy devices for blood clot removal.",
+      "chinese_summary": "E2公司获8000万美元融资用于推广血栓切除平台。该融资背景是波士顿科学和史赛克近期收购了机械血栓切除设备。该技术专注于血管内血栓清除，属于介入治疗器械创新，与创新药开发间接相关但属不同领域。",
+      "url": "https://www.medtechdive.com/news/endovascular-engineering-e2-80M-funding-round-mechanical-thrombectomy/817138/",
+      "source": "MedTech Dive",
+      "category": "innovation",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "mechanical thrombectomy",
+        "medical devices",
+        "interventional neurology"
+      ],
+      "ai_score": 6,
+      "content_hash": "b81d7e748533d947dea5c6dbc373762b",
+      "created_at": "2026-04-10 02:23:00",
+      "updated_at": "2026-04-10 02:23:00",
+      "date": "2026-04-09"
+    },
+    {
       "id": 985,
       "title": "STAT+: FDA rejects an industry proposal to deregulate some AI devices",
       "summary": "In this edition of Health Tech: FDA rejects a proposal to deregulate certain types of AI devices, pharma invests $50 million in DTx, and more.",
@@ -465,6 +538,54 @@
       "content_hash": "006d555ce425563220427540822375d7",
       "created_at": "2026-04-10 01:18:29",
       "updated_at": "2026-04-10 01:18:29",
+      "date": "2026-04-09"
+    },
+    {
+      "id": 1017,
+      "title": "One year in: How medtech companies are coping with tariff challenges",
+      "summary": "A resilient medtech industry navigating the fallout from President Donald Trump&rsquo;s trade wars is taking proactive steps to manage tariff costs as the administration&rsquo;s policies continue to evolve.",
+      "chinese_summary": "本文探讨医疗器械行业在特朗普政府贸易战关税政策实施一年后的应对策略。虽然涉及医疗技术领域，但主要聚焦关税成本和贸易政策应对，与创新药、生物制造等核心领域关联有限，仅在大健康的医疗设备层面有间接相关性。",
+      "url": "https://www.medtechdive.com/news/one-year-in-how-medtech-companies-are-coping-with-tariff-challenges/816982/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "medtech",
+        "tariff",
+        "trade policy"
+      ],
+      "ai_score": 3,
+      "content_hash": "27035ebd5a9c14e88ff0da5fa405315c",
+      "created_at": "2026-04-10 02:23:27",
+      "updated_at": "2026-04-10 02:23:27",
+      "date": "2026-04-09"
+    },
+    {
+      "id": 1014,
+      "title": "FDA, medtech industry near MDUFA VI agreement",
+      "summary": "The FDA said it intends to hire &ldquo;substantial numbers&rdquo; of medical device review staff as part of the agreement for the next medical device user fee amendments.",
+      "chinese_summary": "FDA计划在下一代医疗器械用户费用协议中大幅增加审评人员编制，旨在提升医疗器械审批效率。该举措主要涉及监管流程优化，与医疗设备行业政策直接相关，但对创新药、生物制造等核心领域影响有限。",
+      "url": "https://www.medtechdive.com/news/fda-medtech-industry-near-mdufa-vi-agreement/817131/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "medical device",
+        "FDA regulation",
+        "health policy"
+      ],
+      "ai_score": 3,
+      "content_hash": "adf25c17113195203ad2d8877bdda31d",
+      "created_at": "2026-04-10 02:23:10",
+      "updated_at": "2026-04-10 02:23:10",
       "date": "2026-04-09"
     },
     {
@@ -714,6 +835,30 @@
       "date": "2026-04-09"
     },
     {
+      "id": 1015,
+      "title": "Judge allows states’ lawsuit over HHS restructuring to move forward",
+      "summary": "A group of 19 states and Washington, D.C., sued over the department&rsquo;s sweeping layoffs and reorganization&nbsp;last year. A federal judge on Tuesday struck down the HHS&rsquo; bid to dismiss the lawsuit.",
+      "chinese_summary": "19个州和华盛顿特区起诉美国卫生与公众服务部大规模裁员和重组，联邦法官驳回了HHS驳回诉讼的请求。此事涉及公共卫生管理架构变动，但与创新药、生物制造等核心技术领域直接关联度较低。",
+      "url": "https://www.medtechdive.com/news/judge-allows-states-lawsuit-hhs-restructuring-layoffs-move-forward/817117/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-09",
+      "tags": [
+        "healthcare policy",
+        "government lawsuit",
+        "HHS restructuring"
+      ],
+      "ai_score": 2,
+      "content_hash": "f9f805628402eb096fd3d49386a4b80f",
+      "created_at": "2026-04-10 02:23:15",
+      "updated_at": "2026-04-10 02:23:15",
+      "date": "2026-04-09"
+    },
+    {
       "id": 909,
       "title": "A trans-piRNA network and transcriptional antagonism shape piRNA cluster function",
       "summary": "PIWI-interacting (pi)RNAs protect animal germlines from transposable elements (TEs) by guiding their sequence-specific repression. In Drosophila germline, piRNAs are encoded in distinct genomic regions, piRNA clusters (piCs), that are transcribed by a non-canonical machinery that is anchored on chromatin by the HP1 paralogue Rhino. Studies of transgenic piCs revealed that piRNA biogenesis depends on cytoplasmic inheritance of piRNAs, however, whether native piCs require trans-generational piRNA ",
@@ -957,6 +1102,30 @@
       "date": "2026-04-09"
     },
     {
+      "id": 1020,
+      "title": "Digital health funding concentrates in fewer startups: report",
+      "summary": "Companies raised $4 billion in the first quarter, an increase of $1 billion over the prior year, according to Rock Health. But nearly 60% of the capital deployed came from 12 large deals.",
+      "chinese_summary": "报告显示数字健康领域投资趋于集中，第一季度融资达40亿美元，同比增长10亿。但近60%资金来自12笔大额交易，表明资金正流向少数成熟初创企业，反映数字健康领域投资模式变化。",
+      "url": "https://www.medtechdive.com/news/digital-health-funding-concentrates-fewer-startups-q1-2026-rock-health/816933/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-08",
+      "tags": [
+        "digital health",
+        "healthcare funding",
+        "startup investment"
+      ],
+      "ai_score": 7,
+      "content_hash": "65d686c3455a1e120f2e160cd5bbc19f",
+      "created_at": "2026-04-10 02:24:11",
+      "updated_at": "2026-04-10 02:24:11",
+      "date": "2026-04-08"
+    },
+    {
       "id": 855,
       "title": "A luciferase-based assay for assessing IRES-mediated translation in Wheat Germ Extract",
       "summary": "Efficient protein synthesis in eukaryotic cells typically requires a 5' cap structure on messenger RNAs (mRNAs). However, under stress conditions or in viral infection, translation can also occur independently of the cap via internal ribosomal entry sites (IRES). IRES elements are therefore key regulators of protein expression in both viral and cellular contexts. Here we describe a cell-free protocol to quantitatively assess IRES-mediated translation using wheat germ extract (WGE) and a firefly ",
@@ -986,6 +1155,50 @@
       "content_hash": "5aaebc092676b54cc6970f6b8a7404d2",
       "created_at": "2026-04-09 09:17:37",
       "updated_at": "2026-04-09 09:17:37",
+      "date": "2026-04-08"
+    },
+    {
+      "id": 1018,
+      "title": "Philips warns not to use certain nebulizers in Trilogy Evo ventilator recall",
+      "summary": "Using non-pneumatic nebulizers with the ventilators can lead to under-delivery of therapy to patients, the company said.",
+      "chinese_summary": "飞利浦警告特定雾化器在Trilogy Evo呼吸机中的使用风险，指出非气动雾化器可能导致治疗剂量不足，涉及医疗设备安全与患者护理，但未直接涉及创新药、生物制造或大健康核心领域。",
+      "url": "https://www.medtechdive.com/news/philips-warns-not-to-use-certain-nebulizers-in-trilogy-evo-ventilator-recal/816981/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-08",
+      "tags": [
+        "medical_device",
+        "patient_safety",
+        "respiratory_therapy"
+      ],
+      "ai_score": 3,
+      "content_hash": "df54574a0feee246e04005f248d0226d",
+      "created_at": "2026-04-10 02:23:33",
+      "updated_at": "2026-04-10 02:23:33",
+      "date": "2026-04-08"
+    },
+    {
+      "id": 1019,
+      "title": "Hologic hires former Baxter leader José Almeida as CEO",
+      "summary": "The company appointed Almeida as chief executive in conjunction with the completion of an $18.3 billion go-private deal.",
+      "chinese_summary": "",
+      "url": "https://www.medtechdive.com/news/hologic-hires-ex-baxter-leader-jose-almeida-as-ceo/816919/",
+      "source": "MedTech Dive",
+      "category": "medical-device",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-08",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "77017723818a27eb5e464ac6f0ac83c0",
+      "created_at": "2026-04-10 02:24:05",
+      "updated_at": "2026-04-10 02:24:05",
       "date": "2026-04-08"
     },
     {
@@ -5047,6 +5260,54 @@
       "created_at": "2026-04-09 01:01:46",
       "updated_at": "2026-04-09 01:01:46",
       "date": "2026-04-08"
+    },
+    {
+      "id": 1022,
+      "title": "J&J launches enhanced PFA device in Europe",
+      "summary": "The Varipulse Pro pulsed field ablation platform, which has received a CE mark, will be a focus at the upcoming European Heart Rhythm Association annual meeting in Paris.",
+      "chinese_summary": "强生在欧洲推出增强型Varipulse Pro脉冲场消融平台，该设备已获得CE认证，将成为巴黎欧洲心律协会年会的焦点。该技术用于治疗心律失常，属于心血管介入治疗领域，与创新药和生物制造直接关联度较低，但属于大健康范畴的医疗设备创新。",
+      "url": "https://www.medtechdive.com/news/Johnson-jnj-varipulse-pro-pfa-pulsed-field-ablation-ce-mark/816836/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "medical device",
+        "cardiology",
+        "pulsed field ablation"
+      ],
+      "ai_score": 6,
+      "content_hash": "020e0b4bc31d798b4a0923050c3f6ddb",
+      "created_at": "2026-04-10 02:24:24",
+      "updated_at": "2026-04-10 02:24:24",
+      "date": "2026-04-07"
+    },
+    {
+      "id": 1021,
+      "title": "Zimmer hires chief science, technology and medical affairs officer",
+      "summary": "Jonathan Vigdorchik, an orthopedic surgeon from the Hospital for Special Surgery, previously was chief medical technology adviser for the company.",
+      "chinese_summary": "骨科公司Zimmer任命Jonathan Vigdorchik为首席科学、技术和医疗事务官。他原是特殊外科医院骨科医生，曾担任该公司首席医疗技术顾问。此任命主要涉及骨科医疗器械领域，与创新药和生物制造直接关联度较低。",
+      "url": "https://www.medtechdive.com/news/zimmer-hires-chief-science-technology-and-medical-affairs-officer/816841/",
+      "source": "MedTech Dive",
+      "category": "health",
+      "journal": "MedTech Dive",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-07",
+      "tags": [
+        "orthopedics",
+        "medical_technology",
+        "executive_appointment"
+      ],
+      "ai_score": 3,
+      "content_hash": "759cf170ed76ce77cebd886573bb3ad1",
+      "created_at": "2026-04-10 02:24:16",
+      "updated_at": "2026-04-10 02:24:16",
+      "date": "2026-04-07"
     },
     {
       "id": 768,
@@ -11063,6 +11324,34 @@
       "date": "2026"
     },
     {
+      "id": 990,
+      "title": "Activation mechanism and integrated one-pot assay of chiral-like cRNA-enhanced CRISPR/Cas12a systems.",
+      "summary": "The 5'-repeat fragments released during pre-crRNA maturation are critical yet understudied components of the CRISPR/Cas12a system. Here, we demonstrate that engineered 5'-repeat fragments can potently activate Cas12a cleavage, with efficiency strongly dependent on the length of the 3'-spacer. Strikingly, complete truncation of the 3'-spacer generates a \"chiral-like crRNA\" conformation that induces a delayed-switch mode of Cas12a activation, fundamentally distinct from conventional mature crRNA. Leveraging this characteristic, we develop the delayed cleavage feature-mediated one-pot sensing strategy that resolves the long-standing challenge of incompatibility between Cas12a-based cleavage reaction and nucleic acid amplification, achieving a 1000-fold improvement in sensitivity over that of ",
+      "chinese_summary": "本研究揭示了CRISPR/Cas12a系统中5'-重复片段的新型激活机制，发现截短3'-间隔区可形成手性样crRNA，诱导延迟激活模式。基于此开发的一锅法检测策略成功解决了Cas12a切割与核酸扩增的不兼容问题，灵敏度提升1000倍，为基因编辑工具创新和分子诊断技术发展提供了重要突破。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41951661/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Nature communications",
+      "authors": [
+        "[\"Li Y\"",
+        "\"Feng N\"",
+        "\"Wu X\"",
+        "\"Zhu B\"",
+        "\"Chen Y\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CRISPR/Cas12a",
+        "gene_editing",
+        "diagnostic_technology"
+      ],
+      "ai_score": 8,
+      "content_hash": "a6b97303971c9e537202f2da89747d47",
+      "created_at": "2026-04-10 02:20:01",
+      "updated_at": "2026-04-10 02:20:01",
+      "date": "2026"
+    },
+    {
       "id": 973,
       "title": "Humanized Synthetic Nanobody Library for Antivenom Development.",
       "summary": "Humanized synthetic nanobodies are increasingly important in biomedical research and therapeutic antibody development owing to their high specificity, small size, superior tissue penetration, and reduced immunogenicity. In this study, we constructed a humanized synthetic nanobody library by combining eight sub-libraries. Each sub-library comprised four framework regions derived from human immunoglobulin framework sequences, whereas the complementarity-determining regions (CDRs) were designed based on camelid nanobody sequences. The resulting combined library reached a titer of 1.8 &#xd7; 108 CFU/mL, with approximately 80% of clones containing correct inserts. To evaluate the functionality of the library, a synthetic 15-mer peptide mimic (Asp49-41) corresponding to an enzymatic region of As",
@@ -11748,6 +12037,86 @@
       "content_hash": "4659108903f00fed82b0b97c5bde0d10",
       "created_at": "2026-04-09 09:17:45",
       "updated_at": "2026-04-09 09:17:45",
+      "date": "2026"
+    },
+    {
+      "id": 1005,
+      "title": "AI-enabled cardiovascular devices: a lifecycle playbook for evidence, change control, and post-market assurance.",
+      "summary": "AI-enabled cardiovascular devices are increasingly used in imaging, physiological signal analysis, and clinical decision support systems. Despite growing clinical adoption, requirements for evidence generation, software change management, and post-deployment assurance remain fragmented across jurisdictions and are often difficult to translate into operational processes within healthcare organizations. This review synthesizes common foundations of software as a medical device (SaMD) oversight and compares key regulatory expectations regarding cardiovascular AI across the United States, the European Union, and the United Kingdom, with emphasis on the entire clinical lifecycle from pre-deployment assessment to post-market monitoring. Across jurisdictions, convergent operational requirements e",
+      "chinese_summary": "本文探讨AI心血管设备的全生命周期监管框架，聚焦证据生成、变更管理和上市后监督。通过比较美欧英监管要求，提出适用于医疗机构的操作指南，虽不直接涉及药物开发，但对数字医疗产品的临床转化具有重要参考价值。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41938602/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Frontiers in digital health",
+      "authors": [
+        "[\"Ardic N\"",
+        "\"Dinc R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "AI医疗设备",
+        "心血管疾病",
+        "监管科学",
+        "软件生命周期管理"
+      ],
+      "ai_score": 7,
+      "content_hash": "b8e5bcd01e7972f7b755534601dae655",
+      "created_at": "2026-04-10 02:22:12",
+      "updated_at": "2026-04-10 02:22:12",
+      "date": "2026"
+    },
+    {
+      "id": 996,
+      "title": "Extensive Age-Balanced and Subject-Varied mmWave Radar Dataset of Referenced Records for Vital Signs.",
+      "summary": "Contactless measurements of vital signs can provide new ways of monitoring assisted living residents or unreachable patients. Millimetre-wave (mmWave) radars allow for such monitoring and are a privacy free solution that has proven to be effective in the last years. The dataset presented in this paper consists of mmWave radar records of 110 participants collected using two commercial 60 GHz Frequency Modulated Continuous Wave radars for vital signs applications. All measurements are referenced against a class IIa medical device which provides ECG and accelerometer data. This dataset includes subjects of different ages, and with varied health status - 15 individuals present heart-related issues. For each participant tests were carried out in different postures, with post-exercise and holdin",
+      "chinese_summary": "本研究提供了一个毫米波雷达生命体征数据集，包含110名不同年龄和健康状况参与者的非接触式监测数据。该技术适用于辅助生活和远程医疗场景，通过医疗级设备验证，为大健康领域的精准医疗和公共健康监测提供了重要数据支撑。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41946749/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Scientific data",
+      "authors": [
+        "[\"Parralejo F\"",
+        "\"Paredes JA\"",
+        "\"Álvarez FJ\"",
+        "\"Vicario Á\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "remote monitoring",
+        "vital signs",
+        "precision medicine"
+      ],
+      "ai_score": 7,
+      "content_hash": "d60ad06fb0b5b1c86b3308a46e974098",
+      "created_at": "2026-04-10 02:20:42",
+      "updated_at": "2026-04-10 02:20:42",
+      "date": "2026"
+    },
+    {
+      "id": 994,
+      "title": "Artificial Intelligence as the Ultimate Operative Assistant.",
+      "summary": "Artificial intelligence (AI) is poised to become transformational in many aspects of modern society and has attracted significant interest within the field of medicine. This review outlines the foundational components of modern AI such as including machine learning, deep learning, natural language processing, computer vision, and generative modeling, and examines their emerging applications within surgery. In the preoperative domain, AI-driven risk stratification models inform patient selection and resource allocation, while parallel advances in deep learning-enabled anatomic segmentation and three-dimensional reconstruction have the potential to streamline surgical planning by automating labor-intensive imaging workflows. Intraoperatively, maturing capabilities in phase recognition, anato",
+      "chinese_summary": "本文探讨人工智能在手术领域的应用，涵盖术前风险评估、影像分割重建、术中阶段识别等环节。虽未直接涉及创新药或生物制造，但通过AI技术提升手术精准度和效率，属于大健康领域中精准医疗和医疗技术创新的重要组成部分。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41948160/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Clinics in colon and rectal surgery",
+      "authors": [
+        "[\"Engelke CG\"",
+        "\"Aoun RJN\"",
+        "\"Huang E\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "AI辅助手术",
+        "精准医疗",
+        "医疗影像分析",
+        "手术规划"
+      ],
+      "ai_score": 7,
+      "content_hash": "48bac069113d84115a300a040bf7184e",
+      "created_at": "2026-04-10 02:20:29",
+      "updated_at": "2026-04-10 02:20:29",
       "date": "2026"
     },
     {
@@ -12653,6 +13022,189 @@
       "date": "2026"
     },
     {
+      "id": 1010,
+      "title": "Standardization of In-Vitro Evaluation of Extracorporeal Life Support (ECLS) Devices for Research and Development.",
+      "summary": "Extracorporeal life support (ECLS) technology has witnessed remarkable advancements during the last decades. However, further research and development of devices are required to increase, for example, performance-efficiency, hemocompatibility, and long-term stability. All novel devices, even in early research stages, must undergo rigorous testing and evaluation. Yet, these early evaluations are often conducted under nonstandardized conditions, resulting in data difficult to compare, interpret, or translate into clinical practice. Establishing well-defined, standardized in-vitro testing protocols for all ECLS components and devices would represent a major step forward. Such protocols would improve methodological consistency and ensure reproducibility across research groups. This document, d",
+      "chinese_summary": "本文提出体外生命支持设备标准化体外评估方案，旨在解决早期研发阶段测试条件不统一的问题。通过建立标准化测试协议，可提高设备性能评估的一致性和可重复性，主要涉及医疗器械研发和质量控制流程，与生物制造领域的生产流程优化密切相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41933908/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Interdisciplinary cardiovascular and thoracic surgery",
+      "authors": [
+        "[\"Arens J\"",
+        "\"Belliato M\"",
+        "\"Broman LM\"",
+        "\"Clauser JC\"",
+        "\"Donker DW\"",
+        "\"Lorusso R\"",
+        "\"Malfertheiner M\"",
+        "\"Rajsic S\"",
+        "\"Swol J\"",
+        "\"Vercaemst L\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "医疗器械",
+        "体外测试",
+        "标准化",
+        "ECLS"
+      ],
+      "ai_score": 6,
+      "content_hash": "b27f029401d6de7601b68f87508998ab",
+      "created_at": "2026-04-10 02:22:40",
+      "updated_at": "2026-04-10 02:22:40",
+      "date": "2026"
+    },
+    {
+      "id": 1002,
+      "title": "Dispersion Inhibits Thermal Mitigation of Pseudomonas aeruginosa Biofilms on Self-Heating Surfaces.",
+      "summary": "Bacterial biofilms on medical implants are a major problem, typically requiring explantation and replacement of the biofilm-colonized implant. Thermal mitigation of these biofilms in situ has shown great promise in the laboratory, where the thermal shock can be most precisely delivered by immersion in hot media. Clinical implementation requires delivering the shock from the implant surface, however, leaving the surroundings at a cooler temperature. This study hypothesized that bacteria may rapidly, reversibly disperse into the cooler surroundings to partially evade the shock and tested this hypothesis by thermally shocking Pseudomonas aeruginosa biofilms on thermoelectric devices under media with different heat sink conditions. The time scale and equilibrium constant of this dispersion wer",
+      "chinese_summary": "本研究探索通过自加热表面热冲击抑制铜绿假单胞菌生物膜，发现细菌会向低温环境分散以逃避热杀伤。该技术对医疗植入物生物膜控制具有潜在应用价值，属于生物制造领域的医疗器械相关生物处理技术。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41940480/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "MicrobiologyOpen",
+      "authors": [
+        "[\"Parnian P\"",
+        "\"Zoga PK\"",
+        "\"Aljaafari HAS\"",
+        "\"Chicchelly H\"",
+        "\"Toops M\"",
+        "\"Nuxoll E\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "biofilm_control",
+        "medical_devices",
+        "thermal_mitigation"
+      ],
+      "ai_score": 6,
+      "content_hash": "e8b26c36c58c14cf412ac4da1ac85936",
+      "created_at": "2026-04-10 02:21:28",
+      "updated_at": "2026-04-10 02:21:28",
+      "date": "2026"
+    },
+    {
+      "id": 998,
+      "title": "Validation of the Charité Alarm Fatigue Questionnaire (CAFQa-Eng) for Use with English-Speaking Critical Care Clinicians.",
+      "summary": "Alarm fatigue from medical device alarms is a persistent patient safety challenge in critical care. However, quantification of alarm fatigue is inhibited by lack of standardized measurement tools. The Charit&#xe9; Alarm Fatigue Questionnaire (CAFQa) is a measure of alarm fatigue originally developed and validated in German. Here, the authors report on the English-language validation of CAFQa (CAFQa-Eng). To establish face validity of the English translation, an expert panel was convened, and the authors conducted cognitive interviews with US-based critical care nurses. Items were iteratively edited for clarity and cultural relevance. The study team then conducted a cross-sectional survey of English-speaking clinicians for psychometric evaluation. Confirmatory factor analysis (CFA) was used",
+      "chinese_summary": "本研究验证了英文版Charité警报疲劳问卷在重症监护医护人员中的适用性。通过专家评审和认知访谈确立表面效度，并采用心理测量学方法评估问卷性能。该工具旨在量化医疗设备警报引起的疲劳问题，有助于改善患者安全和临床工作环境。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41945088/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Joint Commission journal on quality and patient safety",
+      "authors": [
+        "[\"Ruppel H\"",
+        "\"Hinz E\"",
+        "\"Frey N\"",
+        "\"Wunderlich MM\"",
+        "\"Poncette AS\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "patient safety",
+        "medical devices",
+        "questionnaire validation"
+      ],
+      "ai_score": 6,
+      "content_hash": "4f98b0b75a7423bf34d7b888c110d6d2",
+      "created_at": "2026-04-10 02:20:58",
+      "updated_at": "2026-04-10 02:20:58",
+      "date": "2026"
+    },
+    {
+      "id": 997,
+      "title": "Portable and point-of-care molecular detection of pathogenic Vibrio parahaemolyticus in shrimp.",
+      "summary": "In the Mekong Delta region, Acute Hepatopancreatic Necrosis Disease (AHPND) is a globally serious threat to shrimp farming. AHPND is mainly caused by Vibrio parahaemolyticus carrying a plasmid that encodes virulence genes, namely, Photorhabdus insect-related (pir). One of the best measures to control outbreaks in shrimp is to rapidly and accurately determine V. parahaemolyticus carrying virulence gene. In this study, we developed a fully-integrated molecular diagnostic device that combines a Flinders Technology Associates (FTA) card-embedded tube for nucleic acid extraction and loop-mediated isothermal amplification (LAMP) to detect the pirA gene of causative V. parahaemolyticus, with a pH-based colorimetric readout realized by the use of phenol red. To improve the usability of the LAMP as",
+      "chinese_summary": "本研究开发了一种便携式分子检测装置，用于快速检测虾类致病菌副溶血弧菌。该设备整合了核酸提取和LAMP等温扩增技术，通过pH比色法检测毒力基因，为水产养殖病害防控提供现场诊断解决方案。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41945402/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "The Analyst",
+      "authors": [
+        "[\"Trinh TND\"",
+        "\"Trinh KTL\"",
+        "\"Nguyen HA\"",
+        "\"Nguyen HMT\"",
+        "\"Nhi NTH\"",
+        "\"Minh VTT\"",
+        "\"Nam NN\"",
+        "\"Lee NY\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "分子诊断",
+        "生物传感",
+        "水产养殖"
+      ],
+      "ai_score": 6,
+      "content_hash": "6becdd0f2e6b980a407b461c46573732",
+      "created_at": "2026-04-10 02:20:52",
+      "updated_at": "2026-04-10 02:20:52",
+      "date": "2026"
+    },
+    {
+      "id": 995,
+      "title": "Analysis of Trends in FDA-Recalled Hip Arthroplasty Devices: A Retrospective Review.",
+      "summary": "Hip arthroplasty implants are classified as Class III medical devices by the US Food and Drug Administration (FDA), requiring rigorous evaluation to ensure safety and efficacy. While these standards aim to ensure safety, device recalls remain an essential component of postmarket surveillance to address unforeseen performance issues. The objective of this study was to characterize the frequency, causes, and regulatory origins of FDA-recalled hip arthroplasty implants, identifying trends in device failure and implications for patient safety. A retrospective review of the FDA's medical device recall database was conducted, focusing on implantable hip arthroplasty devices and assistive technology from 2002 to 2024. Data were categorized by device type, recall class, reason for recall, and regu",
+      "chinese_summary": "本研究回顾性分析FDA 2002-2024年召回的全髋关节置换装置，探讨其召回频率、原因及监管路径。研究聚焦植入式髋关节假体及其辅助技术，通过分类统计设备类型、召回等级和失败原因，评估其对患者安全的影响，为医疗器械上市后监管提供重要参考。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41947919/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "JB & JS open access",
+      "authors": [
+        "[\"Lorimer LPA\"",
+        "\"Hali K\"",
+        "\"Raspanti J\"",
+        "\"Keshen S\"",
+        "\"Ravi B\"",
+        "\"Poultsides LA\"",
+        "\"Lex JR\"",
+        "\"Stavropoulos NA\"",
+        "\"Babis GC\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "medical device",
+        "FDA recall",
+        "patient safety"
+      ],
+      "ai_score": 6,
+      "content_hash": "71efa46bc8ac946d3d6e2773b5c37c41",
+      "created_at": "2026-04-10 02:20:36",
+      "updated_at": "2026-04-10 02:20:36",
+      "date": "2026"
+    },
+    {
+      "id": 993,
+      "title": "Ferroptosis in orthopedic implant integration after oncologic surgery.",
+      "summary": "Primary bone cancer treatment often requires large bone resections followed by reconstruction using orthopedic implants, which are usually made of titanium (Ti). In oncologic patients, the bone-implant interface (BII) microenvironment is compromised by adjuvant therapies, such as chemotherapy and radiotherapy, which impair tissue repair and disrupt redox homeostasis. Despite high biocompatibility of Ti implants, their long-term success is challenged by the continuous release of degradation products Ti4+ ions and titanium dioxide (TiO2) nanoparticles, which promote chronic inflammatory and oxidative responses at the BII. Ferroptosis, an iron-dependent cell death characterized by lipid peroxidation primarily driven by an increase in reactive oxygen species, has emerged as an important contri",
+      "chinese_summary": "本研究探讨铁死亡在骨癌术后骨科植入物整合中的作用。钛植入物降解产物会引发慢性炎症和氧化反应，破坏骨-植入物界面的氧化还原平衡。铁死亡作为铁依赖性细胞死亡方式，可能影响肿瘤患者植入物的长期成功率，对骨科肿瘤治疗具有临床意义。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41948493/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Frontiers in oncology",
+      "authors": [
+        "[\"Karbonowski PO\"",
+        "\"Lim GY\"",
+        "\"Lach K\"",
+        "\"Skrzycki M\"",
+        "\"Mielczarek-Puta M\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "ferroptosis",
+        "orthopedic_implants",
+        "bone_cancer",
+        "redox_homeostasis"
+      ],
+      "ai_score": 6,
+      "content_hash": "d7f8ed4ac1e4812fba1405ba096058ce",
+      "created_at": "2026-04-10 02:20:24",
+      "updated_at": "2026-04-10 02:20:24",
+      "date": "2026"
+    },
+    {
       "id": 966,
       "title": "Long-term Performance and Durability of Biomaterials and Implant Designs in Total Joint Arthroplasty and Spinal Fusion.",
       "summary": "Advancements in biomaterials and implant design has created a lasting impact on orthopedic surgery. Changes such as implant longevity, biocompatibility, and patient satisfaction have been attained with the use of new biomaterials. Contemporary implants have been able to balance mechanical strength, corrosion resistance, wear characteristics, and biological integration all while decreasing complications including infection and periprosthetic fractures. Metallic biomaterials include titanium alloys, cobalt-chromium alloys, and stainless steel. These materials excel in durability and have favorable strength-to-weight ratios. Although, there are challenges when introducing new biomaterials in orthopedic surgery. Stress shielding and wear-induced osteolysis and stress shielding. This has prompt",
@@ -12817,6 +13369,68 @@
       "date": "2026"
     },
     {
+      "id": 1009,
+      "title": "Patch Testing in Individuals With Diabetes Using Medical Devices. Part 2-Contact Allergy to Medical Device Allergens and New Patch Test Recommendations.",
+      "summary": "Previous studies on contact allergy to diabetes medical devices (MDs) are based on patients referred for patch testing due to suspected allergic contact dermatitis. To present real-world data on contact allergy to MD allergens among diabetes MD users. To suggest a MD patch test series. Adults with type 1 diabetes using diabetes MDs followed up at two endocrinology departments were invited to be patch tested with a novel MD patch test series. Of the 204 participants (114 with skin rash to diabetes MDs, 90 without), 16.2% were positive to allergens found in diabetes MDs. The prevalence was significantly higher in those with skin rash to diabetes MDs versus without (28.1% vs. 1.1%; adjusted p-value&#x2009;&lt;&#x2009;0.001). For allergens found in diabetes MDs, the highest contact allergy rat",
+      "chinese_summary": "本研究探讨糖尿病患者使用医疗设备时对设备中过敏原的接触性过敏反应。通过对204名1型糖尿病患者进行新型斑贴测试，发现16.2%对设备过敏原呈阳性，其中出现皮疹者阳性率显著更高。研究提出了针对医疗设备过敏原的斑贴测试建议，关注医疗器械安全性及患者健康管理。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41936552/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Contact dermatitis",
+      "authors": [
+        "[\"Ulriksdotter J\"",
+        "\"Mowitz M\"",
+        "\"Sukakul T\"",
+        "\"Bruze M\"",
+        "\"Hamnerius N\"",
+        "\"Svedman C\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "contact allergy",
+        "medical devices",
+        "diabetes care",
+        "patch testing"
+      ],
+      "ai_score": 4,
+      "content_hash": "eaef406aac64a20dc497806712902d68",
+      "created_at": "2026-04-10 02:22:35",
+      "updated_at": "2026-04-10 02:22:35",
+      "date": "2026"
+    },
+    {
+      "id": 989,
+      "title": "Clinical outcomes of pressure-enabled drug delivery for trans-arterial chemoembolization and radioembolization.",
+      "summary": "Aim: Prior research observed that pressure-enabled drug delivery (PEDD) counteracts intra-tumoral pressure during trans-arterial chemoembolization (TACE) and radioembolization (TARE), improving drug penetration, yet real-world evidence remains limited. This study examined outcomes associated with PEDD use, including in high-adopter facilities, and assessed potential cost avoidance associated with PEDD. Materials &amp; methods: We used the Clarivate Real World Data repository to identify adults with hepatocellular carcinoma or secondary liver metastases who received TACE or TARE procedures (January 2020-March 2024). We compared baseline characteristics between PEDD and non-PEDD cohorts, then used a two-stage matching approach to develop a matched sample for comparative analyses. Facilities ",
+      "chinese_summary": "本研究评估压力驱动给药技术在经动脉化疗栓塞和放射栓塞中的临床效果。通过真实世界数据分析，发现该技术能改善药物渗透并可能降低成本，主要聚焦于肝癌介入治疗领域的技术优化和医疗经济学评估。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41954394/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Journal of comparative effectiveness research",
+      "authors": [
+        "[\"Gupta D\"",
+        "\"Liu Y\"",
+        "\"Miller-Rosales C\"",
+        "\"Wei F\"",
+        "\"Tuttle E\"",
+        "\"Byers E\"",
+        "\"Marshak R\"",
+        "\"Marshall R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "interventional oncology",
+        "drug delivery technology",
+        "real-world evidence",
+        "cost-effectiveness"
+      ],
+      "ai_score": 4,
+      "content_hash": "140405f96e9f7665b62c50c00ed1ff5c",
+      "created_at": "2026-04-10 02:19:53",
+      "updated_at": "2026-04-10 02:19:53",
+      "date": "2026"
+    },
+    {
       "id": 926,
       "title": "How should we interpret the use of vonoprazan and proton pump inhibitors during immunotherapy for hepatocellular carcinoma?",
       "summary": "",
@@ -12899,6 +13513,292 @@
       "content_hash": "1b1f9dd1e97d7a394c1ddc69d0a81dee",
       "created_at": "2026-04-09 09:18:51",
       "updated_at": "2026-04-09 09:18:51",
+      "date": "2026"
+    },
+    {
+      "id": 1011,
+      "title": "Assessing the adequacy of funding for robotic-surgery hospital stays: a focused cost analysis based on 1,722 procedures in a French university hospital.",
+      "summary": "Context: Robotic-assistance is increasingly used in French hospitals and funded through standard Diagnosis-Related Group (DRG) tariffs. We evaluated the actual costs of robotic-assisted surgical procedures (RASP) and compared these with hospital revenues to assess whether current funding levels are sufficient to cover procedural costs. Materials and methods: This cross-sectional study was conducted in Lyon University Hospitals (France). We examined all RASP performed over January 2023-June 2024. We matched medical device usage data from the DaVinci system manufacturer&#x2019;s database with the hospital database, calculated related costs, and compared these against the costs/ tariffs of DRGs using the national cost benchmarks. Results: Based on a final sample of 1,722 procedures, we observ",
+      "chinese_summary": "本研究评估法国大学医院1722例机器人辅助手术的实际成本与医保支付标准的匹配度，聚焦医疗资金充足性问题。研究通过匹配手术设备使用数据与医院数据库进行成本分析，属于医疗健康管理领域，与创新药和生物制造无直接关联。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41931193/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Journal of robotic surgery",
+      "authors": [
+        "[\"Lacassagne A\"",
+        "\"Molle S\"",
+        "\"Badet L\"",
+        "\"Bolze PA\"",
+        "\"Colombel M\"",
+        "\"Hameury F\"",
+        "\"Maury JM\"",
+        "\"Pasquer A\"",
+        "\"Philip CA\"",
+        "\"Ruffion A\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "医疗成本分析",
+        "机器人手术",
+        "医院资金"
+      ],
+      "ai_score": 3,
+      "content_hash": "c6e6b9a4e0ab856a23eff5a2a6de33b6",
+      "created_at": "2026-04-10 02:22:47",
+      "updated_at": "2026-04-10 02:22:47",
+      "date": "2026"
+    },
+    {
+      "id": 1008,
+      "title": "Work as Imagined Versus Work as Done: A Usability Evaluation of an RFO Sponge-counting System in Real Operating Room Conditions.",
+      "summary": "Retained foreign objects are surgical items accidentally left inside the patient after skin closure at the end of an operation. The surgical count is the primary method for preventing retained foreign objects, and surgical sponge detection devices are increasingly used to aid in prevention. The objective of this study was to investigate usability, functionality, and user responses to 1 such sponge accounting device. Interactions with the sponge accounting device were directly observed during 17 surgical procedures (including laparoscopic, cesarean section, and general surgery). Data was collected quantitatively through a categorical time study and the System Usability Scale, in conjunction with qualitative ad hoc in situ interview data. Thirteen participants completed the System Usability ",
+      "chinese_summary": "本研究评估手术海绵计数系统在真实手术室环境中的可用性，通过观察17台手术并收集定量和定性数据。研究聚焦于预防手术异物遗留，属于医疗设备安全领域，与手术质量提升相关，但与创新药和生物制造直接关联度较低。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41937576/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Journal of patient safety",
+      "authors": [
+        "[\"Galinsky E\"",
+        "\"Dangler M\"",
+        "\"VanMiddendorp E\"",
+        "\"Clark J\"",
+        "\"Konwinski L\"",
+        "\"Meilan J\"",
+        "\"Catchpole K\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "surgical safety",
+        "medical devices",
+        "usability evaluation"
+      ],
+      "ai_score": 3,
+      "content_hash": "6d034b0b60421121a2b76f4fe2b78bd2",
+      "created_at": "2026-04-10 02:22:29",
+      "updated_at": "2026-04-10 02:22:29",
+      "date": "2026"
+    },
+    {
+      "id": 1007,
+      "title": "Device failures and patient adverse events from EUS: 26-year FDA MAUDE analysis (2000-2025).",
+      "summary": "EUS has emerged as an essential instrument in the field of gastroenterology, significantly enhancing both diagnostic evaluations and therapeutic procedures. By delivering high-resolution imaging and precise guidance, EUS facilitates a range of interventional techniques. This study sought to examine the adverse events linked to EUS devices following their approval by the US Food and Drug Administration. We performed a retrospective analysis utilizing postmarketing surveillance data sourced from the Food and Drug Administration's Manufacturer and User Facility Device Experience (MAUDE) database. This analysis encompasses data from January 1, 2000, to August 31, 2025. A total of 7608 reports detailing 8778 device-related issues and 7875 patient complications were analyzed. The most commonly r",
+      "chinese_summary": "本研究通过FDA MAUDE数据库分析2000-2025年超声内镜设备故障及患者不良事件，共分析7608份报告。研究发现设备故障主要涉及成像问题和机械故障，患者并发症包括感染和穿孔。该研究聚焦医疗器械安全性评估，与创新药和生物制造领域直接关联有限。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41938148/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Endoscopic ultrasound",
+      "authors": [
+        "[\"Zhai S\"",
+        "\"Lin X\"",
+        "\"Song Y\"",
+        "\"Li Z\"",
+        "\"Chen J\"",
+        "\"Huang X\"",
+        "\"Ji Z\"",
+        "\"Liu Q\"",
+        "\"Xiao Y\"",
+        "\"Han R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "medical device safety",
+        "postmarket surveillance",
+        "gastroenterology"
+      ],
+      "ai_score": 3,
+      "content_hash": "8349d70e565a13ca539d112ff45908f7",
+      "created_at": "2026-04-10 02:22:24",
+      "updated_at": "2026-04-10 02:22:24",
+      "date": "2026"
+    },
+    {
+      "id": 1006,
+      "title": "High-grade angiosarcoma arising beside a pelvic orthopedic implant: a case report.",
+      "summary": "Angiosarcomas are very rare, malignant tumors of the endothelial lining of blood vessels and most present cutaneously, while only 10% present as deep soft tissue angiosarcomas. Literature is sparse regarding secondary deep soft tissue angiosarcoma, especially in cases that have formed surrounding a foreign body such as orthopedic implants. A 59-year-old Caucasian male presented with a 1-year history of occasional headaches and non-intentional weight loss. One month prior to consult, he began to experience progressive pelvic pain on weight-bearing, up to 10/10 in severity, with associated swelling of the left leg. Further diagnostics revealed a hypervascular tumor on the anterior left hemipelvis, directly over his initial pelvic injury and orthopedic implants placed 33&#xa0;years ago. Biops",
+      "chinese_summary": "本文报道一例59岁男性在骨盆骨科植入物旁发生高级别血管肉瘤的病例。该罕见深部软组织肉瘤发生在33年前植入的骨科器械周围，属于异物相关肿瘤的个案研究，主要涉及植入物并发症与肿瘤学领域。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41938413/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "International journal of surgery case reports",
+      "authors": [
+        "[\"Morales PIB\"",
+        "\"Hobusch G\"",
+        "\"Funovics P\"",
+        "\"Clodi N\"",
+        "\"Scharrer A\"",
+        "\"Windhager R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "orthopedic_implant_complication",
+        "angiosarcoma",
+        "case_report"
+      ],
+      "ai_score": 3,
+      "content_hash": "22bef154b3276cb4d0b8a828f28d4412",
+      "created_at": "2026-04-10 02:22:18",
+      "updated_at": "2026-04-10 02:22:18",
+      "date": "2026"
+    },
+    {
+      "id": 1004,
+      "title": "Introducing the Concept of Label-Prosthesis Mismatch and Its Classification.",
+      "summary": "&#x2022; All stented bioprosthetic aortic valves are mislabeled. &#x2022; Labeled diameters are oversized compared to true diameters with various severity. &#x2022; Label oversizing has been converted into the concept of label-prosthesis mismatch. &#x2022; A simple classification of label-prosthesis mismatch is described (grade 0-6). &#x2022; This study should help surgeons in their choice of prosthetic valves. &#x2022; This study should also be an incentive for the industry towards correct labeling. [Figure: see text]",
+      "chinese_summary": "本文提出'标签-假体不匹配'概念及分级系统，指出带支架生物主动脉瓣普遍存在标签直径大于实际直径的问题。该研究旨在辅助外科医生选择假体瓣膜，并促进行业规范标签标注，主要涉及医疗器械临床实践领域。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41938790/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Structural heart : the journal of the Heart Team",
+      "authors": [
+        "[\"Soquet J\"",
+        "\"van Boxtel AGM\"",
+        "\"Ebels T\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "医疗器械",
+        "心脏瓣膜",
+        "标签规范"
+      ],
+      "ai_score": 3,
+      "content_hash": "f31e4d1814cc315ce9c83c7d3e31509e",
+      "created_at": "2026-04-10 02:22:06",
+      "updated_at": "2026-04-10 02:22:06",
+      "date": "2026"
+    },
+    {
+      "id": 1001,
+      "title": "Reusable Hepatic Imaging Tool: A Reusable 3D-Printed Tool for Hepatic Intravital Microscopy.",
+      "summary": "Hepatic function and dysfunction can be assessed by directly visualizing the dynamic processes of the liver using confocal-based intravital microscopy (IVM). In particular, excellent spatial and temporal precision can be achieved in the extraction of both qualitative and quantitative information. On the microscope stage, maintaining physiological tissue conditions while achieving stability and repeatability remains challenging. Increased weight and hepatic lipid content have a detrimental effect on this process in animal models of Type II diabetes (T2D) and non-alcoholic fatty liver disease (MAFLD). To overcome these constraints, we have created RHIT, a revolutionary imaging instrument design that improves tissue access and stability. RHIT is a reusable, scalable hepatic imaging device man",
+      "chinese_summary": "本研究开发了一种可重复使用的3D打印肝脏活体显微镜成像工具RHIT，旨在改善肝脏组织的稳定性和可及性。该工具主要用于糖尿病和脂肪肝动物模型的肝脏功能可视化研究，属于生物医学成像技术领域，与创新药物开发和生物制造关联较弱。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41941441/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Journal of visualized experiments : JoVE",
+      "authors": [
+        "[\"Cornelius-Muwanguzi MB\"",
+        "\"Sanchez Cornejo HE\"",
+        "\"Barnes CHW\"",
+        "\"De Los Santos Valladares L\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "medical imaging",
+        "liver disease",
+        "3D printing"
+      ],
+      "ai_score": 3,
+      "content_hash": "b343c93f0391dc9bd0c784e2f6428b64",
+      "created_at": "2026-04-10 02:21:23",
+      "updated_at": "2026-04-10 02:21:23",
+      "date": "2026"
+    },
+    {
+      "id": 1000,
+      "title": "Recent technological advances in device-assisted enteroscopy.",
+      "summary": "Device-assisted enteroscopy (DAE) has revolutionized small bowel evaluation by allowing endoscopic access for both diagnosis and therapy. Since the introduction of double-balloon enteroscopy, newer techniques such as single-balloon enteroscopy, spiral enteroscopy (SE), and balloon-guided systems have expanded clinical options. However, conventional DAE remains limited by procedural complexity, prolonged procedure times, and incomplete enteroscopy. In response, novel technologies have emerged to improve efficiency and outcomes. Among these, motorized power SE (PSE) represents a significant advancement, enabling deeper insertion and single-operator capability. Despite promising early results, PSE has been withdrawn from the market owing to safety concerns, particularly esophageal injuries. N",
+      "chinese_summary": "本文综述设备辅助小肠镜(DAE)的技术进展，包括双球囊/单球囊小肠镜、螺旋式小肠镜等新型系统。重点讨论电机驱动螺旋式小肠镜(PSE)在提升操作效率和插入深度方面的创新，以及因安全性问题退市的现状。该研究属于消化内镜领域的医疗器械创新，与创新药/生物制造直接关联度较低，主要适用于大健康领域的医疗技术范畴。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41943647/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Clinical endoscopy",
+      "authors": [
+        "[\"Lee MR\"",
+        "\"Kim JS\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "医疗设备",
+        "内窥镜技术",
+        "消化系统疾病"
+      ],
+      "ai_score": 3,
+      "content_hash": "5614cb6bcd87b1ea98447e454788751a",
+      "created_at": "2026-04-10 02:21:15",
+      "updated_at": "2026-04-10 02:21:15",
+      "date": "2026"
+    },
+    {
+      "id": 999,
+      "title": "Effect of Implementing a Nursing-Led SKINCARE Bundle for Preventing Medical Device-Related Pressure Injury in Critical Care Units.",
+      "summary": "Medical device-related pressure injuries (MDRPIs) are generally preventable yet increasingly recognised complications in critical care units, contributing to patient harm, prolonged hospitalisation and higher costs. A nursing-led skincare bundle may provide a structured, evidence-based approach to standardising practice for the prevention of MDRPIs. This study aimed to evaluate the effect of implementing the SKINCARE bundle on the prevention of MDRPIs in critically ill patients. A quasi-experimental study in critical care units evaluating the effect of a SKINCARE bundle, which included skin assessment, repositioning, moisture management, securing medical devices and protecting the skin with special dressings, on preventing MDRPIs. A total of 110 critically ill patients were included and eq",
+      "chinese_summary": "本研究评估护理主导的SKINCARE方案对预防重症监护病房医疗器械相关压力性损伤的效果。该方案包括皮肤评估、体位调整、湿度管理等标准化措施，涉及110名危重患者。研究属于临床护理改进领域，与医疗器械使用安全相关，但与创新药、生物制造的直接关联度较低。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41944814/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Nursing in critical care",
+      "authors": [
+        "[\"Ghattas AHS\"",
+        "\"Reda NA\"",
+        "\"Elgazzar LRA\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "pressure injury prevention",
+        "critical care",
+        "nursing intervention"
+      ],
+      "ai_score": 3,
+      "content_hash": "da1f065a601d6121686308947e7d82fe",
+      "created_at": "2026-04-10 02:21:06",
+      "updated_at": "2026-04-10 02:21:06",
+      "date": "2026"
+    },
+    {
+      "id": 992,
+      "title": "Complications Associated With AMT Nasal Bridle Use: An FDA MAUDE Analysis.",
+      "summary": "Nasal bridles have been used with increasing frequency and can be deployed at bedside. They are effective in reducing dislodgement of nasogastric tubes in the hospital setting and may increase caloric intake. Adverse events associated with device malfunction or improper use can occur and have a detrimental effect on patients. This study utilized the Food and Drug Administration (FDA) Manufacturer and User Facility Device Experience (MAUDE) database to explore patient-related adverse events associated with nasal bridle use between 2000 and 2023. Twenty-four unique adverse events were reported: 15 were associated with foreign body retention, 4 with septal laceration on placement or removal, 3 from septal tears secondary to forceful patient removal, 1 associated with skin irritation, and 1 pr",
+      "chinese_summary": "本研究通过FDA MAUDE数据库分析2000-2023年鼻腔固定装置相关不良事件，发现主要并发症包括异物残留、鼻中隔撕裂等。该研究关注医疗器械临床使用安全，属于大健康领域的医疗安全范畴，与创新药和生物制造直接关联度较低。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41948682/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "World journal of otorhinolaryngology - head and neck surgery",
+      "authors": [
+        "[\"Grimm DR\"",
+        "\"Sidell DR\"",
+        "\"Ayoub NF\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "medical devices",
+        "patient safety",
+        "adverse events"
+      ],
+      "ai_score": 3,
+      "content_hash": "87ab55e56d4ee281b287026a1fa14e2a",
+      "created_at": "2026-04-10 02:20:16",
+      "updated_at": "2026-04-10 02:20:16",
+      "date": "2026"
+    },
+    {
+      "id": 991,
+      "title": "Ultrasound Screening of Lateral Hinge Fracture after Medial Open Wedge Proximal Tibial Osteotomy.",
+      "summary": "Open wedge proximal tibial osteotomy includes open wedge high tibial osteotomy (OWHTO) and open wedge distal tuberosity tibial osteotomy (OWDTO). These techniques differ in fixation stability and risks, including lateral hinge fracture (LHF), which is a known factor in delayed bone healing. Early detection of LHF is crucial for optimizing bone union. This study evaluated the accuracy of LHF assessment using a non-invasive ultrasound device. We hypothesized that (1) ultrasound would detect lateral hinge fractures with high diagnostic accuracy compared with CT, and (2) greater dynamic widening at the hinge site measured by ultrasound would be associated with delayed bone union. We analyzed 61 knees (33 OWDTO, 28 OWHTO) in 33 women (mean age 60 years, range 27-78). LHF was assessed using radi",
+      "chinese_summary": "本研究评估超声在检测胫骨近端开放楔形截骨术后外侧铰链骨折的准确性。研究发现超声与CT相比具有高诊断准确性，且超声测量的铰链部位动态增宽与延迟骨愈合相关。该技术属于骨科手术优化领域，与大健康中的医疗技术创新相关，但与创新药和生物制造直接关联度较低。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41950995/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Orthopaedics & traumatology, surgery & research : OTSR",
+      "authors": [
+        "[\"Nagashima R\"",
+        "\"Saito M\"",
+        "\"Goto K\"",
+        "\"Osawa K\"",
+        "\"Yamada N\"",
+        "\"Hara J\"",
+        "\"Jung WH\"",
+        "\"Takeuchi R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "orthopedic surgery",
+        "medical imaging",
+        "bone healing"
+      ],
+      "ai_score": 3,
+      "content_hash": "3ab19c968917de66d5dd4a940c13ac28",
+      "created_at": "2026-04-10 02:20:11",
+      "updated_at": "2026-04-10 02:20:11",
       "date": "2026"
     },
     {
@@ -13262,6 +14162,27 @@
       "content_hash": "037a0e1192531fb59b380ebc0291f272",
       "created_at": "2026-04-09 09:17:52",
       "updated_at": "2026-04-09 09:17:52",
+      "date": "2026"
+    },
+    {
+      "id": 1003,
+      "title": "Suspected Hypersensitivity Reaction to Titanium Screws Following Kalish Osteotomy for Hallux Valgus.",
+      "summary": "Titanium implants are generally regarded as biocompatible and inert; however, hypersensitivity reactions, although uncommon, have been increasingly recognized in orthopedic surgery. We report a case of chronic inflammatory reaction following a Kalish osteotomy for hallux valgus, ultimately attributed to titanium hypersensitivity. A 58-year-old woman underwent fixation of the first metatarsal with two titanium screws. The postoperative course was complicated by wound dehiscence, delayed healing, recurrent granulomatous tissue, and persistent swelling, despite antibiotic therapy. Over the months, two additional surgical procedures were performed, including the removal of a floating bone fragment, followed by biopsy and complete hardware removal. Histopathologic analysis demonstrated reactive",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41939579/",
+      "source": "PubMed",
+      "category": "medical-device",
+      "journal": "Cureus",
+      "authors": [
+        "[\"Ajarrag S\"",
+        "\"Torchon MC\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "075e169267b64efeb97cadd82751f7f3",
+      "created_at": "2026-04-10 02:22:00",
+      "updated_at": "2026-04-10 02:22:00",
       "date": "2026"
     },
     {
@@ -26278,5 +27199,5 @@
       "date": ""
     }
   ],
-  "updated_at": "2026-04-10T09:19:54.761985"
+  "updated_at": "2026-04-10T10:24:31.956213"
 }

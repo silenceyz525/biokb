@@ -310,6 +310,7 @@ def fetch_cnki_alternatives():
 # PubMed 查询词组
 PUBMED_QUERIES = {
     '创新药': '("drug discovery"[Title/Abstract] OR "novel drug"[Title/Abstract] OR "CAR-T"[Title/Abstract] OR "gene therapy"[Title/Abstract] OR "antibody-drug conjugate"[Title/Abstract] OR "mRNA therapy"[Title/Abstract] OR "immunotherapy"[Title/Abstract] OR "ADC"[Title/Abstract]) AND "2026"[PDAT]',
+    '医疗器械': '("medical device"[Title/Abstract] OR "implantable device"[Title/Abstract] OR "diagnostic device"[Title/Abstract] OR "wearable medical"[Title/Abstract] OR "cardiovascular device"[Title/Abstract] OR "orthopedic implant"[Title/Abstract] OR "surgical robot"[Title/Abstract] OR "imaging device"[Title/Abstract]) AND "2026"[PDAT]',
     '生物制造': '("biomanufacturing"[Title/Abstract] OR "synthetic biology"[Title/Abstract] OR "bioprocessing"[Title/Abstract] OR "cell therapy manufacturing"[Title/Abstract] OR "CDMO"[Title/Abstract] OR "bioreactor"[Title/Abstract]) AND "2026"[PDAT]',
     '大健康': '("precision medicine"[Title/Abstract] OR "digital health"[Title/Abstract] OR "AI in healthcare"[Title/Abstract] OR "longevity"[Title/Abstract] OR "population health"[Title/Abstract]) AND "2026"[PDAT]',
     '噬菌体': '("bacteriophage"[Title/Abstract] OR "phage therapy"[Title/Abstract] OR "phage engineering"[Title/Abstract] OR "phage-antibiotic synergy"[Title/Abstract] OR "phage cocktail"[Title/Abstract] OR "phage display"[Title/Abstract] OR "lytic phage"[Title/Abstract] OR "temperate phage"[Title/Abstract] OR "phage resistance"[Title/Abstract] OR "antimicrobial phage"[Title/Abstract]) AND ("2025"[PDAT] OR "2026"[PDAT])',
@@ -317,10 +318,63 @@ PUBMED_QUERIES = {
 
 CATEGORY_MAP = {
     '创新药': 'innovation',
+    '医疗器械': 'medical-device',
     '生物制造': 'biomanufacturing',
     '大健康': 'health',
     '噬菌体': 'phage',
 }
+
+
+def fetch_medical_device_rss():
+    """采集医疗器械专项 RSS 源"""
+    articles = []
+    device_sources = [
+        {
+            'name': 'MedTech Dive',
+            'url': 'https://www.medtechdive.com/feeds/news/',
+            'category': 'medical-device',
+        },
+        {
+            'name': 'MassDevice',
+            'url': 'https://www.massdevice.com/feed/',
+            'category': 'medical-device',
+        },
+        {
+            'name': 'MDDI Online',
+            'url': 'https://www.mddionline.com/rss.xml',
+            'category': 'medical-device',
+        },
+    ]
+    for src in device_sources:
+        try:
+            feed = feedparser.parse(src['url'])
+            count = 0
+            for entry in feed.entries[:15]:
+                title = entry.get('title', '').strip()
+                if not title or len(title) < 10:
+                    continue
+                summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))[:500]
+                date = ''
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    try:
+                        date = datetime(*entry.published_parsed[:6]).strftime('%Y-%m-%d')
+                    except:
+                        pass
+                articles.append({
+                    'title': title,
+                    'summary': summary,
+                    'url': entry.get('link', ''),
+                    'source': src['name'],
+                    'category': src['category'],
+                    'authors': [],
+                    'date': date,
+                    'journal': src['name'],
+                })
+                count += 1
+            print(f"  [{src['name']}]: {count} 篇")
+        except Exception as e:
+            print(f"  [{src['name']}] 失败: {e}")
+    return articles
 
 
 def fetch_phage_rss():
@@ -412,7 +466,11 @@ def run_enhanced_collection():
     print("\n[CN] collecting Chinese sources:")
     all_articles.extend(fetch_cnki_alternatives())
 
-    # 4. 噬菌体专项采集
+    # 4. 医疗器械专项采集
+    print("\n[Medical Device] collecting medical device sources:")
+    all_articles.extend(fetch_medical_device_rss())
+
+    # 5. 噬菌体专项采集
     print("\n[Phage] collecting phage-specific sources:")
     all_articles.extend(fetch_phage_rss())
 
