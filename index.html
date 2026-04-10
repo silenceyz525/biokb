@@ -1053,7 +1053,7 @@
             </div>
             <div class="stat-card">
                 <div class="stat-icon phage">&#x1F9A0;</div>
-                <div class="stat-info"><div class="num" id="stat-phage">0</div><div class="label">噬菌体</div></div>
+                <div class="stat-info"><div class="num" id="stat-phage">0</div><div class="label">噬菌体临床</div></div>
             </div>
             <div class="stat-card">
                 <div class="stat-icon scholar">&#x1F468;&#x200D;&#x1F52C;</div>
@@ -1361,7 +1361,7 @@
             }
             const start = (currentPage - 1) * PAGE_SIZE;
             const page = filteredArticles.slice(start, start + PAGE_SIZE);
-            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体', scholar: '学者' };
+            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体临床', scholar: '学者' };
             list.innerHTML = page.map((a, i) => {
                 const { cn, en } = getDisplaySummary(a);
                 let summaryHtml = '';
@@ -1427,7 +1427,7 @@
             if (!a) return;
             const modal = document.getElementById('modal');
             const content = document.getElementById('modalContent');
-            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体', scholar: '学者' };
+            const catLabels = { innovation: '创新药', biomanufacturing: '生物制造', health: '大健康', phage: '噬菌体临床', scholar: '学者' };
             const { cn, en } = getDisplaySummary(a);
 
             let bodyHtml = '';
