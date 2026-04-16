@@ -4780,10 +4780,13 @@
       "Healthy Volunteers": 3,
       "Prosthetic Joint Infections of Hip": 3,
       "Mycobacterium Abscessus Infection": 2
+    },
+    "by_source": {
+      "ClinicalTrials.gov": 108
     }
   },
   "changes": [],
-  "updated_at": "2026-04-14T14:14:03.146880",
+  "updated_at": "2026-04-16T10:50:42.011556",
   "total_count": 108,
   "change_count": 0,
   "audit_info": {
