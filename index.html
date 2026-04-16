@@ -1115,7 +1115,7 @@
                     <span class="badge" id="phageTotalBadge">0 项试验</span>
                 </div>
                 <div class="phage-meta">
-                    <span>数据来源: <a href="https://clinicaltrials.gov" target="_blank" style="color:var(--accent)">ClinicalTrials.gov</a></span>
+                    <span>数据来源: <a href="https://clinicaltrials.gov" target="_blank" style="color:#3498db">ClinicalTrials.gov</a> + <a href="https://www.chictr.org.cn" target="_blank" style="color:#2ecc71">ChiCTR 中国临床试验注册中心</a></span>
                     <span>最后更新: <span class="update-time" id="phageUpdateTime">--</span></span>
                     <button class="phage-refresh" id="phageRefreshBtn" onclick="refreshPhageTrials()">&#x1F504; 刷新数据</button>
                 </div>
@@ -1834,6 +1834,22 @@
                 return true;
             });
 
+            // 按时间由近至远排序
+            filteredTrials.sort((a, b) => {
+                // ClinicalTrials.gov 使用 start_date 或 last_update
+                // ChiCTR 使用 reg_date
+                let dateA = a.start_date || a.last_update || a.reg_date || '';
+                let dateB = b.start_date || b.last_update || b.reg_date || '';
+                // 处理中文日期格式 (YYYY/MM/DD)
+                if (a.reg_date && a.reg_date.includes('/')) {
+                    dateA = a.reg_date.replace(/\//g, '-');
+                }
+                if (b.reg_date && b.reg_date.includes('/')) {
+                    dateB = b.reg_date.replace(/\//g, '-');
+                }
+                return dateB.localeCompare(dateA);
+            });
+
             currentTrialPage = 1;
             renderTrialsTable();
         }
@@ -1866,10 +1882,10 @@
                 const isChictr = trial.source === 'ChiCTR' || trial.reg_number?.startsWith('ChiCTR');
                 
                 if (isChictr) {
-                    // ChiCTR 数据渲染
+                    // ChiCTR 数据渲染 - 绿色字体，无高亮
                     const studyTypeLabel = trial.study_type || '干预性研究';
                     return `<tr>
-                        <td><a href="${trial.url || 'https://www.chictr.org.cn'}" target="_blank" class="nct-link" style="background:#e74c3c">${trial.reg_number}</a></td>
+                        <td><a href="${trial.url || 'https://www.chictr.org.cn'}" target="_blank" style="color:#2ecc71;text-decoration:none;font-family:monospace;font-size:12px;font-weight:600">${trial.reg_number}</a></td>
                         <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
                         <td><span style="color:var(--text2)">-</span></td>
                         <td><span class="status-badge UNKNOWN">${escHtml(studyTypeLabel)}</span></td>
