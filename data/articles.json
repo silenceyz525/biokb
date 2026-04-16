@@ -189,6 +189,54 @@
       "date": "2026-04-15"
     },
     {
+      "id": 1543,
+      "title": "Ultra-sensitive FLORA-seq links cell-type-specific tRNAome dynamics to differentiation trajectories guiding therapeutic suppressor tRNA candidate selection",
+      "summary": "Mammalian genomes encode hundreds of tRNA genes, but the role of individual tRNAs in development and cell identity remains unclear. Here, we introduce FLORA-seq, a method for simultaneous, low-input profiling of tRNAs, tRNA-derived RNAs (tdRs) and their modifications from as few as 5-20 cells. Applying FLORA-seq to mouse hematopoiesis revealed 50 high-variance isodecoders whose expression profiles recapitulate known hematopoietic cell types and correlate with differentiation trajectories. At the",
+      "chinese_summary": "本研究开发了FLORA-seq技术，能够从少量细胞中分析tRNA表达谱。应用于小鼠造血系统研究，发现特定tRNA异构体与细胞分化轨迹相关，为开发治疗性抑制tRNA候选药物提供了新策略，在基因治疗和精准医疗领域具有创新意义。",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718460v1?rss=1",
+      "source": "bioRxiv最新",
+      "category": "innovation",
+      "journal": "bioRxiv最新",
+      "authors": [
+        "[\"Li",
+        "H.",
+        "Zhou",
+        "Y.-J.",
+        "Zhang",
+        "Z.",
+        "Ge",
+        "J.-Y.",
+        "Zhou",
+        "Z.-C.",
+        "Zhu",
+        "W.-Y.",
+        "Wu",
+        "X.-Y.",
+        "Wu",
+        "J.",
+        "Tian",
+        "P.-Y.",
+        "Gao",
+        "Y.",
+        "Sun",
+        "J.",
+        "Liu",
+        "R.-J.\"]"
+      ],
+      "publish_date": "2026-04-15",
+      "tags": [
+        "tRNA biology",
+        "gene therapy",
+        "precision medicine",
+        "single-cell analysis"
+      ],
+      "ai_score": 8,
+      "content_hash": "81738f67f4db55c0adf15e452febd1dd",
+      "created_at": "2026-04-16 05:36:11",
+      "updated_at": "2026-04-16 05:36:11",
+      "date": "2026-04-15"
+    },
+    {
       "id": 1506,
       "title": "Novel Targets for Complex Cancer Revealed by Genetic Regulatory Node Mapping",
       "summary": "By tracking gene regulation in single cells over time, PerturbFate can systematically map how diverse disease-associated genetic variations reshape cells to understand complex diseases, like cancer.\nThe post Novel Targets for Complex Cancer Revealed by Genetic Regulatory Node Mapping appeared first on GEN - Genetic Engineering and Biotechnology News.",
@@ -394,6 +442,42 @@
       "content_hash": "fb088be0527479109df2fdd2f5381bbe",
       "created_at": "2026-04-16 02:17:49",
       "updated_at": "2026-04-16 02:17:49",
+      "date": "2026-04-15"
+    },
+    {
+      "id": 1542,
+      "title": "Nature's antivenom: Combinations of conserved rattlesnake serum metalloproteinase inhibitors block the lethal action of viper venoms",
+      "summary": "Snakebite maims or kills several hundred thousand people each year. For more than a century, treatment has relied on antivenoms derived from animals immunized with whole venoms, but their efficacy, safety, and availability are highly variable, and it is often not well understood which specific venom components must be inhibited to prevent mortality and major morbidities. New therapeutic approaches are needed. here, we take an evolutionary approach to antivenom design inspired by the longstanding",
+      "chinese_summary": "本研究通过进化方法开发新型抗蛇毒血清，利用响尾蛇血清金属蛋白酶抑制剂组合中和毒蛇毒素。该策略突破传统抗蛇毒血清局限，为蛇伤治疗提供创新疗法，属于创新药物研发范畴。",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718210v1?rss=1",
+      "source": "bioRxiv最新",
+      "category": "innovation",
+      "journal": "bioRxiv最新",
+      "authors": [
+        "[\"Carroll",
+        "S.",
+        "Ukken",
+        "F. P.",
+        "Ayinuola",
+        "Y. A.",
+        "Escalana",
+        "L.",
+        "Suntravat",
+        "M.",
+        "Sanchez",
+        "E. E.\"]"
+      ],
+      "publish_date": "2026-04-15",
+      "tags": [
+        "antivenom",
+        "snakebite",
+        "therapeutics",
+        "protein_inhibitors"
+      ],
+      "ai_score": 7,
+      "content_hash": "de1fac5440adbbf6432a68441b5873fe",
+      "created_at": "2026-04-16 05:36:05",
+      "updated_at": "2026-04-16 05:36:05",
       "date": "2026-04-15"
     },
     {
@@ -15890,6 +15974,355 @@
       "date": "2026-03-20"
     },
     {
+      "id": 1599,
+      "title": "Phage Display Driven Identification and Computational Mapping of Macrocyclic Peptides Targeting RhoA G17V.",
+      "summary": "Mutant RhoA G17V is a clinically significant yet historically undruggable oncogenic GTPase that drives angioimmunoblastic T-cell lymphoma through a neomorphic interaction with the guanine nucleotide exchange factor Vav1. Its rigid GTPase fold, absence of deep binding pockets, and transient protein-protein interfaces have hindered conventional small-molecule approaches, creating a critical need for alternative therapeutic modalities. Here, we report a systematic strategy to target RhoA G17V using macrocyclic peptides. Two complementary phage-displayed cyclic peptide libraries, an AcrK-mediated 10-mer cyclic library and a CAmCBT-cyclized 12-mer library, were subjected to high-stringency biopanning against recombinant RhoA G17V. While the 10-mer library yielded moderate-affinity binders, the ",
+      "chinese_summary": "本研究针对传统难以靶向的致癌蛋白RhoA G17V，采用噬菌体展示技术筛选靶向性大环肽。通过两种环肽库的高严谨性筛选，获得了中等亲和力结合剂，为开发新型靶向疗法提供了创新策略，在创新药领域具有重要价值。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986244/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Biochemistry",
+      "authors": [
+        "[\"Abraham S\"",
+        "\"Zhu C\"",
+        "\"Le LHS\"",
+        "\"Alugubelli YR\"",
+        "\"Nonomura T\"",
+        "\"Huang Y\"",
+        "\"Hampton JT\"",
+        "\"Zhou Y\"",
+        "\"Liu WR\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "macrocyclic peptides",
+        "phage display",
+        "undruggable targets",
+        "RhoA G17V",
+        "protein-protein interaction"
+      ],
+      "ai_score": 9,
+      "content_hash": "0484cb5c2bad49fc94fbe11b361a9e45",
+      "created_at": "2026-04-16 05:44:00",
+      "updated_at": "2026-04-16 05:44:00",
+      "date": "2026"
+    },
+    {
+      "id": 1582,
+      "title": "Functional drug screening of tumor organoids on an active-matrix digital microfluidic chip for cancer precision medicine.",
+      "summary": "Cancer is a leading global cause of morbidity and mortality, with inter- and intra-tumor heterogeneity contributing to suboptimal therapeutic outcomes. While genomic profiling has advanced precision oncology, many tumors lack targetable mutations, underscoring the need for functional assays. Here, we present a drug sensitivity testing platform for patient-derived organoids (PDOs) based on active-matrix digital microfluidics (AM-DMF). The system comprises a microfluidic timing-control board (&lt;50&#x2009;ms switching precision), a temperature-regulation module (37&#x2009;&#xb1;&#x2009;0.3&#x2009;&#xb0;C) and an integrated imaging module for multiscale visualization. Droplet generation, transport, mixing, and dilution on the AM-DMF platform are programmably controlled via electrowetting-on-",
+      "chinese_summary": "本研究开发了一种基于活性矩阵数字微流控芯片的药物筛选平台，用于患者来源类器官的功能性药物测试。该平台通过精确控制液滴操作和温度调节，实现了自动化药物稀释与多尺度成像，为缺乏靶向突变的肿瘤提供了精准医疗解决方案。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986323/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Microsystems & nanoengineering",
+      "authors": [
+        "[\"Sun R\"",
+        "\"Feng Z\"",
+        "\"Wu T\"",
+        "\"Ding F\"",
+        "\"Wu Y\"",
+        "\"Jin K\"",
+        "\"Li L\"",
+        "\"Jia Z\"",
+        "\"Gao R\"",
+        "\"Cong Y\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "organoid",
+        "digital microfluidics",
+        "drug screening",
+        "precision medicine"
+      ],
+      "ai_score": 9,
+      "content_hash": "bc3c882f1667ee2ab64d37a23dfa833e",
+      "created_at": "2026-04-16 05:41:42",
+      "updated_at": "2026-04-16 05:41:42",
+      "date": "2026"
+    },
+    {
+      "id": 1573,
+      "title": "Protein Phase Separation for Enhanced Production of 3-Hydroxypropionate and Polyhydroxybutyrate by Halomonas.",
+      "summary": "Microbial cell factories for sustainable bioproduction often suffer from trade-offs between cell growth and product synthesis. Spatiotemporal regulation of metabolic pathways offers a potential solution to this challenge. In this study, we engineered synthetic membraneless organelles (MLOs) based on liquid-liquid phase separation (LLPS) in the halophilic bacterium Halomonas bluephagenesis, a robust chassis for next-generation industrial biotechnology (NGIB) operated under open unsterile conditions. Using a tandem Arginine-Glycine-Glycine (RGG) domain as an intrinsically disordered protein scaffold, dynamic protein condensates were constructed capable of recruiting cargo proteins via coiled-coil peptide interactions. Compartmentalization of the 3-hydroxypropionic acid (3HP) biosynthetic enz",
+      "chinese_summary": "本研究在嗜盐菌Halomonas bluephagenesis中利用蛋白质液-液相分离构建合成无膜细胞器，通过区室化代谢途径解决了细胞生长与产物合成的权衡问题。该策略成功增强了3-羟基丙酸和聚羟基丁酸酯的生物合成，为下一代工业生物技术在开放非无菌条件下的生物制造提供了创新方法。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985875/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Metabolic engineering",
+      "authors": [
+        "[\"Yi X\"",
+        "\"Zhang G\"",
+        "\"Zhang Z\"",
+        "\"Xu X\"",
+        "\"Wu F\"",
+        "\"Wu Q\"",
+        "\"Chen GQ\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "synthetic biology",
+        "bioprocessing",
+        "phase separation",
+        "microbial cell factory"
+      ],
+      "ai_score": 9,
+      "content_hash": "55a57763803800876f99573e02245bc3",
+      "created_at": "2026-04-16 05:40:20",
+      "updated_at": "2026-04-16 05:40:20",
+      "date": "2026"
+    },
+    {
+      "id": 1564,
+      "title": "Non-enzymatic Rnaseh2c orchestrates proliferating macrophage-driven immunosuppression and HCC progression via Cdk9 proliferation axis and CCL2/CCR2-mediated CD8(+) T(ex) infiltration: a novel therapeutic paradigm with \"Rnaseh2c-In1\" inhibitor.",
+      "summary": "Tumor-associated macrophages are pivotal drivers of hepatocellular carcinoma (HCC) progression. However, the functional contributions of proliferating macrophages (Prolif Ms) within the tumor microenvironment (TME) remain poorly defined. Here, we integrated single-cell RNA sequencing, Cleavage Under Targets and Tagmentation (CUT&amp;Tag), bulk RNA sequencing, multiparametric immunofluorescence, flow cytometry, and molecular dynamics simulation to dissect the phenotype, functional landscape, and targeting strategy of Prolif Ms in HCC. We identified a novel Prolif Ms subset characterized by high expression of proliferation markers (Cdk1, Mki67), distinct from classical M1/M2 macrophages. Mechanistically, ribonuclease H2 subunit C (Rnaseh2c) acts as a non-enzymatic regulator, binding directly",
+      "chinese_summary": "本研究发现了肝细胞癌中增殖巨噬细胞的新型免疫抑制机制，揭示Rnaseh2c通过非酶功能调控CDK9增殖轴和CCL2/CCR2介导的CD8+ T细胞耗竭。文章提出了靶向Rnaseh2c的新型抑制剂Rnaseh2c-In1，为创新肿瘤免疫治疗提供了全新范式。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986071/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Journal for immunotherapy of cancer",
+      "authors": [
+        "[\"Wang Z\"",
+        "\"Xiao R\"",
+        "\"Liu M\"",
+        "\"Ceng L\"",
+        "\"Lin Z\"",
+        "\"Zheng X\"",
+        "\"Shi M\"",
+        "\"Ye H\"",
+        "\"Wu L\"",
+        "\"Tang N\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "肿瘤免疫治疗",
+        "巨噬细胞",
+        "新型抑制剂",
+        "肝细胞癌"
+      ],
+      "ai_score": 9,
+      "content_hash": "8524984697490b537028fbfc2e2b7597",
+      "created_at": "2026-04-16 05:38:32",
+      "updated_at": "2026-04-16 05:38:32",
+      "date": "2026"
+    },
+    {
+      "id": 1560,
+      "title": "β-hydroxybutyrate supplementation boosts the tumor-killing potential of CAR T cells.",
+      "summary": "In a recent study in Cell, Liu et al. identify &#x3b2;-hydroxybutyrate as a practical metabolic adjuvant for CAR-T cells. By fueling the TCA cycle and reshaping transcriptional and epigenetic programs, this ketone body enhances proliferation, persistence, and tumor control, suggesting that metabolic supplementation may offer a simple route to more effective adoptive immunotherapy.",
+      "chinese_summary": "《Cell》研究揭示β-羟基丁酸作为CAR-T细胞代谢佐剂，通过增强TCA循环和表观遗传重编程，显著提升T细胞增殖能力、持久性及肿瘤清除效果，为优化过继性免疫疗法提供了创新代谢干预策略。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986177/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Trends in molecular medicine",
+      "authors": [
+        "[\"Adamopoulos C\"",
+        "\"Papavassiliou KA\"",
+        "\"Papavassiliou AG\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CAR-T",
+        "代谢调控",
+        "免疫疗法"
+      ],
+      "ai_score": 9,
+      "content_hash": "d5c732420a2ee3070927f38c7f6307b3",
+      "created_at": "2026-04-16 05:38:06",
+      "updated_at": "2026-04-16 05:38:06",
+      "date": "2026"
+    },
+    {
+      "id": 1558,
+      "title": "Decreased renal function predicts severe cytokine release syndrome after CAR-T-cell therapy for large B-cell lymphoma.",
+      "summary": "Cytokine release syndrome (CRS) remains a major toxicity of chimeric antigen receptor (CAR) T-cell therapy in large B-cell lymphoma (LBCL), and robust pre-infusion predictors are needed for risk-adapted management. We retrospectively analysed LBCL patients in the Japanese nationwide registry who underwent CD19 CAR-T-cell therapy between 2019 and 2024. Among 900 patients (median age 62&#x2009;years), cumulative incidences of CRS within 30&#x2009;days after infusion were 75.0% for any grade, 20.8% for grade&#x2009;&#x2265;&#x2009;2 and 14.0% for grade&#x2009;&#x2265;&#x2009;3. In multivariable analysis, lower estimated glomerular filtration rate (eGFR) (adjusted hazard ratio [aHR] 1.108 per 10&#x2009;mL/min per 1.73&#x2009;m2 decrease; 95% confidence interval [CI] 1.015-1.209; p&#x2009;=&#x2",
+      "chinese_summary": "本研究通过日本全国性登记数据发现，肾功能下降（eGFR降低）是CAR-T细胞治疗大B细胞淋巴瘤后发生严重细胞因子释放综合征(CRS)的独立预测因子。该研究为CAR-T治疗的风险分层管理提供了重要临床指标，对优化创新疗法安全性具有直接意义。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986280/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "British journal of haematology",
+      "authors": [
+        "[\"Arai Y\"",
+        "\"Jo T\"",
+        "\"Sato T\"",
+        "\"Sakurai M\"",
+        "\"Kaji D\"",
+        "\"Kitawaki T\"",
+        "\"Shimada K\"",
+        "\"Shimoyama T\"",
+        "\"Yoshihara S\"",
+        "\"Makita S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CAR-T",
+        "cytokine release syndrome",
+        "renal function",
+        "predictive biomarker"
+      ],
+      "ai_score": 9,
+      "content_hash": "95d543f84ca106830904a3b826c47ccb",
+      "created_at": "2026-04-16 05:37:51",
+      "updated_at": "2026-04-16 05:37:51",
+      "date": "2026"
+    },
+    {
+      "id": 1556,
+      "title": "Genome-wide CRISPR screens in primary human natural killer cells identify countermeasures against immunosuppressive environment.",
+      "summary": "Natural killer (NK) cells are promising effectors for cancer immunotherapy, but their efficacy is limited by immunosuppressive tumor microenvironments. To uncover strategies for enhancing NK cell function, we establish a CRISPR loss-of-function screening platform for primary human NK cells by combining BaEVRless-pseudotyped lentiviral transduction of sgRNA libraries with Cas9 protein electroporation. This platform enables genome-scale interrogation of gene function in non-transformed NK cells. Kinome-focused and genome-wide screens identify key regulators of NK cell proliferation, cytotoxicity, and resistance to prostaglandin E2 (PGE2)-mediated suppression. STK17B deletion enhances NK cell expansion, while loss of CCDC53 boosts degranulation and cytotoxicity. We also uncover the CRL5 compl",
+      "chinese_summary": "本研究通过建立原代人NK细胞的CRISPR筛选平台，发现了增强NK细胞增殖、细胞毒性和抵抗免疫抑制的关键基因。STK17B缺失促进NK细胞扩增，CCDC53缺失增强其杀伤能力，为开发基于NK细胞的癌症免疫疗法提供了新策略。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986330/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Nature communications",
+      "authors": [
+        "[\"Nguyen QV\"",
+        "\"Lan YJ\"",
+        "\"Chang JC\"",
+        "\"Shih HA\"",
+        "\"Faustine J\"",
+        "\"Chen CC\"",
+        "\"Ho SY\"",
+        "\"Cheng CW\"",
+        "\"Chao TL\"",
+        "\"Lin S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CRISPR筛选",
+        "自然杀伤细胞",
+        "肿瘤免疫治疗",
+        "免疫抑制抵抗"
+      ],
+      "ai_score": 9,
+      "content_hash": "49c29c873a72849b77413b155c58b621",
+      "created_at": "2026-04-16 05:37:42",
+      "updated_at": "2026-04-16 05:37:42",
+      "date": "2026"
+    },
+    {
+      "id": 1554,
+      "title": "Demethylation-primed tandem CD19/CD20 CAR T cells in relapsed/refractory B-cell lymphoma: a phase I/II trial.",
+      "summary": "Despite the success of CAR T therapy in non-Hodgkin lymphoma (NHL), recurrence remains challenging. Previously, we showed that ex vivo priming with decitabine (DAC) enhances CAR T persistence and efficacy. Here, we report on an open-label non-randomised phase I/II trial (NCT04697940) evaluating DAC-primed CD19/CD20 dual-targeted CAR T cells (dCAR T) in 23 patients with relapsed or refractory NHL. Primary endpoints are safety and dose-toxicity for phase I, and overall response rate and complete response rate (CRR) for phase II. Secondary endpoints include progression-free survival (PFS), overall survival, and duration of response. This trial has met pre-specified endpoints. Treatment is well tolerated and achieves durable responses, with an 87% CRR and a 2-year PFS of 77% (median follow-up,",
+      "chinese_summary": "本研究报道了去甲基化药物地西他滨预处理的CD19/CD20双靶点CAR-T细胞治疗复发/难治性B细胞淋巴瘤的I/II期临床试验。结果显示治疗耐受性良好，完全缓解率达87%，2年无进展生存率达77%，为改善CAR-T疗法持久性提供了创新策略。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986386/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Nature communications",
+      "authors": [
+        "[\"Wang C\"",
+        "\"Guo Y\"",
+        "\"Han F\"",
+        "\"Zhang Y\"",
+        "\"Liu C\"",
+        "\"Wu Z\"",
+        "\"Tong C\"",
+        "\"Yang Q\"",
+        "\"Lu Y\"",
+        "\"Zhong Y\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CAR-T",
+        "dual-targeted",
+        "demethylation",
+        "lymphoma"
+      ],
+      "ai_score": 9,
+      "content_hash": "ebea9406ec834cd1059aee9e3344427c",
+      "created_at": "2026-04-16 05:37:26",
+      "updated_at": "2026-04-16 05:37:26",
+      "date": "2026"
+    },
+    {
+      "id": 1548,
+      "title": "Evolving therapeutic strategies in mantle cell lymphoma: advancements and future directions.",
+      "summary": "Mantle cell lymphoma (MCL) is a biologically and clinically heterogeneous B-cell malignancy with a historically poor prognosis. Recent advances have substantially expanded treatment options, particularly through the integration of targeted therapies, chemotherapy-free regimens, and cellular approaches. Frontline treatment now incorporates Bruton's tyrosine kinase inhibitors (BTKi) in combination with chemotherapy and in chemotherapy-free regimens. For patients with relapsed or refractory disease, particularly those previously exposed to BTKi, chimeric antigen receptor T-cell (CAR T) therapies and third-generation BTKi like pirtobrutinib provide highly effective options while several novel agents, including bispecific antibodies (bsAbs), are under investigation. Nevertheless, achieving long",
+      "chinese_summary": "套细胞淋巴瘤治疗策略持续演进，重点介绍了BTK抑制剂、CAR-T细胞疗法和双特异性抗体等创新疗法。文章系统评估了化疗豁免方案及复发难治患者的治疗选择，特别关注新型靶向药物和细胞免疫治疗的前沿进展。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986622/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Leukemia",
+      "authors": [
+        "[\"Tavarozzi R\"",
+        "\"Maher N\"",
+        "\"Catania G\"",
+        "\"Zacchi G\"",
+        "\"D'Andrea F\"",
+        "\"Sofia A\"",
+        "\"Zanni M\"",
+        "\"Ladetto M\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CAR-T",
+        "靶向治疗",
+        "双特异性抗体"
+      ],
+      "ai_score": 9,
+      "content_hash": "8d318111b326e4d20183e9cd7d78d8a4",
+      "created_at": "2026-04-16 05:36:44",
+      "updated_at": "2026-04-16 05:36:44",
+      "date": "2026"
+    },
+    {
+      "id": 1546,
+      "title": "Precision oncology in the age of AI: lessons from AI-driven drug discovery and clinical translation.",
+      "summary": "Drug discovery has been constrained by extended timelines and high costs, as the cumulative requirements of preclinical validation, multi-phase clinical trials, and regulatory approval have been imposed. Recently, computational modeling has been explored as a supportive approach to accelerate the identification and refinement of therapeutic candidates. Proof-of-concept was provided in a phase 2a trial of a de novo-designed TNIK inhibitor in idiopathic pulmonary fibrosis, in which safety, tolerability, and pharmacodynamic target engagement were demonstrated, with a trend toward reduced functional decline. This study showed that AI-derived molecules can advance into human testing, but broader validation, mechanistic understanding, and regulatory alignment remain essential. In oncology, where",
+      "chinese_summary": "本文探讨AI在药物发现和临床转化中的应用，通过TNIK抑制剂案例证明AI设计分子可进入人体试验。重点讨论精准肿瘤学领域AI加速药物研发的潜力，同时指出需解决验证机制和监管协调等关键问题。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986665/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "BJC reports",
+      "authors": [
+        "[\"Yoo W\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "AI-driven drug discovery",
+        "precision oncology",
+        "computational modeling"
+      ],
+      "ai_score": 9,
+      "content_hash": "7d8bb89b5cdb9bc8ff015a8d57359626",
+      "created_at": "2026-04-16 05:36:30",
+      "updated_at": "2026-04-16 05:36:30",
+      "date": "2026"
+    },
+    {
+      "id": 1545,
+      "title": "Inducible, split base editors for in vivo cancer functional genomics.",
+      "summary": "Cancer functional genomics using CRISPR base editors (BEs) holds great promise for molecular characterization and new target discovery. However, traditional BEs, using intact DNA deaminases as mutators, are often constrained by limited control and nonspecific toxicities. Here we developed a small-molecule-controllable system using split-engineered BEs (seBEs). By placing deaminase activity under small-molecule control, seBEs significantly reduced cellular toxicity and enabled robust and inducible in vivo functional genomics screens. High-density seBE genetic screens using ~11,000 single guide RNAs in vitro and ~3,700 single guide RNAs in vivo reveal known and previously unknown loss-of-function and dominant-negative mutations in cancer therapeutic targets. A deeper tiling seBE screen again",
+      "chinese_summary": "本研究开发了一种小分子可控的分割碱基编辑器(seBEs)，通过将脱氨酶活性置于小分子控制下，显著降低了细胞毒性，实现了稳健且可诱导的体内功能基因组筛选。该系统在癌症模型中揭示了已知和新的功能缺失及显性负性突变，为癌症靶点发现提供了新工具。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986696/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Nature biotechnology",
+      "authors": [
+        "[\"Ren D\"",
+        "\"Wang S\"",
+        "\"Yamada K\"",
+        "\"Liu Y\"",
+        "\"Hapke R\"",
+        "\"Alpsoy A\"",
+        "\"Ho Y\"",
+        "\"Zhang C\"",
+        "\"Lan Y\"",
+        "\"Zhang S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "base editor",
+        "functional genomics",
+        "cancer therapy"
+      ],
+      "ai_score": 9,
+      "content_hash": "d1dc44b2a5b11c967d9fa5259bb9686c",
+      "created_at": "2026-04-16 05:36:24",
+      "updated_at": "2026-04-16 05:36:24",
+      "date": "2026"
+    },
+    {
       "id": 1465,
       "title": "Adaptive Laboratory Evolution for Enhanced Tyrosol Tolerance Enables High-Titer Salidroside Production in Escherichia coli.",
       "summary": "Salidroside, a valuable phenolic glycoside from Rhodiola rosea, holds significant pharmaceutical potential, yet its microbial synthesis is inhibited by the toxicity of the precursor tyrosol. Here, we address this bottleneck through adaptive laboratory evolution (ALE) of an Escherichia coli chassis, generating an evolved strain E40, with markedly enhanced tyrosol tolerance after 176 generations. Introducing a UDP-glycosyltransferase (AtUGT85A1) into E40 yielded strain SA40, which produced 6.3 g/L salidroside in shake flasks and achieved a final titer of 35.3 g/L in bioreactor fermentations with tyrosol feeding. Whole-genome sequencing and transcriptional analysis revealed that this enhanced tolerance is driven by a spatiotemporal synergy: the upregulation of the glutamate transporter GltS m",
@@ -17631,6 +18064,411 @@
       "content_hash": "c3fb3a986472c7fd6d7268cb7788c0ba",
       "created_at": "2026-04-09 09:20:41",
       "updated_at": "2026-04-09 09:20:41",
+      "date": "2026"
+    },
+    {
+      "id": 1597,
+      "title": "Age and Sex in Breast Cancer: Moving Beyond a One-Size-Fits-All Approach.",
+      "summary": "Breast cancer is not a uniform disease. Despite decades of research showing that age and sex shape breast cancer biology and treatment response, clinical and research frameworks continue to rely on a one-size-fits-all approach. Too often, we extrapolate findings from one population to another, assuming that what works for one group will work just as well for another. Ignoring age and sex variables has real consequences. Older adults, who make up the majority of breast cancer cases, are still underrepresented in clinical trials, leaving us with gaps in knowledge about how best to treat them. Male breast cancer is still treated largely by analogy to female breast cancer despite growing evidence that the 2 diseases have distinct molecular features. Here, we discuss a framework on the relation",
+      "chinese_summary": "本文批判乳腺癌诊疗中‘一刀切’模式，强调年龄和性别对疾病生物学及治疗反应的影响。指出老年患者临床试验代表不足，男性乳腺癌分子特征与女性存在差异，呼吁建立考虑人口统计学因素的精准医疗框架。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985327/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Clinical breast cancer",
+      "authors": [
+        "[\"Leone JP\"",
+        "\"Sedrak MS\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "aging",
+        "clinical trials"
+      ],
+      "ai_score": 8,
+      "content_hash": "bde51b263a8837b75a0ed91894a14f8c",
+      "created_at": "2026-04-16 05:43:47",
+      "updated_at": "2026-04-16 05:43:47",
+      "date": "2026"
+    },
+    {
+      "id": 1586,
+      "title": "AI-driven gene-sets, networks, pathways, and interactions analyses of multi-omics data.",
+      "summary": "High-throughput omics technologies continue to expand the scale and dimensionality of biological datasets across research and clinical environments. Yet transforming these large molecular feature sets into mechanistic insight remains a central challenge in translational bioinformatics. Gene-set and pathway-based approaches address this need by providing biologically meaningful organizational units, such as processes, signaling modules, complexes, or phenotypic signatures, through which experimental signals can be interpreted. PAGER 3.0 represents a major advance in the PAGER knowledge ecosystem, offering an expanded and curated collection of Pathways, Annotated gene-lists and Gene signatures (PAGs), ontology-aware knowledge navigation, weighted enrichment analytics, and structured network-",
+      "chinese_summary": "PAGER 3.0通过AI驱动的基因集、网络和通路分析，整合多组学数据转化为生物学机制见解。该工具支持加权富集分析和结构化网络，为创新药物靶点发现和精准医疗提供关键生物信息学方法，直接助力疾病机制解析与治疗策略开发。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986006/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Progress in molecular biology and translational science",
+      "authors": [
+        "[\"Yue Z\"",
+        "\"Zhang Z\"",
+        "\"Thanh Q\"",
+        "\"Nguyen T\"",
+        "\"Sembay Z\"",
+        "\"Chen H\"",
+        "\"Welner R\"",
+        "\"Chen J\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "bioinformatics",
+        "precision medicine",
+        "multi-omics"
+      ],
+      "ai_score": 8,
+      "content_hash": "b224a5e15863cc339a717fd4ce792217",
+      "created_at": "2026-04-16 05:42:30",
+      "updated_at": "2026-04-16 05:42:30",
+      "date": "2026"
+    },
+    {
+      "id": 1583,
+      "title": "Cornerstone of healthy ageing: preserving skeletal muscle to delay age-related musculoskeletal disease and maintain functional independence.",
+      "summary": "",
+      "chinese_summary": "本文聚焦健康老龄化的核心问题，强调维持骨骼肌健康对延缓年龄相关肌肉骨骼疾病和保持功能独立性的重要性。文章涉及老年健康、功能维持和疾病预防等大健康领域，但与创新药和生物制造的直接关联有限。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986096/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "British journal of sports medicine",
+      "authors": [
+        "[\"DeFoor MT\"",
+        "\"Philippon MJ\"",
+        "\"Engebretsen L\"",
+        "\"Huard J\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "aging",
+        "skeletal muscle",
+        "functional independence",
+        "musculoskeletal disease"
+      ],
+      "ai_score": 8,
+      "content_hash": "c02456aa7dc02efffa68be3879f63856",
+      "created_at": "2026-04-16 05:41:47",
+      "updated_at": "2026-04-16 05:41:47",
+      "date": "2026"
+    },
+    {
+      "id": 1581,
+      "title": "Advancing FDA New Approach Methodologies from animal models through digital twins.",
+      "summary": "In April 2025, the U.S. Food and Drug Administration announced immediate steps toward replacing animal testing for drug evaluation with New Approach Methodologies (NAMs)-modern laboratory techniques mimicking human tissues. However, significant gaps exist between current regulatory frameworks and these technologies' promise. We argue that specific comprehensive regulatory reforms will improve transition to human-relevant drug-evaluation methodologies, laying groundwork for digital twins, in silico trials, and transformative advances in precision medicine.",
+      "chinese_summary": "FDA正推动新方法学替代动物试验，通过数字孪生和计算机模拟试验改进药物评估。文章主张监管改革以促进人类相关评价方法的应用，为精准医学的变革性进展奠定基础。这主要涉及监管科学和精准医学领域。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986448/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "NPJ digital medicine",
+      "authors": [
+        "[\"Eadie AL\"",
+        "\"Lynch HF\"",
+        "\"Scheinerman N\"",
+        "\"Parikh RB\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "regulatory science",
+        "digital twins",
+        "precision medicine",
+        "drug evaluation"
+      ],
+      "ai_score": 8,
+      "content_hash": "3f8178909fa7d508ad6facb959904660",
+      "created_at": "2026-04-16 05:41:35",
+      "updated_at": "2026-04-16 05:41:35",
+      "date": "2026"
+    },
+    {
+      "id": 1579,
+      "title": "Proteomic risk score for early prediction of kidney disease progression in individuals with APOL1 high-risk genotypes.",
+      "summary": "Individuals of African ancestry carrying APOL1 (apolipoprotein L1) high-risk genotypes face a markedly increased risk of kidney failure, yet tools to identify those individuals likely to progress to chronic kidney disease are lacking. Here we profiled plasma proteomes of 851 Penn Medicine BioBank participants of African ancestry (285 males and 566 females) with APOL1 high-risk genotypes and preserved estimated glomerular filtration rate (eGFR) (&#x2265;60&#x2009;ml&#x2009;min-1&#x2009;1.73&#x2009;m-2). Using elastic net Cox regression adjusted for age, sex, eGFR and albuminuria, we derived a nine-protein APOL1 Proteomic Risk Score (APRS) that predicts a composite outcome of &#x2265;40% eGFR decline, kidney failure or death. APRS achieved a time-dependent area under the receiver operating c",
+      "chinese_summary": "本研究针对携带APOL1高风险基因型的非洲裔个体，开发了一种基于9种血浆蛋白的肾脏疾病进展风险评分（APRS）。该模型能早期预测肾功能下降、肾衰竭或死亡风险，属于精准医疗范畴，对高风险人群的肾病预防和健康管理具有重要意义。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986737/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Nature medicine",
+      "authors": [
+        "[\"Li C\"",
+        "\"Richards SM\"",
+        "\"Quinn G\"",
+        "\"Abedini A\"",
+        "\"Zhu M\"",
+        "\"Verma T\"",
+        "\"Mohandes S\"",
+        "\"Pitts R\"",
+        "\"Barros V\"",
+        "\"Qiu X\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "proteomics",
+        "chronic kidney disease"
+      ],
+      "ai_score": 8,
+      "content_hash": "bcd74c53d27d36e7a9413b1867eb64c2",
+      "created_at": "2026-04-16 05:41:24",
+      "updated_at": "2026-04-16 05:41:24",
+      "date": "2026"
+    },
+    {
+      "id": 1574,
+      "title": "Evolving natural yeast to protein-rich micro-grain adaptable for non-sterile low-carbon biomanufacturing.",
+      "summary": "A stable protein supply is essential for both human and planetary health. Low-carbon microbial manufacturing provides an arable land-independent and carbon-neutral route for protein supply, while it is limited by the natural capacity for cellular protein synthesis and high energy consumption for sterile fermentation. To address these challenges, a robust system was established for efficient protein synthesis from low-carbon acetic acid under non-sterile conditions. Yeast strains naturally capable of utilize acetic acid under acid and high-salinity conditions were isolated from traditional fermented vegetables, and their unique ability to enable microbial protein production in non-sterile conditions, mineral medium containing acetic acid as the sole carbon source at pH&#x202f;=&#x202f;5 or ",
+      "chinese_summary": "本研究通过从传统发酵蔬菜中分离天然酵母菌株，开发了一种在非无菌条件下利用乙酸高效合成蛋白质的系统。该技术解决了低碳生物制造中细胞蛋白质合成能力有限和高能耗灭菌的问题，为可持续蛋白质供应提供了新型生物制造方案。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985765/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Bioresource technology",
+      "authors": [
+        "[\"Wang X\"",
+        "\"Xu Z\"",
+        "\"Shi Z\"",
+        "\"Rong W\"",
+        "\"He H\"",
+        "\"Zhou H\"",
+        "\"Liu L\"",
+        "\"Liu Z\"",
+        "\"Sui W\"",
+        "\"Wang G\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "synthetic biology",
+        "bioprocessing",
+        "microbial protein"
+      ],
+      "ai_score": 8,
+      "content_hash": "4a72b87ba273e27dc73940e79cb0fca1",
+      "created_at": "2026-04-16 05:40:26",
+      "updated_at": "2026-04-16 05:40:26",
+      "date": "2026"
+    },
+    {
+      "id": 1571,
+      "title": "Artificial allosteric protein switches with machine-learning-designed receptors.",
+      "summary": "Protein allostery underlies most information and energy processing in biology and the development of artificial allosteric proteins is a key objective of synthetic biology and biotechnology. We show that machine-learning-engineered minimal ligand-binding domains act as efficient receptors in single-component allosteric switches, despite lacking global conformational change. Such colorimetric, luminescent and electrochemical biosensors of small molecules, peptides and proteins can be compiled into intramolecular YES and AND logic gates. Furthermore, we report fully synthetic allosteric switches composed of artificial receptor and reporter domains. Hydrogen/deuterium exchange mass spectrometry and 19F nuclear magnetic resonance analyses suggest that ligand binding reduces the conformation en",
+      "chinese_summary": "本研究利用机器学习设计人工变构蛋白开关，开发了可检测小分子、肽类和蛋白质的生物传感器。这些单组分变构开关无需全局构象变化即可工作，并能构建分子内逻辑门。该技术为合成生物学和生物技术提供了新型蛋白质工程工具，在生物制造领域具有重要应用潜力。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986695/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Nature biotechnology",
+      "authors": [
+        "[\"Guo Z\"",
+        "\"Smutok O\"",
+        "\"Lee GR\"",
+        "\"Cui Z\"",
+        "\"Qianzhu H\"",
+        "\"Kish M\"",
+        "\"Ergun Yva C\"",
+        "\"Wu K\"",
+        "\"Mutschler R\"",
+        "\"Jackson CJ\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "synthetic biology",
+        "protein engineering",
+        "biosensor",
+        "machine learning"
+      ],
+      "ai_score": 8,
+      "content_hash": "17c48d343739679b91aeca87b7bdc603",
+      "created_at": "2026-04-16 05:40:07",
+      "updated_at": "2026-04-16 05:40:07",
+      "date": "2026"
+    },
+    {
+      "id": 1568,
+      "title": "The Intersection of AI and genomics in health and disease: Advancements and applications.",
+      "summary": "AI and genomics are revolutionizing precision medicine by using machine learning (ML) to analyze large-scale next-generation sequencing (NGS) data, identifying genetic mutations and biomarkers for personalized therapies. In practice, this accelerates drug discovery and enhances variant detection, while in cancer genomics, AI enables early detection via liquid biopsies and refines treatment by integrating multi-omics data to improve therapeutic precision. However, challenges such as data biases in underrepresented populations, limited model interpretability, and ethical concerns regarding privacy and algorithmic inequity hinder clinical adoption and demand robust governance. Efforts to diversify datasets also face standardization hurdles, although explainable AI and federated learning provi",
+      "chinese_summary": "AI与基因组学结合推动精准医疗发展，通过机器学习分析基因数据加速药物发现和癌症早期检测。但面临数据偏见、模型可解释性等挑战，需通过可解释AI和联邦学习等技术解决。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986012/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Progress in molecular biology and translational science",
+      "authors": [
+        "[\"Kaushik L\"",
+        "\"Vivek AT\"",
+        "\"Arora S\"",
+        "\"Hamid F\"",
+        "\"Mukherjee K\"",
+        "\"Bisht N\"",
+        "\"Chaudhary S\"",
+        "\"Shukla J\"",
+        "\"Nawani S\"",
+        "\"Kumar S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "genomics",
+        "AI/ML"
+      ],
+      "ai_score": 8,
+      "content_hash": "6ddf1c3beb73d541d199d1f5a2731e54",
+      "created_at": "2026-04-16 05:39:46",
+      "updated_at": "2026-04-16 05:39:46",
+      "date": "2026"
+    },
+    {
+      "id": 1561,
+      "title": "Concordance and prognostic value of antibody drug conjugate and checkpoint inhibition targets in matched bladder cancer specimens from transurethral resection of the bladder, radical cystectomy and lymphadenectomy.",
+      "summary": "Concordance of NECTIN-4 gene and protein expression and clinic-pathologic associations in matched bladder cancer (BC) triplets, defined as histological specimens from transurethral resection of the bladder (TUR-B), radical cystectomy (RC), and lymphadenectomy (LA) from the same patient, remains unknown. With Enfortumab Vedotin (EV) potentially moving into earlier treatment settings, understanding expression of NECTIN-4 and other targets in archival tissue samples is important. This study characterized protein expression of NECTIN-4 and gene expression of NECTIN4, TACSTD2, ERBB2, PD-L1 and PD1 in matched BC triplet specimens and correlated findings with survival endpoints. This retrospective study analyzed NECTIN-4 protein expression and gene expression of 6 target genes using immunohistoch",
+      "chinese_summary": "本研究评估膀胱癌组织中ADC靶点NECTIN-4及免疫检查点表达的一致性，分析其与预后的关联。通过比较经尿道切除、根治性膀胱切除及淋巴结切除的匹配样本，为Enfortumab Vedotin等ADC药物在早期治疗中的应用提供重要依据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986174/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Urologic oncology",
+      "authors": [
+        "[\"Uysal D\"",
+        "\"Reible B\"",
+        "\"Wildner L\"",
+        "\"Steidler A\"",
+        "\"Stöth M\"",
+        "\"Wessels F\"",
+        "\"Nientiedt M\"",
+        "\"Worst TS\"",
+        "\"Erben P\"",
+        "\"Egen L\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "antibody drug conjugate",
+        "biomarker concordance",
+        "bladder cancer",
+        "NECTIN-4"
+      ],
+      "ai_score": 8,
+      "content_hash": "44aad82f6498f99e52a867873c6a841a",
+      "created_at": "2026-04-16 05:38:12",
+      "updated_at": "2026-04-16 05:38:12",
+      "date": "2026"
+    },
+    {
+      "id": 1551,
+      "title": "Spectrum, pathobiology, mechanistic insights and diagnostic challenges of post-CAR T cell therapy lymphoproliferative disorders.",
+      "summary": "Chimeric antigen receptor (CAR) T cell therapy is now widely used for the treatment of various haematological malignancies, with emerging applications in solid tumours and autoimmune diseases. Alongside its demonstrated clinical activity, this therapeutic modality has a toxicity profile that differs from those associated with traditional cytotoxic therapies, other immunotherapies, and even other cell therapy approaches such as allogeneic haematopoietic stem cell transplantation. One increasingly recognized yet poorly understood complication is the development of post-CAR T cell therapy lymphoproliferative and lymphomatous disorders, which have a clinical and biological spectrum that remains incompletely characterized. These rare events include both CAR-transgene-positive and transgene-nega",
+      "chinese_summary": "本文探讨CAR-T细胞治疗后出现的淋巴增殖性疾病谱系、病理机制及诊断挑战。虽然聚焦治疗并发症而非直接药物开发，但对优化CAR-T疗法安全性具有重要参考价值，属于创新药领域的风险管控研究。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986503/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Nature reviews. Clinical oncology",
+      "authors": [
+        "[\"Ali A\"",
+        "\"Ozdemirli M\"",
+        "\"Hamilton MP\"",
+        "\"Jain MD\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CAR-T therapy",
+        "therapy-related complications",
+        "lymphoproliferative disorders"
+      ],
+      "ai_score": 8,
+      "content_hash": "9b874803a6e62e3329ee43529f49782d",
+      "created_at": "2026-04-16 05:37:06",
+      "updated_at": "2026-04-16 05:37:06",
+      "date": "2026"
+    },
+    {
+      "id": 1549,
+      "title": "High expression of the ADC target Claudin-6 associates with aggressive endometrial cancer and remains high in metastatic lesions.",
+      "summary": "Patients with advanced or recurrent endometrial cancer (EC) have limited treatment options. The development of antibody-drug conjugates (ADCs) offers new treatment strategies by targeted delivery of cytotoxic payloads, including conventional chemotherapy, to cancer cells. An ADC targeting Claudin-6 is currently in clinical testing however expression patterns of Claudin-6 has not been thoroughly explored in EC. Membrane expression of Claudin-6 was evaluated by immunohistochemistry in a large, prospectively collected EC cohort with 1106 primary tumours and 187 metastatic lesions. Claudin-6 expression was scored according to the Gastric criteria and correlated with clinicopathological characteristics and follow-up data. Claudin-6 expression was detected in 18% of ECs and was highly expressed ",
+      "chinese_summary": "本研究评估Claudin-6在子宫内膜癌中的表达模式，发现18%病例高表达且与侵袭性特征相关。作为ADC药物的靶点，该研究为开发针对晚期子宫内膜癌的抗体药物偶联物提供了重要依据，具有明确的创新药开发价值。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986616/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "BJC reports",
+      "authors": [
+        "[\"Gullovsen VL\"",
+        "\"Pavlicenco D\"",
+        "\"E Hjelmeland M\"",
+        "\"Woie K\"",
+        "\"S Haldorsen I\"",
+        "\"Trovik J\"",
+        "\"F Berg H\"",
+        "\"Krakstad C\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "ADC",
+        "Claudin-6",
+        "endometrial cancer",
+        "biomarker"
+      ],
+      "ai_score": 8,
+      "content_hash": "552ffe1db7ef0e502c02aa95cacee82f",
+      "created_at": "2026-04-16 05:36:52",
+      "updated_at": "2026-04-16 05:36:52",
+      "date": "2026"
+    },
+    {
+      "id": 1547,
+      "title": "CSF1R inhibitors mitigate CDK4/6 inhibitor-induced immunosuppression to increase antitumor immunity in HR+/HER2- breast cancer.",
+      "summary": "Hormone receptor-positive, human epidermal growth factor receptor 2-negative (HR&#x2009;+&#x2009;/HER2&#x2009;-&#x2009;) breast cancer, the most common subtype, shows a low pathological complete response (pCR) rate and limited benefit from immunotherapy, highlighting the need for more effective strategies. Although immunotherapy has become increasingly important in cancer treatment, its efficacy in this subtype remains modest. CDK4/6 inhibitors, first-line treatments for advanced HR&#x2009;+&#x2009;/HER2- breast cancer, not only suppress tumor proliferation but may also reshape the immune microenvironment, offering new opportunities for immunotherapy. In this study, multiplex immunohistochemistry, drug testing of HR&#x2009;+&#x2009;/HER2- breast cancer organoids, single-cell sequencing, an",
+      "chinese_summary": "本研究探索CDK4/6抑制剂在HR+/HER2-乳腺癌中引起的免疫抑制机制，发现CSF1R抑制剂可逆转这种免疫抑制，增强抗肿瘤免疫力。通过器官培养、单细胞测序等技术，为这一常见但免疫治疗反应差的乳腺癌亚型提供了新的联合治疗策略。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986650/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Oncogene",
+      "authors": [
+        "[\"Li S\"",
+        "\"Gong Y\"",
+        "\"Li H\"",
+        "\"Liu S\"",
+        "\"Yin Y\"",
+        "\"Yu Y\"",
+        "\"Chu Y\"",
+        "\"Hou J\"",
+        "\"Liu J\"",
+        "\"Zhang H\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "CDK4/6抑制剂",
+        "免疫治疗",
+        "肿瘤微环境",
+        "CSF1R抑制剂"
+      ],
+      "ai_score": 8,
+      "content_hash": "66f8625bf1f7751a4cd77fcbccf0ccf5",
+      "created_at": "2026-04-16 05:36:37",
+      "updated_at": "2026-04-16 05:36:37",
+      "date": "2026"
+    },
+    {
+      "id": 1544,
+      "title": "PTPN1/PTPN2 inhibition improves NK cancer therapy by enhancing IL-2 and mitigating TGFβ1 responses.",
+      "summary": "Natural killer (NK) cells are promising candidates for allogeneic anti-cancer immunotherapy. However, their cytolytic activity is often suppressed by the tumor microenvironment. We demonstrate that genetic silencing or pharmacological dual inhibition of protein tyrosine phosphatases PTPN1 and PTPN2 (PTPN1/N2) in NK cells significantly enhances anti-tumor cytolytic activity both in vitro and in vivo. This augmented NK cell activity is mediated by increased expression of early activation markers and the production of effector molecules such as granzyme B and interferon-gamma (IFN-&#x3b3;). Notably, this elevated cell cytolytic response remains substantially resistant to the immunosuppressive effects of TGF&#x3b2;-1, a cytokine known to dampen NK cell activity and commonly present in the tumo",
+      "chinese_summary": "本研究证明通过基因沉默或药物抑制PTPN1/PTPN2可显著增强NK细胞的抗肿瘤活性，提高颗粒酶B和干扰素-γ的产生，并抵抗TGFβ-1的免疫抑制作用。该发现为开发新型癌症免疫疗法提供了新策略，与创新药领域高度相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986797/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "EMBO reports",
+      "authors": [
+        "[\"Feng CH\"",
+        "\"Peltier L\"",
+        "\"Chouleur T\"",
+        "\"DiPonzio M\"",
+        "\"Aubry I\"",
+        "\"Poirier AJ\"",
+        "\"Cordova ZM\"",
+        "\"Shen Y\"",
+        "\"Tabariès S\"",
+        "\"Cao X\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "immunotherapy",
+        "NK cells",
+        "PTPN1/N2 inhibition"
+      ],
+      "ai_score": 8,
+      "content_hash": "1a6a1f1f5dc0df6f0ac65b13d9b77269",
+      "created_at": "2026-04-16 05:36:16",
+      "updated_at": "2026-04-16 05:36:16",
       "date": "2026"
     },
     {
@@ -20032,6 +20870,491 @@
       "content_hash": "4659108903f00fed82b0b97c5bde0d10",
       "created_at": "2026-04-09 09:17:45",
       "updated_at": "2026-04-09 09:17:45",
+      "date": "2026"
+    },
+    {
+      "id": 1596,
+      "title": "Building a tactical medical chatbot for conflict and low-resource settings: A low-code platform approach.",
+      "summary": "Conflict zones severely disrupt healthcare access, with millions affected by armed conflicts. The lack of standardized medical guidance exacerbates these challenges. Digital health solutions like chatbots and telemedicine offer potential to bridge gaps in care by providing real-time medical support. Low-code platforms further enable rapid development of critical tools for frontline responders. However, accuracy and reliability remain critical challenges. The main objective of this study is to develop and preliminarily evaluate a Tactical Medical (TacMed) Chatbot, a low-code solution delivering life-saving medical protocols for frontline workers in low resource, and conflict settings deployed by Health Tech Without Borders. This study utilized a user-centered design approach to develop and ",
+      "chinese_summary": "本研究开发战术医疗聊天机器人，通过低代码平台为冲突地区和资源匮乏环境提供实时医疗支持。采用用户中心设计方法，旨在解决标准化医疗指导缺失问题，提升前线救援人员的急救能力。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985434/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Healthcare (Amsterdam, Netherlands)",
+      "authors": [
+        "[\"Hassan A\"",
+        "\"He S\"",
+        "\"Peng B\"",
+        "\"Petrea-Imenokhoeva M\"",
+        "\"Samadian K\"",
+        "\"Abdelseid H\"",
+        "\"Abdelrahim A\"",
+        "\"Showstark M\"",
+        "\"Naim H\"",
+        "\"Lisiak G\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "digital health",
+        "telemedicine",
+        "low-resource settings"
+      ],
+      "ai_score": 7,
+      "content_hash": "42779e3986619cffd26275b82f09cbe9",
+      "created_at": "2026-04-16 05:43:38",
+      "updated_at": "2026-04-16 05:43:38",
+      "date": "2026"
+    },
+    {
+      "id": 1594,
+      "title": "Integrating Next-Generation Sequencing into von Willebrand Disease Diagnostics: Insights from the PCM-EVW-ES Multicenter Project.",
+      "summary": "Von Willebrand disease (VWD) is the most common inherited bleeding disorder, caused by quantitative or qualitative defects in von Willebrand factor (VWF). Diagnosis is challenging and requires integrating bleeding history, VWF antigen and activity measurements, FVIII assays, and specialized phenotyping. Genetic testing is increasingly recognized as a key component. Here, we review current concepts in VWD diagnostics and highlight the Spanish Clinical and Molecular Profile of von Willebrand Disease (PCM-EVW-ES) project as a model for genomics-enabled precision medicine. PCM-EVW-ES is a multicenter initiative involving 48 hospitals, centralized phenotypic testing, and next-generation sequencing of the VWF coding region, enabling definitive classification in 730 individuals with VWD to date. ",
+      "chinese_summary": "本文介绍了将新一代测序技术整合至血管性血友病诊断的西班牙多中心研究项目。通过集中表型检测和VWF基因测序，该项目实现了730例患者的精确分类，展示了基因组学在精准医疗中的应用模式，主要推动诊断技术发展而非药物研发或生物制造。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985465/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Seminars in thrombosis and hemostasis",
+      "authors": [
+        "[\"Borràs N\"",
+        "\"Corrales I\"",
+        "\"Vidal F\"",
+        "\"PCM-EVW-ES Investigators Team\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "genetic testing",
+        "bleeding disorder"
+      ],
+      "ai_score": 7,
+      "content_hash": "70f2f596588ae7be72c73762ea164e68",
+      "created_at": "2026-04-16 05:43:25",
+      "updated_at": "2026-04-16 05:43:25",
+      "date": "2026"
+    },
+    {
+      "id": 1590,
+      "title": "Polygonatum sibiricum polysaccharide delays age-related decline and preserves muscle integrity in Caenorhabditis elegans by modulating the daf-2/IIS pathway.",
+      "summary": "Aging is characterized by a progressive decline in muscle strength and mass, posing a significant threat to global quality of life in the absence of effective therapeutic interventions. The edible herb Polygonatum sibiricum and its polysaccharide (PSP) have been shown to delay aging in animal models, although the underlying mechanisms remain poorly understood. In this study, we investigated the anti-aging effects of PSP in Caenorhabditis elegans (C. elegans). Our results demonstrate that PSP reduces oxidative stress, stabilizes mitochondrial function, and preserves sarcomere integrity during aging. Notably, the beneficial effects of PSP were abolished upon silencing of daf-2, confirming their dependence on the insulin/IGF-1 signaling (IIS) pathway. Furthermore, daf-2 silencing eliminated a",
+      "chinese_summary": "本研究探讨黄精多糖(PSP)通过调节daf-2/IIS通路延缓衰老的作用机制。在秀丽隐杆线虫模型中，PSP能减轻氧化应激、维持线粒体功能和肌节完整性，但其保护作用在daf-2基因沉默后消失。该研究为天然产物抗衰老机制提供了新见解，对开发大健康领域的抗衰老干预策略具有参考价值。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985823/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "International journal of biological macromolecules",
+      "authors": [
+        "[\"Liao Y\"",
+        "\"Li H\"",
+        "\"Liu Q\"",
+        "\"Zhang J\"",
+        "\"Lin J\"",
+        "\"Du Q\"",
+        "\"He W\"",
+        "\"Li Y\"",
+        "\"Dong Z\"",
+        "\"Wang X\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "aging",
+        "natural_product",
+        "IIS_pathway",
+        "muscle_health"
+      ],
+      "ai_score": 7,
+      "content_hash": "21f2f0b52f78fad378521b14b11f14c2",
+      "created_at": "2026-04-16 05:42:57",
+      "updated_at": "2026-04-16 05:42:57",
+      "date": "2026"
+    },
+    {
+      "id": 1589,
+      "title": "Therapeutic Exploitation of Ferroptosis Pathways in Dry Eye Disease: Opportunities and Challenges.",
+      "summary": "Conventional management of dry eye disease (DED) often fails to arrest the progressive loss of corneal epithelial cells, making therapeutic management challenging. Emerging evidence points to ferroptosis, an iron-dependent form of regulated cell death, as a central driver of this ocular surface damage. This review provides a comprehensive dissection of the molecular networks driving ferroptosis in DED, delineating how dysregulation of iron metabolism, pathological accumulation of lipid peroxides, and collapse of the redox-inflammation cycle synergistically precipitate cell death. Building upon this mechanistic framework, an integrated therapeutic landscape targeting three distinct axes is outlined. Strategies to control the lipid peroxidation axis are first examined by repurposing thiazoli",
+      "chinese_summary": "本文探讨铁死亡在干眼病中的作用机制，提出通过调控铁代谢、脂质过氧化和氧化还原-炎症循环三条通路开发新型疗法。重点评估了药物重定位策略（如噻唑类药物）的潜力，属于创新药领域中对新型细胞死亡机制的靶向治疗探索。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985867/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Experimental eye research",
+      "authors": [
+        "[\"Yang C\"",
+        "\"Yang S\"",
+        "\"Shu X\"",
+        "\"Jiang L\"",
+        "\"Shen Y\"",
+        "\"Huang X\"",
+        "\"Wei R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "ferroptosis",
+        "drug_repurposing",
+        "ocular_therapeutics"
+      ],
+      "ai_score": 7,
+      "content_hash": "2b8edc02026269d0daf46df632086f61",
+      "created_at": "2026-04-16 05:42:50",
+      "updated_at": "2026-04-16 05:42:50",
+      "date": "2026"
+    },
+    {
+      "id": 1588,
+      "title": "Evaluating the environmental impact of AI in healthcare is essential for planetary health.",
+      "summary": "",
+      "chinese_summary": "本文探讨人工智能在医疗领域应用的环境影响，虽未直接涉及创新药或生物制造，但与医疗健康可持续发展相关，涉及公共卫生和医疗系统效率等大健康议题。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985975/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "BMJ (Clinical research ed.)",
+      "authors": [
+        "[\"Foley CR\"",
+        "\"Bonnici T\"",
+        "\"Calderwood P\"",
+        "\"Reyburn M\"",
+        "\"Pearson S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "AI医疗",
+        "环境影响",
+        "公共卫生"
+      ],
+      "ai_score": 7,
+      "content_hash": "ee5286a740f2b59b40b84108ef8dcf56",
+      "created_at": "2026-04-16 05:42:43",
+      "updated_at": "2026-04-16 05:42:43",
+      "date": "2026"
+    },
+    {
+      "id": 1587,
+      "title": "Balancing gene ontology annotation specificity in protein function prediction based on the protein sequence large graph.",
+      "summary": "Accurate protein function prediction is fundamental to advancing drug discovery, precision medicine, and understanding complex biological systems. While gene ontology (GO) provides a standardized framework for protein annotation, a critical challenge persists: the imbalance between low-specificity GO terms and high-specificity GO terms. This imbalance creates blind spots in our understanding of protein function landscapes, particularly in clinically relevant pathways. We present ProGO-PSL, a novel large graph architecture designed to resolve this imbalance. ProGO-PSL simultaneously leverages explicit domain identifier from InterPro and implicit evolutionary context from Multiple Sequence Alignments, fusing these complementary data sources within a powerful imbalance learning framework. Our",
+      "chinese_summary": "本研究提出ProGO-PSL图神经网络模型，通过平衡基因本体注释特异性来解决蛋白质功能预测中的关键挑战。该技术为药物发现和精准医学提供重要基础支撑，通过整合InterPro结构域和进化信息，显著提升对临床相关通路的功能理解。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985989/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Genome research",
+      "authors": [
+        "[\"Shao J\"",
+        "\"Chen S\"",
+        "\"Wang Z\"",
+        "\"Chen Z\"",
+        "\"Liu B\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "protein function prediction",
+        "gene ontology",
+        "computational biology",
+        "drug discovery"
+      ],
+      "ai_score": 7,
+      "content_hash": "63cd5bbe482c6678ae06777eb835ac5a",
+      "created_at": "2026-04-16 05:42:36",
+      "updated_at": "2026-04-16 05:42:36",
+      "date": "2026"
+    },
+    {
+      "id": 1585,
+      "title": "Artificial intelligence integration in medical imaging data.",
+      "summary": "The new technology of Artificial Intelligence (AI) has become an important aspect of medical imaging. It allows replacing the manual interpretation with the automated analysis based on the data. Clinical data quality in the healthcare industry is growing at a rate of more than 19 terabytes annually bringing a compelling necessity to derive significant information. This is a process of examining trends in the information and handling the complexity of the huge amount of medical data with high precision based on time with time-dependent procedures. Deep-learning systems, more specifically AI systems, have proven to be effective and efficient in automating the complex medical imaging processes. These processes involve image acquisition, image enhancement, image segmentation, quantitative feat",
+      "chinese_summary": "本文探讨人工智能在医学影像数据中的整合应用，通过深度学习系统实现影像采集、增强和分割等流程的自动化分析。虽未直接涉及创新药或生物制造，但对精准医疗和公共卫生领域的大数据管理具有重要价值。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986007/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Progress in molecular biology and translational science",
+      "authors": [
+        "[\"Kataria P\"",
+        "\"Chaturvedi A\"",
+        "\"Yadav S\"",
+        "\"Prakash A\"",
+        "\"Sharma RD\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "medical imaging",
+        "artificial intelligence",
+        "precision medicine"
+      ],
+      "ai_score": 7,
+      "content_hash": "c20d5ca89c35d783dc5c251bddcc6830",
+      "created_at": "2026-04-16 05:42:24",
+      "updated_at": "2026-04-16 05:42:24",
+      "date": "2026"
+    },
+    {
+      "id": 1575,
+      "title": "Linking microbial functional partitioning with methane productivity and stability in microbial electrolysis cell-anaerobic digestion hybrid systems.",
+      "summary": "Bioenergy recovery is a global priority for environmental sustainability and energy transition. The microbial electrolysis cell-anaerobic digestion hybrid system (MEC-AD) offers a promising approach for efficient methane recovery; however, the functional roles of its components remain unclear. In this study, bioanodes, biocathodes, and suspensions were isolated from a stably operated MEC-AD bioreactor to investigate their microbial community characteristics and dominant metabolic functions under controlled conditions. The bioanode was identified as the primary contributor to methane production, accounting for 69%-82% of the methane yield via mixotrophic methanogenesis, dominated by Methanothrix and Methanosarcina, in synergy with Thermoanaerobacter and Geobacter. The biocathode reshaped fe",
+      "chinese_summary": "本研究通过分离微生物电解-厌氧消化耦合系统中的生物阳极、生物阴极和悬浮液，揭示了微生物功能分区与甲烷生产力及稳定性的关联。生物阳极被确定为甲烷主要来源，通过混合营养型产甲烷途径贡献69%-82%产量，由Methanothrix和Methanosarcina主导，并与Thermoanaerobacter和Geobacter协同作用。该研究为生物能源回收系统的优化提供了理论基础。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985764/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Bioresource technology",
+      "authors": [
+        "[\"Wang XT\"",
+        "\"Li Y\"",
+        "\"Pan Y\"",
+        "\"Xing X\"",
+        "\"Wang B\"",
+        "\"Xing D\"",
+        "\"Nan J\"",
+        "\"En Lee JT\"",
+        "\"Khan E\"",
+        "\"Tsang DCW\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "microbial electrolysis",
+        "anaerobic digestion",
+        "methane production",
+        "synthetic biology"
+      ],
+      "ai_score": 7,
+      "content_hash": "c37190d38fdd2da0a7f1b8fea6453511",
+      "created_at": "2026-04-16 05:40:32",
+      "updated_at": "2026-04-16 05:40:32",
+      "date": "2026"
+    },
+    {
+      "id": 1572,
+      "title": "Stable bioreactor control reveals acidic pH-driven metabolic reprogramming and mitochondrial dysfunction in human lymphoblastoid cells.",
+      "summary": "Human cells require pH regulation to maintain physiological function, yet the molecular consequences of acidic environments remain incompletely understood. Here, we employ a gas-only bioreactor to control pH, oxygen, and temperature. Integrated multi-omics analyses reveal that acidic pH induces a glycolytic metabolic shift, suppresses proliferation, and promotes accumulation of lactate and oncometabolites alongside mitochondrial dysfunction. Acidic conditions increase reactive oxygen species (ROS) and activate inflammatory and immune pathways, leading to heteroplasmic enrichment of a pathogenic mitochondrial mutation. Acidic pH depletes intracellular NAD&#x207a;, partly driven by PARP1 activation. Restoring NAD&#x207a; through nicotinamide mononucleotide (NMN) supplementation partially res",
+      "chinese_summary": "本研究通过气体生物反应器精确控制培养环境，揭示酸性pH会诱导人淋巴母细胞代谢重编程（转向糖酵解）、抑制增殖并导致线粒体功能障碍。研究发现酸性环境会增加活性氧、激活免疫通路，并发现补充NMN可部分恢复NAD+水平。该研究对生物制造过程中的细胞培养优化具有重要参考价值。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986597/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Communications biology",
+      "authors": [
+        "[\"Alsolami S\"",
+        "\"Zhang Y\"",
+        "\"Singh U\"",
+        "\"Jin Y\"",
+        "\"Steiner N\"",
+        "\"Szczepski K\"",
+        "\"Klein SG\"",
+        "\"Yuan B\"",
+        "\"Bi C\"",
+        "\"Wang M\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "bioreactor_control",
+        "metabolic_reprogramming",
+        "mitochondrial_dysfunction"
+      ],
+      "ai_score": 7,
+      "content_hash": "4450af41eb8842eb616a62dc49421c3d",
+      "created_at": "2026-04-16 05:40:14",
+      "updated_at": "2026-04-16 05:40:14",
+      "date": "2026"
+    },
+    {
+      "id": 1563,
+      "title": "Comprehensive molecular characterization of cfDNA as predictive and monitoring biomarkers in advanced gastric cancer receiving immunotherapy.",
+      "summary": "Advanced gastric cancer (aGC) exhibits substantial heterogeneity in response to combination immunotherapy. Circulating cell-free DNA (cfDNA) enables non-invasive profiling of tumor dynamics and may provide biomarkers for response prediction. We enrolled 94 patients with aGC undergoing combination immunotherapy and assigned them to a discovery set (n=49) and an internal validation set (n=45). Plasma cfDNA was collected pre-treatment and post-treatment and profiled by low-pass whole-genome sequencing and whole-genome bisulfite sequencing in the discovery set, with targeted bisulfite sequencing used in the validation set. The discovery set included 34 responders and 15 non-responders, and the validation set included 30 responders and 15 non-responders. We found that responders showed longer c",
+      "chinese_summary": "本研究通过cfDNA分子特征分析，开发晚期胃癌免疫治疗的预测和监测生物标志物。发现cfDNA甲基化特征可区分治疗应答者，具有液体活检和精准医疗应用价值，但未涉及创新疗法或生物制造技术。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986073/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Journal for immunotherapy of cancer",
+      "authors": [
+        "[\"Fang J\"",
+        "\"Yu Y\"",
+        "\"Sun Y\"",
+        "\"Ji M\"",
+        "\"Jiang Y\"",
+        "\"Chen X\"",
+        "\"Yan C\"",
+        "\"Jin G\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "liquid biopsy",
+        "precision medicine",
+        "immunotherapy",
+        "biomarker"
+      ],
+      "ai_score": 7,
+      "content_hash": "5378ac97268e6f84f759e74f67331dfd",
+      "created_at": "2026-04-16 05:38:25",
+      "updated_at": "2026-04-16 05:38:25",
+      "date": "2026"
+    },
+    {
+      "id": 1562,
+      "title": "Toward organ preservation in thoracic malignancies: why interpretable multimodal radiopathomics matters in the neoadjuvant immunotherapy era.",
+      "summary": "Neoadjuvant immunotherapy has increased rates of pathological complete response (pCR) in thoracic malignancies and has renewed interest in organ-preserving strategies. In esophageal squamous cell carcinoma (ESCC), the Surgery As Needed for Oesophageal cancer (SANO) trial has shown that active surveillance may be feasible for selected patients who achieve clinical complete response (cCR) after neoadjuvant chemoradiotherapy. Nevertheless, cCR remains an imperfect surrogate for pCR, and residual disease may still be present despite apparently negative post-treatment assessments. In this context, the recent study by Qi and colleagues is particularly noteworthy. In a multicenter retrospective cohort of 335 patients with ESCC treated with neoadjuvant chemoimmunotherapy followed by surgery, the a",
+      "chinese_summary": "本文探讨胸腺恶性肿瘤新辅助免疫治疗后器官保存策略，重点关注食管鳞癌患者临床完全反应与病理完全反应的差异。研究提出可解释多模态放射病理组学方法可提高疗效评估准确性，支持精准医疗决策，属于大健康领域的肿瘤精准治疗范畴。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986074/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Journal for immunotherapy of cancer",
+      "authors": [
+        "[\"Jiang W\"",
+        "\"Fan Y\"",
+        "\"Zhao J\"",
+        "\"Zeng J\"",
+        "\"Wu L\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "immunotherapy",
+        "organ preservation"
+      ],
+      "ai_score": 7,
+      "content_hash": "650f276ed0f8ca4c0822b56e52a89a27",
+      "created_at": "2026-04-16 05:38:19",
+      "updated_at": "2026-04-16 05:38:19",
+      "date": "2026"
+    },
+    {
+      "id": 1559,
+      "title": "Imaging Immune Heterogeneity in Nasopharyngeal Carcinoma: A Multidimensional Radiomics Perspective.",
+      "summary": "Nasopharyngeal carcinoma (NPC) is characterized by a distinctive virologic and immunologic profile, in which Epstein-Barr virus-driven immune infiltration coexists with immune escape. This complex interplay gives rise to pronounced immune heterogeneity across spatial, molecular, and temporal dimensions, which critically influences response to immunotherapy and clinical outcomes. However, conventional biopsy-based immune evaluation is limited by sampling bias, invasiveness, and restricted spatial representativeness, precluding comprehensive characterization of the global tumor immune landscape. Radiomics enables high-throughput quantitative extraction of structural, textural, and functional features from routine medical imaging, offering a noninvasive and whole-tumor approach to characteriz",
+      "chinese_summary": "本研究通过多维放射组学方法无创评估鼻咽癌的免疫异质性。利用常规医学影像定量提取肿瘤特征，克服传统活检局限，为免疫治疗疗效预测提供新视角，与精准医疗领域高度相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986218/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Academic radiology",
+      "authors": [
+        "[\"Liang J\"",
+        "\"Wang Z\"",
+        "\"Zhang Y\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "radiomics",
+        "immunotherapy"
+      ],
+      "ai_score": 7,
+      "content_hash": "39e24bce8ca136945fb8e39dd327bec6",
+      "created_at": "2026-04-16 05:37:56",
+      "updated_at": "2026-04-16 05:37:56",
+      "date": "2026"
+    },
+    {
+      "id": 1555,
+      "title": "Esophageal cancer: from pathogenesis to precision therapies.",
+      "summary": "Esophageal cancer (EC), encompassing primarily esophageal squamous-cell carcinoma (ESCC) and esophageal adenocarcinoma (EAC), continues to pose a significant global health burden, which is largely due to delayed diagnosis and limited therapeutic efficacy. In this review, we synthesize current insights into key aspects of EC, including established risk factors, the stepwise process of tumorigenesis, strategies for early detection and prevention, and emerging therapeutic approaches. Emphasis is particularly placed on the molecular underpinnings of (1) early tumor initiation and malignant progression, with a focus on genetic mutations, epigenetic modifications, and alterations within the tumor microenvironment; (2) the clonal expansion and metabolic reprogramming that play essential roles in ",
+      "chinese_summary": "本文综述食管癌的发病机制与精准治疗策略，重点探讨肿瘤发生的分子基础（基因突变、表观遗传修饰、肿瘤微环境）及早期检测方法。文章强调新兴治疗手段，与精准医学和大健康领域高度相关，但对创新药和生物制造的直接涉及有限。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986343/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Signal transduction and targeted therapy",
+      "authors": [
+        "[\"Zhang S\"",
+        "\"Shen Y\"",
+        "\"Zhu L\"",
+        "\"Lai Y\"",
+        "\"Zhu L\"",
+        "\"Xiao X\"",
+        "\"Li J\"",
+        "\"Tan W\"",
+        "\"Lin D\"",
+        "\"Wu C\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "molecular mechanisms",
+        "early detection"
+      ],
+      "ai_score": 7,
+      "content_hash": "4c75e7a8c6944350b431c7cbafe91a20",
+      "created_at": "2026-04-16 05:37:33",
+      "updated_at": "2026-04-16 05:37:33",
+      "date": "2026"
+    },
+    {
+      "id": 1553,
+      "title": "On topological co-index polynomials for predictive modeling of the physicochemical properties of antiviral drugs.",
+      "summary": "This study investigates the potential of topological co-indices and their polynomials as computational tools for predicting the physicochemical properties of antiviral compounds targeting the Ebola virus. For an in-depth Quantitative Structure-Property Relationship (QSPR) analysis, we develop and compute topological co-indices using CoM and CoNM polynomials derived from the molecular structures of antiviral drugs, including Galidesivir, Chloroquine, Favipiravir, Amodiaquine, Azithromycin, Brincidofovir, and Clomiphene. These indices were correlated with some important experimental physicochemical properties via linear and curvilinear regression techniques, and their predictive models were developed. The results reveal strong correlations between the topological indices and physicochemical ",
+      "chinese_summary": "本研究通过拓扑共指数多项式建立计算模型，预测埃博拉病毒抗病毒药物的物理化学性质。利用线性与曲线回归技术分析Galidesivir等药物的分子结构特征与性质关联，为创新药物设计提供计算工具支持。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986477/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Scientific reports",
+      "authors": [
+        "[\"Meharban S\"",
+        "\"Ullah A\"",
+        "\"Zaman S\"",
+        "\"Abd-Elmonem A\"",
+        "\"Ali P\"",
+        "\"Alhubieshi N\"",
+        "\"Belay MB\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "computational_chemistry",
+        "drug_design",
+        "antiviral_drugs",
+        "QSPR"
+      ],
+      "ai_score": 7,
+      "content_hash": "a6f33f2b4d8a332ed7d959535ae6dead",
+      "created_at": "2026-04-16 05:37:21",
+      "updated_at": "2026-04-16 05:37:21",
+      "date": "2026"
+    },
+    {
+      "id": 1552,
+      "title": "CEP72 promotes malignant progression and shapes the tumor immune microenvironment in hepatocellular carcinoma: integrated multi-cohort bioinformatics and in vitro validation.",
+      "summary": "",
+      "chinese_summary": "本研究通过多队列生物信息学分析和体外验证，发现CEP72基因促进肝癌恶性进展并重塑肿瘤免疫微环境。该基因可作为潜在治疗靶点，与创新药开发中的肿瘤免疫治疗领域高度相关，为肝癌精准治疗提供新方向。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986494/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Scientific reports",
+      "authors": [
+        "[\"Zhu M\"",
+        "\"Wang K\"",
+        "\"Feng X\"",
+        "\"Cai Q\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "肿瘤免疫微环境",
+        "肝癌",
+        "生物标志物",
+        "靶向治疗"
+      ],
+      "ai_score": 7,
+      "content_hash": "37175cde3f9f235e57be5369dd1a89bb",
+      "created_at": "2026-04-16 05:37:13",
+      "updated_at": "2026-04-16 05:37:13",
+      "date": "2026"
+    },
+    {
+      "id": 1550,
+      "title": "Bioprospecting Italian biodiversity for identifying potential neuroprotective agents.",
+      "summary": "Neurodegenerative diseases represent a growing global health burden. With current treatments limited to symptom management, natural biodiversity offers a promising source of novel, multi-target compounds. Bioprospecting thus emerges as a sustainable strategy for discovering innovative neuroprotective therapies, underscoring the importance of preventing biodiversity for future drug discovery. An initial metabolomic screening of Italian plants was performed to support a bioprospective approach, in which 27 plant extracts were evaluated for their ability to inhibit acetylcholinesterase and tyrosinase, targeting mechanisms involved in neurodegenerative diseases. Adenophora liliifolia and Carissa macrocarpa emerged as the most promising species through multi-parameter screening. Metabolomic ana",
+      "chinese_summary": "本研究通过代谢组学筛选意大利植物提取物，评估其抑制乙酰胆碱酯酶和酪氨酸酶的能力，旨在发现具有神经保护作用的新型多靶点化合物。文章强调生物多样性勘探作为发现创新神经退行性疾病治疗策略的重要性，与创新药物研发领域高度相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986532/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Scientific reports",
+      "authors": [
+        "[\"Fossati A\"",
+        "\"Cavalloro V\"",
+        "\"Negri S\"",
+        "\"Linciano P\"",
+        "\"Guzzo F\"",
+        "\"Collina S\"",
+        "\"Martino E\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "bioprospecting",
+        "neuroprotective",
+        "natural_compounds",
+        "drug_discovery"
+      ],
+      "ai_score": 7,
+      "content_hash": "d66190ee1f68df8e919cd96ec51e709f",
+      "created_at": "2026-04-16 05:36:59",
+      "updated_at": "2026-04-16 05:36:59",
       "date": "2026"
     },
     {
@@ -24310,6 +25633,85 @@
       "date": "2026"
     },
     {
+      "id": 1592,
+      "title": "The Caenorhabditis elegans Mitochondrial Electron Transport Chain: its role in Adaptation, Longevity, and Biotechnology.",
+      "summary": "In Caenorhabditis elegans (C. elegans) the mitochondrial electron transport chain (ETC) exhibits remarkable functional plasticity. This review summarizes the composition, regulation, and adaptive roles of complexes I-V. Depending on oxygen availability, the ETC uses either ubiquinone (UQ) or rhodoquinone (RQ), an ancestral strategy for hypoxia or high hydrogen sulfide (H2S) conditions. Mild ETC impairments can extend lifespan through redox signaling, mitohormesis, and activation of the mitochondrial unfolded protein response. These processes likely represent conserved mechanisms of bioenergetic adaptation and longevity. Moreover, C. elegans server as a translational model for human mitochondrial diseases and for screening mitochondrial or antiparasitic compounds.",
+      "chinese_summary": "本文综述了秀丽隐杆线虫中线粒体电子传递链的功能可塑性及其在缺氧适应和寿命延长中的作用机制。研究发现轻度ETC损伤可通过氧化还原信号和线粒体未折叠蛋白反应延长寿命，这些机制在生物能量适应中具有保守性。该模型可用于人类线粒体疾病研究和抗寄生虫药物筛选。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985607/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Experimental cell research",
+      "authors": [
+        "[\"Hernández-Cruz EY\"",
+        "\"Uribe-Carvajal S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "mitochondrial_function",
+        "longevity_mechanisms",
+        "drug_screening"
+      ],
+      "ai_score": 6,
+      "content_hash": "57d4e10360f4a5780cc64315577fef87",
+      "created_at": "2026-04-16 05:43:14",
+      "updated_at": "2026-04-16 05:43:14",
+      "date": "2026"
+    },
+    {
+      "id": 1576,
+      "title": "Enhanced bioelectrochemical anaerobic membrane bioreactor utilizing IrO(2)-Ta(2)O(5)/Ti bioanode for municipal wastewater treatment: Synchronizing organic carbon recovery and membrane fouling mitigation.",
+      "summary": "While anaerobic membrane bioreactors (AnMBRs) demonstrate significant potential for carbon energy recovery from municipal wastewater (MWW), their practical application is still hindered by the relatively low bioenergy recovery efficiency and membrane fouling issues. To address these challenges, a novel microbial electrolysis cell integrated with AnMBR (MEC&#x2011;AnMBR) was developed equipped with a tailored IrO2&#x2011;Ta2O5/Ti anode. Electrochemical tests confirmed that the IrO2&#x2011;Ta2O5/Ti anode offers a lower energy barrier and amino acid residue binding sites for electrode-microbe interface redox reactions. Even with the real MWW (chemical oxygen demand (COD) being low at 125 mg/L), the MEC-AnMBR achieved a methane production up to 0.25 L-CH4/g COD, being 39% (p &lt; 0.01) higher ",
+      "chinese_summary": "本研究开发了一种新型微生物电解池耦合厌氧膜生物反应器，采用IrO2-Ta2O5/Ti生物阳极处理市政废水。该系统在低COD条件下实现甲烷产量提升39%，同步解决膜污染问题，属于生物制造领域的废水处理与能源回收技术。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985349/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Water research",
+      "authors": [
+        "[\"Wang J\"",
+        "\"Wang H\"",
+        "\"Kong Z\"",
+        "\"Wang Y\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "bioprocessing",
+        "wastewater treatment",
+        "bioenergy"
+      ],
+      "ai_score": 6,
+      "content_hash": "f4a6c8d58562cdb1b95dafc9e128d7de",
+      "created_at": "2026-04-16 05:40:40",
+      "updated_at": "2026-04-16 05:40:40",
+      "date": "2026"
+    },
+    {
+      "id": 1569,
+      "title": "Can a fluorescent imaging device (MolecuLight) function as an adjunct to surgical debridement during revision knee arthroplasty for periprosthetic infection in a tertiary centre: a feasibility study.",
+      "summary": "Radical surgical debridement is central to the eradication of prosthetic joint infection. Surgeons are taught that the adequacy of debridement is critical to the success of revision procedures. We aimed to assess the feasibility of using a handheld fluorescent imaging device as an adjunct to tissue debridement in the management of periprosthetic joint infection (PJI) after standard radical debridement. Prospective feasibility trial. This was performed at a tertiary prosthetic joint infection unit (The Royal Orthopaedic Hospital, Birmingham, UK), multidisciplinary team (MDT). 10 patients with established PJI managed through a tertiary prosthetic joint infection MDT were recruited between January 2023 and December 2023. All patients underwent standard management, including radical debridemen",
+      "chinese_summary": "本研究评估荧光成像设备作为膝关节假体周围感染翻修术中清创辅助工具的可行性。通过在标准彻底清创后使用手持荧光设备检测残留感染组织，探索其在感染控制中的潜在价值，属于大健康领域的医疗技术创新应用。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985949/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "BMJ open",
+      "authors": [
+        "[\"Archer JE\"",
+        "\"Adlan A\"",
+        "\"Sumathi V\"",
+        "\"Stevenson J\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "surgical innovation",
+        "infection management",
+        "medical imaging"
+      ],
+      "ai_score": 6,
+      "content_hash": "9e62a165ab6f127367b3c1dd3da15e4a",
+      "created_at": "2026-04-16 05:39:52",
+      "updated_at": "2026-04-16 05:39:52",
+      "date": "2026"
+    },
+    {
       "id": 1475,
       "title": "A Digital Diabetes Prevention Program for Hispanic Adolescents (Fit24+): Protocol for a Feasibility Randomized Controlled Trial.",
       "summary": "Hispanic youth are disproportionately impacted by obesity and subsequent type 2 diabetes (T2D) yet remain underrepresented in diabetes prevention research. Digital health interventions hold promise for increasing the accessibility to and engagement in disease prevention programming, particularly among high-risk populations. However, there is a significant gap in the literature regarding digital T2D prevention programs for adolescents or Hispanic youth. The objective of this article is to describe the protocol for examining the feasibility of a 12-week digital diabetes prevention program among Hispanic adolescents with obesity. Participants (N=40; aged 12-16 years) will be randomized (1:1) to a 12-week intervention group or a control group. Youth in the intervention group will receive acces",
@@ -25452,6 +26854,87 @@
       "date": "2026"
     },
     {
+      "id": 1600,
+      "title": "Isolation and functional characterization of a bacteriophage targeting pathogenic Bacillus cereus in Trionyx sinensis.",
+      "summary": "Trionyx sinensis suffers from severe disease caused by pathogenic Bacillus cereus, necessitating the exploration of novel biocontrol technology. In this study, a new phage targeting B. cereus from T. sinensis, designated PSYJ-YH, was isolated and characterized. The phage particles feature an oval, polyhedral head and flexible tail fibers, classifying them as siphoviruses. At the multiplicity of infection (MOI) of 0.001, the phage titer reached the highest value of 1.39 &#xd7; 109 PFU/mL. PSYJ-YH exhibited moderate adsorption rate, with 86.3% of particles adsorbing within 21 min. The one-step growth curve revealed a latent period of 20 min and a burst size of 256.6 PFU/cell. The phage demonstrated stability across temperatures of 30-60&#xb0;C and pH values of 4-11. Its complete genome compr",
+      "chinese_summary": "本研究从中华鳖中分离出靶向致病性蜡样芽孢杆菌的噬菌体PSYJ-YH，并对其形态特征、感染效率、热稳定性和pH稳定性进行了功能表征。该研究为水产养殖病原体控制提供了新型生物防治技术，与生物制造领域的微生物制剂开发相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985590/",
+      "source": "PubMed",
+      "category": "biomanufacturing",
+      "journal": "Microbial pathogenesis",
+      "authors": [
+        "[\"Lyu S\"",
+        "\"Diao Y\"",
+        "\"Guo Q\"",
+        "\"Shen Y\"",
+        "\"Liu L\"",
+        "\"Xu J\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "bacteriophage",
+        "biocontrol",
+        "bioprocessing"
+      ],
+      "ai_score": 4,
+      "content_hash": "e6d99d9a1d790406f6d25cf0ccc85fed",
+      "created_at": "2026-04-16 05:44:05",
+      "updated_at": "2026-04-16 05:44:05",
+      "date": "2026"
+    },
+    {
+      "id": 1595,
+      "title": "Plasma cell ontogenies, functions, and lifespans.",
+      "summary": "B cell development is one of the best-understood processes within the immune system. Coordination between transcriptional programs and antigen receptor assembly determines B cell fate, diversifies the antibody repertoire, and allocates specificities to the best-suited subsets. This enables B cells to respond to a wide variety of challenges, which, when encountered, can lead B cells to seemingly converge upon a common fate: the antibody-secreting plasma cell. Yet, as we discuss in this review, this convergence is not complete. Developmental origins, anatomical sites, the nature of the challenge, and other factors all leave their marks on plasma cells in ways that diversify their functions and longevity. Looking forward, these marks may provide targets to engineer vaccines that provide durab",
+      "chinese_summary": "本文综述了B细胞发育过程中浆细胞的分化路径、功能特性和寿命差异。文章探讨了不同发育起源和解剖部位对浆细胞功能多样性的影响，为疫苗设计提供理论基础，但与创新药研发、生物制造和大健康应用的直接关联有限。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985441/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Immunity",
+      "authors": [
+        "[\"Fields CA\"",
+        "\"Bhattacharya D\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "B细胞发育",
+        "浆细胞",
+        "抗体分泌"
+      ],
+      "ai_score": 4,
+      "content_hash": "91ced8e2ad540186e2dc620b494bb08e",
+      "created_at": "2026-04-16 05:43:33",
+      "updated_at": "2026-04-16 05:43:33",
+      "date": "2026"
+    },
+    {
+      "id": 1567,
+      "title": "Role of Pelvic Lymph Node Dissection for Clinically Localized Prostate Cancer: Should It be Done?",
+      "summary": "The role of pelvic lymph node dissection (PLND) at the time of radical prostatectomy for clinically localized prostate cancer has remained controversial. While providing the most accurate staging for prostate cancer, the data regarding the therapeutic benefits of a PLND is inconclusive. In this article, we summarize the different PLND templates as well as the data both for and against performing a PLND. Finally, we outline future directions in selecting patients for PLND, and propose a theory on how pelvic lymph nodes may play a vital role in developing novel immunotherapy regimens.",
+      "chinese_summary": "本文探讨盆腔淋巴结清扫术在局限性前列腺癌治疗中的争议，重点分析其分期价值与治疗效果的不确定性。文章提出淋巴结可能在新型免疫疗法中发挥关键作用，与精准医疗和免疫治疗领域有一定关联，但未涉及药物开发或生物制造技术。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986017/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "The Urologic clinics of North America",
+      "authors": [
+        "[\"Elkun Y\"",
+        "\"Gupta R\"",
+        "\"De Almeida Luz M\"",
+        "\"Tewari AK\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "精准医疗",
+        "免疫治疗",
+        "前列腺癌"
+      ],
+      "ai_score": 4,
+      "content_hash": "add9fa6a67cd752f73a83eb6e2478fab",
+      "created_at": "2026-04-16 05:39:41",
+      "updated_at": "2026-04-16 05:39:41",
+      "date": "2026"
+    },
+    {
       "id": 1499,
       "title": "Genomic analysis of jumbo coliphage fEgEco12.",
       "summary": "Avian pathogenic Escherichia coli (APEC) infections are associated with major economic losses, cause perihepatitis, pericarditis, septicemia and even systemic infections in the poultry industry. APEC infections have usually been controlled by antibiotics, resulting in an increased prevalence of antibiotic-resistant E. coli. Concerns have been increased that transfer of antibiotic-resistant APEC via the food chain may cause risks for extra-intestinal infection of humans related to zoonotic transfer and increased difficulties in the treatment of human infections caused APEC-related E. coli types. With the occurrence of antibiotic resistance reaching a crisis point, it is important to find alternative treatments for multidrug-resistant infections. The use of phages to control pathogens is a p",
@@ -26010,6 +27493,97 @@
       "content_hash": "1b1f9dd1e97d7a394c1ddc69d0a81dee",
       "created_at": "2026-04-09 09:18:51",
       "updated_at": "2026-04-09 09:18:51",
+      "date": "2026"
+    },
+    {
+      "id": 1591,
+      "title": "TELD vs. IELD for Lumbar Disc Herniations: A Prospective Multicenter Study of Recovery Trajectories Using High-Frequency PROMs.",
+      "summary": "Full-endoscopic lumbar discectomy can be performed via transforaminal (TELD) or interlaminar (IELD) routes, yet comparative evidence on early recovery trajectories remains limited. To evaluate postoperative pain and disability patterns after TELD and IELD and identify approach-specific recovery characteristics and predictors. Prospective multicenter cohort study. 573 patients undergoing ambulatory full-endoscopic lumbar discectomy (351 TELD, 222 IELD). VAS back pain, ipsilateral leg pain, and Oswestry Disability Index (ODI). Patient-reported outcomes were collected via the SpineHealthie platform daily during week 1 and at 2 weeks, 1, 3, 6, and 12 months. Linear mixed-effects ANCOVA models adjusted for baseline PROMs, age, BMI, disc morphology, and L5/S1-level were used to compare trajector",
+      "chinese_summary": "本研究比较经椎间孔与经椎板全内窥镜腰椎间盘切除术的早期恢复轨迹，通过高频患者报告结局评估术后疼痛和功能障碍模式。作为脊柱外科临床研究，主要关注手术技术优化和精准康复评估，与大健康领域的精准医疗和医疗质量提升相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985686/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "The spine journal : official journal of the North American Spine Society",
+      "authors": [
+        "[\"Krause PK\"",
+        "\"Leyendecker J\"",
+        "\"Payne C\"",
+        "\"Tran NT\"",
+        "\"Teilfeian A\"",
+        "\"Derman PB\"",
+        "\"Ogunlade J\"",
+        "\"Hasan S\"",
+        "\"Konakondla S\"",
+        "\"Huang M\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "surgical outcomes",
+        "patient-reported outcomes"
+      ],
+      "ai_score": 3,
+      "content_hash": "a5907a7070e9c816485d922d3b78573b",
+      "created_at": "2026-04-16 05:43:08",
+      "updated_at": "2026-04-16 05:43:08",
+      "date": "2026"
+    },
+    {
+      "id": 1580,
+      "title": "Dietary pollen and carbohydrate sources influence longevity, physiology, and gut microbiota in honey bee (Apis mellifera).",
+      "summary": "",
+      "chinese_summary": "本研究探讨花粉和碳水化合物来源对蜜蜂寿命、生理及肠道微生物的影响。虽不直接涉及创新药或生物制造，但通过微生物组研究为健康衰老机制提供基础科学参考，与精准健康有一定间接关联。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986607/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Scientific reports",
+      "authors": [
+        "[\"Najarpoor A\"",
+        "\"Namin SM\"",
+        "\"Ghosh S\"",
+        "\"Jung C\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "gut_microbiota",
+        "nutrition",
+        "longevity"
+      ],
+      "ai_score": 3,
+      "content_hash": "d7957c0c3e3474e013e47eea2dbee636",
+      "created_at": "2026-04-16 05:41:30",
+      "updated_at": "2026-04-16 05:41:30",
+      "date": "2026"
+    },
+    {
+      "id": 1570,
+      "title": "Temporal trends in causes, management and outcomes of cardiac tamponade complicating TAVI: A 12-year single-center experience.",
+      "summary": "Cardiac tamponade is an uncommon but life-threatening complication of transcatheter aortic valve implantation (TAVI). Despite advances in imaging, device design, and operator experience, it remains associated with high morbidity and mortality. We retrospectively analyzed all consecutive TAVI procedures performed at a high-volume tertiary center between 2013 and 2025. Baseline characteristics, procedural details, mechanisms of tamponade, and outcomes were obtained from institutional databases. Among 2354 TAVI procedures, 29 cases of tamponade occurred (1.2%). The mean age was 78&#x202f;years, and 65.5% were women. Balloon-expandable valves were used in all but one case. Annular rupture was the leading mechanism (51.7%), followed by LV and RV perforation (13.8% each), while 20.7% had an inde",
+      "chinese_summary": "本研究回顾性分析2013-2025年2354例TAVI手术，发现29例发生心脏压塞(1.2%)，主要机制为瓣环破裂(51.7%)。研究聚焦TAVI并发症的临床管理趋势和预后，与医疗器械应用相关，但与创新药、生物制造直接关联度较低，属于大健康领域的临床医学研究。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985585/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "International journal of cardiology",
+      "authors": [
+        "[\"Hussein H\"",
+        "\"Elsherif A\"",
+        "\"Mechery A\"",
+        "\"Lawton E\"",
+        "\"Parsley D\"",
+        "\"George S\"",
+        "\"Nadir A\"",
+        "\"Doshi SN\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "interventional cardiology",
+        "procedural complications",
+        "clinical outcomes"
+      ],
+      "ai_score": 3,
+      "content_hash": "a312df7ed10f909f7365c156ec90aef8",
+      "created_at": "2026-04-16 05:39:59",
+      "updated_at": "2026-04-16 05:39:59",
       "date": "2026"
     },
     {
@@ -27366,6 +28940,56 @@
       "date": "2026"
     },
     {
+      "id": 1593,
+      "title": "Where veterinarians spend their professional formative years may exert less influence on workplace location in recent veterinary cohorts than in earlier cohorts.",
+      "summary": "To determine in-state retention of Indiana-based Purdue University veterinary graduates and contextualize their out-migration within population-based movements of Indiana veterinarians. Indiana veterinary license (IVL) information was accessed from April 18 to July 7, 2025, to determine the number of recent graduates with an IVL, map the location of all veterinarians with an IVL, and compare the longevity of IVLs with in-state and out-of-state addresses. Among 483 graduates from DVM classes of 2019 to 2024, 191 (39.5%) registered for an IVL; 173 (35.8%) had an Indiana address, while 48.7% of students admitted to the DVM program 4 years earlier represented Indiana residents. In 2025, 177 of 483 graduates (36.7%) had an active IVL; 161 (33.3%) were active and had an Indiana address. Of 6,825",
+      "chinese_summary": "本研究通过分析印第安纳州兽医执照数据，追踪普渡大学兽医毕业生在州内的执业留存情况。结果显示近年毕业生在印第安纳州的执业比例有所下降，探讨了兽医教育背景对工作地点选择的影响变化。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41985524/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Journal of the American Veterinary Medical Association",
+      "authors": [
+        "[\"Raghavan M\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "veterinary education",
+        "workforce distribution",
+        "professional migration"
+      ],
+      "ai_score": 2,
+      "content_hash": "49f448ba318a6f4c9e31c4cc1c5a803b",
+      "created_at": "2026-04-16 05:43:20",
+      "updated_at": "2026-04-16 05:43:20",
+      "date": "2026"
+    },
+    {
+      "id": 1577,
+      "title": "Evaluation and Short-Term Conservation of Thrinax radiata (Arecaceae) seeds.",
+      "summary": "Physiological characterization and quality evaluation of seeds stored in germplasm banks is a challenge in seeds that present complex mechanisms of seed dormancy, underdeveloped embryos and/or abundant endosperm. Neutral red staining is proposed as a complementary method to standard viability and germination tests for cellular viability evaluation of Thrinax radiata (Arecaceae) seeds.",
+      "chinese_summary": "本研究评估了Thrinax radiata棕榈种子的短期保存方法，提出中性红染色可作为标准发芽测试的补充手段，用于检测种子细胞活性。主要涉及植物种质资源保存技术，与创新药、生物制造及大健康领域直接关联性较弱。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986832/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "authors": [
+        "[\"Bacab-Caamal DV\"",
+        "\"Souza-Perera R\"",
+        "\"Alvarez-Espino R\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "seed_conservation",
+        "plant_physiology",
+        "germplasm_banking"
+      ],
+      "ai_score": 2,
+      "content_hash": "14c3fa07f714e5b0f118f07416b958d0",
+      "created_at": "2026-04-16 05:40:46",
+      "updated_at": "2026-04-16 05:40:46",
+      "date": "2026"
+    },
+    {
       "id": 1493,
       "title": "Multiple adsorptions Shape Collective T-Even Phage Lysis Dynamics: Insights From an Individual-Based Model.",
       "summary": "Bacteria infected by T-even bacteriophages exhibit a variety of multiplicity of infection (MOI) dependent behaviours, including lysis from without (LO), cell lysis induced by an exceptionally high number of secondary adsorptions, and lysis inhibition (LIN), a phenomenon in which host cell lysis is delayed as the same bacterium adsorbs multiple phages. We propose an individual-based model that captures these MOI-dependent dynamics phenomenologically. The model takes into account the development of LO resistance (LOR) after the primary infection, and LIN is modelled by a fixed average delay in latent period per secondary adsorption with stochastic variability. The model successfully reproduces the experimentally observed multiple peaks in phage production following controlled phage addition.",
@@ -27795,6 +29419,159 @@
       "content_hash": "0570bfba5089b75b8090a411c4022c66",
       "created_at": "2026-04-10 05:37:09",
       "updated_at": "2026-04-10 05:37:09",
+      "date": "2026"
+    },
+    {
+      "id": 1598,
+      "title": "Isolation, characterization and biocontrol of a novel bacteriophage against Ralstonia pseudosolanacearum.",
+      "summary": "Ralstonia pseudosolanacearum is an increasingly prominent multidrug-resistant phytopathogen. Phages are an effective alternative for treating R. pseudosolanacearum infections. In this study, the phage vB_RsoP_BMB116, which is specific to R. pseudosolanacearum, was isolated from Fujian, China. Electron microscopy revealed that vB_RsoP_BMB116 exhibited a Podoviridae morphotype. The double-stranded DNA genome of vB_RsoP_BMB116 spans 82,991&#xa0;bp (base pairs) and encodes 119 predicted unidirectionally oriented genes, of which 40 have putative functions assigned, while the remainder encode hypothetical proteins. Genome analysis indicated that vB_RsoP_BMB116 is a new genus. Furthermore, tomato plant experiments conducted in this study demonstrated that vB_RsoP_BMB116 significantly reduces the ",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986704/",
+      "source": "PubMed",
+      "category": "phage",
+      "journal": "Applied microbiology and biotechnology",
+      "authors": [
+        "[\"Liu S\"",
+        "\"Wen R\"",
+        "\"Li Q\"",
+        "\"Sun M\"",
+        "\"Peng D\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "4c24af4c004614c396a6f707ae5c93c7",
+      "created_at": "2026-04-16 05:43:48",
+      "updated_at": "2026-04-16 05:43:48",
+      "date": "2026"
+    },
+    {
+      "id": 1584,
+      "title": "Multi-omics applications in health and diseases.",
+      "summary": "Multi-omics research has transformed our ability to study biological systems by capturing information across multiple molecular layers, including genomics, transcriptomics, epigenomics, proteomics, metabolomics, and microbiomics. Each omics dimension provides a unique perspective on cellular and organismal function, yet single-omics approaches often fail to capture the full complexity of health and disease. Integrating diverse omics datasets offers a systems-level view that is essential for advancing precision medicine, addressing disease heterogeneity, and uncovering mechanisms of pathogenesis. The increasing availability of high-dimensional, heterogeneous data demands robust computational and AI-driven approaches. Methods ranging from traditional statistical techniques to advanced deep l",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986011/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Progress in molecular biology and translational science",
+      "authors": [
+        "[\"Amarapathy S\"",
+        "\"Tyagi S\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "1bf5d81e7249bdc6cf5679c9b9ae073d",
+      "created_at": "2026-04-16 05:42:18",
+      "updated_at": "2026-04-16 05:42:18",
+      "date": "2026"
+    },
+    {
+      "id": 1578,
+      "title": "Feature selection leads to divergent neurobiological interpretations of brain-based machine learning biomarkers.",
+      "summary": "A central objective in human neuroimaging is to understand the neurobiology underlying cognition and mental health. Machine learning models trained on neuroimaging data are increasingly used as tools for predicting behavioural phenotypes, enhancing precision medicine and improving generalizability compared with traditional MRI studies. However, the high dimensionality of brain connectivity data makes model interpretation challenging. Prevailing practices rely on selecting features and, implicitly, interpreting identified feature networks as uniquely representative of a given phenotype while overlooking others. Despite its widespread use, how univariate feature selection balances the trade-off between simplification for optimizing modelling and oversimplification that misrepresents true neu",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986741/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Nature human behaviour",
+      "authors": [
+        "[\"Adkinson BD\"",
+        "\"Rosenblatt M\"",
+        "\"Sun H\"",
+        "\"Dadashkarimi J\"",
+        "\"Tejavibulya L\"",
+        "\"Horien C\"",
+        "\"Westwater ML\"",
+        "\"Rodriguez RX\"",
+        "\"Noble S\"",
+        "\"Scheinost D\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "51e9beea2ea8fa7078de2631ca418614",
+      "created_at": "2026-04-16 05:41:17",
+      "updated_at": "2026-04-16 05:41:17",
+      "date": "2026"
+    },
+    {
+      "id": 1566,
+      "title": "Precision modeling of tumor antigen-specific T-cell responses in humanized mice for preclinical assessment of cancer immunotherapies.",
+      "summary": "Humanized mice are highly valuable models for the preclinical development of cancer immunotherapies. However, conventional models often fail to mount robust and trackable tumor antigen-specific (TA-specific) T-cell responses, which hinders the comprehensive evaluation of therapies that depend on this endogenous antitumor immunity. To address this limitation, we generated a humanized mouse model by engrafting immunodeficient mice with human hematopoietic stem cells that were transduced with predefined T-cell receptor (TCR) specificities. This approach enables the de novo generation of na&#xef;ve, functional TA-specific T cells at adjustable frequencies. We found that transgene-bearing human thymocytes have a developmental advantage in the murine thymus, likely due to the early formation of ",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986069/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Journal for immunotherapy of cancer",
+      "authors": [
+        "[\"Gebhardt S\"",
+        "\"Le Clech M\"",
+        "\"Höllbacher B\"",
+        "\"Brunner S\"",
+        "\"Varol A\"",
+        "\"Lang S\"",
+        "\"Jenni S\"",
+        "\"Briner S\"",
+        "\"Yángüez E\"",
+        "\"Hüsser T\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "8d044f35203f861c4f51796bfcd42ee6",
+      "created_at": "2026-04-16 05:39:36",
+      "updated_at": "2026-04-16 05:39:36",
+      "date": "2026"
+    },
+    {
+      "id": 1565,
+      "title": "Ernest C Borden (1939-2026): in memoriam for a life of caring, researching, leading, teaching and serving.",
+      "summary": "",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986070/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Journal for immunotherapy of cancer",
+      "authors": [
+        "[\"Sondel PM\"",
+        "\"Schiller JH\"",
+        "\"Kirkwood JM\"",
+        "\"Lotze MT\"",
+        "\"Bailey HH\"",
+        "\"Capitini CM\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "f26f4db65158fcb1762c8f35668b572a",
+      "created_at": "2026-04-16 05:39:05",
+      "updated_at": "2026-04-16 05:39:05",
+      "date": "2026"
+    },
+    {
+      "id": 1557,
+      "title": "Decoding immunotherapy response through computational modeling.",
+      "summary": "Immunotherapy has seen success in treating patients with cancer, but variable responses underscore the need for effective patient stratification and therapy planning. Computational tools integrating multi-omics, imaging and machine learning have advanced, yet reliable personalized predictions remain challenging. This review analyzes the field through four converging paradigms: classical machine learning, deep learning, graph and network modeling, and mechanistic systems biology. We examine the evolution from correlational features to representation learning, relational inference, and causal simulation of tumor-immune dynamics, highlighting the shift towards multi-modal fusion and interpretable, clinically deployable models. By providing an integrated review of these computational tools, we",
+      "chinese_summary": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986319/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Nature communications",
+      "authors": [
+        "[\"Li B\"",
+        "\"Luo R\"",
+        "\"Huang K\"",
+        "\"Liu J\"",
+        "\"Zhao W\"",
+        "\"Zhou X\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "046da8f9adcfe9db40030804dbd142e3",
+      "created_at": "2026-04-16 05:37:44",
+      "updated_at": "2026-04-16 05:37:44",
       "date": "2026"
     },
     {
@@ -41935,6 +43712,30 @@
       "date": ""
     },
     {
+      "id": 1601,
+      "title": "Dynamic co-existence of bacteriophages and their hosts in the Arabidopsis thaliana phyllosphere",
+      "summary": "Bacterial communities and the bacteriophages infecting them are the basis of every ecosystem, including holobionts. The various ways in which these microorganisms interact with each other in complex communities over the life of the host affects the holobiont fitness. Despite being ubiquitous and environmentally relevant, plant-associated microbial communities remain understudied, especially in the phyllosphere, mainly because of the low abundance of microbes and the complexity of the system. In ",
+      "chinese_summary": "本研究探索拟南芥叶际中噬菌体与宿主细菌的动态共存关系，揭示微生物群落互作对宿主适应性的影响。虽聚焦基础生态机制，但与创新疗法和生物制造的关联有限，主要提供环境微生物学的理论参考。",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718382v1?rss=1",
+      "source": "bioRxiv-噬菌体",
+      "category": "scholar",
+      "journal": "bioRxiv-噬菌体",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "",
+      "tags": [
+        "microbial ecology",
+        "phyllosphere",
+        "bacteriophage"
+      ],
+      "ai_score": 3,
+      "content_hash": "5cbddf8d63790c8bb2a51988fea432f1",
+      "created_at": "2026-04-16 05:44:12",
+      "updated_at": "2026-04-16 05:44:12",
+      "date": ""
+    },
+    {
       "id": 1373,
       "title": "Dormant Bacteria's Fatal Attraction to RNA Bacteriophages",
       "summary": "Phages are the most abundant biological entities on Earth, yet RNA phages are strikingly scarce compared to their DNA counterparts-a long-standing mystery in phage biology. Here, we use dsRNA phage phiYY as a model to demonstrate that while RNA phages efficiently infect growing bacteria, they are gradually eliminated inside dormant bacteria through weak and time-dependent ROS-mediated damage. The RNA phages decline over days rather than through immediate clearance inside dormant bacteria. Accord",
@@ -42203,5 +44004,5 @@
       "date": ""
     }
   ],
-  "updated_at": "2026-04-16T10:50:42.271892"
+  "updated_at": "2026-04-16T13:44:53.907992"
 }
