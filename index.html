@@ -1577,15 +1577,28 @@
 
         // ==================== Phage Trials ====================
         async function loadPhageTrials() {
+            // 用于合并 ClinicalTrials.gov 和 ChiCTR 数据
+            let allTrials = [];
+            let chictrData = [];
+            
             try {
                 // 优先尝试 API
                 const resp = await fetch(API_BASE + '/api/phage-trials');
                 if (resp.ok) {
                     const data = await resp.json();
+                    allTrials = data.trials || [];
+                    // 同时获取 ChiCTR 数据
+                    try {
+                        const chictrResp = await fetch(API_BASE + '/api/chictr-phage-trials');
+                        if (chictrResp.ok) {
+                            chictrData = await chictrResp.json();
+                        }
+                    } catch(e) {}
                     phageTrialsData = {
-                        trials: data.trials || [],
+                        trials: allTrials.concat(chictrData),
                         stats: data.stats || {},
-                        changes: data.changes || []
+                        changes: data.changes || [],
+                        chictrData: chictrData
                     };
                     renderPhageTrials();
                     // 更新首页噬菌体临床统计
@@ -1601,20 +1614,36 @@
                 const resp = await fetch('./data/phage_trials.json');
                 if (resp.ok) {
                     const data = await resp.json();
-                    phageTrialsData = {
-                        trials: data.trials || [],
-                        stats: data.stats || {},
-                        changes: data.changes || []
-                    };
-                    console.log('[Phage] 静态JSON加载成功，共', phageTrialsData.trials.length, '项试验');
-                    // 更新首页噬菌体临床统计
-                    document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
+                    allTrials = data.trials || [];
                 } else {
-                    console.error('[Phage] 静态JSON加载失败');
+                    console.error('[Phage] ClinicalTrials静态JSON加载失败');
                 }
             } catch(e2) {
-                console.error('[Phage] 静态数据也不可用:', e2);
+                console.error('[Phage] ClinicalTrials静态数据不可用:', e2);
             }
+            
+            // 同时加载 ChiCTR 数据
+            try {
+                const chictrResp = await fetch('./data/chictr_phage_trials.json');
+                if (chictrResp.ok) {
+                    chictrData = await chictrResp.json();
+                    console.log('[Phage] ChiCTR静态JSON加载成功，共', chictrData.length, '项试验');
+                } else {
+                    console.error('[Phage] ChiCTR静态JSON加载失败');
+                }
+            } catch(e3) {
+                console.error('[Phage] ChiCTR静态数据不可用:', e3);
+            }
+            
+            phageTrialsData = {
+                trials: allTrials.concat(chictrData),
+                stats: {},
+                changes: [],
+                chictrData: chictrData
+            };
+            console.log('[Phage] 静态JSON加载成功，共', phageTrialsData.trials.length, '项试验（含ChiCTR', chictrData.length, '项）');
+            // 更新首页噬菌体临床统计
+            document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
             renderPhageTrials();
         }
 
@@ -1640,11 +1669,15 @@
         }
 
         function renderPhageTrials() {
-            const { trials, stats, changes } = phageTrialsData;
+            const { trials, stats, changes, chictrData } = phageTrialsData;
+            
+            // 分离 ClinicalTrials.gov 和 ChiCTR 数据
+            const clinicalTrials = trials.filter(t => !t.source || t.source !== 'ChiCTR');
+            const chictrTrials = chictrData || trials.filter(t => t.source === 'ChiCTR');
 
             // 更新统计
             document.getElementById('count-phage-trials').textContent = trials.length || '-';
-            document.getElementById('phageTotalBadge').textContent = `${trials.length} 项试验`;
+            document.getElementById('phageTotalBadge').innerHTML = `<span style="color:#3498db">ClinicalTrials.gov ${clinicalTrials.length}</span> + <span style="color:#e74c3c">ChiCTR ${chictrTrials.length}</span> = ${trials.length} 项`;
 
             // 更新时间
             const updateTime = phageTrialsData.updated_at;
@@ -1829,21 +1862,39 @@
             };
 
             tbody.innerHTML = page.map(trial => {
-                const phasesHtml = trial.phases.map(p => `<span class="phase-badge">${p.replace('PHASE', 'P')}</span>`).join('');
-                const statusLabel = statusLabels[trial.status] || trial.status;
-                const pathogensHtml = trial.pathogens.slice(0, 3).map(p => `<span class="pathogen-item">${escHtml(p)}</span>`).join('');
-                const routesHtml = trial.route.slice(0, 2).map(r => `<span class="route-item">${escHtml(r)}</span>`).join('');
-                const countriesHtml = trial.countries.slice(0, 2).map(c => `<span class="country-item">${escHtml(c)}</span>`).join('');
+                // 判断是 ClinicalTrials.gov 还是 ChiCTR 数据
+                const isChictr = trial.source === 'ChiCTR' || trial.reg_number?.startsWith('ChiCTR');
+                
+                if (isChictr) {
+                    // ChiCTR 数据渲染
+                    const studyTypeLabel = trial.study_type || '干预性研究';
+                    return `<tr>
+                        <td><a href="${trial.url || 'https://www.chictr.org.cn'}" target="_blank" class="nct-link" style="background:#e74c3c">${trial.reg_number}</a></td>
+                        <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
+                        <td><span style="color:var(--text2)">-</span></td>
+                        <td><span class="status-badge UNKNOWN">${escHtml(studyTypeLabel)}</span></td>
+                        <td><span style="color:var(--text2)">-</span></td>
+                        <td><span style="color:var(--text2)">-</span></td>
+                        <td><span class="country-item">中国</span></td>
+                    </tr>`;
+                } else {
+                    // ClinicalTrials.gov 数据渲染
+                    const phasesHtml = (trial.phases || []).map(p => `<span class="phase-badge">${p.replace('PHASE', 'P')}</span>`).join('');
+                    const statusLabel = statusLabels[trial.status] || trial.status;
+                    const pathogensHtml = (trial.pathogens || []).slice(0, 3).map(p => `<span class="pathogen-item">${escHtml(p)}</span>`).join('');
+                    const routesHtml = (trial.route || []).slice(0, 2).map(r => `<span class="route-item">${escHtml(r)}</span>`).join('');
+                    const countriesHtml = (trial.countries || []).slice(0, 2).map(c => `<span class="country-item">${escHtml(c)}</span>`).join('');
 
-                return `<tr>
-                    <td><a href="https://clinicaltrials.gov/study/${trial.nct_id}" target="_blank" class="nct-link">${trial.nct_id}</a></td>
-                    <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
-                    <td>${phasesHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                    <td><span class="status-badge ${trial.status}">${statusLabel}</span></td>
-                    <td>${pathogensHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                    <td>${routesHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                    <td>${countriesHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                </tr>`;
+                    return `<tr>
+                        <td><a href="https://clinicaltrials.gov/study/${trial.nct_id}" target="_blank" class="nct-link">${trial.nct_id}</a></td>
+                        <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
+                        <td>${phasesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                        <td><span class="status-badge ${trial.status}">${statusLabel}</span></td>
+                        <td>${pathogensHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                        <td>${routesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                        <td>${countriesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    </tr>`;
+                }
             }).join('');
 
             renderTrialsPagination(total);
