@@ -1115,7 +1115,7 @@
                     <span class="badge" id="phageTotalBadge">0 项试验</span>
                 </div>
                 <div class="phage-meta">
-                    <span>数据来源: <a href="https://clinicaltrials.gov" target="_blank" style="color:#3498db">ClinicalTrials.gov</a> + <a href="https://www.chictr.org.cn" target="_blank" style="color:#2ecc71">ChiCTR 中国临床试验注册中心</a></span>
+                    <span>数据来源: <a href="https://clinicaltrials.gov" target="_blank" style="color:#3498db">ClinicalTrials.gov</a> + <a href="https://www.chictr.org.cn" target="_blank" style="color:#2ecc71">ChiCTR</a></span>
                     <span>最后更新: <span class="update-time" id="phageUpdateTime">--</span></span>
                     <button class="phage-refresh" id="phageRefreshBtn" onclick="refreshPhageTrials()">&#x1F504; 刷新数据</button>
                 </div>
@@ -1576,46 +1576,11 @@
         }
 
         // ==================== Phage Trials ====================
-        // 根据 ClinicalTrials.gov 数据计算统计
-        function calculateStats(trials) {
-            const stats = {
-                by_phase: {},
-                by_status: {},
-                by_country: {},
-                by_pathogen: {}
-            };
-            
-            trials.forEach(trial => {
-                // 阶段统计
-                if (trial.phases && Array.isArray(trial.phases)) {
-                    trial.phases.forEach(p => {
-                        stats.by_phase[p] = (stats.by_phase[p] || 0) + 1;
-                    });
-                }
-                // 状态统计
-                if (trial.status) {
-                    stats.by_status[trial.status] = (stats.by_status[trial.status] || 0) + 1;
-                }
-                // 国家统计
-                if (trial.countries && Array.isArray(trial.countries)) {
-                    trial.countries.forEach(c => {
-                        stats.by_country[c] = (stats.by_country[c] || 0) + 1;
-                    });
-                }
-                // 病原体统计
-                if (trial.pathogens && Array.isArray(trial.pathogens)) {
-                    trial.pathogens.forEach(p => {
-                        stats.by_pathogen[p] = (stats.by_pathogen[p] || 0) + 1;
-                    });
-                }
-            });
-            
-            return stats;
-        }
-        
         async function loadPhageTrials() {
             // 用于合并 ClinicalTrials.gov 和 ChiCTR 数据
-            let allTrials = [];
+            let clinicalTrials = [];
+            let clinicalStats = {};
+            let clinicalChanges = [];
             let chictrData = [];
             
             try {
@@ -1623,70 +1588,52 @@
                 const resp = await fetch(API_BASE + '/api/phage-trials');
                 if (resp.ok) {
                     const data = await resp.json();
-                    allTrials = data.trials || [];
-                    // 同时获取 ChiCTR 数据
-                    try {
-                        const chictrResp = await fetch(API_BASE + '/api/chictr-phage-trials');
-                        if (chictrResp.ok) {
-                            chictrData = await chictrResp.json();
-                        }
-                    } catch(e) {}
-                    phageTrialsData = {
-                        trials: allTrials.concat(chictrData),
-                        stats: data.stats || {},
-                        changes: data.changes || [],
-                        chictrData: chictrData
-                    };
-                    renderPhageTrials();
-                    // 更新首页噬菌体临床统计
-                    document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
-                    return;
+                    clinicalTrials = data.trials || [];
+                    clinicalStats = data.stats || {};
+                    clinicalChanges = data.changes || [];
                 }
             } catch(e) {
                 console.log('[Phage] API不可用:', e.message);
             }
             
-            // API不可用，降级到静态JSON
-            try {
-                const resp = await fetch('./data/phage_trials.json');
-                if (resp.ok) {
-                    const data = await resp.json();
-                    allTrials = data.trials || [];
-                } else {
-                    console.error('[Phage] ClinicalTrials静态JSON加载失败');
+            // 如果 API 失败或没有数据，降级到静态JSON
+            if (clinicalTrials.length === 0) {
+                try {
+                    const resp = await fetch('./data/phage_trials.json');
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        clinicalTrials = data.trials || [];
+                        clinicalStats = data.stats || {};
+                        clinicalChanges = data.changes || [];
+                        console.log('[Phage] ClinicalTrials.gov静态JSON加载成功，共', clinicalTrials.length, '项试验');
+                    }
+                } catch(e2) {
+                    console.error('[Phage] ClinicalTrials.gov静态数据不可用:', e2);
                 }
-            } catch(e2) {
-                console.error('[Phage] ClinicalTrials静态数据不可用:', e2);
             }
             
-            // 同时加载 ChiCTR 数据
+            // 加载 ChiCTR 数据
             try {
                 const chictrResp = await fetch('./data/chictr_phage_trials.json');
                 if (chictrResp.ok) {
                     chictrData = await chictrResp.json();
                     console.log('[Phage] ChiCTR静态JSON加载成功，共', chictrData.length, '项试验');
-                } else {
-                    console.error('[Phage] ChiCTR静态JSON加载失败');
                 }
             } catch(e3) {
                 console.error('[Phage] ChiCTR静态数据不可用:', e3);
             }
             
+            // 合并数据
             phageTrialsData = {
-                trials: allTrials.concat(chictrData),
-                stats: {},
-                changes: [],
-                chictrData: chictrData
+                trials: clinicalTrials.concat(chictrData),
+                stats: clinicalStats,
+                changes: clinicalChanges,
+                chictrData: chictrData,
+                clinicalTrials: clinicalTrials,
+                updated_at: clinicalTrials.length > 0 ? (phageTrialsData.updated_at || new Date().toISOString()) : null
             };
-            console.log('[Phage] 静态JSON加载成功，共', phageTrialsData.trials.length, '项试验（含ChiCTR', chictrData.length, '项）');
             
-            // 从静态 JSON 计算统计（如果 stats 为空）
-            if (data && data.stats && Object.keys(data.stats).length > 0) {
-                phageTrialsData.stats = data.stats;
-            } else {
-                // 根据 allTrials（ClinicalTrials.gov 数据）计算统计
-                phageTrialsData.stats = calculateStats(allTrials);
-            }
+            console.log('[Phage] 总计加载', phageTrialsData.trials.length, '项试验（ClinicalTrials.gov:', clinicalTrials.length, '+ ChiCTR:', chictrData.length, '）');
             
             // 更新首页噬菌体临床统计
             document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
@@ -1715,15 +1662,13 @@
         }
 
         function renderPhageTrials() {
-            const { trials, stats, changes, chictrData } = phageTrialsData;
-            
-            // 分离 ClinicalTrials.gov 和 ChiCTR 数据
-            const clinicalTrials = trials.filter(t => !t.source || t.source !== 'ChiCTR');
-            const chictrTrials = chictrData || trials.filter(t => t.source === 'ChiCTR');
+            const { trials, stats, changes, chictrData, clinicalTrials } = phageTrialsData;
+            const chictrCount = chictrData ? chictrData.length : 0;
+            const clinicalCount = clinicalTrials ? clinicalTrials.length : 0;
 
             // 更新统计
             document.getElementById('count-phage-trials').textContent = trials.length || '-';
-            document.getElementById('phageTotalBadge').innerHTML = `<span style="color:#3498db">ClinicalTrials.gov ${clinicalTrials.length}</span> + <span style="color:#e74c3c">ChiCTR ${chictrTrials.length}</span> = ${trials.length} 项`;
+            document.getElementById('phageTotalBadge').innerHTML = `<span style="color:#3498db">ClinicalTrials.gov ${clinicalCount}</span> + <span style="color:#2ecc71">ChiCTR ${chictrCount}</span> = ${trials.length} 项`;
 
             // 更新时间
             const updateTime = phageTrialsData.updated_at;
@@ -1874,25 +1819,45 @@
             trialFilters.pathogen = document.getElementById('filterPathogen').value;
 
             filteredTrials = phageTrialsData.trials.filter(trial => {
-                if (trialFilters.status && trial.status !== trialFilters.status) return false;
-                if (trialFilters.phase && !trial.phases.includes(trialFilters.phase)) return false;
-                if (trialFilters.pathogen && !trial.pathogens.includes(trialFilters.pathogen)) return false;
+                // 检查是否为 ChiCTR 数据
+                const isChictr = trial.source === 'ChiCTR' || trial.reg_number;
+                // ChiCTR 数据跳过 ClinicalTrials.gov 特定的筛选
+                if (!isChictr) {
+                    if (trialFilters.status && trial.status !== trialFilters.status) return false;
+                    if (trialFilters.phase && !trial.phases.includes(trialFilters.phase)) return false;
+                    if (trialFilters.pathogen && !trial.pathogens.includes(trialFilters.pathogen)) return false;
+                }
                 return true;
             });
 
             // 按时间由近至远排序
             filteredTrials.sort((a, b) => {
-                // ClinicalTrials.gov 使用 start_date 或 last_update
-                // ChiCTR 使用 reg_date
-                let dateA = a.start_date || a.last_update || a.reg_date || '';
-                let dateB = b.start_date || b.last_update || b.reg_date || '';
-                // 处理中文日期格式 (YYYY/MM/DD)
-                if (a.reg_date && a.reg_date.includes('/')) {
+                let dateA = '';
+                let dateB = '';
+                
+                if (a.reg_date) {
+                    // ChiCTR 格式: YYYY/MM/DD 或 YYYY-MM-DD
                     dateA = a.reg_date.replace(/\//g, '-');
+                } else if (a.start_date) {
+                    // ClinicalTrials.gov
+                    dateA = a.start_date;
+                } else if (a.last_update) {
+                    dateA = a.last_update;
                 }
-                if (b.reg_date && b.reg_date.includes('/')) {
+                
+                if (b.reg_date) {
                     dateB = b.reg_date.replace(/\//g, '-');
+                } else if (b.start_date) {
+                    dateB = b.start_date;
+                } else if (b.last_update) {
+                    dateB = b.last_update;
                 }
+                
+                // 处理空日期
+                if (!dateA && !dateB) return 0;
+                if (!dateA) return 1;
+                if (!dateB) return -1;
+                
                 return dateB.localeCompare(dateA);
             });
 
@@ -1924,39 +1889,39 @@
             };
 
             tbody.innerHTML = page.map(trial => {
-                // 判断是 ClinicalTrials.gov 还是 ChiCTR 数据
-                const isChictr = trial.source === 'ChiCTR' || trial.reg_number?.startsWith('ChiCTR');
+                // 检查是否为 ChiCTR 数据
+                const isChictr = trial.source === 'ChiCTR' || trial.reg_number;
                 
                 if (isChictr) {
-                    // ChiCTR 数据渲染 - 绿色字体，无高亮
+                    // ChiCTR 数据渲染
                     const studyTypeLabel = trial.study_type || '干预性研究';
+                    const institution = trial.institution || '';
+                    const url = trial.url || 'https://www.chictr.org.cn';
                     return `<tr>
-                        <td><a href="${trial.url || 'https://www.chictr.org.cn'}" target="_blank" style="color:#2ecc71;text-decoration:none;font-family:monospace;font-size:12px;font-weight:600">${trial.reg_number}</a></td>
+                        <td><a href="${url}" target="_blank" style="color:#2ecc71;text-decoration:none;font-family:monospace;font-size:12px;font-weight:600">${trial.reg_number}</a></td>
                         <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
-                        <td><span style="color:var(--text2)">-</span></td>
-                        <td><span class="status-badge UNKNOWN">${escHtml(studyTypeLabel)}</span></td>
-                        <td><span style="color:var(--text2)">-</span></td>
-                        <td><span style="color:var(--text2)">-</span></td>
-                        <td><span class="country-item">中国</span></td>
-                    </tr>`;
-                } else {
-                    // ClinicalTrials.gov 数据渲染
-                    const phasesHtml = (trial.phases || []).map(p => `<span class="phase-badge">${p.replace('PHASE', 'P')}</span>`).join('');
-                    const statusLabel = statusLabels[trial.status] || trial.status;
-                    const pathogensHtml = (trial.pathogens || []).slice(0, 3).map(p => `<span class="pathogen-item">${escHtml(p)}</span>`).join('');
-                    const routesHtml = (trial.route || []).slice(0, 2).map(r => `<span class="route-item">${escHtml(r)}</span>`).join('');
-                    const countriesHtml = (trial.countries || []).slice(0, 2).map(c => `<span class="country-item">${escHtml(c)}</span>`).join('');
-
-                    return `<tr>
-                        <td><a href="https://clinicaltrials.gov/study/${trial.nct_id}" target="_blank" class="nct-link">${trial.nct_id}</a></td>
-                        <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
-                        <td>${phasesHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                        <td><span class="status-badge ${trial.status}">${statusLabel}</span></td>
-                        <td>${pathogensHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                        <td>${routesHtml || '<span style="color:var(--text2)">-</span>'}</td>
-                        <td>${countriesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                        <td><span class="phase-badge">${escHtml(studyTypeLabel)}</span></td>
+                        <td><span class="phase-badge" style="background:#2ecc71">ChiCTR</span></td>
+                        <td colspan="3"><span style="color:var(--text2);font-size:12px">${escHtml(institution)}</span></td>
                     </tr>`;
                 }
+                
+                // ClinicalTrials.gov 数据渲染
+                const phasesHtml = trial.phases.map(p => `<span class="phase-badge">${p.replace('PHASE', 'P')}</span>`).join('');
+                const statusLabel = statusLabels[trial.status] || trial.status;
+                const pathogensHtml = trial.pathogens.slice(0, 3).map(p => `<span class="pathogen-item">${escHtml(p)}</span>`).join('');
+                const routesHtml = trial.route.slice(0, 2).map(r => `<span class="route-item">${escHtml(r)}</span>`).join('');
+                const countriesHtml = trial.countries.slice(0, 2).map(c => `<span class="country-item">${escHtml(c)}</span>`).join('');
+
+                return `<tr>
+                    <td><a href="https://clinicaltrials.gov/study/${trial.nct_id}" target="_blank" class="nct-link">${trial.nct_id}</a></td>
+                    <td class="trial-title-cell" title="${escAttr(trial.title || '')}">${escHtml(trial.title || '')}</td>
+                    <td>${phasesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    <td><span class="status-badge ${trial.status}">${statusLabel}</span></td>
+                    <td>${pathogensHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    <td>${routesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                    <td>${countriesHtml || '<span style="color:var(--text2)">-</span>'}</td>
+                </tr>`;
             }).join('');
 
             renderTrialsPagination(total);
