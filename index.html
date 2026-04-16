@@ -1576,6 +1576,43 @@
         }
 
         // ==================== Phage Trials ====================
+        // 根据 ClinicalTrials.gov 数据计算统计
+        function calculateStats(trials) {
+            const stats = {
+                by_phase: {},
+                by_status: {},
+                by_country: {},
+                by_pathogen: {}
+            };
+            
+            trials.forEach(trial => {
+                // 阶段统计
+                if (trial.phases && Array.isArray(trial.phases)) {
+                    trial.phases.forEach(p => {
+                        stats.by_phase[p] = (stats.by_phase[p] || 0) + 1;
+                    });
+                }
+                // 状态统计
+                if (trial.status) {
+                    stats.by_status[trial.status] = (stats.by_status[trial.status] || 0) + 1;
+                }
+                // 国家统计
+                if (trial.countries && Array.isArray(trial.countries)) {
+                    trial.countries.forEach(c => {
+                        stats.by_country[c] = (stats.by_country[c] || 0) + 1;
+                    });
+                }
+                // 病原体统计
+                if (trial.pathogens && Array.isArray(trial.pathogens)) {
+                    trial.pathogens.forEach(p => {
+                        stats.by_pathogen[p] = (stats.by_pathogen[p] || 0) + 1;
+                    });
+                }
+            });
+            
+            return stats;
+        }
+        
         async function loadPhageTrials() {
             // 用于合并 ClinicalTrials.gov 和 ChiCTR 数据
             let allTrials = [];
@@ -1642,6 +1679,15 @@
                 chictrData: chictrData
             };
             console.log('[Phage] 静态JSON加载成功，共', phageTrialsData.trials.length, '项试验（含ChiCTR', chictrData.length, '项）');
+            
+            // 从静态 JSON 计算统计（如果 stats 为空）
+            if (data && data.stats && Object.keys(data.stats).length > 0) {
+                phageTrialsData.stats = data.stats;
+            } else {
+                // 根据 allTrials（ClinicalTrials.gov 数据）计算统计
+                phageTrialsData.stats = calculateStats(allTrials);
+            }
+            
             // 更新首页噬菌体临床统计
             document.getElementById('stat-phage').textContent = phageTrialsData.trials.length || 0;
             renderPhageTrials();
