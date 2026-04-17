@@ -4705,23 +4705,60 @@
       "enrollment": 26436,
       "last_update": "2025-11-14",
       "sponsors": []
+    },
+    {
+      "nct_id": "NCT07533292",
+      "title": "Bacteriophage Therapy for Orthopedic Implant-Associated Infections",
+      "phases": [
+        "PHASE3"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Orthopedic",
+        "Implant Infection"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "bacteriophage preparation",
+          "description": "After undergoing standard surgical debridement for orthopedic implant-associated infection. Bacteriophage preparation was administered primarily via postoperative indwelling catheter infusion. An appropriate volume of bacteriophage solution (adjusted according to joint cavity size and clinical assessment) was instilled directly through the catheter into the infected site, twice daily (bid) for 3 consecutive days per treatment cycle. During administration, strict aseptic procedures were maintained, and the distribution of the bacteriophage preparation within the joint cavity was ensured. Throughout the treatment period, patients were closely monitored for local and systemic adverse events related to bacteriophage therapy."
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "China"
+      ],
+      "locations": [
+        {
+          "country": "China",
+          "city": "Hangzhou",
+          "facility": "the Second Affiliated Hospital of Zhejiang University School of Medicine"
+        }
+      ],
+      "description": "A Prospective, Single-Center, Single-Arm Clinical Study with a Pre-Post Self-Controlled Design Evaluating the Efficacy and Safety of Bacteriophage Therapy for Refractory Orthopedic Implant-Associated Infections",
+      "enrollment": 100,
+      "last_update": "2026-04-16",
+      "sponsors": []
     }
   ],
   "stats": {
-    "total": 108,
+    "total": 109,
     "by_phase": {
       "EARLY_PHASE1": 2,
       "NA": 17,
       "PHASE1": 43,
       "PHASE2": 38,
-      "PHASE3": 6,
+      "PHASE3": 7,
       "PHASE4": 2
     },
     "by_status": {
       "COMPLETED": 32,
+      "NOT_YET_RECRUITING": 17,
       "UNKNOWN": 17,
       "RECRUITING": 16,
-      "NOT_YET_RECRUITING": 16,
       "WITHDRAWN": 8,
       "ACTIVE_NOT_RECRUITING": 6,
       "TERMINATED": 6,
@@ -4737,14 +4774,14 @@
       "Russia": 2,
       "Georgia": 2,
       "Czechia": 2,
+      "China": 2,
       "United Kingdom": 2,
       "Belgium": 2,
       "Israel": 2,
       "India": 2,
       "Italy": 2,
       "South Korea": 2,
-      "Uzbekistan": 1,
-      "China": 1
+      "Uzbekistan": 1
     },
     "by_pathogen": {
       "金黄色葡萄球菌": 15,
@@ -4761,7 +4798,7 @@
       "鲍曼不动杆菌": 1
     },
     "by_route": {
-      "其他": 76,
+      "其他": 77,
       "口服": 10,
       "静脉注射": 9,
       "局部外用": 7,
@@ -4782,12 +4819,12 @@
       "Mycobacterium Abscessus Infection": 2
     },
     "by_source": {
-      "ClinicalTrials.gov": 108
+      "ClinicalTrials.gov": 109
     }
   },
   "changes": [],
-  "updated_at": "2026-04-16T13:44:53.580785",
-  "total_count": 108,
+  "updated_at": "2026-04-17T09:45:11.987271",
+  "total_count": 109,
   "change_count": 0,
   "audit_info": {
     "version": "v2",
