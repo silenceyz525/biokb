@@ -1,6 +1,143 @@
 {
   "articles": [
     {
+      "id": 1857,
+      "title": "How Trump is pushing psychedelics reform through the health agencies",
+      "summary": "Trump directed the federal government to rush access to psychedelic treatments and reevaluate their status as controlled substances.",
+      "chinese_summary": "特朗普推动联邦政府加速迷幻药物疗法准入并重新评估其管制级别。文章聚焦政策改革对精神健康治疗领域的影响，涉及新型治疗方式的监管审批流程，但未深入技术研发或生产工艺。",
+      "url": "https://www.statnews.com/2026/04/18/psychedelics-ptsd-mental-health-research-boost-from-trump-executive-order/?utm_campaign=rss",
+      "source": "STAT",
+      "category": "health",
+      "journal": "STAT News",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-18",
+      "tags": [
+        "psychedelic therapy",
+        "drug policy",
+        "mental health"
+      ],
+      "ai_score": 7,
+      "content_hash": "b5b99f38ad9a217648089b0743beb996",
+      "created_at": "2026-04-19 02:57:30",
+      "updated_at": "2026-04-19 02:57:30",
+      "date": "2026-04-18"
+    },
+    {
+      "id": 1851,
+      "title": "Magnetic muon measurements and gene-therapy advances win US$3 million Breakthrough prizes",
+      "summary": "Nature, Published online: 18 April 2026; doi:10.1038/d41586-026-01014-9This year’s winners include hundreds of physicists across more than 30 institutions.",
+      "chinese_summary": "2026年突破奖获奖项目包括基因治疗领域的重大进展，磁μ子测量等物理学成果。基因治疗作为创新药研发的重要方向，其技术突破对生物医药领域具有显著推动作用，但文章主要内容聚焦于物理学集体获奖。",
+      "url": "https://www.nature.com/articles/d41586-026-01014-9",
+      "source": "Nature头条",
+      "category": "innovation",
+      "journal": "Nature头条",
+      "authors": [
+        "[\"Zeeya Merali\"]"
+      ],
+      "publish_date": "2026-04-18",
+      "tags": [
+        "gene-therapy",
+        "breakthrough-prize",
+        "biomedical-research"
+      ],
+      "ai_score": 7,
+      "content_hash": "cdb49be19d890ee46c5f3a68bb804176",
+      "created_at": "2026-04-19 02:56:32",
+      "updated_at": "2026-04-19 02:56:32",
+      "date": "2026-04-18"
+    },
+    {
+      "id": 1859,
+      "title": "Opinion: The podcast bringing together MAHA and public health for hard conversations",
+      "summary": "“These sides aren't talking to each other. And there's a lot riding on it”: The hosts of “Why Should I Trust You?” on bringing together MAHA and public health.",
+      "chinese_summary": "该文章讨论通过播客节目促进MAHA（可能指医疗健康倡导组织）与公共卫生领域之间的对话，旨在解决双方沟通不畅的问题。内容聚焦于健康领域的 stakeholder 参与和公共健康对话，与创新药和生物制造的直接关联较弱。",
+      "url": "https://www.statnews.com/2026/04/18/maha-public-health-why-should-i-trust-you-podcast/?utm_campaign=rss",
+      "source": "STAT",
+      "category": "health",
+      "journal": "STAT News",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-18",
+      "tags": [
+        "public health",
+        "health communication",
+        "stakeholder engagement"
+      ],
+      "ai_score": 3,
+      "content_hash": "54fd45053866d83d933c3b894448b259",
+      "created_at": "2026-04-19 02:57:42",
+      "updated_at": "2026-04-19 02:57:42",
+      "date": "2026-04-18"
+    },
+    {
+      "id": 1858,
+      "title": "Optimism for Trump’s CDC pick is tempered by questions about RFK Jr.’s role",
+      "summary": "As one CDC employee, who asked not to be named, put it on Friday, among staff “the general vibe is guarded but hopeful.”",
+      "chinese_summary": "本文讨论特朗普提名CDC负责人及小罗伯特·肯尼迪可能角色的争议。匿名CDC员工表示员工态度谨慎但抱有希望。内容聚焦公共卫生政策人事任命，与创新药和生物制造无直接关联，仅与大健康领域的公共卫生管理有微弱相关性。",
+      "url": "https://www.statnews.com/2026/04/18/erica-schwartz-cdc-director-nominee-reaction-cautious-optimism/?utm_campaign=rss",
+      "source": "STAT",
+      "category": "health",
+      "journal": "STAT News",
+      "authors": [
+        "[]"
+      ],
+      "publish_date": "2026-04-18",
+      "tags": [
+        "public health",
+        "health policy",
+        "CDC"
+      ],
+      "ai_score": 2,
+      "content_hash": "5c385e2544d31e1a8e47b01dc4c8741b",
+      "created_at": "2026-04-19 02:57:35",
+      "updated_at": "2026-04-19 02:57:35",
+      "date": "2026-04-18"
+    },
+    {
+      "id": 1852,
+      "title": "Dissecting polycomb complexes for enhanced fetal hemoglobin production",
+      "summary": "Polycomb repressive complexes PRC1 and PRC2 regulate diverse developmental processes, including the fetal-to-adult switch in hemoglobin production, a process whose reversal is a goal for the treatment of sickle cell disease and {beta}-thalassemia. PRC inhibitors show promise for various disorders, but use is limited because of pleiotropic PRC activities. We explored whether fetal hemoglobin (HbF) can be reactivated in adult erythroid cells by selective perturbations of PRC1 or PRC2 components wi",
+      "chinese_summary": "",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.718974v1?rss=1",
+      "source": "bioRxiv最新",
+      "category": "innovation",
+      "journal": "bioRxiv最新",
+      "authors": [
+        "[\"Kaminski",
+        "P. J.",
+        "Min",
+        "K.",
+        "Traxler",
+        "E. A.",
+        "Khandros",
+        "E.",
+        "Abdulmalik",
+        "O.",
+        "Godfrey",
+        "B.",
+        "Keller",
+        "C. A.",
+        "Giardine",
+        "B. M.",
+        "Hardison",
+        "R. C.",
+        "Shi",
+        "J.",
+        "Blobel",
+        "G. A.\"]"
+      ],
+      "publish_date": "2026-04-18",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "3c31c2cac35b5c7b487d01d2899fd2b1",
+      "created_at": "2026-04-19 02:57:06",
+      "updated_at": "2026-04-19 02:57:06",
+      "date": "2026-04-18"
+    },
+    {
       "id": 1838,
       "title": "STAT+: A pancreatic cancer expert on why Revolution Medicines’ study could ‘open up a new era’ of treatment",
       "summary": "\"I do think it's a revolution,\" said Paul Oberstein of NYU Langone's Perlmutter Cancer Center.",
@@ -20757,6 +20894,34 @@
       "date": "2026"
     },
     {
+      "id": 1862,
+      "title": "Clinical Value of Patient-Derived Tumor Organoids in Guiding Precision Chemotherapy for Locally Advanced Thyroid Cancer: A Single-Center, Single-Arm, Phase 2 Trial.",
+      "summary": "While thyroid cancer generally carries a favorable prognosis, the 5-year survival rate for advanced cases, particularly poorly differentiated and anaplastic subtypes, remains below 20%. The latest guidelines recommend conservative use of chemotherapy in thyroid cancer, primarily due to the absence of reliable efficacy prediction systems. Tumor-derived organoid-based strategies represent a powerful tool for assessing individual-level drug sensitivity and identifying novel treatment regimens. This prospective single-arm cohort study enrolled 25 patients. Thyroid tumor tissue was procured via ultrasound-guided core needle biopsy, and organoids were established using a modified Matrigel-air-liquid interface culture method. Drug sensitivity testing encompassed clinically relevant chemotherapeut",
+      "chinese_summary": "本研究评估患者源性甲状腺肿瘤类器官在指导局部晚期甲状腺癌精准化疗中的临床价值。通过改良培养方法建立肿瘤类器官，进行化疗药物敏感性测试，为缺乏有效预测系统的晚期甲状腺癌提供个体化治疗方案选择依据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41998812/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "International journal of cancer",
+      "authors": [
+        "[\"Zhu X\"",
+        "\"Zhang X\"",
+        "\"Liu J\"",
+        "\"Li Z\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "patient-derived organoids",
+        "precision medicine",
+        "drug sensitivity testing",
+        "thyroid cancer"
+      ],
+      "ai_score": 8,
+      "content_hash": "4236cc4d19ff82d41fd589941bbe0f61",
+      "created_at": "2026-04-19 03:04:59",
+      "updated_at": "2026-04-19 03:04:59",
+      "date": "2026"
+    },
+    {
       "id": 1824,
       "title": "Screening metatranscriptomes for ultrastable RNA secondary structures reveals hidden bacteriophages and novel capsid nanomaterials.",
       "summary": "Metatranscriptomics has transformed our view of RNA bacteriophage diversity, revealing vast numbers of single-stranded RNA (ssRNA) phages whose protein capsids can be engineered for biotechnology applications. However, many ssRNA phages remain hidden from current detection methods, which require protein-level similarity to known phages. Here we show that RNA structure provides an additional signal for the detection of ssRNA phages in metatranscriptomes, including hidden phages missed by prior protein-based methods. By computationally folding each contig and screening for exceptionally stable RNA secondary structures, we find evidence of thousands of previously unrecognized phages encoding novel coat proteins. We express a library of 12,000 such coat proteins in E. coli and find that most a",
@@ -24125,6 +24290,162 @@
       "content_hash": "4659108903f00fed82b0b97c5bde0d10",
       "created_at": "2026-04-09 09:17:45",
       "updated_at": "2026-04-09 09:17:45",
+      "date": "2026"
+    },
+    {
+      "id": 1861,
+      "title": "Associations of plant-based diets with all-cause and cause-specific mortality and life expectancy among participants with cardiometabolic disorders from UK, US, and China.",
+      "summary": "It remains largely unknown whether and how plant-based diets are associated with mortality and life expectancy among people with cardiometabolic disorders, who have a significantly increased risk of mortality. We examined associations of plant-based diets with mortality and life expectancy among people with cardiometabolic disorders. We followed 78,151 participants with cardiometabolic disorders, including obesity, diabetes, or cardiovascular diseases (CVD) from UK Biobank (UKB) (2006-2022), US National Health and Nutrition Examination Survey (NHANES) (1999-2019) and Chinese Longitudinal Healthy Longevity Survey (CLHLS) (2008-2019). We created an overall plant-based diet index (PDI), healthful PDI (hPDI), and unhealthful PDI (uPDI). We used Cox models to compute HRs for mortality, and appl",
+      "chinese_summary": "本研究探讨植物性饮食与患有肥胖、糖尿病或心血管疾病人群的全因死亡率、特定死因死亡率及预期寿命的关联。基于英国、美国和中国的大型队列数据，研究发现健康植物性饮食可显著降低死亡风险并延长预期寿命，为大健康领域的精准营养和慢性病管理提供了重要证据。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41999038/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "European journal of preventive cardiology",
+      "authors": [
+        "[\"Tan B\"",
+        "\"Li Z\"",
+        "\"Chen P\"",
+        "\"Wang K\"",
+        "\"Li Q\"",
+        "\"Feng Y\"",
+        "\"Wang X\"",
+        "\"Qian F\"",
+        "\"Hu W\"",
+        "\"Feng C\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "precision medicine",
+        "public health",
+        "nutrition"
+      ],
+      "ai_score": 7,
+      "content_hash": "1fbb322dd6dc51a125db06b3b36bf5ad",
+      "created_at": "2026-04-19 03:04:53",
+      "updated_at": "2026-04-19 03:04:53",
+      "date": "2026"
+    },
+    {
+      "id": 1860,
+      "title": "Digital Phenotyping and Lifestyle Intervention in Patients With Myasthenia Gravis (DIG-MG): A Randomized Controlled Trial of Feasibility, Adherence, and Effects on Fatigue.",
+      "summary": "Physical activity and sleep influence fatigue in myasthenia gravis (MG), and digital health technologies (DHT) enable objective monitoring of these behaviors in daily life. Using this approach, we evaluated whether a lifestyle intervention targeting physical activity or sleep hygiene could reduce fatigue in MG. In this three-arm, randomized controlled trial (DIG-MG; NCT05992025), 72 MG patients completed 6&#x2009;weeks of baseline monitoring with a DHT ring (OURA), followed by 12&#x2009;weeks of (i) physical activity guidance, (ii) sleep hygiene education, or (iii) observation, and a 6-week follow-up. The primary outcome was the MG Activities of Daily Living (MG-ADL) score 1 week postintervention. Secondary outcomes included Fatigue Severity Scale (FSS) scores; exploratory outcomes were DH",
+      "chinese_summary": "本研究评估数字表型分析和生活方式干预对重症肌无力患者疲劳的影响。通过可穿戴设备监测患者活动与睡眠，并进行体力活动指导或睡眠卫生教育。结果显示数字健康技术能有效管理慢性病症状，与大健康领域的精准医疗和公共卫生高度相关。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41999078/",
+      "source": "PubMed",
+      "category": "health",
+      "journal": "Muscle & nerve",
+      "authors": [
+        "[\"Norling M\"",
+        "\"Eriksson N\"",
+        "\"Westerberg E\"",
+        "\"Nygren I\"",
+        "\"Norman K\"",
+        "\"Hedberg J\"",
+        "\"Wong SH\"",
+        "\"Jernelöv S\"",
+        "\"Åsenlöf P\"",
+        "\"Punga AR\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "digital health",
+        "fatigue management",
+        "lifestyle intervention"
+      ],
+      "ai_score": 7,
+      "content_hash": "44feed322dd19ffec060634460b8a792",
+      "created_at": "2026-04-19 03:04:44",
+      "updated_at": "2026-04-19 03:04:44",
+      "date": "2026"
+    },
+    {
+      "id": 1855,
+      "title": "Cell-in-Shell Metacells in Single-Cell Nanoencapsulation.",
+      "summary": "Single-cell nanoencapsulation (SCNE) enables the direct integration of synthetic materials with living cells, forming cell-in-shell structures that augment native cellular functions without genetic modification. While SCNE has advanced applications in cytoprotection and cell-surface engineering, its full potential remains constrained by the absence of a unifying conceptual framework. In this Concept report, we introduce the term \"metacells\" to define a new class of engineered, living cell-in-shell systems endowed with dynamic functionality, environmental responsiveness, and programmable behavior. We propose that metacells are characterized by three core functional hallmarks-reconfigurability, loadability, and motility-which collectively distinguish them from conventional SCNE platforms. Th",
+      "chinese_summary": "本文提出'元细胞'概念，通过单细胞纳米封装技术构建细胞-外壳结构，无需基因改造即可增强细胞功能。该技术具有可重构性、负载性和运动性三大特征，在细胞保护、药物递送和合成生物学领域具有创新应用潜力。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41999168/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "ChemPlusChem",
+      "authors": [
+        "[\"Nguyen DT\"",
+        "\"Kim N\"",
+        "\"Han SY\"",
+        "\"Choi H\"",
+        "\"Choi IS\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "single-cell nanoencapsulation",
+        "cell engineering",
+        "synthetic biology"
+      ],
+      "ai_score": 7,
+      "content_hash": "26c3b950cd824e659f0998221b555e79",
+      "created_at": "2026-04-19 02:57:21",
+      "updated_at": "2026-04-19 02:57:21",
+      "date": "2026"
+    },
+    {
+      "id": 1854,
+      "title": "Biphasic Effects on Allergen-Specific Type 2 Memory B Cells Over 18 Months Sublingual Immunotherapy for House Dust Mite Allergy.",
+      "summary": "Type 2 memory B cells (Bmem) are the reservoir of pathogenic IgE in allergies. Allergen immunotherapy (AIT) can change the course of disease, but if it involves reprogramming of allergen-reactive Bmem remains unknown. Here, we examine how AIT affects allergen-specific Bmem in house dust mite (HDM) allergic patients. HDM allergic patients were longitudinally evaluated over 18&#x2009;months with or without sublingual HDM-AIT. Visual analog scores, lung function tests, medication scores, serum IgE, and flowcytometric analysis of Der p 1 and Der p 2-specific Type 2 Bmem were performed at t&#x2009;=&#x2009;0, 4, 12, and 18&#x2009;months. Patients on HDM-AIT showed clinical improvement over 18&#x2009;months with reduced intake of other medications and increases in specific serum IgE, IgG2, and I",
+      "chinese_summary": "本研究通过18个月舌下免疫疗法观察屋尘螨过敏患者，发现治疗可改善临床症状并调节过敏原特异性2型记忆B细胞。虽然不直接涉及新药开发，但对免疫疗法的机制研究为创新免疫调节疗法提供了重要理论基础，属于免疫治疗领域的创新性研究。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41998808/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Allergy",
+      "authors": [
+        "[\"Hsin L\"",
+        "\"Reinwald S\"",
+        "\"von Borstel A\"",
+        "\"Aui PM\"",
+        "\"Deckert K\"",
+        "\"Hogarth PM\"",
+        "\"Mascarell L\"",
+        "\"Hew M\"",
+        "\"O'Hehir RE\"",
+        "\"van Zelm MC\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "allergen immunotherapy",
+        "memory B cells",
+        "immune modulation"
+      ],
+      "ai_score": 7,
+      "content_hash": "ae05e2f46bc5d484663fabd94b99f79f",
+      "created_at": "2026-04-19 02:57:16",
+      "updated_at": "2026-04-19 02:57:16",
+      "date": "2026"
+    },
+    {
+      "id": 1853,
+      "title": "Natural Product 4-Acetylantroquinonol B Enhances NK Cell-Mediated Immunity Against Glioblastoma.",
+      "summary": "Glioblastoma (GBM) recurs rapidly despite surgery and radiochemotherapy and is associated with profound natural killer (NK) cell dysfunction. Adoptive NK cell transfer has emerged as a plausible immunotherapy for GBM and is being tested clinically; however, its efficacy is limited by the suppressive tumor microenvironment, low NK infiltration, and metabolic exhaustion. 4-Acetylantroquinonol B (4-AAQB), a ubiquinone derivative purified from Antrodia cinnamomea, has demonstrated antitumor and anti-inflammatory properties. These properties suggest that 4-AAQB may rescue or enhance NK cell activity against GBM cells. Therefore, we evaluated the effects of 4-AAQB on the cytotoxicity of NK-92 cells against human GBM cells using NK cell cytotoxicity assays. Treatment with 4-AAQB significantly enh",
+      "chinese_summary": "本研究探索天然产物4-AAQB通过增强自然杀伤细胞活性对抗胶质母细胞瘤的潜力。实验证明该化合物能显著提升NK细胞对肿瘤细胞的杀伤能力，为改善现有免疫疗法疗效提供了新策略，属于创新药研发范畴。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41998834/",
+      "source": "PubMed",
+      "category": "innovation",
+      "journal": "Cancer medicine",
+      "authors": [
+        "[\"Yeh YC\"",
+        "\"Chang CH\"",
+        "\"Lee CC\"",
+        "\"Lee TH\"",
+        "\"Huang YC\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "immunotherapy",
+        "natural killer cells",
+        "glioblastoma",
+        "natural product"
+      ],
+      "ai_score": 7,
+      "content_hash": "2f38df2f25c40ca917c9bfd04e244654",
+      "created_at": "2026-04-19 02:57:11",
+      "updated_at": "2026-04-19 02:57:11",
       "date": "2026"
     },
     {
@@ -32084,6 +32405,33 @@
       "content_hash": "1b1f9dd1e97d7a394c1ddc69d0a81dee",
       "created_at": "2026-04-09 09:18:51",
       "updated_at": "2026-04-09 09:18:51",
+      "date": "2026"
+    },
+    {
+      "id": 1856,
+      "title": "Small RNAs as systemic signals in plant defense: mechanisms, challenges, and future directions.",
+      "summary": "",
+      "chinese_summary": "本文探讨小RNA作为植物防御系统信号分子的机制、挑战与未来方向。虽然涉及生物信号传导机制，但与人类创新药、生物制造及大健康领域直接关联有限，主要属于基础植物生物学研究范畴。",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41989619/",
+      "source": "PubMed",
+      "category": "scholar",
+      "journal": "Molecular biology reports",
+      "authors": [
+        "[\"Wekesa C\"",
+        "\"Kiprotich K\"",
+        "\"Muoma J\"",
+        "\"Mithöfer A\"]"
+      ],
+      "publish_date": "2026",
+      "tags": [
+        "plant defense",
+        "small RNAs",
+        "systemic signaling"
+      ],
+      "ai_score": 3,
+      "content_hash": "478fdfc5dddb8e7e3dfd03109e1e96f4",
+      "created_at": "2026-04-19 02:57:25",
+      "updated_at": "2026-04-19 02:57:25",
       "date": "2026"
     },
     {
@@ -50641,5 +50989,5 @@
       "date": ""
     }
   ],
-  "updated_at": "2026-04-18T13:49:18.447204"
+  "updated_at": "2026-04-19T11:06:42.867877"
 }
