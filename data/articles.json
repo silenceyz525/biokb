@@ -1,6 +1,31 @@
 {
   "articles": [
     {
+      "id": 4567,
+      "title": "Argonaute-2 slicing of Rtl1 promotes skeletal muscle development and postnatal survival",
+      "summary": "Argonaute (AGO) proteins associate with small guide RNAs to bind and repress mRNA targets. AGO2 is the primary AGO slicer in mammals, cleaving RNAs that base-pair extensively to its guide RNA. Disrupting the slicing activity of AGO2 in mice causes neonatal lethality, however, the specific cell types and substrates that contribute to this lethality are not known. Through a combination of genetic, histologic, and molecular approaches, we identify retrotransposon-like-1 (Rtl1) as a key AGO2 slicing",
+      "chinese_summary": "",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727060v1?rss=1",
+      "source": "bioRxiv最新",
+      "category": "innovation",
+      "journal": "bioRxiv最新",
+      "authors": [
+        "[\"Almodovar",
+        "N.",
+        "Dunn",
+        "C. W.",
+        "Kleaveland",
+        "B.\"]"
+      ],
+      "publish_date": "2026-05-24",
+      "tags": [],
+      "ai_score": null,
+      "content_hash": "f4630ffd0976f406d1b45275aab613a9",
+      "created_at": "2026-05-25 01:35:09",
+      "updated_at": "2026-05-25 01:35:09",
+      "date": "2026-05-24"
+    },
+    {
       "id": 4429,
       "title": "Monitoring insecticide resistance in mosquitoes from Tunisia: implications for vector control strategies",
       "summary": "Tunisia is considered a high-risk country for arboviral transmission, and the re-emergence of malaria. Vector control programs predominantly rely on insecticide-based interventions, however knowledge on the insecticide resistance status of local vectors is limited. Here, we determined the mosquito species composition and investigated the resistance status of disease vectors to insecticides, collected from two distinct ecological settings; urban setting and rural setting. Known insecticide resist",
@@ -123147,5 +123172,5 @@
       "date": ""
     }
   ],
-  "updated_at": "2026-05-25T09:05:21.508480"
+  "updated_at": "2026-05-25T09:36:45.772262"
 }
