@@ -4742,12 +4742,78 @@
       "enrollment": 100,
       "last_update": "2026-04-16",
       "sponsors": []
+    },
+    {
+      "nct_id": "NCT07612605",
+      "title": "Yiqi Huoxue Jiedu Formula Combined With Bacteriophages in the Treatment of Severe Pneumonia",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "status": "NOT_YET_RECRUITING",
+      "conditions": [
+        "Pneumonia"
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "YHDF placebo",
+          "description": "7-14 days treatment with YHDF placebo"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage Placebo",
+          "description": "7-14 days treatment with bacteriophage placebo"
+        },
+        {
+          "type": "DRUG",
+          "name": "YHDF Drug",
+          "description": "7-14 days treatment with YHDF"
+        },
+        {
+          "type": "DRUG",
+          "name": "Bacteriophage",
+          "description": "7-14 days treatment with bacteriophage"
+        }
+      ],
+      "route": [
+        "其他"
+      ],
+      "pathogens": [],
+      "countries": [
+        "China"
+      ],
+      "locations": [
+        {
+          "country": "China",
+          "city": "Guangdong",
+          "facility": "The First Affiliated Hospital of Guangzhou Medical University"
+        },
+        {
+          "country": "China",
+          "city": "Guangdong",
+          "facility": "The First Affiliated Hospital of Guangzhou University of Chinese Medicine"
+        },
+        {
+          "country": "China",
+          "city": "Beijing",
+          "facility": "1st Medical Center of Chinese PLA General Hospital"
+        },
+        {
+          "country": "China",
+          "city": "Beijing",
+          "facility": "8th Medical Center of Chinese PLA General Hospital"
+        }
+      ],
+      "description": "Through a prospective randomized controlled trial, we systematically evaluate the effects of Yiqi Huoxue Jiedu Formula combined with bacteriophage therapy on the bacterial clearance rate, disease improvement rate and mortality rate in patients with severe pneumonia caused by drug-resistant bacteria, so as to clarify its clinical transformation value.",
+      "enrollment": 250,
+      "last_update": "2026-05-29",
+      "sponsors": []
     }
   ],
   "stats": {
-    "total": 109,
+    "total": 110,
     "by_phase": {
-      "EARLY_PHASE1": 2,
+      "EARLY_PHASE1": 3,
       "NA": 17,
       "PHASE1": 43,
       "PHASE2": 38,
@@ -4756,7 +4822,7 @@
     },
     "by_status": {
       "COMPLETED": 32,
-      "NOT_YET_RECRUITING": 17,
+      "NOT_YET_RECRUITING": 18,
       "UNKNOWN": 17,
       "RECRUITING": 16,
       "WITHDRAWN": 8,
@@ -4771,10 +4837,10 @@
       "France": 15,
       "Canada": 9,
       "Denmark": 4,
+      "China": 3,
       "Russia": 2,
       "Georgia": 2,
       "Czechia": 2,
-      "China": 2,
       "United Kingdom": 2,
       "Belgium": 2,
       "Israel": 2,
@@ -4798,7 +4864,7 @@
       "鲍曼不动杆菌": 1
     },
     "by_route": {
-      "其他": 77,
+      "其他": 78,
       "口服": 10,
       "静脉注射": 9,
       "局部外用": 7,
@@ -4819,12 +4885,12 @@
       "Mycobacterium Abscessus Infection": 2
     },
     "by_source": {
-      "ClinicalTrials.gov": 109
+      "ClinicalTrials.gov": 110
     }
   },
   "changes": [],
-  "updated_at": "2026-05-29T09:37:28.227176",
-  "total_count": 109,
+  "updated_at": "2026-06-01T11:40:17.484207",
+  "total_count": 110,
   "change_count": 0,
   "audit_info": {
     "version": "v2",
