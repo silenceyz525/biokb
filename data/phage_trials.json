@@ -4808,12 +4808,55 @@
       "enrollment": 250,
       "last_update": "2026-05-29",
       "sponsors": []
+    },
+    {
+      "nct_id": "NCT07619924",
+      "title": "Randomized Controlled Study on the Safety and Efficacy of Phage Cocktail in the Treatment of Multidrug-Resistant Bacterial Skin Infections",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "status": "ENROLLING_BY_INVITATION",
+      "conditions": [
+        "Phage Therapy",
+        "Bacteriophage Therapy",
+        "Skin and Soft Tissue Infections"
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bacteriophage Treatment",
+          "description": "Bacteriophage therapy for skin and soft tissue infections typically involves the targeted application of bacteriophage preparations directly to the infected site. Bacteriophage therapy for skin infections involves topical application of phage cocktails to the infected site. These phages specifically target and lyse drug-resistant bacteria, can penetrate biofilms, and are often used alongside standard wound care. Treatment is typically administered daily for 1-2 weeks, focusing on reducing bacterial load and promoting healing with minimal disruption to normal flora."
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo treatment using 0.9% normal saline",
+          "description": "In this double-blind clinical trial, 0.9% normal saline serves as the placebo, designed to be indistinguishable from the active bacteriophage cocktail in formulation, packaging, and appearance. It is administered identically: following standard wound cleaning, a measured volume is applied topically to the wound and covered with the same sterile dressing.\n\nThe treatment schedule-frequency, duration, and concomitant background care including systemic antibiotics and routine wound management-is strictly standardized across all participants. This ensures any outcome difference is attributable only to the topical agent.\n\nSterile, single-use saline meeting pharmacopeial standards is used to prevent contamination. Blinded researchers assess efficacy and safety at predefined intervals by monitoring wound parameters, bacterial load, and adverse events, maintaining trial integrity for a valid evaluation of the phage therapy's specific effect."
+        }
+      ],
+      "route": [
+        "局部外用"
+      ],
+      "pathogens": [],
+      "countries": [
+        "China"
+      ],
+      "locations": [
+        {
+          "country": "China",
+          "city": "Xi'an",
+          "facility": "The First Affiliated Hospital of Xi'an Jiaotong University"
+        }
+      ],
+      "description": "This study addresses the increasingly severe global public health challenge of antibiotic resistance, focusing on exploring phage therapy as a potential treatment strategy for multidrug-resistant bacterial skin infections. Bacteriophages, with advantages such as high specificity, low propensity for inducing resistance, and minimal side effects, have shown promise in preliminary clinical research for scenarios like chronic wound infections, demonstrating potential in reducing bacterial load and p",
+      "enrollment": 150,
+      "last_update": "2026-06-02",
+      "sponsors": []
     }
   ],
   "stats": {
-    "total": 110,
+    "total": 111,
     "by_phase": {
-      "EARLY_PHASE1": 3,
+      "EARLY_PHASE1": 4,
       "NA": 17,
       "PHASE1": 43,
       "PHASE2": 38,
@@ -4828,7 +4871,7 @@
       "WITHDRAWN": 8,
       "ACTIVE_NOT_RECRUITING": 6,
       "TERMINATED": 6,
-      "ENROLLING_BY_INVITATION": 3,
+      "ENROLLING_BY_INVITATION": 4,
       "NO_LONGER_AVAILABLE": 3,
       "AVAILABLE": 1
     },
@@ -4836,8 +4879,8 @@
       "United States": 42,
       "France": 15,
       "Canada": 9,
+      "China": 4,
       "Denmark": 4,
-      "China": 3,
       "Russia": 2,
       "Georgia": 2,
       "Czechia": 2,
@@ -4867,7 +4910,7 @@
       "其他": 78,
       "口服": 10,
       "静脉注射": 9,
-      "局部外用": 7,
+      "局部外用": 8,
       "雾化吸入": 5,
       "膀胱灌注": 3,
       "关节腔内注射": 1
@@ -4876,25 +4919,36 @@
       "Cystic Fibrosis": 6,
       "Prosthetic Joint Infection": 5,
       "Bacteremia": 5,
+      "Bacteriophage Therapy": 4,
       "Bacterial Infections": 4,
       "Urinary Tract Infections": 4,
-      "Bacteriophage Therapy": 3,
       "HIV Infections": 3,
       "Healthy Volunteers": 3,
       "Prosthetic Joint Infections of Hip": 3,
       "Mycobacterium Abscessus Infection": 2
     },
     "by_source": {
-      "ClinicalTrials.gov": 110
+      "ClinicalTrials.gov": 111
     }
   },
-  "changes": [],
-  "updated_at": "2026-06-02T14:52:08.640530",
-  "total_count": 110,
-  "change_count": 0,
+  "changes": [
+    {
+      "type": "new",
+      "nct_id": "NCT07619924",
+      "title": "Randomized Controlled Study on the Safety and Efficacy of Phage Cocktail in the Treatment of Multidrug-Resistant Bacterial Skin Infections",
+      "status": "ENROLLING_BY_INVITATION",
+      "phases": [
+        "EARLY_PHASE1"
+      ],
+      "description": "新增临床试验: Randomized Controlled Study on the Safety and Efficacy of Phage Cocktail in the Treatment of Multidrug-Resistant Bacterial Skin Infections"
+    }
+  ],
+  "updated_at": "2026-06-03T09:29:34.198359",
+  "total_count": 111,
+  "change_count": 1,
   "audit_info": {
     "version": "v2",
-    "auto_approved_count": 0,
+    "auto_approved_count": 1,
     "manual_review_count": 0,
     "rejected_count": 0
   }
