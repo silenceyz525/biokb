@@ -4931,24 +4931,13 @@
       "ClinicalTrials.gov": 111
     }
   },
-  "changes": [
-    {
-      "type": "new",
-      "nct_id": "NCT07619924",
-      "title": "Randomized Controlled Study on the Safety and Efficacy of Phage Cocktail in the Treatment of Multidrug-Resistant Bacterial Skin Infections",
-      "status": "ENROLLING_BY_INVITATION",
-      "phases": [
-        "EARLY_PHASE1"
-      ],
-      "description": "新增临床试验: Randomized Controlled Study on the Safety and Efficacy of Phage Cocktail in the Treatment of Multidrug-Resistant Bacterial Skin Infections"
-    }
-  ],
-  "updated_at": "2026-06-03T09:29:34.198359",
+  "changes": [],
+  "updated_at": "2026-06-04T09:31:17.980704",
   "total_count": 111,
-  "change_count": 1,
+  "change_count": 0,
   "audit_info": {
     "version": "v2",
-    "auto_approved_count": 1,
+    "auto_approved_count": 0,
     "manual_review_count": 0,
     "rejected_count": 0
   }
